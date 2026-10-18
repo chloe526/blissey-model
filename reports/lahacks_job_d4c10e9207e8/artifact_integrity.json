@@ -1,0 +1,91 @@
+{
+  "downloaded": 11,
+  "expected": 18,
+  "files": [
+    {
+      "available_matching": true,
+      "bytes": 40405,
+      "expected_path": "benchmark.json"
+    },
+    {
+      "available_matching": true,
+      "bytes": 102322,
+      "expected_path": "dataset.json"
+    },
+    {
+      "available_matching": false,
+      "bytes": 91902,
+      "expected_path": "fold_A/cnn.pt"
+    },
+    {
+      "available_matching": false,
+      "bytes": 92409,
+      "expected_path": "fold_A/inner_cnn_best.pt"
+    },
+    {
+      "available_matching": false,
+      "bytes": 5524,
+      "expected_path": "fold_A/inner_selection.json"
+    },
+    {
+      "available_matching": false,
+      "bytes": 14904,
+      "expected_path": "fold_A/metrics.json"
+    },
+    {
+      "available_matching": false,
+      "bytes": 7332,
+      "expected_path": "fold_A/predictions.npz"
+    },
+    {
+      "available_matching": false,
+      "bytes": 5928,
+      "expected_path": "fold_A/preprocessing.json"
+    },
+    {
+      "available_matching": false,
+      "bytes": 148534,
+      "expected_path": "fold_A/rf.joblib"
+    },
+    {
+      "available_matching": true,
+      "bytes": 91902,
+      "expected_path": "fold_B/cnn.pt"
+    },
+    {
+      "available_matching": true,
+      "bytes": 92409,
+      "expected_path": "fold_B/inner_cnn_best.pt"
+    },
+    {
+      "available_matching": true,
+      "bytes": 6591,
+      "expected_path": "fold_B/inner_selection.json"
+    },
+    {
+      "available_matching": true,
+      "bytes": 6444,
+      "expected_path": "fold_B/metrics.json"
+    },
+    {
+      "available_matching": true,
+      "bytes": 21961,
+      "expected_path": "fold_B/predictions.npz"
+    },
+    {
+      "available_matching": true,
+      "bytes": 5926,
+      "expected_path": "fold_B/preprocessing.json"
+    },
+    {
+      "available_matching": true,
+      "bytes": 141553,
+      "expected_path": "fold_B/rf.joblib"
+    },
+    {
+      "available_matching": true,
+      "bytes": 3007,
+      "expected_path": "run_config.json"
+    }
+  ]
+}

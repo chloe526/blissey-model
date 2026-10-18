@@ -1,0 +1,59 @@
+{
+  "budget_bytes": 8388608,
+  "budget_is_local_policy": true,
+  "file_bytes": 128799,
+  "file_count": 21,
+  "largest_files": [
+    {
+      "bytes": 52702,
+      "path": "lahacks_cv/source.json"
+    },
+    {
+      "bytes": 15782,
+      "path": "lahacks_cv/train.py"
+    },
+    {
+      "bytes": 9483,
+      "path": "lahacks_cv/data.py"
+    },
+    {
+      "bytes": 8862,
+      "path": "preprocess.py"
+    },
+    {
+      "bytes": 7256,
+      "path": "lahacks_cv/transport.py"
+    },
+    {
+      "bytes": 6030,
+      "path": "lahacks_cv/metrics.py"
+    },
+    {
+      "bytes": 5589,
+      "path": "inspect_dataset.py"
+    },
+    {
+      "bytes": 5058,
+      "path": "csi.py"
+    }
+  ],
+  "mode": "lahacks_cv",
+  "multipart_margin_bytes": 65536,
+  "passed": true,
+  "remote_sha256_verified": false,
+  "server_limit_verified": false,
+  "source_download_bytes": 166285005,
+  "source_integrity_verified": true,
+  "source_revision": "06c97032c93a43ddccda5aa8381a95bced54755c",
+  "source_verification": {
+    "downloaded_bytes": 0,
+    "downloaded_files": 0,
+    "integrity_verified": true,
+    "local_bytes": 166285005,
+    "local_files": 254,
+    "seconds": 0.095
+  },
+  "stage": "/var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-lahacks-code-cvea5ivr",
+  "submitted": false,
+  "tar_gz_bytes": 42104
+}

@@ -1,0 +1,70 @@
+{
+  "benchmark.json": {
+    "bytes": 40405,
+    "sha256": "d0ceefe4e99ee2155e165d3c413eb0b6ee448b29bd3c916c36a273c2342e6e70"
+  },
+  "dataset.json": {
+    "bytes": 102322,
+    "sha256": "f0349321fcdc7c8e31eca0a292c09f6d1729b88ba1b65494eabdc6d8d8021685"
+  },
+  "fold_A/cnn.pt": {
+    "bytes": 91902,
+    "sha256": "ed8a2b0295c2e9b21fa21cd285df90b00acb894518c860c5db99b5e2e5a568e2"
+  },
+  "fold_A/inner_cnn_best.pt": {
+    "bytes": 92409,
+    "sha256": "64f049d14b07301c9e4c310d768bb65c552aecb19b00041e8eb02bb58b2aad9c"
+  },
+  "fold_A/inner_selection.json": {
+    "bytes": 5524,
+    "sha256": "58ec0b3510d483d84b9c44d5c7947134edc38cf1d29888ec2dc891ed17cce853"
+  },
+  "fold_A/metrics.json": {
+    "bytes": 14904,
+    "sha256": "3c4f04391cc88e8cf94de553b0cb23421da851052d7d13ea3f04b294c9bbed7b"
+  },
+  "fold_A/predictions.npz": {
+    "bytes": 7332,
+    "sha256": "afdb931c530531244cdee6d382b0073f5f6440c55683dc79aae818da0d67a9f4"
+  },
+  "fold_A/preprocessing.json": {
+    "bytes": 5928,
+    "sha256": "3030d274e884617f4b665acafad38d7fac30690a5b31a91dd9a55ca21c86cc8b"
+  },
+  "fold_A/rf.joblib": {
+    "bytes": 148534,
+    "sha256": "b785691afd334a39a2978e669240cad20bd6fbf43812c01e7ecc5f18147fbd99"
+  },
+  "fold_B/cnn.pt": {
+    "bytes": 91902,
+    "sha256": "21f7fdc9853b63212caa7d528bbe4dec04ce69dee24a68488af2c456713d4b68"
+  },
+  "fold_B/inner_cnn_best.pt": {
+    "bytes": 92409,
+    "sha256": "887bbe4e8fe582f7cfff225602a3d2262932449e94b9e9bab293af9b027276d7"
+  },
+  "fold_B/inner_selection.json": {
+    "bytes": 6591,
+    "sha256": "d08d80728c1267d08cd87d7b6d1f3b2c1797ebd85875bc7b16d591593ffbb1dc"
+  },
+  "fold_B/metrics.json": {
+    "bytes": 6444,
+    "sha256": "5ee6daf2687080e48c84c0b1de8ece0e4ecdf7c1f582676e746cf3f0de1175ff"
+  },
+  "fold_B/predictions.npz": {
+    "bytes": 21961,
+    "sha256": "3b60ae32a33e287d2ac5717e246a6b211e594e13448c6189b47bd5abdd16491e"
+  },
+  "fold_B/preprocessing.json": {
+    "bytes": 5926,
+    "sha256": "42227d9eb10c6f88c8a9a83a5c4acc0d98fe7d322ea3dd378d47ce1954404e6a"
+  },
+  "fold_B/rf.joblib": {
+    "bytes": 141553,
+    "sha256": "58ad433e12b94bfac13ad06779d901b03d2c3825e1a444daeb28bf729c5a7492"
+  },
+  "run_config.json": {
+    "bytes": 3007,
+    "sha256": "01ce2f84346e5f8fe893cceab636e975f3a7bcabd25fb80c055d1d7fa834df45"
+  }
+}

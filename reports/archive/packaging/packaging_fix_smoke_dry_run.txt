@@ -1,0 +1,7 @@
+Upload files: 422,118 bytes (0.403 MiB)
+Compressed tar.gz: 399,556 bytes (0.381 MiB)
+Local upload budget: 8,388,608 bytes, including 64 KiB multipart margin (server limit unknown)
+Upload manifest: /var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-k11c4m2p/upload_manifest.json
+Preflight report: reports/veri_smoke_upload_preflight.json
+veri run-script /var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-k11c4m2p --entrypoint bash\ scripts/remote_smoke.sh --base-image veri/base --gpu-type L4-24GB --gpu-count 1 --requirements /var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-k11c4m2p/requirements-veri.lock.txt 
+DRY RUN: no upload and no GPU job submitted.

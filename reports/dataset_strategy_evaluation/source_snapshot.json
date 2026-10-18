@@ -1,0 +1,18 @@
+{
+  "repo_id": "chloe526/blissey-data",
+  "public_commit": "4727901ff595c3a79760c1785f540ec753084dc1",
+  "physical_groups": [
+    "session_01",
+    "session_02",
+    "session_03_LAHACKS"
+  ],
+  "raw_recording_count": 96,
+  "new_sessions_04_to_06_present": false,
+  "model_job_id": "5821d199fa99",
+  "observed_epochs": 3,
+  "job_access": "Read-only logs; existing job left untouched",
+  "timestamp_utc": "2026-10-18T00:56:14.300333+00:00",
+  "pipeline_modified": false,
+  "datasets_modified": false,
+  "training_launched": false
+}

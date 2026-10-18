@@ -1,0 +1,361 @@
+{
+  "preprocessing_version": 2,
+  "baseline": "data/processed_legacy_v1",
+  "revised": "data/processed",
+  "checks": {
+    "baseline_hashes_preserved": true,
+    "source_hashes_verified": true,
+    "original_session_splits_unchanged": true,
+    "annotation_intervals_and_label_policy_unchanged": true,
+    "common_window_labels_unchanged": true,
+    "all_revised_windows_reconstructed": true,
+    "train_only_scaler_refit_matches": true,
+    "independent_split_checks_passed": true,
+    "quality_thresholds_match_development_only_lock": true,
+    "test_used_for_threshold_selection": false,
+    "finite_moment_shape_B_52_512": true,
+    "revised_files_unchanged_during_audit": true
+  },
+  "splits": {
+    "train": {
+      "before": {
+        "accepted_windows": 819,
+        "rejected_quality_windows": 94,
+        "class_counts": [
+          770,
+          49
+        ],
+        "retained_fall_events": 10,
+        "annotated_fall_events": 10,
+        "positive_windows_per_event": {
+          "20261016_055527_479927Z:0": 5,
+          "20261016_055704_474492Z:0": 5,
+          "20261016_055816_134100Z:0": 10,
+          "20261016_060048_166057Z:0": 6,
+          "20261016_060207_044811Z:0": 3,
+          "20261016_060412_925284Z:0": 4,
+          "20261016_060523_141523Z:0": 5,
+          "20261016_060625_339974Z:0": 5,
+          "20261016_060722_711915Z:0": 5,
+          "20261016_061112_587712Z:0": 1
+        },
+        "contributing_recordings": 25,
+        "eligible_recordings": 26,
+        "collection_sessions": 1,
+        "sensor_coverage": {
+          "csi_channels": 52,
+          "radio_links": 1,
+          "eligible_recording_seconds": 778.8483459169511,
+          "accepted_labelled_window_union_seconds": 476.5,
+          "accepted_labelled_recording_fraction": 0.6118007472160818,
+          "label_candidate_window_union_seconds": 521.5,
+          "accepted_fraction_of_label_candidate_exposure": 0.9137104506232023
+        }
+      },
+      "after": {
+        "accepted_windows": 835,
+        "rejected_quality_windows": 78,
+        "class_counts": [
+          786,
+          49
+        ],
+        "retained_fall_events": 10,
+        "annotated_fall_events": 10,
+        "positive_windows_per_event": {
+          "20261016_055527_479927Z:0": 5,
+          "20261016_055704_474492Z:0": 5,
+          "20261016_055816_134100Z:0": 10,
+          "20261016_060048_166057Z:0": 6,
+          "20261016_060207_044811Z:0": 3,
+          "20261016_060412_925284Z:0": 4,
+          "20261016_060523_141523Z:0": 5,
+          "20261016_060625_339974Z:0": 5,
+          "20261016_060722_711915Z:0": 5,
+          "20261016_061112_587712Z:0": 1
+        },
+        "contributing_recordings": 26,
+        "eligible_recordings": 26,
+        "collection_sessions": 1,
+        "sensor_coverage": {
+          "csi_channels": 52,
+          "radio_links": 1,
+          "eligible_recording_seconds": 778.8483459169511,
+          "accepted_labelled_window_union_seconds": 487.5,
+          "accepted_labelled_recording_fraction": 0.6259241642556975,
+          "label_candidate_window_union_seconds": 521.5,
+          "accepted_fraction_of_label_candidate_exposure": 0.9348034515819751
+        }
+      },
+      "label_candidate_windows": 913,
+      "candidate_class_counts": [
+        864,
+        49
+      ],
+      "newly_accepted_windows": 16,
+      "newly_rejected_windows": 0,
+      "rejection_flags": {
+        "insufficient_temporal_coverage": 73,
+        "unsupported_window_edge": 33,
+        "excessive_packet_gap": 12,
+        "insufficient_sample_span": 1
+      },
+      "rejection_combinations": {
+        "insufficient_temporal_coverage,unsupported_window_edge": 28,
+        "insufficient_temporal_coverage": 37,
+        "insufficient_temporal_coverage,excessive_packet_gap": 4,
+        "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 3,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge": 1,
+        "excessive_packet_gap": 4,
+        "unsupported_window_edge,excessive_packet_gap": 1
+      },
+      "accepted_quality_ranges": {
+        "effective_rate_hz": {
+          "min": 40.333333333333336,
+          "median": 54.333333333333336,
+          "max": 109.33333333333333
+        },
+        "occupied_bin_fraction": {
+          "min": 0.8,
+          "median": 1.0,
+          "max": 1.0
+        },
+        "max_gap_seconds": {
+          "min": 0.04520087502896786,
+          "median": 0.06675462500425056,
+          "max": 0.2256061249645427
+        }
+      },
+      "tensor_shape": [
+        835,
+        52,
+        512
+      ]
+    },
+    "val": {
+      "before": {
+        "accepted_windows": 298,
+        "rejected_quality_windows": 795,
+        "class_counts": [
+          292,
+          6
+        ],
+        "retained_fall_events": 3,
+        "annotated_fall_events": 4,
+        "positive_windows_per_event": {
+          "20261012_023117_618940Z:0": 0,
+          "20261012_023236_981466Z:0": 1,
+          "20261012_023410_367726Z:0": 1,
+          "20261012_023527_582029Z:0": 4
+        },
+        "contributing_recordings": 20,
+        "eligible_recordings": 24,
+        "collection_sessions": 1,
+        "sensor_coverage": {
+          "csi_channels": 52,
+          "radio_links": 1,
+          "eligible_recording_seconds": 717.7036307499802,
+          "accepted_labelled_window_union_seconds": 220.5,
+          "accepted_labelled_recording_fraction": 0.30722987951110636,
+          "label_candidate_window_union_seconds": 606.5,
+          "accepted_fraction_of_label_candidate_exposure": 0.36356141797197034
+        }
+      },
+      "after": {
+        "accepted_windows": 465,
+        "rejected_quality_windows": 628,
+        "class_counts": [
+          457,
+          8
+        ],
+        "retained_fall_events": 4,
+        "annotated_fall_events": 4,
+        "positive_windows_per_event": {
+          "20261012_023117_618940Z:0": 2,
+          "20261012_023236_981466Z:0": 1,
+          "20261012_023410_367726Z:0": 1,
+          "20261012_023527_582029Z:0": 4
+        },
+        "contributing_recordings": 23,
+        "eligible_recordings": 24,
+        "collection_sessions": 1,
+        "sensor_coverage": {
+          "csi_channels": 52,
+          "radio_links": 1,
+          "eligible_recording_seconds": 717.7036307499802,
+          "accepted_labelled_window_union_seconds": 376.0,
+          "accepted_labelled_recording_fraction": 0.523893127873814,
+          "label_candidate_window_union_seconds": 606.5,
+          "accepted_fraction_of_label_candidate_exposure": 0.6199505358615004
+        }
+      },
+      "label_candidate_windows": 1093,
+      "candidate_class_counts": [
+        1080,
+        13
+      ],
+      "newly_accepted_windows": 192,
+      "newly_rejected_windows": 25,
+      "rejection_flags": {
+        "unsupported_window_edge": 258,
+        "excessive_packet_gap": 565,
+        "insufficient_effective_rate": 28,
+        "insufficient_temporal_coverage": 272,
+        "insufficient_sample_span": 46
+      },
+      "rejection_combinations": {
+        "unsupported_window_edge,excessive_packet_gap": 67,
+        "excessive_packet_gap": 210,
+        "insufficient_effective_rate,excessive_packet_gap": 2,
+        "insufficient_effective_rate,unsupported_window_edge,excessive_packet_gap": 4,
+        "insufficient_effective_rate,insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 6,
+        "unsupported_window_edge": 49,
+        "insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 14,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 29,
+        "insufficient_temporal_coverage,excessive_packet_gap": 143,
+        "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 82,
+        "insufficient_effective_rate,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 1,
+        "insufficient_effective_rate,insufficient_temporal_coverage,excessive_packet_gap": 7,
+        "insufficient_effective_rate": 5,
+        "insufficient_effective_rate,unsupported_window_edge": 3,
+        "insufficient_temporal_coverage,unsupported_window_edge": 1,
+        "insufficient_temporal_coverage": 3,
+        "insufficient_sample_span,unsupported_window_edge": 1,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge": 1
+      },
+      "accepted_quality_ranges": {
+        "effective_rate_hz": {
+          "min": 20.0,
+          "median": 37.0,
+          "max": 94.66666666666667
+        },
+        "occupied_bin_fraction": {
+          "min": 0.8,
+          "median": 0.9666666666666667,
+          "max": 1.0
+        },
+        "max_gap_seconds": {
+          "min": 0.08483874998637475,
+          "median": 0.150811083993176,
+          "max": 0.24991149999550544
+        }
+      },
+      "tensor_shape": [
+        465,
+        52,
+        512
+      ]
+    },
+    "test": {
+      "before": {
+        "accepted_windows": 906,
+        "rejected_quality_windows": 1174,
+        "class_counts": [
+          889,
+          17
+        ],
+        "retained_fall_events": 4,
+        "annotated_fall_events": 4,
+        "positive_windows_per_event": {
+          "20261017_214140_430498Z:0": 7,
+          "20261017_214225_578923Z:0": 5,
+          "20261017_214310_855919Z:0": 4,
+          "20261017_214356_001779Z:0": 1
+        },
+        "contributing_recordings": 35,
+        "eligible_recordings": 42,
+        "collection_sessions": 1,
+        "sensor_coverage": {
+          "csi_channels": 52,
+          "radio_links": 1,
+          "eligible_recording_seconds": 1256.7945602103136,
+          "accepted_labelled_window_union_seconds": 665.5,
+          "accepted_labelled_recording_fraction": 0.529521706307063,
+          "label_candidate_window_union_seconds": 1145.0,
+          "accepted_fraction_of_label_candidate_exposure": 0.5812227074235807
+        }
+      },
+      "after": {
+        "accepted_windows": 1270,
+        "rejected_quality_windows": 810,
+        "class_counts": [
+          1249,
+          21
+        ],
+        "retained_fall_events": 3,
+        "annotated_fall_events": 4,
+        "positive_windows_per_event": {
+          "20261017_214140_430498Z:0": 7,
+          "20261017_214225_578923Z:0": 7,
+          "20261017_214310_855919Z:0": 7,
+          "20261017_214356_001779Z:0": 0
+        },
+        "contributing_recordings": 39,
+        "eligible_recordings": 42,
+        "collection_sessions": 1,
+        "sensor_coverage": {
+          "csi_channels": 52,
+          "radio_links": 1,
+          "eligible_recording_seconds": 1256.7945602103136,
+          "accepted_labelled_window_union_seconds": 847.5,
+          "accepted_labelled_recording_fraction": 0.6743345546134272,
+          "label_candidate_window_union_seconds": 1145.0,
+          "accepted_fraction_of_label_candidate_exposure": 0.740174672489083
+        }
+      },
+      "label_candidate_windows": 2080,
+      "candidate_class_counts": [
+        2052,
+        28
+      ],
+      "newly_accepted_windows": 430,
+      "newly_rejected_windows": 66,
+      "rejection_flags": {
+        "unsupported_window_edge": 401,
+        "excessive_packet_gap": 659,
+        "insufficient_temporal_coverage": 437,
+        "insufficient_effective_rate": 71,
+        "insufficient_sample_span": 60
+      },
+      "rejection_combinations": {
+        "unsupported_window_edge": 128,
+        "excessive_packet_gap": 168,
+        "unsupported_window_edge,excessive_packet_gap": 54,
+        "insufficient_temporal_coverage,excessive_packet_gap": 192,
+        "insufficient_effective_rate,insufficient_temporal_coverage,excessive_packet_gap": 30,
+        "insufficient_effective_rate,excessive_packet_gap": 6,
+        "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 126,
+        "insufficient_effective_rate,insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 25,
+        "insufficient_effective_rate": 2,
+        "insufficient_temporal_coverage": 11,
+        "insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 11,
+        "insufficient_effective_rate,insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 7,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 39,
+        "insufficient_sample_span,unsupported_window_edge": 3,
+        "insufficient_temporal_coverage,unsupported_window_edge": 7,
+        "insufficient_effective_rate,unsupported_window_edge,excessive_packet_gap": 1
+      },
+      "accepted_quality_ranges": {
+        "effective_rate_hz": {
+          "min": 20.333333333333332,
+          "median": 33.5,
+          "max": 110.66666666666667
+        },
+        "occupied_bin_fraction": {
+          "min": 0.8,
+          "median": 0.9666666666666667,
+          "max": 1.0
+        },
+        "max_gap_seconds": {
+          "min": 0.06622862501535565,
+          "median": 0.16689545853296295,
+          "max": 0.24970329203642905
+        }
+      },
+      "tensor_shape": [
+        1270,
+        52,
+        512
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+data/raw/
+data/processed/
+checkpoints/
+.env
+*.pt
+*.pth
+.venv*/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.npz
+*.bin
+*.safetensors
+.veri-upload/
+reports/*predictions*
+data/processed_*/
+hosting/
+data/lahacks_source_cache/
+
+# Regenerable datasets (rebuilt from the pinned raw recordings; never push participant data)
+data/
+
+# Scratch / generated outputs
+reports/**/_tmp/
+*.log
+*.tmp
+
+# Editor, notebook and tooling clutter
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.egg-info/
+*.pyc

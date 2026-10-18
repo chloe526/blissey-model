@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "preprocessing_version": 2,
+  "backend": "github",
+  "repo_id": "chloe526/blissey-data",
+  "revision": "87228a1e39a9ba785605c979802dd67e56578cc1",
+  "path_prefix": "processed/quality-v2",
+  "files": {
+    "preprocessing_config.json": {
+      "bytes": 60284,
+      "sha256": "8f83dbdd4e2d1987c12b701f75d655938710ce4797291b1a43bc44dc666c5983"
+    },
+    "train.npz": {
+      "bytes": 78369259,
+      "sha256": "03aaa608201a645e7eb76ee83a55414f8f3c2dad22d9f51e1ae63b725bf2d690"
+    },
+    "val.npz": {
+      "bytes": 44662102,
+      "sha256": "8c221423e4fcfc3eccd8bfa027d32757b727b4d3c1069d99e7f3603d648b331b"
+    }
+  }
+}

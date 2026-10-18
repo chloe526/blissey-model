@@ -1,0 +1,45 @@
+{
+  "file_count": 13,
+  "file_bytes": 35850,
+  "tar_gz_bytes": 13140,
+  "largest_files": [
+    {
+      "path": "train.py",
+      "bytes": 9647
+    },
+    {
+      "path": "fetch_dataset.py",
+      "bytes": 5870
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 5546
+    },
+    {
+      "path": "model_utils.py",
+      "bytes": 4361
+    },
+    {
+      "path": "requirements-veri.lock.txt",
+      "bytes": 3419
+    },
+    {
+      "path": "training_data.py",
+      "bytes": 2946
+    },
+    {
+      "path": "upload_manifest.json",
+      "bytes": 1563
+    },
+    {
+      "path": "metrics.py",
+      "bytes": 678
+    }
+  ],
+  "mode": "full",
+  "budget_bytes": 8388608,
+  "multipart_margin_bytes": 65536,
+  "budget_is_local_policy": true,
+  "server_limit_verified": false,
+  "passed": true
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "sdk_version": "0.2.44",
+  "sdk_tar_gz_bytes": 399556,
+  "files": [
+    "configs/training.json",
+    "data/smoke/preprocessing_config.json",
+    "data/smoke/train.npz",
+    "data/smoke/val.npz",
+    "metrics.py",
+    "model_utils.py",
+    "package_info.json",
+    "requirements-veri.lock.txt",
+    "requirements-veri.txt",
+    "scripts/remote_smoke.sh",
+    "train.py",
+    "training_data.py",
+    "upload_manifest.json"
+  ],
+  "actual_network_upload": false,
+  "gpu_job_submitted": false
+}

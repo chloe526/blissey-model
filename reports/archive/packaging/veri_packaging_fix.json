@@ -1,0 +1,147 @@
+{
+  "checked_on": "2026-10-17",
+  "rejected": {
+    "file_count": 21,
+    "file_bytes": 244788205,
+    "tar_gz_bytes": 244775769,
+    "largest_files": [
+      {
+        "path": "data/processed/test.npz",
+        "bytes": 121638288
+      },
+      {
+        "path": "data/processed/train.npz",
+        "bytes": 78369259
+      },
+      {
+        "path": "data/processed/val.npz",
+        "bytes": 44662102
+      },
+      {
+        "path": "data/processed/preprocessing_config.json",
+        "bytes": 60284
+      },
+      {
+        "path": "preprocess.py",
+        "bytes": 8862
+      },
+      {
+        "path": "train.py",
+        "bytes": 8552
+      },
+      {
+        "path": "inspect_dataset.py",
+        "bytes": 5589
+      },
+      {
+        "path": "evaluate.py",
+        "bytes": 5529
+      }
+    ]
+  },
+  "smoke": {
+    "file_count": 13,
+    "file_bytes": 422118,
+    "tar_gz_bytes": 399556,
+    "largest_files": [
+      {
+        "path": "data/smoke/val.npz",
+        "bytes": 194198
+      },
+      {
+        "path": "data/smoke/train.npz",
+        "bytes": 192004
+      },
+      {
+        "path": "data/smoke/preprocessing_config.json",
+        "bytes": 10941
+      },
+      {
+        "path": "train.py",
+        "bytes": 9115
+      },
+      {
+        "path": "model_utils.py",
+        "bytes": 4361
+      },
+      {
+        "path": "requirements-veri.lock.txt",
+        "bytes": 3419
+      },
+      {
+        "path": "training_data.py",
+        "bytes": 2946
+      },
+      {
+        "path": "scripts/remote_smoke.sh",
+        "bytes": 2049
+      }
+    ],
+    "mode": "smoke",
+    "budget_bytes": 8388608,
+    "multipart_margin_bytes": 65536,
+    "budget_is_local_policy": true,
+    "server_limit_verified": false,
+    "passed": true
+  },
+  "github": {
+    "repo": "chloe526/blissey-data",
+    "revision": "87228a1e39a9ba785605c979802dd67e56578cc1",
+    "processed_npz_present": false,
+    "processed_metadata_present": false,
+    "read_only_availability_check": "HTTP 404"
+  },
+  "code_only_full": {
+    "file_count": 13,
+    "file_bytes": 34637,
+    "tar_gz_bytes": 12800,
+    "largest_files": [
+      {
+        "path": "train.py",
+        "bytes": 9115
+      },
+      {
+        "path": "evaluate.py",
+        "bytes": 5529
+      },
+      {
+        "path": "fetch_dataset.py",
+        "bytes": 5191
+      },
+      {
+        "path": "model_utils.py",
+        "bytes": 4361
+      },
+      {
+        "path": "requirements-veri.lock.txt",
+        "bytes": 3419
+      },
+      {
+        "path": "training_data.py",
+        "bytes": 2946
+      },
+      {
+        "path": "upload_manifest.json",
+        "bytes": 1563
+      },
+      {
+        "path": "configs/dataset_source.json",
+        "bytes": 780
+      }
+    ],
+    "mode": "full",
+    "budget_bytes": 8388608,
+    "multipart_margin_bytes": 65536,
+    "budget_is_local_policy": true,
+    "server_limit_verified": false,
+    "passed": true,
+    "stage": "/var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-_riir2p4",
+    "remote_data_ready": false
+  },
+  "quality_v2_artifacts": {
+    "train.npz": "03aaa608201a645e7eb76ee83a55414f8f3c2dad22d9f51e1ae63b725bf2d690",
+    "val.npz": "8c221423e4fcfc3eccd8bfa027d32757b727b4d3c1069d99e7f3603d648b331b",
+    "test.npz": "9ee6b912f86e78adc41270e615b5bd718fac26cd658e998fefdeb16659fd6b90",
+    "preprocessing_config.json": "8f83dbdd4e2d1987c12b701f75d655938710ce4797291b1a43bc44dc666c5983"
+  }
+}

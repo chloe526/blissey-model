@@ -1,0 +1,97 @@
+{
+  "model_type": "blissey_cnn_1d_v1",
+  "split": "test",
+  "decision_threshold": 0.5,
+  "threshold_source": "Saved predeclared training config; no test tuning",
+  "best_epoch": 1,
+  "unweighted_loss": 1.376973910970012,
+  "accuracy": 0.20708661417322835,
+  "precision": 0.020428015564202335,
+  "fall_recall": 1.0,
+  "f1": 0.04003813155386082,
+  "precision_defined": true,
+  "confusion_matrix": [
+    [
+      242,
+      1007
+    ],
+    [
+      0,
+      21
+    ]
+  ],
+  "class_distribution": [
+    1249,
+    21
+  ],
+  "events": {
+    "covered_event_detection_rate": 1.0,
+    "detected_events": 3,
+    "covered_events": 3,
+    "uncovered_events": 1,
+    "annotated_events": 4,
+    "all_annotated_event_detection_fraction": 0.75,
+    "per_event": [
+      {
+        "recording_id": "20261017_214140_430498Z",
+        "event_index": 0,
+        "eligible_windows": 7,
+        "detected": true
+      },
+      {
+        "recording_id": "20261017_214225_578923Z",
+        "event_index": 0,
+        "eligible_windows": 7,
+        "detected": true
+      },
+      {
+        "recording_id": "20261017_214310_855919Z",
+        "event_index": 0,
+        "eligible_windows": 7,
+        "detected": true
+      },
+      {
+        "recording_id": "20261017_214356_001779Z",
+        "event_index": 0,
+        "eligible_windows": 0,
+        "detected": null
+      }
+    ],
+    "false_alert_episodes": 126,
+    "normal_monitored_seconds": 829.5,
+    "false_alerts_per_hour": 546.8354430379748,
+    "alert_policy": "One episode per contiguous run of positive decisions; merge gaps <=1.5 strides; decision at window end.",
+    "exposure_policy": "Union of evaluated windows on verified normal trials; exclude unobserved gaps.",
+    "impact_detection_latency_seconds": null,
+    "limitation": "Approximate staged-action annotations; uncovered events are reported explicitly, not scored as measured model misses."
+  },
+  "contributing_recordings": 39,
+  "collection_sessions": 1,
+  "parameter_count": 21666,
+  "checkpoint_bytes": 126031,
+  "checkpoint_sha256": "b54d924771e2ee8c0f63a5728773f4ed5f6c81a6fae70cefab365aca0496e544",
+  "inference_latency": {
+    "batch_size": 1,
+    "input_shape": [
+      1,
+      52,
+      512
+    ],
+    "device": "cpu",
+    "threads": 2,
+    "warmup": 20,
+    "repetitions": 200,
+    "median_ms": 0.190021,
+    "mean_ms": 0.19018772499999997,
+    "p95_ms": 0.199609,
+    "scope": "Model forward only, tensor already on device. Excludes CSI acquisition, preprocessing, file I/O and transfer."
+  },
+  "training_duration_seconds": 2.9174455829997896,
+  "evaluation_seconds": 0.2830046249946463,
+  "dataset_sha256": "9ee6b912f86e78adc41270e615b5bd718fac26cd658e998fefdeb16659fd6b90",
+  "limitations": [
+    "Staged-fall proof of concept; one collection session in this split.",
+    "Overlapping windows are correlated; tiny event count cannot establish generalization.",
+    "MOMENT has not been benchmarked here; this is a separate random-initialized CNN."
+  ]
+}

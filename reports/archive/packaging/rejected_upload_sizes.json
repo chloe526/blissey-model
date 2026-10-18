@@ -1,0 +1,39 @@
+{
+  "file_count": 21,
+  "file_bytes": 244788205,
+  "tar_gz_bytes": 244775769,
+  "largest_files": [
+    {
+      "path": "data/processed/test.npz",
+      "bytes": 121638288
+    },
+    {
+      "path": "data/processed/train.npz",
+      "bytes": 78369259
+    },
+    {
+      "path": "data/processed/val.npz",
+      "bytes": 44662102
+    },
+    {
+      "path": "data/processed/preprocessing_config.json",
+      "bytes": 60284
+    },
+    {
+      "path": "preprocess.py",
+      "bytes": 8862
+    },
+    {
+      "path": "train.py",
+      "bytes": 8552
+    },
+    {
+      "path": "inspect_dataset.py",
+      "bytes": 5589
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 5529
+    }
+  ]
+}

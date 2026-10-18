@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "staging_directory": "/var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-8la3s3gb",
+  "source_files_match": true,
+  "all_three_processed_splits_hash_match": true,
+  "prepared_weights_uploaded": false,
+  "network_upload": false,
+  "job_submitted": false,
+  "entrypoint": "bash scripts/remote_smoke.sh",
+  "train_command": "python train.py --data-dir data/processed --epochs 1 --max-batches 1 --batch-size 1",
+  "checkpoint": "$VERI_OUTPUT_DIR/best.pt"
+}

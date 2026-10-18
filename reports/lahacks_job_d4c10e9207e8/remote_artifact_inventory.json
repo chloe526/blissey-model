@@ -1,0 +1,35 @@
+[
+  {
+    "path": "artifacts.json"
+  },
+  {
+    "path": "benchmark.json"
+  },
+  {
+    "path": "cnn.pt"
+  },
+  {
+    "path": "dataset.json"
+  },
+  {
+    "path": "inner_cnn_best.pt"
+  },
+  {
+    "path": "inner_selection.json"
+  },
+  {
+    "path": "metrics.json"
+  },
+  {
+    "path": "predictions.npz"
+  },
+  {
+    "path": "preprocessing.json"
+  },
+  {
+    "path": "rf.joblib"
+  },
+  {
+    "path": "run_config.json"
+  }
+]

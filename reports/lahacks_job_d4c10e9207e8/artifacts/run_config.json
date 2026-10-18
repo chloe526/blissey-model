@@ -1,0 +1,96 @@
+{
+  "alert_policy": {
+    "cooldown_seconds": 5.0,
+    "decision_time": "window end",
+    "history": 3,
+    "reset_after_gap_seconds": 0.75,
+    "threshold": 0.5,
+    "tuning": "none; fixed before outer-fold predictions",
+    "votes": 2,
+    "warmup_windows": 3
+  },
+  "class_weight_policy": "[1,min(4,sqrt(n_normal/n_fall))], training partition only",
+  "cnn": {
+    "batch_size": 32,
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "dropout": 0.2,
+    "epochs": 30,
+    "gradient_clip": 5.0,
+    "kernels": [
+      9,
+      7,
+      5
+    ],
+    "learning_rate": 0.001,
+    "min_delta": 0.0001,
+    "patience": 5,
+    "weight_decay": 0.01
+  },
+  "code_sha256": {
+    "lahacks_cv/__init__.py": "6b0977d5411996becf945de3cb310d5ad071fb0a1a39f35b42d3ed528fac9261",
+    "lahacks_cv/common.py": "53b03bdd9f3d506e85c72c1e773744bfa0af297ffb00961908b92dc9937a58ee",
+    "lahacks_cv/data.py": "005e47b5ad347a19ed473a0dce3bff94c7f331e1527adc65cac31c840af47523",
+    "lahacks_cv/features.py": "ed9c76acdef9ae92efe38606f2a2c2804bd3ac792ccdf648c2f05c83b1c7d6f4",
+    "lahacks_cv/infer.py": "0bfbb699c9a7f40decb0900fe12a9d945041788b109120157d780c0acdec5a93",
+    "lahacks_cv/metrics.py": "b9772da799fa2253c715d80b858ed585f570513df02059d8fc608b805d821861",
+    "lahacks_cv/train.py": "75b4827eea4a373ed209ace827d830a1da519471142ef7487cc523d9b5171ee8",
+    "lahacks_cv/transport.py": "4daf7bc67e94f138fc9d7dcce9d10ac704451800faeb253f8064752b5b5fb56a"
+  },
+  "dataset_sha256": "52992c1c8013d79a2af8a99481e59397f143e71c202f87b43ea8d0fd057f2ec5",
+  "device": "cuda",
+  "feature_config": {
+    "bands_hz": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0
+      ],
+      [
+        3.0,
+        10.0
+      ]
+    ],
+    "input_shape": [
+      52,
+      512
+    ],
+    "median_floor": 1e-06,
+    "normalization": "each channel divided by its own window median, minus one",
+    "pca": "top 3 channel covariance eigenvalue fractions, fitted within each window only",
+    "ratio_clip": 100.0,
+    "ratio_floor": 1e-08,
+    "spectrum": "Hann taper; fractions of non-DC power up to 10Hz; interpolated signal, not native 170Hz acquisition",
+    "version": "median_movement_spectrum_pca_v1",
+    "window_seconds": 3.0
+  },
+  "refit": "forbidden until separate post-benchmark review and implementation",
+  "refit_performed": false,
+  "rf": {
+    "max_depth": 6,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5,
+    "n_estimators": 300
+  },
+  "seed": 42,
+  "selection": "CNN epochs selected by inner whole-recording unweighted validation loss; outer block used once for reporting",
+  "source_manifest_sha256": "e9a7d4bdc64565698cb480beda49abec4b15d32d26132b575e9450f8ad11f2f4",
+  "status": "development cross-validation only; no independent final test",
+  "threads": 4,
+  "threshold": 0.5,
+  "threshold_tuned": false,
+  "version": "lahacks_cv_v1",
+  "versions": {
+    "joblib": "1.4.2",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.5.2",
+    "scipy": "1.13.1",
+    "torch": "2.8.0+cu128"
+  }
+}

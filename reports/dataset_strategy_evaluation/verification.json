@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "protected_file_count": 48,
+  "changed_pipeline_data_config_checkpoint_files": [],
+  "checked_every_raw_recording": 96,
+  "raw_source_hashes_verified": true,
+  "fresh_annotations_and_metadata_match_config": true,
+  "processed_hashes_verified": true,
+  "reproduced_candidate_acceptance_counts": true,
+  "reconstructed_normalized_raw_windows": 6,
+  "code_changed": false,
+  "preprocessing_run": false,
+  "training_run": false,
+  "paid_jobs_launched": 0,
+  "existing_veri_job_access": "Read-only snapshot of 5821d199fa99 through epoch 3; no mutation",
+  "evaluation_only_inference": "Existing 126KB CNN checkpoint, CPU; previously saved test predictions used descriptively; no threshold search",
+  "calculations": {
+    "combined_windows": 2570,
+    "combined_positive_windows": 78,
+    "combined_positive_fraction": 0.030350194552529183,
+    "combined_class_weights": [
+      0.5156500802568218,
+      16.474358974358974
+    ],
+    "exact_binomial_lower_95_if_20_of_20_and_independent": 0.8315665290169146,
+    "zero_false_alert_20min_poisson_upper_95_per_hour": 8.987196820661973
+  },
+  "existing_cnn_files_checked_against_cleanup_snapshot": 25,
+  "all_evidence_totals_checked": true
+}

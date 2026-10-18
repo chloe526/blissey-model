@@ -1,0 +1,1771 @@
+{
+  "caveats": [
+    "Two blocks cannot estimate participant or site generalization.",
+    "Window comparisons are correlated by overlapping 0.5s stride; p-values are descriptive only.",
+    "RF spectra use interpolated 512-point 3s windows and are not native-rate spectral measurements.",
+    "Only 17.6 minutes of accepted normal exposure; false-alert/hour estimates are unstable.",
+    "No raw probabilities for Fold A; those plot panels are intentionally marked unavailable."
+  ],
+  "confound_feature_comparisons": {
+    "get_up_from_floor": [
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_channel_variance",
+        "mann_whitney_p_descriptive": 0.092199661695492,
+        "median03": 0.06114385277032852,
+        "median04": 0.036812957376241684,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.6209523809523809,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "raw_median_amplitude",
+        "mann_whitney_p_descriptive": 6.897709588935907e-10,
+        "median03": 16.656169891357422,
+        "median04": 19.056591033935547,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.057777777777777775,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "raw_temporal_standard_deviation",
+        "mann_whitney_p_descriptive": 0.1106495855124568,
+        "median03": 4.172314643859863,
+        "median04": 3.2003653049468994,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.6146031746031746,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_absolute_first_difference",
+        "mann_whitney_p_descriptive": 0.6512718179887105,
+        "median03": 0.03901475667953491,
+        "median04": 0.03754263371229172,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.46730158730158733,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_first_difference_variance",
+        "mann_whitney_p_descriptive": 0.217982391310515,
+        "median03": 0.007821212522685528,
+        "median04": 0.011725390329957008,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.4114285714285714,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "early_middle_late_variance_ratio",
+        "mann_whitney_p_descriptive": 0.3659995756158544,
+        "median03": 1.3037234544754028,
+        "median04": 1.0582947731018066,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.5650793650793651,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_peak_end_motion_ratio",
+        "mann_whitney_p_descriptive": 0.07484223830030214,
+        "median03": 78.82528686523438,
+        "median04": 97.12944030761719,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.37333333333333335,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_normalized_energy",
+        "mann_whitney_p_descriptive": 0.09392555253893925,
+        "median03": 0.06206425279378891,
+        "median04": 0.03689471632242203,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.6203174603174603,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_0_1hz_power",
+        "mann_whitney_p_descriptive": 0.8177581443211479,
+        "median03": 0.1761161983013153,
+        "median04": 0.20515283942222595,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.4831746031746032,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_1_3hz_power",
+        "mann_whitney_p_descriptive": 0.5176482801666111,
+        "median03": 0.2967856526374817,
+        "median04": 0.2920819818973541,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.5466666666666666,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "mean_3_10hz_power",
+        "mann_whitney_p_descriptive": 0.9929287066701036,
+        "median03": 0.48173993825912476,
+        "median04": 0.478670597076416,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.5009523809523809,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs get_up_from_floor",
+        "feature": "pca_top1_fraction",
+        "mann_whitney_p_descriptive": 0.0025841727424329836,
+        "median03": 0.8336607217788696,
+        "median04": 0.8971863389015198,
+        "n03": 21,
+        "n04": 75,
+        "rank_auc_fall_higher": 0.2838095238095238,
+        "standardized_mean_difference": null
+      }
+    ],
+    "lie_down": [
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_channel_variance",
+        "mann_whitney_p_descriptive": 1.0397068660458845e-08,
+        "median03": 0.06114385277032852,
+        "median04": 0.017878929153084755,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.8801148600143575,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "raw_median_amplitude",
+        "mann_whitney_p_descriptive": 0.011748075645047717,
+        "median03": 16.656169891357422,
+        "median04": 17.40911865234375,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.33261545824359895,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "raw_temporal_standard_deviation",
+        "mann_whitney_p_descriptive": 1.0847745535926964e-08,
+        "median03": 4.172314643859863,
+        "median04": 2.298156261444092,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.8796362766212013,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_absolute_first_difference",
+        "mann_whitney_p_descriptive": 6.802377399228603e-05,
+        "median03": 0.03901475667953491,
+        "median04": 0.02651662565767765,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.7645369705671213,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_first_difference_variance",
+        "mann_whitney_p_descriptive": 0.0029413349277772173,
+        "median03": 0.007821212522685528,
+        "median04": 0.0036430226173251867,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.6975352955252453,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "early_middle_late_variance_ratio",
+        "mann_whitney_p_descriptive": 0.1882805622125896,
+        "median03": 1.3037234544754028,
+        "median04": 0.9330195188522339,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.5874611150993061,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_peak_end_motion_ratio",
+        "mann_whitney_p_descriptive": 0.11233316902339498,
+        "median03": 78.82528686523438,
+        "median04": 92.36602020263672,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.3955491744436468,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_normalized_energy",
+        "mann_whitney_p_descriptive": 8.958550755937479e-09,
+        "median03": 0.06206425279378891,
+        "median04": 0.0180835984647274,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.8817899018904044,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_0_1hz_power",
+        "mann_whitney_p_descriptive": 0.8400276058488332,
+        "median03": 0.1761161983013153,
+        "median04": 0.17322809994220734,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.5135199808566643,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_1_3hz_power",
+        "mann_whitney_p_descriptive": 0.0413294797050928,
+        "median03": 0.2967856526374817,
+        "median04": 0.2675115764141083,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.63555874611151,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_3_10hz_power",
+        "mann_whitney_p_descriptive": 0.35424603676969435,
+        "median03": 0.48173993825912476,
+        "median04": 0.5246073007583618,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.43838238813113184,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "pca_top1_fraction",
+        "mann_whitney_p_descriptive": 0.029601439706247172,
+        "median03": 0.8336607217788696,
+        "median04": 0.8766252398490906,
+        "n03": 21,
+        "n04": 199,
+        "rank_auc_fall_higher": 0.35546781526681026,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_channel_variance",
+        "mann_whitney_p_descriptive": 0.19232133726561318,
+        "median03": 0.04528046026825905,
+        "median04": 0.045267991721630096,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.5896474118529632,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "raw_median_amplitude",
+        "mann_whitney_p_descriptive": 2.7824643175253133e-08,
+        "median03": 17.38327980041504,
+        "median04": 18.986541748046875,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.11927981995498875,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "raw_temporal_standard_deviation",
+        "mann_whitney_p_descriptive": 0.40504645324182453,
+        "median03": 3.7796690464019775,
+        "median04": 3.8936498165130615,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.5573893473368342,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_absolute_first_difference",
+        "mann_whitney_p_descriptive": 0.3631743134778779,
+        "median03": 0.04389813914895058,
+        "median04": 0.05377981439232826,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.5626406601650412,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_first_difference_variance",
+        "mann_whitney_p_descriptive": 0.5541088834707868,
+        "median03": 0.013834272511303425,
+        "median04": 0.01501318160444498,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.5408852213053263,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "early_middle_late_variance_ratio",
+        "mann_whitney_p_descriptive": 0.4763853025290351,
+        "median03": 1.013735055923462,
+        "median04": 0.6926390528678894,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.5491372843210802,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_peak_end_motion_ratio",
+        "mann_whitney_p_descriptive": 0.7311690576634431,
+        "median03": 84.25968933105469,
+        "median04": 96.09831237792969,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.4763690922730683,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_normalized_energy",
+        "mann_whitney_p_descriptive": 0.19608479173030802,
+        "median03": 0.04594656452536583,
+        "median04": 0.04659374803304672,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.5888972243060765,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_0_1hz_power",
+        "mann_whitney_p_descriptive": 0.14812999303226204,
+        "median03": 0.3062577545642853,
+        "median04": 0.19461537897586823,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.5993998499624906,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_1_3hz_power",
+        "mann_whitney_p_descriptive": 0.1420825001741467,
+        "median03": 0.31193095445632935,
+        "median04": 0.26396870613098145,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.6009002250562641,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "mean_3_10hz_power",
+        "mann_whitney_p_descriptive": 0.13055847500360643,
+        "median03": 0.4052530527114868,
+        "median04": 0.5049768686294556,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.396099024756189,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs lie_down",
+        "feature": "pca_top1_fraction",
+        "mann_whitney_p_descriptive": 0.058045123570627466,
+        "median03": 0.8526363968849182,
+        "median04": 0.9362718462944031,
+        "n03": 31,
+        "n04": 43,
+        "rank_auc_fall_higher": 0.3698424606151538,
+        "standardized_mean_difference": null
+      }
+    ],
+    "sit_down": [
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_channel_variance",
+        "mann_whitney_p_descriptive": 3.1918572698119963e-07,
+        "median03": 0.06114385277032852,
+        "median04": 0.020142365247011185,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.8458994708994709,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "raw_median_amplitude",
+        "mann_whitney_p_descriptive": 0.8392089088271725,
+        "median03": 16.656169891357422,
+        "median04": 16.77939224243164,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.5138888888888888,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "raw_temporal_standard_deviation",
+        "mann_whitney_p_descriptive": 2.2164643887640535e-07,
+        "median03": 4.172314643859863,
+        "median04": 2.394968032836914,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.8505291005291006,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_absolute_first_difference",
+        "mann_whitney_p_descriptive": 2.5298255729869868e-05,
+        "median03": 0.03901475667953491,
+        "median04": 0.02571868523955345,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.78505291005291,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_first_difference_variance",
+        "mann_whitney_p_descriptive": 0.000748511245464744,
+        "median03": 0.007821212522685528,
+        "median04": 0.002970363013446331,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.7281746031746031,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "early_middle_late_variance_ratio",
+        "mann_whitney_p_descriptive": 0.22066308616282426,
+        "median03": 1.3037234544754028,
+        "median04": 0.9512594938278198,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.5830026455026455,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_peak_end_motion_ratio",
+        "mann_whitney_p_descriptive": 0.5001177233129448,
+        "median03": 78.82528686523438,
+        "median04": 85.49842834472656,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.45436507936507936,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_normalized_energy",
+        "mann_whitney_p_descriptive": 2.8773481721806016e-07,
+        "median03": 0.06206425279378891,
+        "median04": 0.020284101366996765,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.8472222222222222,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_0_1hz_power",
+        "mann_whitney_p_descriptive": 0.8049785879549096,
+        "median03": 0.1761161983013153,
+        "median04": 0.2114437222480774,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.48313492063492064,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_1_3hz_power",
+        "mann_whitney_p_descriptive": 0.13272142097971018,
+        "median03": 0.2967856526374817,
+        "median04": 0.28625982999801636,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.6018518518518519,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_3_10hz_power",
+        "mann_whitney_p_descriptive": 0.6440542236456819,
+        "median03": 0.48173993825912476,
+        "median04": 0.5070756673812866,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.4685846560846561,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_03_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "pca_top1_fraction",
+        "mann_whitney_p_descriptive": 0.0031706932429221312,
+        "median03": 0.8336607217788696,
+        "median04": 0.8872753977775574,
+        "n03": 21,
+        "n04": 144,
+        "rank_auc_fall_higher": 0.3002645502645503,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_channel_variance",
+        "mann_whitney_p_descriptive": 8.011568838877208e-08,
+        "median03": 0.04528046026825905,
+        "median04": 0.019863039255142212,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.7950737684421105,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "raw_median_amplitude",
+        "mann_whitney_p_descriptive": 1.0551324578799143e-14,
+        "median03": 17.38327980041504,
+        "median04": 18.898107528686523,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.07489372343085772,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "raw_temporal_standard_deviation",
+        "mann_whitney_p_descriptive": 5.967192345058307e-06,
+        "median03": 3.7796690464019775,
+        "median04": 2.7238059043884277,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.7489372343085772,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_absolute_first_difference",
+        "mann_whitney_p_descriptive": 5.967192345058307e-06,
+        "median03": 0.04389813914895058,
+        "median04": 0.026724739000201225,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.7489372343085772,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_first_difference_variance",
+        "mann_whitney_p_descriptive": 0.0003601610040718328,
+        "median03": 0.013834272511303425,
+        "median04": 0.005443725734949112,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.6961740435108777,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "early_middle_late_variance_ratio",
+        "mann_whitney_p_descriptive": 0.9013433619918847,
+        "median03": 1.013735055923462,
+        "median04": 1.0406672954559326,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.5068767191797949,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_peak_end_motion_ratio",
+        "mann_whitney_p_descriptive": 0.7847300818298721,
+        "median03": 84.25968933105469,
+        "median04": 93.80325317382812,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.48512128032008,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_normalized_energy",
+        "mann_whitney_p_descriptive": 9.200402169940705e-08,
+        "median03": 0.04594656452536583,
+        "median04": 0.01997411623597145,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.7936984246061516,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_0_1hz_power",
+        "mann_whitney_p_descriptive": 0.002193352487469542,
+        "median03": 0.3062577545642853,
+        "median04": 0.19658765196800232,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.668417104276069,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_1_3hz_power",
+        "mann_whitney_p_descriptive": 0.12780117070628058,
+        "median03": 0.31193095445632935,
+        "median04": 0.2848736643791199,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.583770942735684,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "mean_3_10hz_power",
+        "mann_whitney_p_descriptive": 0.0017023201456663737,
+        "median03": 0.4052530527114868,
+        "median04": 0.5094971656799316,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.327456864216054,
+        "standardized_mean_difference": null
+      },
+      {
+        "activity_or_class": "session_04_LAHACKS",
+        "comparison": "falls vs sit_down",
+        "feature": "pca_top1_fraction",
+        "mann_whitney_p_descriptive": 0.0043869352498312,
+        "median03": 0.8526363968849182,
+        "median04": 0.9066245555877686,
+        "n03": 31,
+        "n04": 258,
+        "rank_auc_fall_higher": 0.3433358339584896,
+        "standardized_mean_difference": null
+      }
+    ]
+  },
+  "events": {
+    "annotated_events": 34,
+    "by_session": {
+      "session_03_LAHACKS": {
+        "events": 4,
+        "unusable": 1,
+        "usable": 3
+      },
+      "session_04_LAHACKS": {
+        "events": 30,
+        "unusable": 20,
+        "usable": 10
+      }
+    },
+    "events": [
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": true,
+        "event_id": "20261017_214140_430498Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 19,
+        "quality_passing_positive_windows": 7,
+        "rejected": {
+          "coverage": 0,
+          "edge": 0,
+          "gap": 0,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_03_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": true,
+        "event_id": "20261017_214225_578923Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 20,
+        "quality_passing_positive_windows": 7,
+        "rejected": {
+          "coverage": 0,
+          "edge": 0,
+          "gap": 0,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_03_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": true,
+        "event_id": "20261017_214310_855919Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 14,
+        "quality_passing_positive_windows": 7,
+        "rejected": {
+          "coverage": 0,
+          "edge": 0,
+          "gap": 0,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_03_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": false,
+        "event_id": "20261017_214356_001779Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 8,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 6,
+          "edge": 3,
+          "gap": 6,
+          "rate": 1,
+          "span": 2
+        },
+        "session": "session_03_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 2,
+        "covered": false,
+        "event_id": "20261018_003839_872397Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 2,
+          "edge": 1,
+          "gap": 2,
+          "rate": 1,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": false,
+        "event_id": "20261018_003925_035409Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 1,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 2,
+          "edge": 4,
+          "gap": 8,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 5,
+        "covered": true,
+        "event_id": "20261018_004010_188550Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 5,
+        "quality_passing_positive_windows": 5,
+        "rejected": {
+          "coverage": 0,
+          "edge": 0,
+          "gap": 0,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 5,
+        "covered": false,
+        "event_id": "20261018_004055_315884Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 5,
+          "edge": 4,
+          "gap": 5,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": false,
+        "event_id": "20261018_004140_480887Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 7,
+          "edge": 4,
+          "gap": 7,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": false,
+        "event_id": "20261018_004254_688183Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 1,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 3,
+          "edge": 3,
+          "gap": 7,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 6,
+        "covered": false,
+        "event_id": "20261018_004339_859364Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 1,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 2,
+          "edge": 1,
+          "gap": 6,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": false,
+        "event_id": "20261018_004424_995088Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 7,
+          "edge": 5,
+          "gap": 8,
+          "rate": 0,
+          "span": 2
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": true,
+        "event_id": "20261018_004510_096411Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 3,
+        "quality_passing_positive_windows": 1,
+        "rejected": {
+          "coverage": 4,
+          "edge": 4,
+          "gap": 6,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": false,
+        "event_id": "20261018_004555_171236Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 7,
+          "edge": 4,
+          "gap": 8,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 5,
+        "covered": false,
+        "event_id": "20261018_004807_610959Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 1,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 5,
+          "edge": 3,
+          "gap": 5,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": false,
+        "event_id": "20261018_004852_798687Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 7,
+          "edge": 5,
+          "gap": 8,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": true,
+        "event_id": "20261018_004937_891590Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 13,
+        "quality_passing_positive_windows": 1,
+        "rejected": {
+          "coverage": 0,
+          "edge": 0,
+          "gap": 6,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 6,
+        "covered": false,
+        "event_id": "20261018_005023_078275Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 6,
+          "edge": 5,
+          "gap": 6,
+          "rate": 6,
+          "span": 4
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 6,
+        "covered": false,
+        "event_id": "20261018_005108_217002Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 5,
+          "edge": 2,
+          "gap": 6,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 6,
+        "covered": true,
+        "event_id": "20261018_005153_297629Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 15,
+        "quality_passing_positive_windows": 5,
+        "rejected": {
+          "coverage": 0,
+          "edge": 1,
+          "gap": 0,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 4,
+        "covered": false,
+        "event_id": "20261018_005238_401797Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 2,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 2,
+          "edge": 2,
+          "gap": 4,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": false,
+        "event_id": "20261018_005323_602966Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 0,
+          "edge": 3,
+          "gap": 5,
+          "rate": 2,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 5,
+        "covered": false,
+        "event_id": "20261018_005408_732574Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 5,
+          "edge": 1,
+          "gap": 5,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": false,
+        "event_id": "20261018_005453_810441Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 8,
+          "edge": 6,
+          "gap": 8,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 5,
+        "covered": true,
+        "event_id": "20261018_010439_867650Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 3,
+        "quality_passing_positive_windows": 1,
+        "rejected": {
+          "coverage": 0,
+          "edge": 1,
+          "gap": 4,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": true,
+        "event_id": "20261018_010525_086803Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 17,
+        "quality_passing_positive_windows": 7,
+        "rejected": {
+          "coverage": 0,
+          "edge": 0,
+          "gap": 0,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 6,
+        "covered": true,
+        "event_id": "20261018_010610_213058Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 10,
+        "quality_passing_positive_windows": 5,
+        "rejected": {
+          "coverage": 0,
+          "edge": 1,
+          "gap": 0,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 6,
+        "covered": false,
+        "event_id": "20261018_010655_318479Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 6,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 4,
+          "edge": 3,
+          "gap": 6,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": false,
+        "event_id": "20261018_010740_455411Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 2,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 7,
+          "edge": 2,
+          "gap": 8,
+          "rate": 0,
+          "span": 2
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 5,
+        "covered": true,
+        "event_id": "20261018_010825_528301Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 2,
+        "quality_passing_positive_windows": 2,
+        "rejected": {
+          "coverage": 0,
+          "edge": 1,
+          "gap": 3,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": true,
+        "event_id": "20261018_010910_713252Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 3,
+        "quality_passing_positive_windows": 3,
+        "rejected": {
+          "coverage": 1,
+          "edge": 3,
+          "gap": 2,
+          "rate": 0,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": true,
+        "event_id": "20261018_010955_839033Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 4,
+        "quality_passing_positive_windows": 1,
+        "rejected": {
+          "coverage": 2,
+          "edge": 4,
+          "gap": 7,
+          "rate": 1,
+          "span": 2
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 7,
+        "covered": false,
+        "event_id": "20261018_011040_991891Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 1,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 6,
+          "edge": 4,
+          "gap": 7,
+          "rate": 2,
+          "span": 0
+        },
+        "session": "session_04_LAHACKS"
+      },
+      {
+        "activity": "staged_fall",
+        "candidate_positive_windows": 8,
+        "covered": false,
+        "event_id": "20261018_011126_080785Z:fall:0",
+        "label_excluded": 0,
+        "quality_pass_windows_overlapping_action": 0,
+        "quality_passing_positive_windows": 0,
+        "rejected": {
+          "coverage": 8,
+          "edge": 3,
+          "gap": 8,
+          "rate": 0,
+          "span": 1
+        },
+        "session": "session_04_LAHACKS"
+      }
+    ],
+    "loss_reason_candidate_window_counts": {
+      "coverage": 111,
+      "edge": 83,
+      "gap": 161,
+      "rate": 13,
+      "span": 20
+    },
+    "unusable": 21,
+    "usable": 13
+  },
+  "feature_shift_top_normal": [
+    {
+      "activity_or_class": "normal",
+      "comparison": "session03 vs session04",
+      "feature": "raw_median_amplitude",
+      "mann_whitney_p_descriptive": 6.074610864382047e-104,
+      "median03": 16.222888946533203,
+      "median04": 18.90017318725586,
+      "n03": 1249,
+      "n04": 301,
+      "standardized_mean_difference": -1.913602513965403
+    },
+    {
+      "activity_or_class": "normal",
+      "comparison": "session03 vs session04",
+      "feature": "mean_first_difference_variance",
+      "mann_whitney_p_descriptive": 0.0001759591833736937,
+      "median03": 0.0038797485176473856,
+      "median04": 0.0058966088108718395,
+      "n03": 1249,
+      "n04": 301,
+      "standardized_mean_difference": -0.43825763671816076
+    },
+    {
+      "activity_or_class": "normal",
+      "comparison": "session03 vs session04",
+      "feature": "raw_temporal_standard_deviation",
+      "mann_whitney_p_descriptive": 2.3824685179177722e-05,
+      "median03": 2.4957644939422607,
+      "median04": 2.8048834800720215,
+      "n03": 1249,
+      "n04": 301,
+      "standardized_mean_difference": -0.3160672388527288
+    },
+    {
+      "activity_or_class": "normal",
+      "comparison": "session03 vs session04",
+      "feature": "mean_absolute_first_difference",
+      "mann_whitney_p_descriptive": 0.7539369247532222,
+      "median03": 0.027226537466049194,
+      "median04": 0.02752820961177349,
+      "n03": 1249,
+      "n04": 301,
+      "standardized_mean_difference": -0.2425463520772678
+    },
+    {
+      "activity_or_class": "normal",
+      "comparison": "session03 vs session04",
+      "feature": "pca_top1_fraction",
+      "mann_whitney_p_descriptive": 1.8285268367526638e-06,
+      "median03": 0.8764244318008423,
+      "median04": 0.9079843759536743,
+      "n03": 1249,
+      "n04": 301,
+      "standardized_mean_difference": -0.20508011242274143
+    },
+    {
+      "activity_or_class": "normal",
+      "comparison": "session03 vs session04",
+      "feature": "pca_top3_fraction_sum",
+      "mann_whitney_p_descriptive": 0.00024828477789144335,
+      "median03": 0.9404267072677612,
+      "median04": 0.9482963681221008,
+      "n03": 1249,
+      "n04": 301,
+      "standardized_mean_difference": -0.15437872534854774
+    }
+  ],
+  "fold_B_activity_errors": [
+    {
+      "activity": "lie_down",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "A",
+      "model": "cnn",
+      "recordings": 5,
+      "session": "session_04_LAHACKS",
+      "true_negative": 43,
+      "true_positive": 0,
+      "windows": 43
+    },
+    {
+      "activity": "sit_down",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "A",
+      "model": "cnn",
+      "recordings": 10,
+      "session": "session_04_LAHACKS",
+      "true_negative": 258,
+      "true_positive": 0,
+      "windows": 258
+    },
+    {
+      "activity": "staged_fall",
+      "false_negative": 31,
+      "false_positive": 0,
+      "fold": "A",
+      "model": "cnn",
+      "recordings": 10,
+      "session": "session_04_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 0,
+      "windows": 31
+    },
+    {
+      "activity": "lie_down",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "A",
+      "model": "rf",
+      "recordings": 5,
+      "session": "session_04_LAHACKS",
+      "true_negative": 43,
+      "true_positive": 0,
+      "windows": 43
+    },
+    {
+      "activity": "sit_down",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "A",
+      "model": "rf",
+      "recordings": 10,
+      "session": "session_04_LAHACKS",
+      "true_negative": 258,
+      "true_positive": 0,
+      "windows": 258
+    },
+    {
+      "activity": "staged_fall",
+      "false_negative": 31,
+      "false_positive": 0,
+      "fold": "A",
+      "model": "rf",
+      "recordings": 10,
+      "session": "session_04_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 0,
+      "windows": 31
+    },
+    {
+      "activity": "empty_room",
+      "false_negative": 0,
+      "false_positive": 133,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 5,
+      "session": "session_03_LAHACKS",
+      "true_negative": 34,
+      "true_positive": 0,
+      "windows": 167
+    },
+    {
+      "activity": "get_up_from_floor",
+      "false_negative": 0,
+      "false_positive": 70,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 5,
+      "true_positive": 0,
+      "windows": 75
+    },
+    {
+      "activity": "lie_down",
+      "false_negative": 0,
+      "false_positive": 199,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 0,
+      "windows": 199
+    },
+    {
+      "activity": "lying_still",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 3,
+      "session": "session_03_LAHACKS",
+      "true_negative": 79,
+      "true_positive": 0,
+      "windows": 79
+    },
+    {
+      "activity": "sit_down",
+      "false_negative": 0,
+      "false_positive": 144,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 0,
+      "windows": 144
+    },
+    {
+      "activity": "sitting_still",
+      "false_negative": 0,
+      "false_positive": 106,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 0,
+      "windows": 106
+    },
+    {
+      "activity": "staged_fall",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 3,
+      "session": "session_03_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 21,
+      "windows": 21
+    },
+    {
+      "activity": "stand_up",
+      "false_negative": 0,
+      "false_positive": 220,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 5,
+      "session": "session_03_LAHACKS",
+      "true_negative": 1,
+      "true_positive": 0,
+      "windows": 221
+    },
+    {
+      "activity": "standing_still",
+      "false_negative": 0,
+      "false_positive": 69,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 3,
+      "session": "session_03_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 0,
+      "windows": 69
+    },
+    {
+      "activity": "walking",
+      "false_negative": 0,
+      "false_positive": 189,
+      "fold": "B",
+      "model": "cnn",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 0,
+      "windows": 189
+    },
+    {
+      "activity": "empty_room",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 5,
+      "session": "session_03_LAHACKS",
+      "true_negative": 167,
+      "true_positive": 0,
+      "windows": 167
+    },
+    {
+      "activity": "get_up_from_floor",
+      "false_negative": 0,
+      "false_positive": 6,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 69,
+      "true_positive": 0,
+      "windows": 75
+    },
+    {
+      "activity": "lie_down",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 199,
+      "true_positive": 0,
+      "windows": 199
+    },
+    {
+      "activity": "lying_still",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 3,
+      "session": "session_03_LAHACKS",
+      "true_negative": 79,
+      "true_positive": 0,
+      "windows": 79
+    },
+    {
+      "activity": "sit_down",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 144,
+      "true_positive": 0,
+      "windows": 144
+    },
+    {
+      "activity": "sitting_still",
+      "false_negative": 0,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 106,
+      "true_positive": 0,
+      "windows": 106
+    },
+    {
+      "activity": "staged_fall",
+      "false_negative": 18,
+      "false_positive": 0,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 3,
+      "session": "session_03_LAHACKS",
+      "true_negative": 0,
+      "true_positive": 3,
+      "windows": 21
+    },
+    {
+      "activity": "stand_up",
+      "false_negative": 0,
+      "false_positive": 3,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 5,
+      "session": "session_03_LAHACKS",
+      "true_negative": 218,
+      "true_positive": 0,
+      "windows": 221
+    },
+    {
+      "activity": "standing_still",
+      "false_negative": 0,
+      "false_positive": 7,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 3,
+      "session": "session_03_LAHACKS",
+      "true_negative": 62,
+      "true_positive": 0,
+      "windows": 69
+    },
+    {
+      "activity": "walking",
+      "false_negative": 0,
+      "false_positive": 8,
+      "fold": "B",
+      "model": "rf",
+      "recordings": 4,
+      "session": "session_03_LAHACKS",
+      "true_negative": 181,
+      "true_positive": 0,
+      "windows": 189
+    }
+  ],
+  "fold_confusion_counts": {
+    "cnn": {
+      "A": {
+        "FN": 31,
+        "FP": 0,
+        "TN": 301,
+        "TP": 0
+      },
+      "B": {
+        "FN": 0,
+        "FP": 1130,
+        "TN": 119,
+        "TP": 21
+      }
+    },
+    "rf": {
+      "A": {
+        "FN": 31,
+        "FP": 0,
+        "TN": 301,
+        "TP": 0
+      },
+      "B": {
+        "FN": 18,
+        "FP": 24,
+        "TN": 1225,
+        "TP": 3
+      }
+    }
+  },
+  "overall": {
+    "annotated_events": 34,
+    "blocks": 2,
+    "fall": 52,
+    "normal": 1550,
+    "participants": 1,
+    "quality_covered_fall_events": 13,
+    "windows": 1602
+  },
+  "prediction_availability": "Fold B per-window outputs are available. Fold A scores, event list, and checkpoints are absent from Veri final artifacts because its manifest flattened paths and collisions retained Fold B basenames. Fold A error totals and the fact all scores <0.5 are available only from benchmark.json; activity-level FP=0 and all covered fold-A events are missed can be stated, but score distributions and event-by-event predictions cannot be reconstructed.",
+  "recommendations": [
+    "Acquisition first: Session 04 has high genuine device/host packet gaps; 20 of 30 attempts lose every v2 positive window to quality. Pilot and repair packet capture, then interleave fall/hard-negative trials across time.",
+    "Collect independent variation: both blocks are p1, one venue/setup, and Session 04 is class/time ordered; add participants and interleaved blocks, reserving a genuinely new block as frozen final test.",
+    "Improve labels/coverage before model search: time-sync and review descent onset/end; preserve all attempts and uncovered-event accounting. Do not loosen v2 gates to manufacture positives."
+  ],
+  "scope": "Saved quality-v2 windows and completed Veri job d4c10e9207e8; no model training, threshold selection, or data changes.",
+  "threshold_curve": "threshold_sweep_descriptive_only.csv; Fold B only; descriptive sweep, fixed policy, threshold 0.5 marked, no selected optimum.",
+  "title": "Why LA Hacks-only CNN/RF failed across collection blocks"
+}

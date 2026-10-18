@@ -1,0 +1,200 @@
+{
+  "cnn": {
+    "artifact_bytes": 91902,
+    "artifact_sha256": "21f7fdc9853b63212caa7d528bbe4dec04ce69dee24a68488af2c456713d4b68",
+    "checkpoint_reload_verified": true,
+    "equivalent_input_hashes": {
+      "training_windows": "551b6bf7ae4dd19abecc4c975bfa9dc168b8ca06c676d9bee6e8abb47836aefc",
+      "validation_windows": "709f5d11c489cec8311740f66336e367073a88d520fe8f40e3dc46ef7974685a"
+    },
+    "events": {
+      "accepted_normal_seconds": 829.5,
+      "all_annotated_event_recall": 0.75,
+      "annotated_events": 4,
+      "covered_event_recall": 1.0,
+      "detected_events": 3,
+      "false_alert_episodes": 127,
+      "false_alerts_per_hour": 551.1754068716094,
+      "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+      "per_event": [
+        {
+          "covered": true,
+          "detected": true,
+          "eligible_windows": 7,
+          "event_id": "20261017_214140_430498Z:fall:0"
+        },
+        {
+          "covered": true,
+          "detected": true,
+          "eligible_windows": 7,
+          "event_id": "20261017_214225_578923Z:fall:0"
+        },
+        {
+          "covered": true,
+          "detected": true,
+          "eligible_windows": 7,
+          "event_id": "20261017_214310_855919Z:fall:0"
+        },
+        {
+          "covered": false,
+          "detected": false,
+          "eligible_windows": 0,
+          "event_id": "20261017_214356_001779Z:fall:0"
+        }
+      ],
+      "quality_covered_events": 3,
+      "quality_uncovered_events": 1
+    },
+    "excessive_false_positive_diagnostic": "Compare fixed-cap training/validation predicted-fall fractions; no outer-fold reweighting or retuning.",
+    "inference_latency": {
+      "batch_size": 1,
+      "device": "cpu",
+      "includes": "window normalization/features and model; excludes packet parsing/resampling",
+      "median_ms": 1.6321589999961361,
+      "p95_ms": 2.1827194000053387,
+      "samples": 50
+    },
+    "parameter_count": 21666,
+    "selected_epochs": 16,
+    "training_seconds": 2.2540941690000125,
+    "training_window": {
+      "confusion_matrix": [
+        [
+          297,
+          4
+        ],
+        [
+          0,
+          31
+        ]
+      ],
+      "fall_f1": 0.9393939393939394,
+      "fall_precision": 0.8857142857142857,
+      "fall_recall": 1.0,
+      "pr_auc_average_precision": 0.8752346706634988,
+      "predicted_fall_fraction": 0.10542168674698796,
+      "roc_auc": 0.9919622762833566,
+      "windows": 332
+    },
+    "window": {
+      "confusion_matrix": [
+        [
+          119,
+          1130
+        ],
+        [
+          0,
+          21
+        ]
+      ],
+      "fall_f1": 0.03583617747440273,
+      "fall_precision": 0.018245004344048653,
+      "fall_recall": 1.0,
+      "pr_auc_average_precision": 0.012349092386116142,
+      "predicted_fall_fraction": 0.9062992125984252,
+      "roc_auc": 0.35880132677570625,
+      "windows": 1270
+    }
+  },
+  "rf": {
+    "artifact_bytes": 141553,
+    "artifact_sha256": "58ad433e12b94bfac13ad06779d901b03d2c3825e1a444daeb28bf729c5a7492",
+    "checkpoint_reload_verified": true,
+    "equivalent_input_hashes": {
+      "training_windows": "551b6bf7ae4dd19abecc4c975bfa9dc168b8ca06c676d9bee6e8abb47836aefc",
+      "validation_windows": "709f5d11c489cec8311740f66336e367073a88d520fe8f40e3dc46ef7974685a"
+    },
+    "events": {
+      "accepted_normal_seconds": 829.5,
+      "all_annotated_event_recall": 0.25,
+      "annotated_events": 4,
+      "covered_event_recall": 0.3333333333333333,
+      "detected_events": 1,
+      "false_alert_episodes": 4,
+      "false_alerts_per_hour": 17.359855334538878,
+      "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+      "per_event": [
+        {
+          "covered": true,
+          "detected": false,
+          "eligible_windows": 7,
+          "event_id": "20261017_214140_430498Z:fall:0"
+        },
+        {
+          "covered": true,
+          "detected": false,
+          "eligible_windows": 7,
+          "event_id": "20261017_214225_578923Z:fall:0"
+        },
+        {
+          "covered": true,
+          "detected": true,
+          "eligible_windows": 7,
+          "event_id": "20261017_214310_855919Z:fall:0"
+        },
+        {
+          "covered": false,
+          "detected": false,
+          "eligible_windows": 0,
+          "event_id": "20261017_214356_001779Z:fall:0"
+        }
+      ],
+      "quality_covered_events": 3,
+      "quality_uncovered_events": 1
+    },
+    "excessive_false_positive_diagnostic": "Compare fixed-cap training/validation predicted-fall fractions; no outer-fold reweighting or retuning.",
+    "inference_latency": {
+      "batch_size": 1,
+      "device": "cpu",
+      "includes": "window normalization/features and model; excludes packet parsing/resampling",
+      "median_ms": 57.79470550000099,
+      "p95_ms": 59.60062249999538,
+      "samples": 50
+    },
+    "reload_verification": {
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "probability_atol": 1e-15,
+      "probability_rtol": 1e-12,
+      "threshold_decisions_identical": true
+    },
+    "training_seconds": 0.49090202900001145,
+    "training_window": {
+      "confusion_matrix": [
+        [
+          301,
+          0
+        ],
+        [
+          2,
+          29
+        ]
+      ],
+      "fall_f1": 0.9666666666666667,
+      "fall_precision": 1.0,
+      "fall_recall": 0.9354838709677419,
+      "pr_auc_average_precision": 0.9989919354838708,
+      "predicted_fall_fraction": 0.08734939759036145,
+      "roc_auc": 0.9998928303504447,
+      "windows": 332
+    },
+    "window": {
+      "confusion_matrix": [
+        [
+          1225,
+          24
+        ],
+        [
+          18,
+          3
+        ]
+      ],
+      "fall_f1": 0.125,
+      "fall_precision": 0.1111111111111111,
+      "fall_recall": 0.14285714285714285,
+      "pr_auc_average_precision": 0.05125601097668406,
+      "predicted_fall_fraction": 0.02125984251968504,
+      "roc_auc": 0.7317473026039879,
+      "windows": 1270
+    }
+  }
+}

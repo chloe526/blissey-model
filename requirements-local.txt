@@ -1,0 +1,7 @@
+# Python 3.11. Official source fixes multivariate classification and avoids PyPI 0.1.4 pins.
+numpy==1.26.4
+torch==2.8.0
+transformers==4.55.4
+huggingface-hub==0.34.4
+momentfm @ git+https://github.com/moment-timeseries-foundation-model/moment.git@38f7310ad594100747ca2a8357e9c7ca7d323e0e
+fsspec==2025.3.0

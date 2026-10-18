@@ -1,0 +1,22 @@
+{
+  "dataset_modified": false,
+  "fold": "B",
+  "fold_A_locally_available": false,
+  "results": {
+    "cnn": {
+      "maximum_absolute_probability_difference": 4.947185516357422e-06,
+      "reloaded": true,
+      "sha256": "21f7fdc9853b63212caa7d528bbe4dec04ce69dee24a68488af2c456713d4b68",
+      "threshold_decisions_identical": true,
+      "verified_windows": 16
+    },
+    "inner_cnn_checkpoint_reload": true,
+    "rf": {
+      "maximum_absolute_probability_difference": 2.7755575615628914e-17,
+      "reloaded": true,
+      "sha256": "58ad433e12b94bfac13ad06779d901b03d2c3825e1a444daeb28bf729c5a7492",
+      "threshold_decisions_identical": true,
+      "verified_windows": 16
+    }
+  }
+}

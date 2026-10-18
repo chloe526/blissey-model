@@ -1,0 +1,1235 @@
+{
+  "deployment_refit_performed": false,
+  "feature_count": 575,
+  "feature_extraction_seconds": 1.8040913240000123,
+  "folds": {
+    "A": {
+      "cnn": {
+        "artifact_bytes": 91902,
+        "artifact_sha256": "ed8a2b0295c2e9b21fa21cd285df90b00acb894518c860c5db99b5e2e5a568e2",
+        "checkpoint_reload_verified": true,
+        "equivalent_input_hashes": {
+          "training_windows": "709f5d11c489cec8311740f66336e367073a88d520fe8f40e3dc46ef7974685a",
+          "validation_windows": "551b6bf7ae4dd19abecc4c975bfa9dc168b8ca06c676d9bee6e8abb47836aefc"
+        },
+        "events": {
+          "accepted_normal_seconds": 227.5,
+          "all_annotated_event_recall": 0.0,
+          "annotated_events": 30,
+          "covered_event_recall": 0.0,
+          "detected_events": 0,
+          "false_alert_episodes": 0,
+          "false_alerts_per_hour": 0.0,
+          "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+          "per_event": [
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_003839_872397Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_003925_035409Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 5,
+              "event_id": "20261018_004010_188550Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004055_315884Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004140_480887Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004254_688183Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004339_859364Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004424_995088Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_004510_096411Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004555_171236Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004807_610959Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004852_798687Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_004937_891590Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005023_078275Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005108_217002Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 5,
+              "event_id": "20261018_005153_297629Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005238_401797Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005323_602966Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005408_732574Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005453_810441Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_010439_867650Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 7,
+              "event_id": "20261018_010525_086803Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 5,
+              "event_id": "20261018_010610_213058Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_010655_318479Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_010740_455411Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 2,
+              "event_id": "20261018_010825_528301Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 3,
+              "event_id": "20261018_010910_713252Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_010955_839033Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_011040_991891Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_011126_080785Z:fall:0"
+            }
+          ],
+          "quality_covered_events": 10,
+          "quality_uncovered_events": 20
+        },
+        "excessive_false_positive_diagnostic": "Compare fixed-cap training/validation predicted-fall fractions; no outer-fold reweighting or retuning.",
+        "inference_latency": {
+          "batch_size": 1,
+          "device": "cpu",
+          "includes": "window normalization/features and model; excludes packet parsing/resampling",
+          "median_ms": 1.3016159999921229,
+          "p95_ms": 3.447208999999417,
+          "samples": 50
+        },
+        "parameter_count": 21666,
+        "selected_epochs": 5,
+        "training_seconds": 41.415102503000014,
+        "training_window": {
+          "confusion_matrix": [
+            [
+              1249,
+              0
+            ],
+            [
+              5,
+              16
+            ]
+          ],
+          "fall_f1": 0.8648648648648649,
+          "fall_precision": 1.0,
+          "fall_recall": 0.7619047619047619,
+          "pr_auc_average_precision": 0.9196821009321011,
+          "predicted_fall_fraction": 0.012598425196850394,
+          "roc_auc": 0.9927561096496245,
+          "windows": 1270
+        },
+        "window": {
+          "confusion_matrix": [
+            [
+              301,
+              0
+            ],
+            [
+              31,
+              0
+            ]
+          ],
+          "fall_f1": 0.0,
+          "fall_precision": 0.0,
+          "fall_recall": 0.0,
+          "pr_auc_average_precision": 0.1615048345563473,
+          "predicted_fall_fraction": 0.0,
+          "roc_auc": 0.5954345729289465,
+          "windows": 332
+        }
+      },
+      "rf": {
+        "artifact_bytes": 148534,
+        "artifact_sha256": "b785691afd334a39a2978e669240cad20bd6fbf43812c01e7ecc5f18147fbd99",
+        "checkpoint_reload_verified": true,
+        "equivalent_input_hashes": {
+          "training_windows": "709f5d11c489cec8311740f66336e367073a88d520fe8f40e3dc46ef7974685a",
+          "validation_windows": "551b6bf7ae4dd19abecc4c975bfa9dc168b8ca06c676d9bee6e8abb47836aefc"
+        },
+        "events": {
+          "accepted_normal_seconds": 227.5,
+          "all_annotated_event_recall": 0.0,
+          "annotated_events": 30,
+          "covered_event_recall": 0.0,
+          "detected_events": 0,
+          "false_alert_episodes": 0,
+          "false_alerts_per_hour": 0.0,
+          "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+          "per_event": [
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_003839_872397Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_003925_035409Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 5,
+              "event_id": "20261018_004010_188550Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004055_315884Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004140_480887Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004254_688183Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004339_859364Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004424_995088Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_004510_096411Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004555_171236Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004807_610959Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_004852_798687Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_004937_891590Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005023_078275Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005108_217002Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 5,
+              "event_id": "20261018_005153_297629Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005238_401797Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005323_602966Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005408_732574Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_005453_810441Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_010439_867650Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 7,
+              "event_id": "20261018_010525_086803Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 5,
+              "event_id": "20261018_010610_213058Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_010655_318479Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_010740_455411Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 2,
+              "event_id": "20261018_010825_528301Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 3,
+              "event_id": "20261018_010910_713252Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 1,
+              "event_id": "20261018_010955_839033Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_011040_991891Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261018_011126_080785Z:fall:0"
+            }
+          ],
+          "quality_covered_events": 10,
+          "quality_uncovered_events": 20
+        },
+        "excessive_false_positive_diagnostic": "Compare fixed-cap training/validation predicted-fall fractions; no outer-fold reweighting or retuning.",
+        "inference_latency": {
+          "batch_size": 1,
+          "device": "cpu",
+          "includes": "window normalization/features and model; excludes packet parsing/resampling",
+          "median_ms": 57.677082500006804,
+          "p95_ms": 59.93495935001505,
+          "samples": 50
+        },
+        "reload_verification": {
+          "maximum_absolute_difference": 5.551115123125783e-17,
+          "probability_atol": 1e-15,
+          "probability_rtol": 1e-12,
+          "threshold_decisions_identical": true
+        },
+        "training_seconds": 1.042015336999981,
+        "training_window": {
+          "confusion_matrix": [
+            [
+              1249,
+              0
+            ],
+            [
+              7,
+              14
+            ]
+          ],
+          "fall_f1": 0.8,
+          "fall_precision": 1.0,
+          "fall_recall": 0.6666666666666666,
+          "pr_auc_average_precision": 0.9978354978354982,
+          "predicted_fall_fraction": 0.011023622047244094,
+          "roc_auc": 0.9999618742613138,
+          "windows": 1270
+        },
+        "window": {
+          "confusion_matrix": [
+            [
+              301,
+              0
+            ],
+            [
+              31,
+              0
+            ]
+          ],
+          "fall_f1": 0.0,
+          "fall_precision": 0.0,
+          "fall_recall": 0.0,
+          "pr_auc_average_precision": 0.26425002769742617,
+          "predicted_fall_fraction": 0.0,
+          "roc_auc": 0.6234058514628658,
+          "windows": 332
+        }
+      }
+    },
+    "B": {
+      "cnn": {
+        "artifact_bytes": 91902,
+        "artifact_sha256": "21f7fdc9853b63212caa7d528bbe4dec04ce69dee24a68488af2c456713d4b68",
+        "checkpoint_reload_verified": true,
+        "equivalent_input_hashes": {
+          "training_windows": "551b6bf7ae4dd19abecc4c975bfa9dc168b8ca06c676d9bee6e8abb47836aefc",
+          "validation_windows": "709f5d11c489cec8311740f66336e367073a88d520fe8f40e3dc46ef7974685a"
+        },
+        "events": {
+          "accepted_normal_seconds": 829.5,
+          "all_annotated_event_recall": 0.75,
+          "annotated_events": 4,
+          "covered_event_recall": 1.0,
+          "detected_events": 3,
+          "false_alert_episodes": 127,
+          "false_alerts_per_hour": 551.1754068716094,
+          "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+          "per_event": [
+            {
+              "covered": true,
+              "detected": true,
+              "eligible_windows": 7,
+              "event_id": "20261017_214140_430498Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": true,
+              "eligible_windows": 7,
+              "event_id": "20261017_214225_578923Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": true,
+              "eligible_windows": 7,
+              "event_id": "20261017_214310_855919Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261017_214356_001779Z:fall:0"
+            }
+          ],
+          "quality_covered_events": 3,
+          "quality_uncovered_events": 1
+        },
+        "excessive_false_positive_diagnostic": "Compare fixed-cap training/validation predicted-fall fractions; no outer-fold reweighting or retuning.",
+        "inference_latency": {
+          "batch_size": 1,
+          "device": "cpu",
+          "includes": "window normalization/features and model; excludes packet parsing/resampling",
+          "median_ms": 1.6321589999961361,
+          "p95_ms": 2.1827194000053387,
+          "samples": 50
+        },
+        "parameter_count": 21666,
+        "selected_epochs": 16,
+        "training_seconds": 2.2540941690000125,
+        "training_window": {
+          "confusion_matrix": [
+            [
+              297,
+              4
+            ],
+            [
+              0,
+              31
+            ]
+          ],
+          "fall_f1": 0.9393939393939394,
+          "fall_precision": 0.8857142857142857,
+          "fall_recall": 1.0,
+          "pr_auc_average_precision": 0.8752346706634988,
+          "predicted_fall_fraction": 0.10542168674698796,
+          "roc_auc": 0.9919622762833566,
+          "windows": 332
+        },
+        "window": {
+          "confusion_matrix": [
+            [
+              119,
+              1130
+            ],
+            [
+              0,
+              21
+            ]
+          ],
+          "fall_f1": 0.03583617747440273,
+          "fall_precision": 0.018245004344048653,
+          "fall_recall": 1.0,
+          "pr_auc_average_precision": 0.012349092386116142,
+          "predicted_fall_fraction": 0.9062992125984252,
+          "roc_auc": 0.35880132677570625,
+          "windows": 1270
+        }
+      },
+      "rf": {
+        "artifact_bytes": 141553,
+        "artifact_sha256": "58ad433e12b94bfac13ad06779d901b03d2c3825e1a444daeb28bf729c5a7492",
+        "checkpoint_reload_verified": true,
+        "equivalent_input_hashes": {
+          "training_windows": "551b6bf7ae4dd19abecc4c975bfa9dc168b8ca06c676d9bee6e8abb47836aefc",
+          "validation_windows": "709f5d11c489cec8311740f66336e367073a88d520fe8f40e3dc46ef7974685a"
+        },
+        "events": {
+          "accepted_normal_seconds": 829.5,
+          "all_annotated_event_recall": 0.25,
+          "annotated_events": 4,
+          "covered_event_recall": 0.3333333333333333,
+          "detected_events": 1,
+          "false_alert_episodes": 4,
+          "false_alerts_per_hour": 17.359855334538878,
+          "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+          "per_event": [
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 7,
+              "event_id": "20261017_214140_430498Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": false,
+              "eligible_windows": 7,
+              "event_id": "20261017_214225_578923Z:fall:0"
+            },
+            {
+              "covered": true,
+              "detected": true,
+              "eligible_windows": 7,
+              "event_id": "20261017_214310_855919Z:fall:0"
+            },
+            {
+              "covered": false,
+              "detected": false,
+              "eligible_windows": 0,
+              "event_id": "20261017_214356_001779Z:fall:0"
+            }
+          ],
+          "quality_covered_events": 3,
+          "quality_uncovered_events": 1
+        },
+        "excessive_false_positive_diagnostic": "Compare fixed-cap training/validation predicted-fall fractions; no outer-fold reweighting or retuning.",
+        "inference_latency": {
+          "batch_size": 1,
+          "device": "cpu",
+          "includes": "window normalization/features and model; excludes packet parsing/resampling",
+          "median_ms": 57.79470550000099,
+          "p95_ms": 59.60062249999538,
+          "samples": 50
+        },
+        "reload_verification": {
+          "maximum_absolute_difference": 1.1102230246251565e-16,
+          "probability_atol": 1e-15,
+          "probability_rtol": 1e-12,
+          "threshold_decisions_identical": true
+        },
+        "training_seconds": 0.49090202900001145,
+        "training_window": {
+          "confusion_matrix": [
+            [
+              301,
+              0
+            ],
+            [
+              2,
+              29
+            ]
+          ],
+          "fall_f1": 0.9666666666666667,
+          "fall_precision": 1.0,
+          "fall_recall": 0.9354838709677419,
+          "pr_auc_average_precision": 0.9989919354838708,
+          "predicted_fall_fraction": 0.08734939759036145,
+          "roc_auc": 0.9998928303504447,
+          "windows": 332
+        },
+        "window": {
+          "confusion_matrix": [
+            [
+              1225,
+              24
+            ],
+            [
+              18,
+              3
+            ]
+          ],
+          "fall_f1": 0.125,
+          "fall_precision": 0.1111111111111111,
+          "fall_recall": 0.14285714285714285,
+          "pr_auc_average_precision": 0.05125601097668406,
+          "predicted_fall_fraction": 0.02125984251968504,
+          "roc_auc": 0.7317473026039879,
+          "windows": 1270
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Two blocks, one participant; no independent final test.",
+    "Only 13 quality-covered events and ~17.6 minutes accepted normal exposure.",
+    "CV model selection is exploratory development, not unbiased final performance.",
+    "Fixed thresholds/voting; no held-out threshold search. Acquisition failures reported separately.",
+    "Weighted probabilities are decision scores, not calibrated fall risks."
+  ],
+  "macro": {
+    "cnn": {
+      "all_annotated_event_recall": 0.375,
+      "covered_event_recall": 0.5,
+      "fall_f1": 0.017918088737201365,
+      "fall_precision": 0.009122502172024326,
+      "fall_recall": 0.5,
+      "false_alerts_per_hour": 275.5877034358047,
+      "pr_auc_average_precision": 0.08692696347123172,
+      "roc_auc": 0.47711794985232636
+    },
+    "rf": {
+      "all_annotated_event_recall": 0.125,
+      "covered_event_recall": 0.16666666666666666,
+      "fall_f1": 0.0625,
+      "fall_precision": 0.05555555555555555,
+      "fall_recall": 0.07142857142857142,
+      "false_alerts_per_hour": 8.679927667269439,
+      "pr_auc_average_precision": 0.1577530193370551,
+      "roc_auc": 0.6775765770334268
+    }
+  },
+  "pooled": {
+    "cnn": {
+      "events": {
+        "accepted_normal_seconds": 1057.0,
+        "all_annotated_event_recall": 0.08823529411764706,
+        "annotated_events": 34,
+        "covered_event_recall": 0.23076923076923078,
+        "detected_events": 3,
+        "false_alert_episodes": 127,
+        "false_alerts_per_hour": 432.54493850520345,
+        "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+        "per_event": [
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_003839_872397Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_003925_035409Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 5,
+            "event_id": "20261018_004010_188550Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004055_315884Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004140_480887Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004254_688183Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004339_859364Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004424_995088Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_004510_096411Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004555_171236Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004807_610959Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004852_798687Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_004937_891590Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005023_078275Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005108_217002Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 5,
+            "event_id": "20261018_005153_297629Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005238_401797Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005323_602966Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005408_732574Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005453_810441Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_010439_867650Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 7,
+            "event_id": "20261018_010525_086803Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 5,
+            "event_id": "20261018_010610_213058Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_010655_318479Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_010740_455411Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 2,
+            "event_id": "20261018_010825_528301Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 3,
+            "event_id": "20261018_010910_713252Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_010955_839033Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_011040_991891Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_011126_080785Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": true,
+            "eligible_windows": 7,
+            "event_id": "20261017_214140_430498Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": true,
+            "eligible_windows": 7,
+            "event_id": "20261017_214225_578923Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": true,
+            "eligible_windows": 7,
+            "event_id": "20261017_214310_855919Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261017_214356_001779Z:fall:0"
+          }
+        ],
+        "quality_covered_events": 13,
+        "quality_uncovered_events": 21
+      },
+      "window": {
+        "confusion_matrix": [
+          [
+            420,
+            1130
+          ],
+          [
+            31,
+            21
+          ]
+        ],
+        "fall_f1": 0.034912718204488775,
+        "fall_precision": 0.018245004344048653,
+        "fall_recall": 0.40384615384615385,
+        "pr_auc_average_precision": 0.020918475220635696,
+        "predicted_fall_fraction": 0.7184769038701623,
+        "roc_auc": 0.28038461538461534,
+        "windows": 1602
+      }
+    },
+    "rf": {
+      "events": {
+        "accepted_normal_seconds": 1057.0,
+        "all_annotated_event_recall": 0.029411764705882353,
+        "annotated_events": 34,
+        "covered_event_recall": 0.07692307692307693,
+        "detected_events": 1,
+        "false_alert_episodes": 4,
+        "false_alerts_per_hour": 13.623462630085147,
+        "limitations": "Approximate operator action intervals; ignored windows absent; reset voting across missing windows. Exposure is union of accepted verified-normal windows, including alert warmup. Cooldown-defined episodes can repeat during a sustained positive run. No verified impact latency.",
+        "per_event": [
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_003839_872397Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_003925_035409Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 5,
+            "event_id": "20261018_004010_188550Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004055_315884Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004140_480887Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004254_688183Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004339_859364Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004424_995088Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_004510_096411Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004555_171236Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004807_610959Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_004852_798687Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_004937_891590Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005023_078275Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005108_217002Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 5,
+            "event_id": "20261018_005153_297629Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005238_401797Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005323_602966Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005408_732574Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_005453_810441Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_010439_867650Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 7,
+            "event_id": "20261018_010525_086803Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 5,
+            "event_id": "20261018_010610_213058Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_010655_318479Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_010740_455411Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 2,
+            "event_id": "20261018_010825_528301Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 3,
+            "event_id": "20261018_010910_713252Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 1,
+            "event_id": "20261018_010955_839033Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_011040_991891Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261018_011126_080785Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 7,
+            "event_id": "20261017_214140_430498Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": false,
+            "eligible_windows": 7,
+            "event_id": "20261017_214225_578923Z:fall:0"
+          },
+          {
+            "covered": true,
+            "detected": true,
+            "eligible_windows": 7,
+            "event_id": "20261017_214310_855919Z:fall:0"
+          },
+          {
+            "covered": false,
+            "detected": false,
+            "eligible_windows": 0,
+            "event_id": "20261017_214356_001779Z:fall:0"
+          }
+        ],
+        "quality_covered_events": 13,
+        "quality_uncovered_events": 21
+      },
+      "window": {
+        "confusion_matrix": [
+          [
+            1526,
+            24
+          ],
+          [
+            49,
+            3
+          ]
+        ],
+        "fall_f1": 0.0759493670886076,
+        "fall_precision": 0.1111111111111111,
+        "fall_recall": 0.057692307692307696,
+        "pr_auc_average_precision": 0.05027347586846093,
+        "predicted_fall_fraction": 0.016853932584269662,
+        "roc_auc": 0.5806699751861042,
+        "windows": 1602
+      }
+    }
+  },
+  "proposed_ranking": [
+    "cnn",
+    "rf"
+  ],
+  "ranking_rule": "macro covered-event recall descending, false alerts/hour ascending, window F1 descending; review required",
+  "review_required_before_refit": true,
+  "status": "development cross-validation only; no independent final test"
+}

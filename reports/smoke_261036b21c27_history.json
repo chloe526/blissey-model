@@ -1,0 +1,82 @@
+[
+  {
+    "epoch": 1,
+    "train": {
+      "loss": 0.7617096900939941,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall_fall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "class_distribution": [
+        0,
+        1
+      ],
+      "precision_defined": false,
+      "f1_defined": true,
+      "windows": 1,
+      "optimizer_steps": 1,
+      "first_logits": [
+        [
+          0.08650282025337219,
+          -0.04622149094939232
+        ]
+      ],
+      "first_probabilities": [
+        [
+          0.5331324934959412,
+          0.4668675661087036
+        ]
+      ]
+    },
+    "validation": {
+      "loss": 0.03713152930140495,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall_fall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "class_distribution": [
+        0,
+        1
+      ],
+      "precision_defined": true,
+      "f1_defined": true,
+      "windows": 1,
+      "optimizer_steps": 0,
+      "first_logits": [
+        [
+          -1.6093991994857788,
+          1.6652650833129883
+        ]
+      ],
+      "first_probabilities": [
+        [
+          0.03645065054297447,
+          0.9635493755340576
+        ]
+      ]
+    },
+    "seconds": 22.744666895999984,
+    "reward_meaning": "validation fall-class F1",
+    "diagnostic": true
+  }
+]

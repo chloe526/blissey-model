@@ -1,0 +1,62 @@
+Python: 3.11.17 macOS-26.5-arm64-arm-64bit
+numpy 1.26.4
+torch 2.8.0
+transformers 4.55.4
+huggingface-hub 0.34.4
+momentfm 0.1.5
+CUDA available: False CUDA runtime: None
+Free disk GB: 0.5
+                 veri version                  
+┏━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ field          ┃ value                      ┃
+┡━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ sdk_version    │ 0.2.44                     │
+│ python_version │ 3.12.3                     │
+│ platform       │ macOS-26.5-arm64-arm-64bit │
+└────────────────┴────────────────────────────┘
+                                                                                
+ Usage: veri run-script [OPTIONS] CODE_DIR                                      
+                                                                                
+ Upload `code_dir` and submit a custom-script job.                              
+                                                                                
+╭─ Arguments ──────────────────────────────────────────────────────────────────╮
+│ *    code_dir      DIRECTORY  [required]                                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ *  --entrypoint    -e      TEXT     Command to run. Single node: 'torchrun   │
+│                                     --nproc_per_node=$VERI_NUM_GPUS          │
+│                                     train.py'. Multi-node: 'torchrun         │
+│                                     --nnodes=$VERI_NUM_NODES                 │
+│                                     --node-rank=$VERI_NODE_RANK              │
+│                                     --rdzv-backend=c10d                      │
+│                                     --rdzv-endpoint=$VERI_HEAD_IP:29400      │
+│                                     --rdzv-id=$VERI_JOB_ID                   │
+│                                     --nproc-per-node=$VERI_NUM_GPUS          │
+│                                     train.py'.                               │
+│                                     [required]                               │
+│ *  --gpu-type              TEXT     GPU type, e.g. H100-80GB. [required]     │
+│    --gpu-count             INTEGER  GPUs per node (1-8; use 8 for a          │
+│                                     whole-box A100/H100).                    │
+│                                     [default: 1]                             │
+│    --num-nodes             INTEGER  Whole-box nodes for a multi-node gang (1 │
+│                                     = single node). Requires an 8-GPU        │
+│                                     A100/H100 SKU on AWS.                    │
+│                                     [default: 1]                             │
+│    --base-image            TEXT     One of veri/base, veri/base-vllm,        │
+│                                     veri/base-sglang,                        │
+│                                     veri/base-claude-agent.                  │
+│                                     [default: veri/base]                     │
+│    --output-name           TEXT     [default: default]                       │
+│    --requirements  -r      FILE     requirements.txt installed (uv pip)      │
+│                                     before the entrypoint.                   │
+│    --dataset-id            TEXT     Optional dataset; materialized at        │
+│                                     $VERI_DATA_DIR.                          │
+│    --provider              TEXT                                              │
+│    --format        -o      FORMAT   Output format: table (default), json,    │
+│                                     jsonl or csv.                            │
+│    --json                           Alias for --format json.                 │
+│    --quiet         -q               Pipe-friendly: suppress banners and      │
+│                                     decoration.                              │
+│    --help          -h               Show this message and exit.              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

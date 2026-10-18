@@ -1,0 +1,16 @@
+{
+ "session_03_LAHACKS": {
+  "normal_window_pass_rate_all_packets": 0.6086744639376218,
+  "normal_window_pass_rate_ht_only": 0.6052631578947368,
+  "legacy_vs_ht_subcarrier_shape_corr_median": 0.9957690509162848,
+  "legacy_vs_ht_shape_corr_min": 0.9742172968870199,
+  "legacy_over_ht_scale_median": 1.1986508146138948
+ },
+ "session_04_LAHACKS": {
+  "normal_window_pass_rate_all_packets": 0.27870370370370373,
+  "normal_window_pass_rate_ht_only": 0.24259259259259258,
+  "legacy_vs_ht_subcarrier_shape_corr_median": 0.9638847543857977,
+  "legacy_vs_ht_shape_corr_min": 0.2448464622643945,
+  "legacy_over_ht_scale_median": 1.1262152930103153
+ }
+}

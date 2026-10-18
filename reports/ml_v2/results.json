@@ -1,0 +1,2680 @@
+{
+  "E1_motion_gain": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "detected_events": 1,
+      "false_alerts_normal": 0,
+      "false_alerts_per_hour_combined": 11.145510835913313,
+      "false_alerts_per_hour_normal": 0.0,
+      "false_alerts_pre_action": 1,
+      "normal_exposure_min": 3.7916666666666665,
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": 4.299718049936928
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.14285714285714285,
+      "recall_all_annotated": 0.03333333333333333,
+      "threshold": -5.798768424987793,
+      "train_class_counts": [
+        1249,
+        21
+      ],
+      "window": {
+        "average_precision": 0.6591803947713583,
+        "fall_recall": 0.22580645161290322,
+        "negatives": 301,
+        "normal_fp_fraction": 0.006644518272425249,
+        "positives": 31,
+        "roc_auc": 0.9379487729075126
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "detected_events": 4,
+      "false_alerts_normal": 51,
+      "false_alerts_per_hour_combined": 209.94854202401373,
+      "false_alerts_per_hour_normal": 221.33815551537072,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": 4.643096498621162
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 3.7952919701929204
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 4.296870455320459
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": 8.642284515604842
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 1.0,
+      "recall_all_annotated": 1.0,
+      "threshold": -6.084793567657471,
+      "train_class_counts": [
+        301,
+        31
+      ],
+      "window": {
+        "average_precision": 0.13593228676307037,
+        "fall_recall": 0.8571428571428571,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.24979983987189752,
+        "positives": 21,
+        "roc_auc": 0.8633954782873918
+      }
+    },
+    "seconds": 0.007279872894287109
+  },
+  "E2_cnn_gain": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "at_0.5": {
+        "alertable_events": 7,
+        "annotated_events": 30,
+        "detected_events": 0,
+        "false_alerts_normal": 0,
+        "false_alerts_per_hour_combined": 0.0,
+        "false_alerts_per_hour_normal": 0.0,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 3.7916666666666665,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 1.5916666666666666,
+        "recall_alertable": 0.0,
+        "recall_all_annotated": 0.0,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.1123359042894049,
+          "fall_recall": 0.0,
+          "negatives": 301,
+          "normal_fp_fraction": 0.0,
+          "positives": 31,
+          "roc_auc": 0.4003858107383989
+        }
+      },
+      "detected_events": 0,
+      "false_alerts_normal": 0,
+      "false_alerts_per_hour_combined": 0.0,
+      "false_alerts_per_hour_normal": 0.0,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 3.7916666666666665,
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.0,
+      "recall_all_annotated": 0.0,
+      "threshold": 0.07150359600782367,
+      "train_class_counts": [
+        1249,
+        21
+      ],
+      "window": {
+        "average_precision": 0.1123359042894049,
+        "fall_recall": 0.03225806451612903,
+        "negatives": 301,
+        "normal_fp_fraction": 0.006644518272425249,
+        "positives": 31,
+        "roc_auc": 0.4003858107383989
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "at_0.5": {
+        "alertable_events": 4,
+        "annotated_events": 4,
+        "detected_events": 1,
+        "false_alerts_normal": 12,
+        "false_alerts_per_hour_combined": 49.39965694682676,
+        "false_alerts_per_hour_normal": 52.07956600361664,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 13.825,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 0.75,
+        "recall_alertable": 0.25,
+        "recall_all_annotated": 0.25,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.10493929833607146,
+          "fall_recall": 0.19047619047619047,
+          "negatives": 1249,
+          "normal_fp_fraction": 0.04643714971977582,
+          "positives": 21,
+          "roc_auc": 0.7176026535514125
+        }
+      },
+      "detected_events": 1,
+      "false_alerts_normal": 5,
+      "false_alerts_per_hour_combined": 20.58319039451115,
+      "false_alerts_per_hour_normal": 21.6998191681736,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 4.29529197019292
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 0.25,
+      "recall_all_annotated": 0.25,
+      "threshold": 0.7069688439369202,
+      "train_class_counts": [
+        301,
+        31
+      ],
+      "window": {
+        "average_precision": 0.10493929833607146,
+        "fall_recall": 0.14285714285714285,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.020816653322658127,
+        "positives": 21,
+        "roc_auc": 0.7176026535514125
+      }
+    },
+    "seconds": 69.98879790306091
+  },
+  "E2_cnn_raw": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "at_0.5": {
+        "alertable_events": 7,
+        "annotated_events": 30,
+        "detected_events": 1,
+        "false_alerts_normal": 3,
+        "false_alerts_per_hour_combined": 44.582043343653254,
+        "false_alerts_per_hour_normal": 47.472527472527474,
+        "false_alerts_pre_action": 1,
+        "normal_exposure_min": 3.7916666666666665,
+        "post_event_alerts": 1,
+        "pre_action_exposure_min": 1.5916666666666666,
+        "recall_alertable": 0.14285714285714285,
+        "recall_all_annotated": 0.03333333333333333,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.10182558334404856,
+          "fall_recall": 0.03225806451612903,
+          "negatives": 301,
+          "normal_fp_fraction": 0.029900332225913623,
+          "positives": 31,
+          "roc_auc": 0.44989818883292254
+        }
+      },
+      "detected_events": 2,
+      "false_alerts_normal": 8,
+      "false_alerts_per_hour_combined": 100.30959752321982,
+      "false_alerts_per_hour_normal": 126.5934065934066,
+      "false_alerts_pre_action": 1,
+      "normal_exposure_min": 3.7916666666666665,
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": 3.0454599300865084
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": 7.976004977710545
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 1,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.2857142857142857,
+      "recall_all_annotated": 0.06666666666666667,
+      "threshold": 0.12917071506381028,
+      "train_class_counts": [
+        1249,
+        21
+      ],
+      "window": {
+        "average_precision": 0.10182558334404856,
+        "fall_recall": 0.0967741935483871,
+        "negatives": 301,
+        "normal_fp_fraction": 0.132890365448505,
+        "positives": 31,
+        "roc_auc": 0.44989818883292254
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "at_0.5": {
+        "alertable_events": 4,
+        "annotated_events": 4,
+        "detected_events": 4,
+        "false_alerts_normal": 130,
+        "false_alerts_per_hour_combined": 568.0960548885078,
+        "false_alerts_per_hour_normal": 564.1952983725135,
+        "false_alerts_pre_action": 8,
+        "normal_exposure_min": 13.825,
+        "post_event_alerts": 1,
+        "pre_action_exposure_min": 0.75,
+        "recall_alertable": 1.0,
+        "recall_all_annotated": 1.0,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.012184373064613922,
+          "fall_recall": 1.0,
+          "negatives": 1249,
+          "normal_fp_fraction": 0.9239391513210569,
+          "positives": 21,
+          "roc_auc": 0.34412291738152423
+        }
+      },
+      "detected_events": 4,
+      "false_alerts_normal": 130,
+      "false_alerts_per_hour_combined": 568.0960548885078,
+      "false_alerts_per_hour_normal": 564.1952983725135,
+      "false_alerts_pre_action": 8,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": 4.643096498621162
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 3.7952919701929204
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 3.296870455320459
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": 1.6422845156048425
+        }
+      ],
+      "post_event_alerts": 1,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 1.0,
+      "recall_all_annotated": 1.0,
+      "threshold": 0.4654077887535095,
+      "train_class_counts": [
+        301,
+        31
+      ],
+      "window": {
+        "average_precision": 0.012184373064613922,
+        "fall_recall": 1.0,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.9247397918334668,
+        "positives": 21,
+        "roc_auc": 0.34412291738152423
+      }
+    },
+    "seconds": 55.74677491188049
+  },
+  "E2_rf_gain": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "at_0.5": {
+        "alertable_events": 7,
+        "annotated_events": 30,
+        "detected_events": 0,
+        "false_alerts_normal": 0,
+        "false_alerts_per_hour_combined": 0.0,
+        "false_alerts_per_hour_normal": 0.0,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 3.7916666666666665,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 1.5916666666666666,
+        "recall_alertable": 0.0,
+        "recall_all_annotated": 0.0,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.517474759420794,
+          "fall_recall": 0.03225806451612903,
+          "negatives": 301,
+          "normal_fp_fraction": 0.0,
+          "positives": 31,
+          "roc_auc": 0.8916514842996464
+        }
+      },
+      "detected_events": 4,
+      "false_alerts_normal": 3,
+      "false_alerts_per_hour_combined": 44.582043343653254,
+      "false_alerts_per_hour_normal": 47.472527472527474,
+      "false_alerts_pre_action": 1,
+      "normal_exposure_min": 3.7916666666666665,
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": 4.299718049936928
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": 2.244959863193799
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": 2.5454599300865084
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": 7.976004977710545
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 2,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.5714285714285714,
+      "recall_all_annotated": 0.13333333333333333,
+      "threshold": 0.09740050904137988,
+      "train_class_counts": [
+        1249,
+        21
+      ],
+      "window": {
+        "average_precision": 0.517474759420794,
+        "fall_recall": 0.5483870967741935,
+        "negatives": 301,
+        "normal_fp_fraction": 0.053156146179401995,
+        "positives": 31,
+        "roc_auc": 0.8916514842996464
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "at_0.5": {
+        "alertable_events": 4,
+        "annotated_events": 4,
+        "detected_events": 3,
+        "false_alerts_normal": 18,
+        "false_alerts_per_hour_combined": 74.09948542024014,
+        "false_alerts_per_hour_normal": 78.11934900542495,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 13.825,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 0.75,
+        "recall_alertable": 0.75,
+        "recall_all_annotated": 0.75,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.21721391254027933,
+          "fall_recall": 0.5714285714285714,
+          "negatives": 1249,
+          "normal_fp_fraction": 0.0656525220176141,
+          "positives": 21,
+          "roc_auc": 0.8931716802013039
+        }
+      },
+      "detected_events": 3,
+      "false_alerts_normal": 22,
+      "false_alerts_per_hour_combined": 90.56603773584905,
+      "false_alerts_per_hour_normal": 95.47920433996384,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": 4.643096498621162
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 4.29529197019292
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 4.296870455320459
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 0.75,
+      "recall_all_annotated": 0.75,
+      "threshold": 0.4008100801974324,
+      "train_class_counts": [
+        301,
+        31
+      ],
+      "window": {
+        "average_precision": 0.21721391254027933,
+        "fall_recall": 0.7142857142857143,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.0944755804643715,
+        "positives": 21,
+        "roc_auc": 0.8931716802013039
+      }
+    },
+    "seconds": 4.718915939331055
+  },
+  "E2_rf_raw": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "at_0.5": {
+        "alertable_events": 7,
+        "annotated_events": 30,
+        "detected_events": 0,
+        "false_alerts_normal": 0,
+        "false_alerts_per_hour_combined": 0.0,
+        "false_alerts_per_hour_normal": 0.0,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 3.7916666666666665,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 1.5916666666666666,
+        "recall_alertable": 0.0,
+        "recall_all_annotated": 0.0,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.2654421921673602,
+          "fall_recall": 0.0,
+          "negatives": 301,
+          "normal_fp_fraction": 0.0,
+          "positives": 31,
+          "roc_auc": 0.6246918872575286
+        }
+      },
+      "detected_events": 5,
+      "false_alerts_normal": 5,
+      "false_alerts_per_hour_combined": 111.45510835913313,
+      "false_alerts_per_hour_normal": 79.12087912087912,
+      "false_alerts_pre_action": 5,
+      "normal_exposure_min": 3.7916666666666665,
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": 4.299718049936928
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": 2.244959863193799
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": 8.045459930086508
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": 3.2273406635504216
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": 7.976004977710545
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 2,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.7142857142857143,
+      "recall_all_annotated": 0.16666666666666666,
+      "threshold": 0.10699515889319115,
+      "train_class_counts": [
+        1249,
+        21
+      ],
+      "window": {
+        "average_precision": 0.2654421921673602,
+        "fall_recall": 0.3870967741935484,
+        "negatives": 301,
+        "normal_fp_fraction": 0.10963455149501661,
+        "positives": 31,
+        "roc_auc": 0.6246918872575286
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "at_0.5": {
+        "alertable_events": 4,
+        "annotated_events": 4,
+        "detected_events": 1,
+        "false_alerts_normal": 4,
+        "false_alerts_per_hour_combined": 16.46655231560892,
+        "false_alerts_per_hour_normal": 17.359855334538878,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 13.825,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 0.75,
+        "recall_alertable": 0.25,
+        "recall_all_annotated": 0.25,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.051207301699005656,
+          "fall_recall": 0.14285714285714285,
+          "negatives": 1249,
+          "normal_fp_fraction": 0.01921537229783827,
+          "positives": 21,
+          "roc_auc": 0.7312135422623813
+        }
+      },
+      "detected_events": 1,
+      "false_alerts_normal": 12,
+      "false_alerts_per_hour_combined": 49.39965694682676,
+      "false_alerts_per_hour_normal": 52.07956600361664,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 5.296870455320459
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 0.25,
+      "recall_all_annotated": 0.25,
+      "threshold": 0.4365882430174361,
+      "train_class_counts": [
+        301,
+        31
+      ],
+      "window": {
+        "average_precision": 0.051207301699005656,
+        "fall_recall": 0.14285714285714285,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.040032025620496396,
+        "positives": 21,
+        "roc_auc": 0.7312135422623813
+      }
+    },
+    "seconds": 4.392408132553101
+  },
+  "E3_lr_context_onset": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "at_0.5": {
+        "alertable_events": 7,
+        "annotated_events": 30,
+        "detected_events": 4,
+        "false_alerts_normal": 2,
+        "false_alerts_per_hour_combined": 33.43653250773994,
+        "false_alerts_per_hour_normal": 31.64835164835165,
+        "false_alerts_pre_action": 1,
+        "normal_exposure_min": 3.7916666666666665,
+        "post_event_alerts": 1,
+        "pre_action_exposure_min": 1.5916666666666666,
+        "recall_alertable": 0.5714285714285714,
+        "recall_all_annotated": 0.13333333333333333,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.5161836121111513,
+          "fall_recall": 0.3548387096774194,
+          "negatives": 301,
+          "normal_fp_fraction": 0.036544850498338874,
+          "positives": 31,
+          "roc_auc": 0.8782552781052406
+        }
+      },
+      "detected_events": 4,
+      "false_alerts_normal": 3,
+      "false_alerts_per_hour_combined": 44.582043343653254,
+      "false_alerts_per_hour_normal": 47.472527472527474,
+      "false_alerts_pre_action": 1,
+      "normal_exposure_min": 3.7916666666666665,
+      "onset_profile": {
+        "-0.5": -0.0,
+        "-1.0": 0.02,
+        "-1.5": -0.21,
+        "-2.0": -0.2,
+        "0.0": -0.17,
+        "0.5": -0.37,
+        "1.0": -0.05,
+        "1.5": 0.03,
+        "2.0": 1.22,
+        "2.5": 1.93,
+        "3.0": 2.29,
+        "3.5": 2.45,
+        "4.0": 2.42,
+        "4.5": 2.21,
+        "5.0": 1.08,
+        "5.5": 1.13,
+        "6.0": 1.05,
+        "6.5": 0.97,
+        "7.0": 0.94,
+        "7.5": 0.39,
+        "8.0": 0.48
+      },
+      "onset_window": [
+        2.25,
+        4.75
+      ],
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": 4.299718049936928
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": 2.244959863193799
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": 4.545459930086508
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": 7.976004977710545
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 1,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.5714285714285714,
+      "recall_all_annotated": 0.13333333333333333,
+      "threshold": 0.38101815936388256,
+      "train_class_counts": [
+        1314,
+        15
+      ],
+      "window": {
+        "average_precision": 0.5161836121111513,
+        "fall_recall": 0.41935483870967744,
+        "negatives": 301,
+        "normal_fp_fraction": 0.04318936877076412,
+        "positives": 31,
+        "roc_auc": 0.8782552781052406
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "at_0.5": {
+        "alertable_events": 4,
+        "annotated_events": 4,
+        "detected_events": 1,
+        "false_alerts_normal": 4,
+        "false_alerts_per_hour_combined": 16.46655231560892,
+        "false_alerts_per_hour_normal": 17.359855334538878,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 13.825,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 0.75,
+        "recall_alertable": 0.25,
+        "recall_all_annotated": 0.25,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.10845883148370403,
+          "fall_recall": 0.19047619047619047,
+          "negatives": 1249,
+          "normal_fp_fraction": 0.016813450760608487,
+          "positives": 21,
+          "roc_auc": 0.593350871173129
+        }
+      },
+      "detected_events": 4,
+      "false_alerts_normal": 18,
+      "false_alerts_per_hour_combined": 74.09948542024014,
+      "false_alerts_per_hour_normal": 78.11934900542495,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "onset_profile": {
+        "-0.5": 0.46,
+        "-1.0": -0.75,
+        "-1.5": -0.47,
+        "-2.0": 0.36,
+        "0.0": 0.81,
+        "0.5": 0.87,
+        "1.0": 0.89,
+        "1.5": 0.75,
+        "2.0": 0.43,
+        "2.5": -0.03,
+        "3.0": 0.23,
+        "3.5": 0.29,
+        "4.0": 0.34,
+        "4.5": 1.49,
+        "5.0": -0.64,
+        "5.5": -0.16,
+        "6.0": 0.37,
+        "6.5": 0.08,
+        "7.0": -0.35,
+        "7.5": 0.2,
+        "8.0": 0.52
+      },
+      "onset_window": [
+        4.25,
+        4.75
+      ],
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": 6.143096498621162
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 5.79529197019292
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 6.796870455320459
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": 8.642284515604842
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 1.0,
+      "recall_all_annotated": 1.0,
+      "threshold": 0.12055892635251639,
+      "train_class_counts": [
+        386,
+        1
+      ],
+      "window": {
+        "average_precision": 0.10845883148370403,
+        "fall_recall": 0.2857142857142857,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.07125700560448359,
+        "positives": 21,
+        "roc_auc": 0.593350871173129
+      }
+    },
+    "seconds": 0.06036019325256348
+  },
+  "E3_rf_gain_onset": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "at_0.5": {
+        "alertable_events": 7,
+        "annotated_events": 30,
+        "detected_events": 0,
+        "false_alerts_normal": 0,
+        "false_alerts_per_hour_combined": 11.145510835913313,
+        "false_alerts_per_hour_normal": 0.0,
+        "false_alerts_pre_action": 1,
+        "normal_exposure_min": 3.7916666666666665,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 1.5916666666666666,
+        "recall_alertable": 0.0,
+        "recall_all_annotated": 0.0,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.5667617528643867,
+          "fall_recall": 0.03225806451612903,
+          "negatives": 301,
+          "normal_fp_fraction": 0.0,
+          "positives": 31,
+          "roc_auc": 0.9106205122709249
+        }
+      },
+      "detected_events": 4,
+      "false_alerts_normal": 3,
+      "false_alerts_per_hour_combined": 44.582043343653254,
+      "false_alerts_per_hour_normal": 47.472527472527474,
+      "false_alerts_pre_action": 1,
+      "normal_exposure_min": 3.7916666666666665,
+      "onset_profile": {
+        "-0.5": -0.0,
+        "-1.0": 0.02,
+        "-1.5": -0.21,
+        "-2.0": -0.2,
+        "0.0": -0.17,
+        "0.5": -0.37,
+        "1.0": -0.05,
+        "1.5": 0.03,
+        "2.0": 1.22,
+        "2.5": 1.93,
+        "3.0": 2.29,
+        "3.5": 2.45,
+        "4.0": 2.42,
+        "4.5": 2.21,
+        "5.0": 1.08,
+        "5.5": 1.13,
+        "6.0": 1.05,
+        "6.5": 0.97,
+        "7.0": 0.94,
+        "7.5": 0.39,
+        "8.0": 0.48
+      },
+      "onset_window": [
+        2.25,
+        4.75
+      ],
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": 4.299718049936928
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": 2.244959863193799
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": 2.5454599300865084
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": 7.976004977710545
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 2,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.5714285714285714,
+      "recall_all_annotated": 0.13333333333333333,
+      "threshold": 0.10427798967283472,
+      "train_class_counts": [
+        1314,
+        15
+      ],
+      "window": {
+        "average_precision": 0.5667617528643867,
+        "fall_recall": 0.45161290322580644,
+        "negatives": 301,
+        "normal_fp_fraction": 0.04983388704318937,
+        "positives": 31,
+        "roc_auc": 0.9106205122709249
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "at_0.5": {
+        "alertable_events": 4,
+        "annotated_events": 4,
+        "detected_events": 0,
+        "false_alerts_normal": 0,
+        "false_alerts_per_hour_combined": 0.0,
+        "false_alerts_per_hour_normal": 0.0,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 13.825,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 0.75,
+        "recall_alertable": 0.0,
+        "recall_all_annotated": 0.0,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.12557359128793444,
+          "fall_recall": 0.0,
+          "negatives": 1249,
+          "normal_fp_fraction": 0.0,
+          "positives": 21,
+          "roc_auc": 0.8401578405581608
+        }
+      },
+      "detected_events": 2,
+      "false_alerts_normal": 15,
+      "false_alerts_per_hour_combined": 61.74957118353345,
+      "false_alerts_per_hour_normal": 65.0994575045208,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "onset_profile": {
+        "-0.5": 0.46,
+        "-1.0": -0.75,
+        "-1.5": -0.47,
+        "-2.0": 0.36,
+        "0.0": 0.81,
+        "0.5": 0.87,
+        "1.0": 0.89,
+        "1.5": 0.75,
+        "2.0": 0.43,
+        "2.5": -0.03,
+        "3.0": 0.23,
+        "3.5": 0.29,
+        "4.0": 0.34,
+        "4.5": 1.49,
+        "5.0": -0.64,
+        "5.5": -0.16,
+        "6.0": 0.37,
+        "6.5": 0.08,
+        "7.0": -0.35,
+        "7.5": 0.2,
+        "8.0": 0.52
+      },
+      "onset_window": [
+        4.25,
+        4.75
+      ],
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 3.7952919701929204
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 4.796870455320459
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 1,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 0.5,
+      "recall_all_annotated": 0.5,
+      "threshold": 0.08228208284090636,
+      "train_class_counts": [
+        386,
+        1
+      ],
+      "window": {
+        "average_precision": 0.12557359128793444,
+        "fall_recall": 0.5238095238095238,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.08246597277822258,
+        "positives": 21,
+        "roc_auc": 0.8401578405581608
+      }
+    },
+    "seconds": 3.223038911819458
+  },
+  "E5_lr_context_gain": {
+    "A": {
+      "alertable_events": 7,
+      "annotated_events": 30,
+      "at_0.5": {
+        "alertable_events": 7,
+        "annotated_events": 30,
+        "detected_events": 4,
+        "false_alerts_normal": 3,
+        "false_alerts_per_hour_combined": 55.72755417956657,
+        "false_alerts_per_hour_normal": 47.472527472527474,
+        "false_alerts_pre_action": 2,
+        "normal_exposure_min": 3.7916666666666665,
+        "post_event_alerts": 2,
+        "pre_action_exposure_min": 1.5916666666666666,
+        "recall_alertable": 0.5714285714285714,
+        "recall_all_annotated": 0.13333333333333333,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.27802833121398923,
+          "fall_recall": 0.3225806451612903,
+          "negatives": 301,
+          "normal_fp_fraction": 0.09634551495016612,
+          "positives": 31,
+          "roc_auc": 0.7915550316150466
+        }
+      },
+      "detected_events": 4,
+      "false_alerts_normal": 3,
+      "false_alerts_per_hour_combined": 55.72755417956657,
+      "false_alerts_per_hour_normal": 47.472527472527474,
+      "false_alerts_pre_action": 2,
+      "normal_exposure_min": 3.7916666666666665,
+      "per_event": [
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "latency_from_start": 4.299718049936928
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "latency_from_start": 2.244959863193799
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "latency_from_start": 4.545459930086508
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "latency_from_start": 7.976004977710545
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": false,
+          "detected": false,
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 2,
+      "pre_action_exposure_min": 1.5916666666666666,
+      "recall_alertable": 0.5714285714285714,
+      "recall_all_annotated": 0.13333333333333333,
+      "threshold": 0.3948659058526921,
+      "train_class_counts": [
+        1249,
+        21
+      ],
+      "window": {
+        "average_precision": 0.27802833121398923,
+        "fall_recall": 0.3548387096774194,
+        "negatives": 301,
+        "normal_fp_fraction": 0.09966777408637874,
+        "positives": 31,
+        "roc_auc": 0.7915550316150466
+      }
+    },
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "at_0.5": {
+        "alertable_events": 4,
+        "annotated_events": 4,
+        "detected_events": 4,
+        "false_alerts_normal": 46,
+        "false_alerts_per_hour_combined": 189.36535162950258,
+        "false_alerts_per_hour_normal": 199.6383363471971,
+        "false_alerts_pre_action": 0,
+        "normal_exposure_min": 13.825,
+        "post_event_alerts": 0,
+        "pre_action_exposure_min": 0.75,
+        "recall_alertable": 1.0,
+        "recall_all_annotated": 1.0,
+        "threshold": 0.5,
+        "window": {
+          "average_precision": 0.21163714056501368,
+          "fall_recall": 0.7142857142857143,
+          "negatives": 1249,
+          "normal_fp_fraction": 0.25380304243394713,
+          "positives": 21,
+          "roc_auc": 0.8179495977734569
+        }
+      },
+      "detected_events": 3,
+      "false_alerts_normal": 37,
+      "false_alerts_per_hour_combined": 152.3156089193825,
+      "false_alerts_per_hour_normal": 160.57866184448463,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": 5.643096498621162
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 5.29529197019292
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 5.296870455320459
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 1,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 0.75,
+      "recall_all_annotated": 0.75,
+      "threshold": 0.6698605237982038,
+      "train_class_counts": [
+        301,
+        31
+      ],
+      "window": {
+        "average_precision": 0.21163714056501368,
+        "fall_recall": 0.5714285714285714,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.17854283426741394,
+        "positives": 21,
+        "roc_auc": 0.8179495977734569
+      }
+    },
+    "seconds": 0.08872008323669434
+  },
+  "_meta": {
+    "by_role": {
+      "boundary": 4,
+      "in_event": 151,
+      "normal_recording": 1550,
+      "post_event": 74,
+      "pre_action": 150
+    },
+    "folds": {
+      "A": [
+        "session_03_LAHACKS",
+        "session_04_LAHACKS"
+      ],
+      "B": [
+        "session_04_LAHACKS",
+        "session_03_LAHACKS"
+      ]
+    },
+    "labeled_v2": [
+      1550,
+      52
+    ],
+    "quantile": 0.95,
+    "status": "development cross-validation only; one participant; no frozen test block",
+    "windows": 1929
+  },
+  "v1_saved_foldB_cnn": {
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "detected_events": 4,
+      "false_alerts_normal": 127,
+      "false_alerts_per_hour_combined": 555.746140651801,
+      "false_alerts_per_hour_normal": 551.1754068716094,
+      "false_alerts_pre_action": 8,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": 4.643096498621162
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": 3.7952919701929204
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 3.296870455320459
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": 1.6422845156048425
+        }
+      ],
+      "post_event_alerts": 1,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 1.0,
+      "recall_all_annotated": 1.0,
+      "threshold": 0.5,
+      "window": {
+        "average_precision": 0.012349092386116142,
+        "fall_recall": 1.0,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.9047237790232185,
+        "positives": 21,
+        "roc_auc": 0.35880132677570625
+      }
+    }
+  },
+  "v1_saved_foldB_rf": {
+    "B": {
+      "alertable_events": 4,
+      "annotated_events": 4,
+      "detected_events": 1,
+      "false_alerts_normal": 4,
+      "false_alerts_per_hour_combined": 16.46655231560892,
+      "false_alerts_per_hour_normal": 17.359855334538878,
+      "false_alerts_pre_action": 0,
+      "normal_exposure_min": 13.825,
+      "per_event": [
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "latency_from_start": null
+        },
+        {
+          "alertable": true,
+          "detected": true,
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "latency_from_start": 5.296870455320459
+        },
+        {
+          "alertable": true,
+          "detected": false,
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "latency_from_start": null
+        }
+      ],
+      "post_event_alerts": 0,
+      "pre_action_exposure_min": 0.75,
+      "recall_alertable": 0.25,
+      "recall_all_annotated": 0.25,
+      "threshold": 0.5,
+      "window": {
+        "average_precision": 0.05125601097668406,
+        "fall_recall": 0.14285714285714285,
+        "negatives": 1249,
+        "normal_fp_fraction": 0.01921537229783827,
+        "positives": 21,
+        "roc_auc": 0.7317473026039879
+      }
+    }
+  }
+}

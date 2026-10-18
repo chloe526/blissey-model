@@ -1,0 +1,75 @@
+Recordings: 96; physical groups: 3; participants: ['p1', 'p2']
+Labels: {'verified_non_fall': 74, 'annotated_fall': 18, 'ambiguous': 4}; usable channels: 52/64
+Packet rate min/median/max: 21.67/45.25/85.94 Hz
+Supervised staged-fall experiment: READY (limitations apply)
+Audit: reports/dataset_audit.json
+{
+  "train": {
+    "rejection_reasons": {
+      "Insufficient packets or excessive gap": 94
+    },
+    "excluded_recordings": 4,
+    "excluded_label_windows": 491,
+    "rejected_quality_windows": 94,
+    "duplicate_packets": 4,
+    "windows": 819,
+    "class_counts": [
+      770,
+      49
+    ],
+    "independent_recordings": 25,
+    "independent_sessions": 1
+  },
+  "val": {
+    "rejection_reasons": {
+      "Insufficient packets or excessive gap": 795
+    },
+    "excluded_recordings": 0,
+    "excluded_label_windows": 203,
+    "rejected_quality_windows": 795,
+    "duplicate_packets": 11,
+    "windows": 298,
+    "class_counts": [
+      292,
+      6
+    ],
+    "independent_recordings": 20,
+    "independent_sessions": 1
+  },
+  "test": {
+    "rejection_reasons": {
+      "Insufficient packets or excessive gap": 1174
+    },
+    "excluded_recordings": 0,
+    "excluded_label_windows": 188,
+    "rejected_quality_windows": 1174,
+    "duplicate_packets": 5,
+    "windows": 906,
+    "class_counts": [
+      889,
+      17
+    ],
+    "independent_recordings": 35,
+    "independent_sessions": 1
+  }
+}
+Prepared: data/processed
+test_actual_session_separation_and_classes (test_artifacts.ArtifactTests.test_actual_session_separation_and_classes) ... ok
+test_exposure_uses_union_not_window_sum (test_artifacts.ArtifactTests.test_exposure_uses_union_not_window_sum) ... ok
+test_nonfinite_artifact_rejected (test_artifacts.ArtifactTests.test_nonfinite_artifact_rejected) ... ok
+test_unseen_raw_window_matches_saved_transform (test_artifacts.ArtifactTests.test_unseen_raw_window_matches_saved_transform) ... ok
+test_complex_amplitude_and_invalid_bytes_excluded (test_preprocessing.PreprocessingTests.test_complex_amplitude_and_invalid_bytes_excluded) ... ok
+test_duplicate_and_sort (test_preprocessing.PreprocessingTests.test_duplicate_and_sort) ... ok
+test_gap_and_nonfinite_rejected (test_preprocessing.PreprocessingTests.test_gap_and_nonfinite_rejected) ... ok
+test_host_aligned_event_not_ui_clock (test_preprocessing.PreprocessingTests.test_host_aligned_event_not_ui_clock) ... ok
+test_metrics (test_preprocessing.PreprocessingTests.test_metrics) ... ok
+test_no_events_does_not_mean_negative (test_preprocessing.PreprocessingTests.test_no_events_does_not_mean_negative) ... ok
+test_partial_and_unverified_labels_rejected (test_preprocessing.PreprocessingTests.test_partial_and_unverified_labels_rejected) ... ok
+test_timestamp_interpolation_and_saved_scaler (test_preprocessing.PreprocessingTests.test_timestamp_interpolation_and_saved_scaler) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.606s
+
+OK
+Official MOMENTPipeline import OK
+Local checks passed. No pretrained weights downloaded. Remote job requires explicit approval.

@@ -1,0 +1,4 @@
+train: accepted 819 -> 835; rejected 94 -> 78; classes [770, 49] -> [786, 49]; events 10 -> 10
+val: accepted 298 -> 465; rejected 795 -> 628; classes [292, 6] -> [457, 8]; events 3 -> 4
+test: accepted 906 -> 1270; rejected 1174 -> 810; classes [889, 17] -> [1249, 21]; events 4 -> 3
+All provenance, labels, scaler, sensor coverage and MOMENT tensor checks passed.

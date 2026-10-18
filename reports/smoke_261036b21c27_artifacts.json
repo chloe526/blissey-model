@@ -1,0 +1,17 @@
+[
+  {
+    "path": "best.pt"
+  },
+  {
+    "path": "history.json"
+  },
+  {
+    "path": "metrics.jsonl"
+  },
+  {
+    "path": "reload_check.json"
+  },
+  {
+    "path": "run_config.json"
+  }
+]

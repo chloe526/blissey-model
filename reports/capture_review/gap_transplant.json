@@ -1,0 +1,76 @@
+{
+ "clean": 687,
+ "rejected": 3039,
+ "threshold": 0.20532442089868647,
+ "by_real_max_gap": {
+  "0.25-0.35": {
+   "real_rejected_windows": 1422,
+   "tested": 300,
+   "decision_flip_rate": 0.013333333333333334,
+   "p95_abs_dprob": 0.07048142141632167,
+   "median_occupied": 0.7666666666666667
+  },
+  "0.35-0.5": {
+   "real_rejected_windows": 1105,
+   "tested": 300,
+   "decision_flip_rate": 0.01,
+   "p95_abs_dprob": 0.07312413115898728,
+   "median_occupied": 0.7
+  },
+  "0.5-0.75": {
+   "real_rejected_windows": 173,
+   "tested": 173,
+   "decision_flip_rate": 0.017341040462427744,
+   "p95_abs_dprob": 0.0975230499817261,
+   "median_occupied": 0.6666666666666666
+  },
+  "0.75-1.0": {
+   "real_rejected_windows": 8,
+   "tested": 8,
+   "decision_flip_rate": 0.25,
+   "p95_abs_dprob": 0.17375953004898076,
+   "median_occupied": 0.3
+  },
+  "1.0-99": {
+   "real_rejected_windows": 28,
+   "tested": 28,
+   "decision_flip_rate": 0.10714285714285714,
+   "p95_abs_dprob": 0.4497627409804637,
+   "median_occupied": 0.26666666666666666
+  }
+ },
+ "gates": {
+  "v2 (current)": {
+   "normal_pass_rate_s03": 0.609,
+   "normal_pass_rate_s04": 0.279,
+   "normal_windows": 1550,
+   "positive_v2_windows": 52,
+   "events_with_v2_positive": 13,
+   "events_with_in_event_window": 22
+  },
+  "gap<=0.35": {
+   "normal_pass_rate_s03": 0.84,
+   "normal_pass_rate_s04": 0.571,
+   "normal_windows": 2340,
+   "positive_v2_windows": 121,
+   "events_with_v2_positive": 29,
+   "events_with_in_event_window": 32
+  },
+  "gap<=0.5": {
+   "normal_pass_rate_s03": 0.964,
+   "normal_pass_rate_s04": 0.917,
+   "normal_windows": 2968,
+   "positive_v2_windows": 194,
+   "events_with_v2_positive": 33,
+   "events_with_in_event_window": 33
+  },
+  "gap<=0.75": {
+   "normal_pass_rate_s03": 0.996,
+   "normal_pass_rate_s04": 0.988,
+   "normal_windows": 3111,
+   "positive_v2_windows": 212,
+   "events_with_v2_positive": 33,
+   "events_with_in_event_window": 34
+  }
+ }
+}

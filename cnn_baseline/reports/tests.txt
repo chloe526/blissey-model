@@ -1,0 +1,11 @@
+test_checkpoint_roundtrip_and_moment_rejection (test_baseline.BaselineTests.test_checkpoint_roundtrip_and_moment_rejection) ... ok
+test_metrics_and_uncovered_events (test_baseline.BaselineTests.test_metrics_and_uncovered_events) ... ok
+test_no_moment_or_veri_dependencies_imported (test_baseline.BaselineTests.test_no_moment_or_veri_dependencies_imported) ... ok
+test_shape_and_real_backward_at_batch_size_one (test_baseline.BaselineTests.test_shape_and_real_backward_at_batch_size_one) ... ok
+test_training_loader_does_not_open_test_array (test_baseline.BaselineTests.test_training_loader_does_not_open_test_array) ... ok
+test_weighted_loss_does_not_cancel_with_one_example (test_baseline.BaselineTests.test_weighted_loss_does_not_cancel_with_one_example) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.687s
+
+OK

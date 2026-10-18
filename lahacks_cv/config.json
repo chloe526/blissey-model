@@ -1,0 +1,36 @@
+{
+  "class_weight_policy": "[1,min(4,sqrt(n_normal/n_fall))], training partition only",
+  "cnn": {
+    "batch_size": 32,
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "dropout": 0.2,
+    "epochs": 30,
+    "gradient_clip": 5.0,
+    "kernels": [
+      9,
+      7,
+      5
+    ],
+    "learning_rate": 0.001,
+    "min_delta": 0.0001,
+    "patience": 5,
+    "weight_decay": 0.01
+  },
+  "refit": "forbidden until separate post-benchmark review and implementation",
+  "rf": {
+    "max_depth": 6,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5,
+    "n_estimators": 300
+  },
+  "seed": 42,
+  "selection": "CNN epochs selected by inner whole-recording unweighted validation loss; outer block used once for reporting",
+  "status": "development cross-validation only; no independent final test",
+  "threads": 4,
+  "threshold": 0.5,
+  "version": "lahacks_cv_v1"
+}

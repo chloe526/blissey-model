@@ -1,0 +1,8 @@
+# veri/base supplies CUDA PyTorch. This pin must resolve to the existing GPU runtime.
+numpy==1.26.4
+torch==2.8.0
+transformers==4.55.4
+huggingface-hub==0.34.4
+momentfm @ git+https://github.com/moment-timeseries-foundation-model/moment.git@38f7310ad594100747ca2a8357e9c7ca7d323e0e
+veri-sdk==0.2.44
+fsspec==2025.3.0

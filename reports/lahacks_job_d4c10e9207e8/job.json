@@ -1,0 +1,13 @@
+{
+  "id": "d4c10e9207e8",
+  "status": "completed",
+  "base_model": null,
+  "cost_usd": 0.35357949225040003,
+  "dashboard_url": "https://veri.studio/training?job=d4c10e9207e8",
+  "download_url": "https://veri-jobs.s3.us-east-1.amazonaws.com/jobs/d4c10e9207e8/final/hf/?x-id=GetObject&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA45MX6ICYWNT4QRUD%2F20261018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261018T033813Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=156b4d4a22573962f253ab4545de07059bb3b39f83fa602794456c532f101bcf&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLWVhc3QtMSJHMEUCIHsuJWe2KJ1NqAB1ZbjhFKcdhKDbu0K3rA8Jis6YPTCLAiEArpMlNEdzvDfRHuo8%2B6IOzQOO3elYE%2FYVBKhdIknWCwgq7wMICBAAGgw4ODc3NjYyNzAxMjkiDG0CTRHEcIIfFVAX8irMA4ec4YBtPAu37GiL8rm7V7e4IFrQIWsllVjdOXwwkEBk7aWSnLSdBgttAAFUSscW1iJo43DsDx8TLY0%2F54KhJ7MWRTzcEaSe%2Bfo%2FrF0sux3Rfr8HuL6ahHqN0GDog%2Fy8AqDHONflYfbfeSvLTLx51ERwPAaAjUDXxRursQZvI3Rvjo%2F%2Fr%2BLYlXHi8DEWqwwRheqySSr0t0Vckd7XyVULWt%2Bz8M7pgRq45NyqycOIQ6VAKUAAneMraNrtHS%2BSsavdWbkQNCA6TRMQqRPzg%2Bld42mJlIHnWgJoDKJJWgM%2FcyGNM%2B%2F5q2VERptXjJBiIPY0gDabxhOSNU3i%2FE1BlnKMRgzUA6uT18Aqag%2FbrhvAVDkiqwDV68%2F%2Fam%2FxXbsjcvnvEE545TLhkL345VRdRdJBtAlwao4qwk07jiNEtdHf4hojxdYIqxCYWnlMBSrIHCuDXo8Id9x03G54lnFbqDIlqR1yUF2%2BDfUbFpI%2F0FSFu1iISXz2nU9MIBfiwgCCUGTr8apUzxfEsR3AwBoCGUVziqFNRnhy0S9un95Bk3V1gKAGZe2e0ilR2X71XnAszc8MVr%2Bxb83JZsyQ5%2FoWpkGjkgIT%2Bkmi0R45%2FRETEnswg4PQ1gY6pQE48x%2BGFn2gWwKadBvkl3sgLCbC6pzwFsD7Cha5Ebo6GOKUQesXYyqiHY885JJBjq5vsinM72xbmlUGgSNPGQD%2BO%2FZcJwZ65fKiKhPg7LlrFS4pgYsCa1wx3tDiuIb15wquDdMnxndyqII6TXtAsYvrbQF1kz8qagHFtPWsftMCb%2FIG1H9rf%2F2QrHEk0wTKf6dmhNpPoZ1GQtX8fb62lnTykG%2FlOos%3D",
+  "wandb_run_url": "",
+  "hf_repo_url": "",
+  "error_message": "",
+  "error_code": "",
+  "error_attribution": ""
+}

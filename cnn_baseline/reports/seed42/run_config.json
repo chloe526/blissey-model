@@ -1,0 +1,55 @@
+{
+  "model_type": "blissey_cnn_1d_v1",
+  "initialization": "random; no pretrained weights",
+  "config": {
+    "seed": 42,
+    "epochs": 30,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "patience": 6,
+    "min_delta": 0.0001,
+    "gradient_clip": 5.0,
+    "dropout": 0.2,
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "kernels": [
+      9,
+      7,
+      5
+    ],
+    "selection_metric": "unweighted_validation_loss",
+    "decision_threshold": 0.5,
+    "threads": 2
+  },
+  "device": "cpu",
+  "parameter_count": 21666,
+  "class_weights": [
+    0.5311704874038696,
+    8.520408630371094
+  ],
+  "training_class_distribution": [
+    786,
+    49
+  ],
+  "preprocessing_config_sha256": "8f83dbdd4e2d1987c12b701f75d655938710ce4797291b1a43bc44dc666c5983",
+  "artifact_sha256": {
+    "train": "03aaa608201a645e7eb76ee83a55414f8f3c2dad22d9f51e1ae63b725bf2d690",
+    "val": "8c221423e4fcfc3eccd8bfa027d32757b727b4d3c1069d99e7f3603d648b331b",
+    "test": "9ee6b912f86e78adc41270e615b5bd718fac26cd658e998fefdeb16659fd6b90"
+  },
+  "training_inputs_opened": [
+    "train.npz",
+    "val.npz"
+  ],
+  "versions": {
+    "torch": "2.8.0",
+    "numpy": "1.26.4"
+  },
+  "python": "3.11.17",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "processor": "arm"
+}

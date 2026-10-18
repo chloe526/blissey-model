@@ -1,0 +1,41 @@
+{
+ "clean_windows_available": 687,
+ "tested": 500,
+ "threshold": 0.20532442089868647,
+ "e1_clean_sd": 0.24669142133211674,
+ "0.25": {
+  "median_abs_dprob": 0.0026123645113053334,
+  "p95_abs_dprob": 0.029423839132924907,
+  "decision_flip_rate": 0.006,
+  "median_e1_shift_in_sd": -0.12173758797204591,
+  "p95_abs_e1_shift_in_sd": 0.4636276446998103
+ },
+ "0.35": {
+  "median_abs_dprob": 0.00421992465413132,
+  "p95_abs_dprob": 0.04278416063938946,
+  "decision_flip_rate": 0.01,
+  "median_e1_shift_in_sd": -0.2408708795213957,
+  "p95_abs_e1_shift_in_sd": 0.5740145903537782
+ },
+ "0.5": {
+  "median_abs_dprob": 0.005347990735965977,
+  "p95_abs_dprob": 0.054744519485086095,
+  "decision_flip_rate": 0.014,
+  "median_e1_shift_in_sd": -0.45040406048452264,
+  "p95_abs_e1_shift_in_sd": 0.9049245114924481
+ },
+ "0.75": {
+  "median_abs_dprob": 0.007043945658938535,
+  "p95_abs_dprob": 0.08688385039823984,
+  "decision_flip_rate": 0.014,
+  "median_e1_shift_in_sd": -0.8109306781098491,
+  "p95_abs_e1_shift_in_sd": 1.3192869365665443
+ },
+ "1.0": {
+  "median_abs_dprob": 0.013017249737159172,
+  "p95_abs_dprob": 0.07891491300667042,
+  "decision_flip_rate": 0.02,
+  "median_e1_shift_in_sd": -1.2622084111480676,
+  "p95_abs_e1_shift_in_sd": 1.9039996298874056
+ }
+}

@@ -1,0 +1,89 @@
+{
+  "train": {
+    "rejection_reasons": {
+      "insufficient_temporal_coverage,unsupported_window_edge": 28,
+      "insufficient_temporal_coverage": 37,
+      "insufficient_temporal_coverage,excessive_packet_gap": 4,
+      "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 3,
+      "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge": 1,
+      "excessive_packet_gap": 4,
+      "unsupported_window_edge,excessive_packet_gap": 1
+    },
+    "excluded_recordings": 4,
+    "excluded_label_windows": 491,
+    "rejected_quality_windows": 78,
+    "duplicate_packets": 4,
+    "windows": 835,
+    "class_counts": [
+      786,
+      49
+    ],
+    "independent_recordings": 26,
+    "independent_sessions": 1
+  },
+  "val": {
+    "rejection_reasons": {
+      "unsupported_window_edge,excessive_packet_gap": 67,
+      "excessive_packet_gap": 210,
+      "insufficient_effective_rate,excessive_packet_gap": 2,
+      "insufficient_effective_rate,unsupported_window_edge,excessive_packet_gap": 4,
+      "insufficient_effective_rate,insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 6,
+      "unsupported_window_edge": 49,
+      "insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 14,
+      "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 29,
+      "insufficient_temporal_coverage,excessive_packet_gap": 143,
+      "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 82,
+      "insufficient_effective_rate,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 1,
+      "insufficient_effective_rate,insufficient_temporal_coverage,excessive_packet_gap": 7,
+      "insufficient_effective_rate": 5,
+      "insufficient_effective_rate,unsupported_window_edge": 3,
+      "insufficient_temporal_coverage,unsupported_window_edge": 1,
+      "insufficient_temporal_coverage": 3,
+      "insufficient_sample_span,unsupported_window_edge": 1,
+      "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge": 1
+    },
+    "excluded_recordings": 0,
+    "excluded_label_windows": 203,
+    "rejected_quality_windows": 628,
+    "duplicate_packets": 11,
+    "windows": 465,
+    "class_counts": [
+      457,
+      8
+    ],
+    "independent_recordings": 23,
+    "independent_sessions": 1
+  },
+  "test": {
+    "rejection_reasons": {
+      "unsupported_window_edge": 128,
+      "excessive_packet_gap": 168,
+      "unsupported_window_edge,excessive_packet_gap": 54,
+      "insufficient_temporal_coverage,excessive_packet_gap": 192,
+      "insufficient_effective_rate,insufficient_temporal_coverage,excessive_packet_gap": 30,
+      "insufficient_effective_rate,excessive_packet_gap": 6,
+      "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 126,
+      "insufficient_effective_rate,insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 25,
+      "insufficient_effective_rate": 2,
+      "insufficient_temporal_coverage": 11,
+      "insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 11,
+      "insufficient_effective_rate,insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 7,
+      "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 39,
+      "insufficient_sample_span,unsupported_window_edge": 3,
+      "insufficient_temporal_coverage,unsupported_window_edge": 7,
+      "insufficient_effective_rate,unsupported_window_edge,excessive_packet_gap": 1
+    },
+    "excluded_recordings": 0,
+    "excluded_label_windows": 188,
+    "rejected_quality_windows": 810,
+    "duplicate_packets": 5,
+    "windows": 1270,
+    "class_counts": [
+      1249,
+      21
+    ],
+    "independent_recordings": 39,
+    "independent_sessions": 1
+  }
+}
+Prepared: data/processed

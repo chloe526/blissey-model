@@ -1,0 +1,1683 @@
+{
+  "removed": [
+    {
+      "path": ".venv",
+      "logical_file_bytes": 28090388,
+      "reason": "Obsolete mixed Python 3.10/3.12 environment containing only pip/setuptools; active environment is .venv311"
+    },
+    {
+      "path": "hosting",
+      "logical_file_bytes": 123093259,
+      "reason": "Reproducible upload staging copy; recreate with scripts/prepare_hosting.py"
+    },
+    {
+      "path": "cnn_baseline/tests/__pycache__",
+      "logical_file_bytes": 12302,
+      "reason": "Reproducible cache or Finder metadata"
+    },
+    {
+      "path": "cnn_baseline/__pycache__",
+      "logical_file_bytes": 50272,
+      "reason": "Reproducible cache or Finder metadata"
+    },
+    {
+      "path": "tests/__pycache__",
+      "logical_file_bytes": 60603,
+      "reason": "Reproducible cache or Finder metadata"
+    },
+    {
+      "path": "scripts/__pycache__",
+      "logical_file_bytes": 32708,
+      "reason": "Reproducible cache or Finder metadata"
+    },
+    {
+      "path": "data/.DS_Store",
+      "logical_file_bytes": 6148,
+      "reason": "Reproducible cache or Finder metadata"
+    },
+    {
+      "path": ".DS_Store",
+      "logical_file_bytes": 6148,
+      "reason": "Reproducible cache or Finder metadata"
+    },
+    {
+      "path": "__pycache__",
+      "logical_file_bytes": 184316,
+      "reason": "Reproducible cache or Finder metadata"
+    },
+    {
+      "path": "reports/preprocessing_review_v2.json",
+      "logical_file_bytes": 13147,
+      "reason": "Byte-identical duplicate of reports/quality_v2_comparison.json; audit command can regenerate it"
+    },
+    {
+      "path": "checkpoints",
+      "logical_file_bytes": 0,
+      "reason": "Empty generated-output placeholder"
+    },
+    {
+      "path": "data/raw",
+      "logical_file_bytes": 0,
+      "reason": "Empty generated-output placeholder"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/__pycache__",
+      "logical_file_bytes": 182710,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/packaging/__pycache__",
+      "logical_file_bytes": 45116,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/__pycache__",
+      "logical_file_bytes": 2616,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/normalizers/__pycache__",
+      "logical_file_bytes": 1347,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/models/__pycache__",
+      "logical_file_bytes": 423,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/trainers/__pycache__",
+      "logical_file_bytes": 464,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/processors/__pycache__",
+      "logical_file_bytes": 508,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/decoders/__pycache__",
+      "logical_file_bytes": 659,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/implementations/__pycache__",
+      "logical_file_bytes": 54691,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tokenizers/pre_tokenizers/__pycache__",
+      "logical_file_bytes": 747,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/markupsafe/__pycache__",
+      "logical_file_bytes": 25922,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/huggingface_hub/__pycache__",
+      "logical_file_bytes": 941887,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/huggingface_hub/serialization/__pycache__",
+      "logical_file_bytes": 64182,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/huggingface_hub/utils/__pycache__",
+      "logical_file_bytes": 225870,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/huggingface_hub/commands/__pycache__",
+      "logical_file_bytes": 5565,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/__pycache__",
+      "logical_file_bytes": 39810,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/series/__pycache__",
+      "logical_file_bytes": 280019,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/core/__pycache__",
+      "logical_file_bytes": 1418226,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/polys/__pycache__",
+      "logical_file_bytes": 2351940,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/polys/domains/__pycache__",
+      "logical_file_bytes": 275347,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/polys/numberfields/__pycache__",
+      "logical_file_bytes": 278045,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/polys/agca/__pycache__",
+      "logical_file_bytes": 147587,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/polys/matrices/__pycache__",
+      "logical_file_bytes": 387623,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/concrete/__pycache__",
+      "logical_file_bytes": 151365,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/strategies/__pycache__",
+      "logical_file_bytes": 28552,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/strategies/branch/__pycache__",
+      "logical_file_bytes": 9440,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/ntheory/__pycache__",
+      "logical_file_bytes": 336400,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/discrete/__pycache__",
+      "logical_file_bytes": 40814,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/printing/__pycache__",
+      "logical_file_bytes": 931138,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/printing/pretty/__pycache__",
+      "logical_file_bytes": 236873,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/algebras/__pycache__",
+      "logical_file_bytes": 65047,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/logic/__pycache__",
+      "logical_file_bytes": 181004,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/solvers/__pycache__",
+      "logical_file_bytes": 613379,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/solvers/diophantine/__pycache__",
+      "logical_file_bytes": 166592,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/solvers/ode/__pycache__",
+      "logical_file_bytes": 629740,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/multipledispatch/__pycache__",
+      "logical_file_bytes": 36479,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/utilities/__pycache__",
+      "logical_file_bytes": 296014,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/utilities/mathml/__pycache__",
+      "logical_file_bytes": 4621,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/integrals/__pycache__",
+      "logical_file_bytes": 463449,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/assumptions/__pycache__",
+      "logical_file_bytes": 144876,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/assumptions/relation/__pycache__",
+      "logical_file_bytes": 19563,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/plotting/__pycache__",
+      "logical_file_bytes": 229317,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/plotting/pygletplot/__pycache__",
+      "logical_file_bytes": 4170,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/plotting/intervalmath/__pycache__",
+      "logical_file_bytes": 50655,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/plotting/backends/__pycache__",
+      "logical_file_bytes": 19707,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/plotting/backends/matplotlibbackend/__pycache__",
+      "logical_file_bytes": 18867,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/plotting/backends/textbackend/__pycache__",
+      "logical_file_bytes": 2354,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/sets/__pycache__",
+      "logical_file_bytes": 233443,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/sets/handlers/__pycache__",
+      "logical_file_bytes": 37613,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/interactive/__pycache__",
+      "logical_file_bytes": 46631,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/functions/__pycache__",
+      "logical_file_bytes": 8191,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/functions/special/__pycache__",
+      "logical_file_bytes": 610876,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/functions/combinatorial/__pycache__",
+      "logical_file_bytes": 191918,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/functions/elementary/__pycache__",
+      "logical_file_bytes": 606518,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/tensor/__pycache__",
+      "logical_file_bytes": 58355,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/tensor/array/__pycache__",
+      "logical_file_bytes": 112758,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/geometry/__pycache__",
+      "logical_file_bytes": 465417,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/external/__pycache__",
+      "logical_file_bytes": 54284,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/parsing/__pycache__",
+      "logical_file_bytes": 53169,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/calculus/__pycache__",
+      "logical_file_bytes": 115213,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/simplify/__pycache__",
+      "logical_file_bytes": 633211,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/matrices/__pycache__",
+      "logical_file_bytes": 617066,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/sympy/matrices/expressions/__pycache__",
+      "logical_file_bytes": 295322,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/mpmath/__pycache__",
+      "logical_file_bytes": 610566,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/mpmath/libmp/__pycache__",
+      "logical_file_bytes": 372728,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/mpmath/functions/__pycache__",
+      "logical_file_bytes": 541834,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/mpmath/calculus/__pycache__",
+      "logical_file_bytes": 291636,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/mpmath/matrices/__pycache__",
+      "logical_file_bytes": 209195,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/jinja2/__pycache__",
+      "logical_file_bytes": 695601,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/idna/__pycache__",
+      "logical_file_bytes": 64925,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/__pycache__",
+      "logical_file_bytes": 2299101,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_higher_order_ops/__pycache__",
+      "logical_file_bytes": 559516,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_prims/__pycache__",
+      "logical_file_bytes": 135448,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_logging/__pycache__",
+      "logical_file_bytes": 75454,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_functorch/__pycache__",
+      "logical_file_bytes": 237567,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_functorch/_aot_autograd/__pycache__",
+      "logical_file_bytes": 286723,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_numpy/__pycache__",
+      "logical_file_bytes": 245544,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_export/__pycache__",
+      "logical_file_bytes": 124226,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/monitor/__pycache__",
+      "logical_file_bytes": 2314,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_dispatch/__pycache__",
+      "logical_file_bytes": 13103,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_subclasses/__pycache__",
+      "logical_file_bytes": 335263,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/futures/__pycache__",
+      "logical_file_bytes": 18204,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/linalg/__pycache__",
+      "logical_file_bytes": 116540,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_custom_op/__pycache__",
+      "logical_file_bytes": 51248,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/__pycache__",
+      "logical_file_bytes": 323117,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/attention/__pycache__",
+      "logical_file_bytes": 78556,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/parallel/__pycache__",
+      "logical_file_bytes": 184548,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/qat/__pycache__",
+      "logical_file_bytes": 593,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/qat/dynamic/__pycache__",
+      "logical_file_bytes": 434,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/qat/dynamic/modules/__pycache__",
+      "logical_file_bytes": 1028,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/qat/modules/__pycache__",
+      "logical_file_bytes": 2939,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/quantized/__pycache__",
+      "logical_file_bytes": 1368,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/quantized/dynamic/__pycache__",
+      "logical_file_bytes": 293,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/quantized/modules/__pycache__",
+      "logical_file_bytes": 2534,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/utils/__pycache__",
+      "logical_file_bytes": 186761,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/utils/_expanded_weights/__pycache__",
+      "logical_file_bytes": 60322,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/quantizable/__pycache__",
+      "logical_file_bytes": 286,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/quantizable/modules/__pycache__",
+      "logical_file_bytes": 494,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/__pycache__",
+      "logical_file_bytes": 984,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/qat/__pycache__",
+      "logical_file_bytes": 290,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/qat/modules/__pycache__",
+      "logical_file_bytes": 3509,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/quantized/__pycache__",
+      "logical_file_bytes": 506,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/quantized/dynamic/__pycache__",
+      "logical_file_bytes": 318,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/quantized/dynamic/modules/__pycache__",
+      "logical_file_bytes": 770,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/quantized/modules/__pycache__",
+      "logical_file_bytes": 1871,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/intrinsic/modules/__pycache__",
+      "logical_file_bytes": 1640,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nn/modules/__pycache__",
+      "logical_file_bytes": 947618,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/mps/__pycache__",
+      "logical_file_bytes": 17328,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/onnx/__pycache__",
+      "logical_file_bytes": 796692,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/onnx/_internal/__pycache__",
+      "logical_file_bytes": 150287,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/onnx/_internal/fx/__pycache__",
+      "logical_file_bytes": 27353,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/onnx/_internal/exporter/__pycache__",
+      "logical_file_bytes": 49343,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/onnx/ops/__pycache__",
+      "logical_file_bytes": 55357,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_vendor/__pycache__",
+      "logical_file_bytes": 226,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_vendor/packaging/__pycache__",
+      "logical_file_bytes": 25803,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/cpu/__pycache__",
+      "logical_file_bytes": 8415,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/cpu/amp/__pycache__",
+      "logical_file_bytes": 5035,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/__pycache__",
+      "logical_file_bytes": 437861,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/nn/__pycache__",
+      "logical_file_bytes": 24003,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/nn/jit/__pycache__",
+      "logical_file_bytes": 7085,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/nn/jit/templates/__pycache__",
+      "logical_file_bytes": 3612,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/nn/api/__pycache__",
+      "logical_file_bytes": 38658,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/autograd/__pycache__",
+      "logical_file_bytes": 2798,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/algorithms/__pycache__",
+      "logical_file_bytes": 16830,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/algorithms/_comm_hooks/__pycache__",
+      "logical_file_bytes": 10270,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/algorithms/_checkpoint/__pycache__",
+      "logical_file_bytes": 15644,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/_composable/__pycache__",
+      "logical_file_bytes": 31697,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/fsdp/__pycache__",
+      "logical_file_bytes": 628123,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/fsdp/_fully_shard/__pycache__",
+      "logical_file_bytes": 199605,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/_shard/__pycache__",
+      "logical_file_bytes": 26157,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/_shard/sharded_tensor/__pycache__",
+      "logical_file_bytes": 109422,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/_shard/sharded_tensor/_ops/__pycache__",
+      "logical_file_bytes": 29859,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/_shard/sharding_plan/__pycache__",
+      "logical_file_bytes": 5191,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/_shard/sharding_spec/__pycache__",
+      "logical_file_bytes": 34066,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/_shard/sharding_spec/chunk_sharding_spec_ops/__pycache__",
+      "logical_file_bytes": 49884,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/tensor/__pycache__",
+      "logical_file_bytes": 261143,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/tensor/parallel/__pycache__",
+      "logical_file_bytes": 92849,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/tensor/_ops/__pycache__",
+      "logical_file_bytes": 237474,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributed/rpc/__pycache__",
+      "logical_file_bytes": 110021,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/autograd/__pycache__",
+      "logical_file_bytes": 436218,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/fx/__pycache__",
+      "logical_file_bytes": 401319,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/fx/experimental/__pycache__",
+      "logical_file_bytes": 579992,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/fx/passes/__pycache__",
+      "logical_file_bytes": 272723,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/fx/passes/infra/__pycache__",
+      "logical_file_bytes": 18647,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/fx/passes/utils/__pycache__",
+      "logical_file_bytes": 34282,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_prims_common/__pycache__",
+      "logical_file_bytes": 109139,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/multiprocessing/__pycache__",
+      "logical_file_bytes": 42785,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/cuda/__pycache__",
+      "logical_file_bytes": 325490,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/cuda/amp/__pycache__",
+      "logical_file_bytes": 7816,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/__pycache__",
+      "logical_file_bytes": 3201,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/mha/__pycache__",
+      "logical_file_bytes": 1132,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/nnpack/__pycache__",
+      "logical_file_bytes": 2201,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/mps/__pycache__",
+      "logical_file_bytes": 2836,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/cpu/__pycache__",
+      "logical_file_bytes": 718,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/cuda/__pycache__",
+      "logical_file_bytes": 26425,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/quantized/__pycache__",
+      "logical_file_bytes": 4222,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/mkl/__pycache__",
+      "logical_file_bytes": 2815,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/kleidiai/__pycache__",
+      "logical_file_bytes": 495,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/cusparselt/__pycache__",
+      "logical_file_bytes": 1953,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/mkldnn/__pycache__",
+      "logical_file_bytes": 6399,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/openmp/__pycache__",
+      "logical_file_bytes": 488,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/backends/cudnn/__pycache__",
+      "logical_file_bytes": 8594,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_decomp/__pycache__",
+      "logical_file_bytes": 299323,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/xpu/__pycache__",
+      "logical_file_bytes": 57068,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/masked/__pycache__",
+      "logical_file_bytes": 126043,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/masked/maskedtensor/__pycache__",
+      "logical_file_bytes": 52549,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/optim/__pycache__",
+      "logical_file_bytes": 505379,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_inductor/__pycache__",
+      "logical_file_bytes": 268002,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_inductor/runtime/__pycache__",
+      "logical_file_bytes": 20451,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/__pycache__",
+      "logical_file_bytes": 476997,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/_sympy/__pycache__",
+      "logical_file_bytes": 200666,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/serialization/__pycache__",
+      "logical_file_bytes": 1905,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/backcompat/__pycache__",
+      "logical_file_bytes": 1483,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/data/__pycache__",
+      "logical_file_bytes": 119190,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/data/_utils/__pycache__",
+      "logical_file_bytes": 49994,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/data/datapipes/__pycache__",
+      "logical_file_bytes": 67425,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/data/datapipes/dataframe/__pycache__",
+      "logical_file_bytes": 42229,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/data/datapipes/iter/__pycache__",
+      "logical_file_bytes": 106901,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/data/datapipes/utils/__pycache__",
+      "logical_file_bytes": 35691,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/utils/data/datapipes/map/__pycache__",
+      "logical_file_bytes": 24272,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/quantization/__pycache__",
+      "logical_file_bytes": 14202,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/special/__pycache__",
+      "logical_file_bytes": 33390,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/testing/__pycache__",
+      "logical_file_bytes": 96755,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/testing/_internal/__pycache__",
+      "logical_file_bytes": 12157,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/testing/_internal/distributed/__pycache__",
+      "logical_file_bytes": 1958,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_library/__pycache__",
+      "logical_file_bytes": 166733,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/accelerator/__pycache__",
+      "logical_file_bytes": 12060,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/amp/__pycache__",
+      "logical_file_bytes": 63002,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/jit/__pycache__",
+      "logical_file_bytes": 387856,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_dynamo/__pycache__",
+      "logical_file_bytes": 1717976,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_dynamo/backends/__pycache__",
+      "logical_file_bytes": 8221,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_dynamo/variables/__pycache__",
+      "logical_file_bytes": 1382950,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_dynamo/polyfills/__pycache__",
+      "logical_file_bytes": 60258,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/__pycache__",
+      "logical_file_bytes": 1040,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/__pycache__",
+      "logical_file_bytes": 1082,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/qat/__pycache__",
+      "logical_file_bytes": 260,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/qat/dynamic/__pycache__",
+      "logical_file_bytes": 268,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/qat/dynamic/modules/__pycache__",
+      "logical_file_bytes": 2535,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/qat/modules/__pycache__",
+      "logical_file_bytes": 26597,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantized/__pycache__",
+      "logical_file_bytes": 33521,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantized/dynamic/__pycache__",
+      "logical_file_bytes": 274,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantized/dynamic/modules/__pycache__",
+      "logical_file_bytes": 88881,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantized/modules/__pycache__",
+      "logical_file_bytes": 156148,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantized/reference/__pycache__",
+      "logical_file_bytes": 457,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantized/reference/modules/__pycache__",
+      "logical_file_bytes": 75514,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantizable/__pycache__",
+      "logical_file_bytes": 268,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/quantizable/modules/__pycache__",
+      "logical_file_bytes": 52248,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/__pycache__",
+      "logical_file_bytes": 1116,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/qat/__pycache__",
+      "logical_file_bytes": 270,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/qat/modules/__pycache__",
+      "logical_file_bytes": 48651,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/quantized/__pycache__",
+      "logical_file_bytes": 433,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/quantized/dynamic/__pycache__",
+      "logical_file_bytes": 284,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/quantized/dynamic/modules/__pycache__",
+      "logical_file_bytes": 3982,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/quantized/modules/__pycache__",
+      "logical_file_bytes": 32839,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/intrinsic/modules/__pycache__",
+      "logical_file_bytes": 17047,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/sparse/__pycache__",
+      "logical_file_bytes": 279,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/sparse/quantized/__pycache__",
+      "logical_file_bytes": 16785,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/nn/sparse/quantized/dynamic/__pycache__",
+      "logical_file_bytes": 9209,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/ns/__pycache__",
+      "logical_file_bytes": 224,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/ns/fx/__pycache__",
+      "logical_file_bytes": 24931,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/quantization/__pycache__",
+      "logical_file_bytes": 294115,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/ao/quantization/pt2e/__pycache__",
+      "logical_file_bytes": 39405,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/mtia/__pycache__",
+      "logical_file_bytes": 24192,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_refs/__pycache__",
+      "logical_file_bytes": 328968,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_refs/linalg/__pycache__",
+      "logical_file_bytes": 18786,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_refs/nn/__pycache__",
+      "logical_file_bytes": 312,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_refs/nn/functional/__pycache__",
+      "logical_file_bytes": 51913,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_refs/special/__pycache__",
+      "logical_file_bytes": 10667,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/fft/__pycache__",
+      "logical_file_bytes": 56848,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/profiler/__pycache__",
+      "logical_file_bytes": 161544,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/sparse/__pycache__",
+      "logical_file_bytes": 85023,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_awaits/__pycache__",
+      "logical_file_bytes": 2435,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/export/__pycache__",
+      "logical_file_bytes": 307453,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nested/__pycache__",
+      "logical_file_bytes": 24228,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/nested/_internal/__pycache__",
+      "logical_file_bytes": 35903,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/_strobelight/__pycache__",
+      "logical_file_bytes": 27570,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/compiler/__pycache__",
+      "logical_file_bytes": 46381,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/signal/__pycache__",
+      "logical_file_bytes": 298,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/signal/windows/__pycache__",
+      "logical_file_bytes": 27082,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/distributions/__pycache__",
+      "logical_file_bytes": 565569,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/package/__pycache__",
+      "logical_file_bytes": 156997,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/package/analyze/__pycache__",
+      "logical_file_bytes": 5583,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torch/func/__pycache__",
+      "logical_file_bytes": 972,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/filelock/__pycache__",
+      "logical_file_bytes": 276230,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/regex/__pycache__",
+      "logical_file_bytes": 260473,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/__pycache__",
+      "logical_file_bytes": 68710,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/distutils/__pycache__",
+      "logical_file_bytes": 22599,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/_utils/__pycache__",
+      "logical_file_bytes": 12571,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/compat/__pycache__",
+      "logical_file_bytes": 7479,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/core/__pycache__",
+      "logical_file_bytes": 1034922,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/linalg/__pycache__",
+      "logical_file_bytes": 109573,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/ma/__pycache__",
+      "logical_file_bytes": 402689,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/_core/__pycache__",
+      "logical_file_bytes": 869,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/_typing/__pycache__",
+      "logical_file_bytes": 37586,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/typing/__pycache__",
+      "logical_file_bytes": 5455,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/testing/__pycache__",
+      "logical_file_bytes": 4087,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/testing/_private/__pycache__",
+      "logical_file_bytes": 116672,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/lib/__pycache__",
+      "logical_file_bytes": 927561,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/fft/__pycache__",
+      "logical_file_bytes": 74068,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/random/__pycache__",
+      "logical_file_bytes": 10558,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/matrixlib/__pycache__",
+      "logical_file_bytes": 38210,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/numpy/polynomial/__pycache__",
+      "logical_file_bytes": 465569,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/charset_normalizer/__pycache__",
+      "logical_file_bytes": 129883,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/requests/__pycache__",
+      "logical_file_bytes": 262188,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/momentfm/__pycache__",
+      "logical_file_bytes": 1113,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/momentfm/utils/__pycache__",
+      "logical_file_bytes": 12508,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/momentfm/models/__pycache__",
+      "logical_file_bytes": 31751,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/momentfm/models/layers/__pycache__",
+      "logical_file_bytes": 21305,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/momentfm/data/__pycache__",
+      "logical_file_bytes": 1437,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/certifi/__pycache__",
+      "logical_file_bytes": 2783,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/__pycache__",
+      "logical_file_bytes": 1627088,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/onnx/__pycache__",
+      "logical_file_bytes": 43026,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/loss/__pycache__",
+      "logical_file_bytes": 120646,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/distributed/__pycache__",
+      "logical_file_bytes": 6731,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/quantizers/__pycache__",
+      "logical_file_bytes": 247126,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/utils/__pycache__",
+      "logical_file_bytes": 623722,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/models/__pycache__",
+      "logical_file_bytes": 11400,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/models/auto/__pycache__",
+      "logical_file_bytes": 156572,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/models/t5/__pycache__",
+      "logical_file_bytes": 123562,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/integrations/__pycache__",
+      "logical_file_bytes": 206115,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/transformers/generation/__pycache__",
+      "logical_file_bytes": 760029,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tqdm/__pycache__",
+      "logical_file_bytes": 137015,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/tqdm/contrib/__pycache__",
+      "logical_file_bytes": 18533,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/safetensors/__pycache__",
+      "logical_file_bytes": 28142,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/yaml/__pycache__",
+      "logical_file_bytes": 276200,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/torchgen/__pycache__",
+      "logical_file_bytes": 155404,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/urllib3/__pycache__",
+      "logical_file_bytes": 265418,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/urllib3/util/__pycache__",
+      "logical_file_bytes": 122818,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/urllib3/contrib/__pycache__",
+      "logical_file_bytes": 8841,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    },
+    {
+      "path": ".venv311/lib/python3.11/site-packages/urllib3/http2/__pycache__",
+      "logical_file_bytes": 6426,
+      "reason": "Regenerable bytecode cache; corresponding Python source files verified present"
+    }
+  ],
+  "archived": [
+    {
+      "source": "reports/preprocessing_review.md",
+      "target": "reports/archive/preprocessing/preprocessing_review.md"
+    },
+    {
+      "source": "reports/preprocessing_review.json",
+      "target": "reports/archive/preprocessing/preprocessing_review.json"
+    },
+    {
+      "source": "reports/preprocessing_review_smoke_dry_run.txt",
+      "target": "reports/archive/preprocessing/preprocessing_review_smoke_dry_run.txt"
+    },
+    {
+      "source": "reports/preprocessing_review_smoke_manifest_check.json",
+      "target": "reports/archive/preprocessing/preprocessing_review_smoke_manifest_check.json"
+    },
+    {
+      "source": "reports/preprocessing_review_tests.txt",
+      "target": "reports/archive/preprocessing/preprocessing_review_tests.txt"
+    },
+    {
+      "source": "reports/veri_packaging_fix.md",
+      "target": "reports/archive/packaging/veri_packaging_fix.md"
+    },
+    {
+      "source": "reports/veri_packaging_fix.json",
+      "target": "reports/archive/packaging/veri_packaging_fix.json"
+    },
+    {
+      "source": "reports/veri_packaging_fix_tests.txt",
+      "target": "reports/archive/packaging/veri_packaging_fix_tests.txt"
+    },
+    {
+      "source": "reports/packaging_fix_smoke_dry_run.txt",
+      "target": "reports/archive/packaging/packaging_fix_smoke_dry_run.txt"
+    },
+    {
+      "source": "reports/pinned_dataset_availability.txt",
+      "target": "reports/archive/packaging/pinned_dataset_availability.txt"
+    },
+    {
+      "source": "reports/rejected_upload_sizes.json",
+      "target": "reports/archive/packaging/rejected_upload_sizes.json"
+    },
+    {
+      "source": "reports/veri_smoke_sdk_archive_check.json",
+      "target": "reports/archive/packaging/veri_smoke_sdk_archive_check.json"
+    },
+    {
+      "source": "reports/submission_dry_run.txt",
+      "target": "reports/archive/packaging/submission_dry_run.txt"
+    },
+    {
+      "source": "reports/upload_archive_check.json",
+      "target": "reports/archive/packaging/upload_archive_check.json"
+    },
+    {
+      "source": "reports/environment_check.txt",
+      "target": "reports/archive/setup/environment_check.txt"
+    },
+    {
+      "source": "reports/local_tests.txt",
+      "target": "reports/archive/setup/local_tests.txt"
+    },
+    {
+      "source": "reports/github_processed_hosting_check.json",
+      "target": "reports/archive/hosting/github_processed_hosting_check.json"
+    },
+    {
+      "source": "reports/moment_full_preparation_validation.json",
+      "target": "reports/archive/hosting/moment_full_preparation_validation.json"
+    }
+  ],
+  "protected_file_count": 68,
+  "protected_sha256": {
+    "audit_quality_v2.py": "03e4da5851e84d56d9f111f36998ed8ee0f3204934d4510575d0a3a3ee1b1eb9",
+    "model_utils.py": "f16368e40f33d235ae2db2740094b65aa720b97a14be734989d64af646b1d4e1",
+    "metrics.py": "e7a371f91601fe543c8c808218bbb95e04d82f5cfa0e7f058076aaa08408c8bb",
+    "requirements-local.txt": "5a153d2e07d35e0b8683db1d1c53d9d55be8a59d330c37ffeae781cbac0ae633",
+    "characterize_acquisition.py": "eb5ef4be46b30070b019da7d6bbc86364231978ac3dd3fc7eaee4a7c6bb4dc45",
+    "requirements.txt": "1e7076157e8299863eb2bbbd2b5bb2291a6dd93b2f20db0bcdbbd8cedca27ec6",
+    "training_data.py": "5e0a05f5650c66681578ec0db490d1f9ace45ffbef0e72fcf4ec1db156e01489",
+    "inspect_dataset.py": "c9731350b3e7013c461c1d10eec81261200169ff02158ed11419d54ac60b482a",
+    "preprocess.py": "afcc027fcb6196640e6a282e4d36a2487ebdae03bff85d1e5fafc6dc542f3bfb",
+    "csi_quality.py": "c03b68dae0843e21646c8f74d7798aec78d984f05494e65fa9717eb0b76a5ab2",
+    "csi.py": "602ea6d813fbefb73afedc46e9768ecec1c39784f460db558c7a701411c2270a",
+    "fetch_dataset.py": "d0c60382bb423b3daf31a03e906693fe1ec526f7d4844a3b45de5e37f848cfa9",
+    "requirements-veri.txt": "0c0f4e80956a7bc5ce2af08eaf66e552c6675c352403deb716ace4e06a2ab686",
+    "requirements-veri.lock.txt": "d58487cefef3f32a44eeab58a211bb497be7876fe07c38d1d812caec4971491c",
+    "requirements-local.lock.txt": "35ecebb7aba935987e5312e51f82de4df4947eb51cdd77473835a5a4ae05b654",
+    "train.py": "9377b701ba7235042d5e3ff82b9a721f40bb350487797de3a2ebec0a787f941b",
+    "infer.py": "a40f15ebd3b217c354bc4f782f7e5db908083fd635124f82e85baca306c8e55b",
+    "evaluate.py": "b2e8e89a110f63f699ebd0198e6214f3562483a8386fac4cb1af4f874d350252",
+    "review_preprocessing.py": "1dd0a529c9aa5d568c6d915414106cf8f11a37e023f9958e9d9f6343413b7c7a",
+    "smoke_test_moment.py": "a2e9501a280d11996cfd745e740cec7721ce20df40a93d6541be754dcde5bbb8",
+    "cnn_baseline/metrics.py": "48b809bbe5f99e268883ed5a1d2e1670a964d9e3ca658955e3cac2aa36902e2f",
+    "cnn_baseline/requirements.txt": "611386ed54eb594e4a0e1e1439cd69894c582078c328cfe821b617d4b4d1916f",
+    "cnn_baseline/config.json": "8a34daa6181afaf37b8dfab25d9a78aa25ca40a479a1ab7f32ff3fca379aea3b",
+    "cnn_baseline/__init__.py": "ca353421147cdb5b416729d04f0e4b97ad4a6be7fbb582bb3e9681ea18edfcd9",
+    "cnn_baseline/runtime.py": "b8773cd872e9620282f1f01da76b579de7d782aaef3895bf921092d145a298aa",
+    "cnn_baseline/model.py": "0f9159a08c554d76df6301053309c8fd290afe5e9c72de2658319b7a7a7a7b95",
+    "cnn_baseline/README.md": "a5c278624b7203ac1a2390ef09db783d75d2784f938eebadeab4d668fafdb7d0",
+    "cnn_baseline/.gitignore": "45c35ab08beab6bca66666aa201ea4cef78947651e3fd5930fa7302fa4947879",
+    "cnn_baseline/train.py": "ad808fd668661db547450d01b495ff77260e662b166662bdc5dfc73ec3bbfeca",
+    "cnn_baseline/evaluate.py": "2d2e47bb3af216d496c6a4499bff09d9433a0ed802e2c2eb76dd320e905bec1f",
+    "cnn_baseline/data.py": "59b8cb211bfb4d0efa57a5e2f150a671bf6d95cc2ab32e5ca2da37207dc61a08",
+    "cnn_baseline/checkpoints/seed42/best.pt": "b54d924771e2ee8c0f63a5728773f4ed5f6c81a6fae70cefab365aca0496e544",
+    "cnn_baseline/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cnn_baseline/tests/test_baseline.py": "a6cfeec44ff8d699fc17d15cbe9405bc9f4d4336a0edc5d4db7b3f20af1f9899",
+    "cnn_baseline/reports/protected_inputs_before.json": "f2601b955d3a4f4734b4a67be0a07431257071d6c57dd750f2b29a2951f0b420",
+    "cnn_baseline/reports/tests.txt": "5436cac63713526f15ebcdd8297582a2bef6524c888bb8be4a4c33871cf90f27",
+    "cnn_baseline/reports/protected_inputs_verification.json": "52dad97b14d27f930b91dd5615af1d2fecf9a36d361c38b5e97b121aa6d1dd45",
+    "cnn_baseline/reports/seed42/test_evaluation_predictions.npz": "a26a79cdf0dcd833264f4e35be55db842afa5ecdc969de8ab481e132d81d24f8",
+    "cnn_baseline/reports/seed42/training.log": "76a185230a0f6dd46bf4fccba357fdcc3358d0b3c7fd6b32ac896ed9d083ebf3",
+    "cnn_baseline/reports/seed42/test_evaluation.txt": "0efcf8791e6dc4fcfbf5e809e7d498c6212c19f73897ef08b59deadd57c325f0",
+    "cnn_baseline/reports/seed42/test_evaluation.json": "fa8437cef46490bc2cc20b350d5a340bfb59dadc2206cb98ad470b51e790c4b0",
+    "cnn_baseline/reports/seed42/history.json": "080455d5de8360106a5967c465beea130680ad4587342fb3d3c51797ab3f41c6",
+    "cnn_baseline/reports/seed42/run_config.json": "54ba0ed4eea725c66cc1f1b253610d17dd0fdfb7b977d52f0e3a441a3a272364",
+    "cnn_baseline/reports/seed42/training_summary.json": "c798d59c8774dcf796d9b377ca3675507b4246846163e8b237b47465c55bc9d2",
+    "cnn_baseline/reports/seed42/evaluation.log": "67747a497ac3932c27ac074b725597d60571cb66e825a7ec9ac9ba15bb848228",
+    "tests/test_csi_quality.py": "48f75a855ba6db76224737b14c14650988bc8e54427b74a843adaaad23b9945e",
+    "tests/test_veri_packaging.py": "5a60bc0bacbf7e43cb842d4b5e3641402579157477a899246a824653f388fd0e",
+    "tests/test_artifacts.py": "74667786c6fa2f46b3e605d8c1f9365d6c66c296088c46780f58b0a944f3b939",
+    "tests/test_training_loss.py": "daac115abe03a6ed359372b8cb7c88096637eef1f9196b607d39aba3bdfc35ee",
+    "tests/test_preprocessing.py": "2dcbdeb60c82b36ca8fc2ee2276b5a701669cbd2dcda5f4d5df66b68ce73828d",
+    "configs/dataset_source.github.example.json": "0b32acd936a20711aca93c3635890d1a3d5dc9836a162eb49e0a05d128a0cecb",
+    "configs/training.json": "c6dadd282f315c197c4231dad7642d107e8b85b1b7f2acab1a5d76bfb2f97447",
+    "configs/dataset_source.json": "9ba21197f9521def8e86f7026d8fe9d44ce1eed4fdae3b82bd3a1aaaecc2142e",
+    "configs/moment-architecture.json": "b0111650e8718e31d7e89575666aa3e140747d35279ec1a7c9f6ed7616c29433",
+    "configs/packet_quality_v2.json": "de1952ab2d6b1d05c130b6f8fba77448a547a88b9947a035285b542595c826ed",
+    "scripts/archive_preflight.py": "f1d5a4a8844584ef751c281762baf35baf67af3cd9d4f0bd72dd839138e001b7",
+    "scripts/remote_train.sh": "284d6846bdae5fd3ce5f48d1b41321f2777e939717d0666f8074295ff488bf39",
+    "scripts/package_veri.py": "8f35261b0d1e8762ac7377dc94064d2aa157da4b59d093d29baad012f5aa25db",
+    "scripts/smoke_test.sh": "92ed9a818eabef41ac2bbae2e6942116050a1f02e1a93bd6bc1683d65c83886e",
+    "scripts/prepare_hosting.py": "9f7060188533a064c6ba703962cb5a7d29009bc4d9b9398c7a1adc23e5d21dfe",
+    "scripts/remote_smoke.sh": "0d79cc345466ccfa3714ec8d003506047dad276dff2a5489d3a1e63e694a801b",
+    "scripts/submit_veri.sh": "444320569479147068c65d88e6a9dc62ffd29e503ebde0bb2c50bdf87d17bdd6",
+    "scripts/check_environment.sh": "8c572a07c7a3faf887cc2c8198c50317e13e16882ef78f8ac5ea31b6049a61cc",
+    "scripts/make_dataset_source.py": "8b4e1236865eb472504aa30da01fa2170c7e9a8a1019581e925b43b28e5a7030",
+    "data/processed/train.npz": "03aaa608201a645e7eb76ee83a55414f8f3c2dad22d9f51e1ae63b725bf2d690",
+    "data/processed/preprocessing_config.json": "8f83dbdd4e2d1987c12b701f75d655938710ce4797291b1a43bc44dc666c5983",
+    "data/processed/test.npz": "9ee6b912f86e78adc41270e615b5bd718fac26cd658e998fefdeb16659fd6b90",
+    "data/processed/val.npz": "8c221423e4fcfc3eccd8bfa027d32757b727b4d3c1069d99e7f3603d648b331b"
+  },
+  "logical_file_bytes_removed": 200550628,
+  "free_disk_bytes_before": 543375360,
+  "free_disk_bytes_after_cleanup": 616628224,
+  "paid_jobs_launched": false,
+  "protected_files_unchanged": true,
+  "changed_protected_files": [],
+  "verification": {
+    "moment_tests": 38,
+    "cnn_tests": 6,
+    "official_moment_import": true,
+    "shell_syntax": true,
+    "documentation_links": true,
+    "packaging": {
+      "smoke": {
+        "passed": true,
+        "tar_gz_bytes": 399720
+      },
+      "full": {
+        "passed": true,
+        "tar_gz_bytes": 13140
+      }
+    }
+  },
+  "observed_free_disk_bytes_increase": 73252864
+}

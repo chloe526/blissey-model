@@ -1,0 +1,176 @@
+{
+  "quality": {
+    "train": {
+      "rejection_reasons": {
+        "insufficient_temporal_coverage,unsupported_window_edge": 28,
+        "insufficient_temporal_coverage": 37,
+        "insufficient_temporal_coverage,excessive_packet_gap": 4,
+        "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 3,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge": 1,
+        "excessive_packet_gap": 4,
+        "unsupported_window_edge,excessive_packet_gap": 1
+      },
+      "excluded_recordings": 4,
+      "excluded_label_windows": 491,
+      "rejected_quality_windows": 78,
+      "duplicate_packets": 4,
+      "windows": 835,
+      "class_counts": [
+        786,
+        49
+      ],
+      "independent_recordings": 26,
+      "independent_sessions": 1
+    },
+    "val": {
+      "rejection_reasons": {
+        "unsupported_window_edge,excessive_packet_gap": 67,
+        "excessive_packet_gap": 210,
+        "insufficient_effective_rate,excessive_packet_gap": 2,
+        "insufficient_effective_rate,unsupported_window_edge,excessive_packet_gap": 4,
+        "insufficient_effective_rate,insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 6,
+        "unsupported_window_edge": 49,
+        "insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 14,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 29,
+        "insufficient_temporal_coverage,excessive_packet_gap": 143,
+        "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 82,
+        "insufficient_effective_rate,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 1,
+        "insufficient_effective_rate,insufficient_temporal_coverage,excessive_packet_gap": 7,
+        "insufficient_effective_rate": 5,
+        "insufficient_effective_rate,unsupported_window_edge": 3,
+        "insufficient_temporal_coverage,unsupported_window_edge": 1,
+        "insufficient_temporal_coverage": 3,
+        "insufficient_sample_span,unsupported_window_edge": 1,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge": 1
+      },
+      "excluded_recordings": 0,
+      "excluded_label_windows": 203,
+      "rejected_quality_windows": 628,
+      "duplicate_packets": 11,
+      "windows": 465,
+      "class_counts": [
+        457,
+        8
+      ],
+      "independent_recordings": 23,
+      "independent_sessions": 1
+    },
+    "test": {
+      "rejection_reasons": {
+        "unsupported_window_edge": 128,
+        "excessive_packet_gap": 168,
+        "unsupported_window_edge,excessive_packet_gap": 54,
+        "insufficient_temporal_coverage,excessive_packet_gap": 192,
+        "insufficient_effective_rate,insufficient_temporal_coverage,excessive_packet_gap": 30,
+        "insufficient_effective_rate,excessive_packet_gap": 6,
+        "insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 126,
+        "insufficient_effective_rate,insufficient_temporal_coverage,unsupported_window_edge,excessive_packet_gap": 25,
+        "insufficient_effective_rate": 2,
+        "insufficient_temporal_coverage": 11,
+        "insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 11,
+        "insufficient_effective_rate,insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 7,
+        "insufficient_temporal_coverage,insufficient_sample_span,unsupported_window_edge,excessive_packet_gap": 39,
+        "insufficient_sample_span,unsupported_window_edge": 3,
+        "insufficient_temporal_coverage,unsupported_window_edge": 7,
+        "insufficient_effective_rate,unsupported_window_edge,excessive_packet_gap": 1
+      },
+      "excluded_recordings": 0,
+      "excluded_label_windows": 188,
+      "rejected_quality_windows": 810,
+      "duplicate_packets": 5,
+      "windows": 1270,
+      "class_counts": [
+        1249,
+        21
+      ],
+      "independent_recordings": 39,
+      "independent_sessions": 1
+    }
+  },
+  "channel_indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "group_splits": {
+    "train": [
+      "session_02"
+    ],
+    "val": [
+      "session_01"
+    ],
+    "test": [
+      "session_03_LAHACKS"
+    ]
+  },
+  "reference_rate_hz": 54.68785580750665,
+  "approximate_native_samples_per_window": 164,
+  "artifact_sha256": {
+    "train": "03aaa608201a645e7eb76ee83a55414f8f3c2dad22d9f51e1ae63b725bf2d690",
+    "val": "8c221423e4fcfc3eccd8bfa027d32757b727b4d3c1069d99e7f3603d648b331b",
+    "test": "9ee6b912f86e78adc41270e615b5bd718fac26cd658e998fefdeb16659fd6b90"
+  },
+  "preprocessing_version": 2,
+  "packet_quality": {
+    "version": 2,
+    "min_effective_rate_hz": 20.0,
+    "coverage_bin_seconds": 0.1,
+    "min_occupied_bin_fraction": 0.8,
+    "min_sample_span_fraction": 0.9,
+    "max_edge_distance_seconds": 0.1,
+    "max_gap_seconds": 0.25,
+    "timestamp_source": "collector elapsed_seconds; no clock retiming or annotation shifts",
+    "threshold_basis": "Frozen using firmware/collector source and label-blind session_01/session_02 acquisition characterization only. Observed development trial rates 26.37-85.94 Hz. Floor 20 Hz is below the slowest observed development mean but rejects sparse streams. Require real samples in >=24/30 100ms bins, >=90% sample span and <=100ms unsupported endpoint distance. Preserve 250ms maximum interpolation gap; never extrapolate. Neither test labels nor test performance selected thresholds.",
+    "development_evidence": "reports/development_acquisition_characterization.json",
+    "development_evidence_sha256": "23a62f89792428c305b26d596f0df0a0b43be7a0f864f943e6c60e658c4367e3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "architecture_roundtrip": true,
+  "device": "meta",
+  "pretrained_weights_loaded": false,
+  "real_forward_pass": false,
+  "input_shape": [
+    1,
+    52,
+    512
+  ],
+  "head_shape": [
+    2,
+    53248
+  ],
+  "parameter_counts": {
+    "trainable": 106498,
+    "frozen": 341240320
+  }
+}

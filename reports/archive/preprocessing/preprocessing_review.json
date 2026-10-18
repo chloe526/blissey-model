@@ -1,0 +1,2764 @@
+{
+  "schema_version": 1,
+  "processed_file_hashes_before": {
+    "preprocessing_config.json": "368496dbb2994305f576994d27ff4c2c9ee054e5fc29e2b5dd752a3bd45d5c07",
+    "test.npz": "53fffd512cf448e73e7ed6e1adbedb10bfb148822310bd2a5acd4077b134612b",
+    "train.npz": "a3ddb450714101c249ab6a1d47312dcc6a93d657c56bb98d511630452ab8ce76",
+    "val.npz": "3dd3a0f711de346141c85fad7161615bd64db83fa165c9b726dade8cb18dcc5f"
+  },
+  "checks": {
+    "all_source_and_artifact_hashes_match": true,
+    "all_windows_reconstructed": true,
+    "labels_rederived_without_changes": true,
+    "normalization_refit_train_only_matches": true,
+    "source_group_assignment_matches": true,
+    "cross_split_recording_and_group_overlap": false,
+    "cross_group_capture_time_overlaps": [],
+    "duplicate_source_files": [],
+    "packet_identity_mismatches": [],
+    "participant_overlap_val_test": [
+      "p1"
+    ],
+    "processed_files_unchanged": true,
+    "processed_files_unchanged_after_training_fixes": true
+  },
+  "splits": {
+    "train": {
+      "shape": [
+        819,
+        52,
+        512
+      ],
+      "class_counts": [
+        770,
+        49
+      ],
+      "positive_percent": 5.982905982905983,
+      "stored_recordings": 25,
+      "annotated_events": 10,
+      "events_with_retained_positive_windows": 10,
+      "events_without_retained_positive_windows": [],
+      "collection_groups": [
+        "session_02"
+      ],
+      "metadata_session_ids": [
+        "session_20261015",
+        "session_202610160510"
+      ],
+      "participants": [
+        "p1",
+        "p2"
+      ],
+      "quality_breakdown": {
+        "gap_only": 1,
+        "density_only": 82,
+        "both": 11,
+        "pass_windows": 819
+      },
+      "quality_by_class": {
+        "0": {
+          "gap_only": 1,
+          "density_only": 82,
+          "both": 11,
+          "pass_windows": 770
+        },
+        "1": {
+          "gap_only": 0,
+          "density_only": 0,
+          "both": 0,
+          "pass_windows": 49
+        }
+      },
+      "label_candidates": 913,
+      "fully_contained_no_margin": 57,
+      "overlap_at_least_half_window": 117,
+      "any_event_overlap": 177,
+      "total_sliding_windows": 1404,
+      "label_excluded": 491,
+      "gap_sensitivity_same_density": {
+        "0.1": 807,
+        "0.25": 819,
+        "0.5": 820,
+        "1.0": 820
+      },
+      "pass_if_only_gap_guard": 901,
+      "pass_if_recording_mean_rate_density_and_gap": 901,
+      "mean_rate_density_diagnostic_by_class": {
+        "0": 852,
+        "1": 49
+      },
+      "dev_label_sensitivity_same_quality": {
+        "no_margin": 57,
+        "half_window_overlap": 117
+      },
+      "window_counts_per_event": [
+        5,
+        5,
+        10,
+        6,
+        3,
+        4,
+        5,
+        5,
+        5,
+        1
+      ],
+      "source_label_recording_counts": {
+        "verified_non_fall": 20,
+        "annotated_fall": 10
+      },
+      "mean_packet_rate_hz": {
+        "min": 45.52762515470094,
+        "p25": 53.74325390957673,
+        "median": 54.68785580750665,
+        "p75": 55.615982649708826,
+        "p95": 70.78905260755317,
+        "max": 80.02049633859187
+      },
+      "median_interarrival_rate_hz": {
+        "min": 53.51635929684426,
+        "p25": 79.84876344076363,
+        "median": 82.8635558731834,
+        "p75": 89.50133593342434,
+        "p95": 163.79437247776428,
+        "max": 174.4268438905629
+      }
+    },
+    "val": {
+      "shape": [
+        298,
+        52,
+        512
+      ],
+      "class_counts": [
+        292,
+        6
+      ],
+      "positive_percent": 2.013422818791946,
+      "stored_recordings": 20,
+      "annotated_events": 4,
+      "events_with_retained_positive_windows": 3,
+      "events_without_retained_positive_windows": [
+        {
+          "recording_id": "20261012_023117_618940Z",
+          "event_index": 0
+        }
+      ],
+      "collection_groups": [
+        "session_01"
+      ],
+      "metadata_session_ids": [
+        "session_202610120129"
+      ],
+      "participants": [
+        "p1"
+      ],
+      "quality_breakdown": {
+        "gap_only": 51,
+        "density_only": 230,
+        "both": 514,
+        "pass_windows": 298
+      },
+      "quality_by_class": {
+        "0": {
+          "gap_only": 50,
+          "density_only": 226,
+          "both": 512,
+          "pass_windows": 292
+        },
+        "1": {
+          "gap_only": 1,
+          "density_only": 4,
+          "both": 2,
+          "pass_windows": 6
+        }
+      },
+      "label_candidates": 1093,
+      "fully_contained_no_margin": 18,
+      "overlap_at_least_half_window": 42,
+      "any_event_overlap": 66,
+      "total_sliding_windows": 1296,
+      "label_excluded": 203,
+      "gap_sensitivity_same_density": {
+        "0.1": 19,
+        "0.25": 298,
+        "0.5": 349,
+        "1.0": 349
+      },
+      "pass_if_only_gap_guard": 528,
+      "pass_if_recording_mean_rate_density_and_gap": 525,
+      "mean_rate_density_diagnostic_by_class": {
+        "0": 515,
+        "1": 10
+      },
+      "dev_label_sensitivity_same_quality": {
+        "no_margin": 9,
+        "half_window_overlap": 22
+      },
+      "window_counts_per_event": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "source_label_recording_counts": {
+        "verified_non_fall": 20,
+        "annotated_fall": 4
+      },
+      "mean_packet_rate_hz": {
+        "min": 26.369023194109776,
+        "p25": 33.59721861059191,
+        "median": 43.38757172120521,
+        "p75": 49.46164140096447,
+        "p95": 58.47573427934821,
+        "max": 85.93902002160453
+      },
+      "median_interarrival_rate_hz": {
+        "min": 37.40482202578858,
+        "p25": 85.24737918096025,
+        "median": 155.21021586228002,
+        "p75": 165.07521859071394,
+        "p95": 168.4874914845758,
+        "max": 171.02970593828894
+      }
+    },
+    "test": {
+      "shape": [
+        906,
+        52,
+        512
+      ],
+      "class_counts": [
+        889,
+        17
+      ],
+      "positive_percent": 1.8763796909492272,
+      "stored_recordings": 35,
+      "annotated_events": 4,
+      "events_with_retained_positive_windows": 4,
+      "events_without_retained_positive_windows": [],
+      "collection_groups": [
+        "session_03_LAHACKS"
+      ],
+      "metadata_session_ids": [
+        "session_202610172026"
+      ],
+      "participants": [
+        "p1"
+      ],
+      "quality_breakdown": {
+        "gap_only": 55,
+        "density_only": 515,
+        "both": 604,
+        "pass_windows": 906
+      },
+      "quality_by_class": {
+        "0": {
+          "gap_only": 52,
+          "density_only": 510,
+          "both": 601,
+          "pass_windows": 889
+        },
+        "1": {
+          "gap_only": 3,
+          "density_only": 5,
+          "both": 3,
+          "pass_windows": 17
+        }
+      },
+      "label_candidates": 2080,
+      "fully_contained_no_margin": 32,
+      "overlap_at_least_half_window": 56,
+      "any_event_overlap": 80,
+      "total_sliding_windows": 2268,
+      "label_excluded": 188,
+      "gap_sensitivity_same_density": {
+        "0.1": 38,
+        "0.25": 906,
+        "0.5": 956,
+        "1.0": 961
+      },
+      "pass_if_only_gap_guard": 1421,
+      "pass_if_recording_mean_rate_density_and_gap": 1407,
+      "mean_rate_density_diagnostic_by_class": {
+        "0": 1385,
+        "1": 22
+      },
+      "dev_label_sensitivity_same_quality": null,
+      "window_counts_per_event": [
+        7,
+        5,
+        4,
+        1
+      ],
+      "source_label_recording_counts": {
+        "verified_non_fall": 38,
+        "annotated_fall": 4
+      },
+      "mean_packet_rate_hz": {
+        "min": 21.66764202437161,
+        "p25": 30.573908951463753,
+        "median": 33.40311049880128,
+        "p75": 40.581391040923904,
+        "p95": 63.67490666222268,
+        "max": 81.99851550753816
+      },
+      "median_interarrival_rate_hz": {
+        "min": 43.76926363748573,
+        "p25": 62.78203688975504,
+        "median": 71.84526541943808,
+        "p75": 150.75847232985802,
+        "p95": 176.62884323178926,
+        "max": 178.77828363444783
+      }
+    }
+  },
+  "records": [
+    {
+      "recording_id": "20261012_014118_033494Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "empty_room",
+      "mean_rate_hz": 34.50900025886535,
+      "median_interarrival_rate_hz": 118.99272627180306,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0028096249734517187,
+        "p25": 0.005769708979642019,
+        "median": 0.008403875021031126,
+        "p75": 0.03622737500700168,
+        "p95": 0.09896738341776654,
+        "max": 0.44276233299751766
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 20,
+        "gap_only": 6,
+        "both": 24,
+        "density_only": 4
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_015506_777313Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "empty_room",
+      "mean_rate_hz": 35.70758582464713,
+      "median_interarrival_rate_hz": 45.095320247642704,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002053458010777831,
+        "p25": 0.00817681223998079,
+        "median": 0.022175249992869794,
+        "p75": 0.04023954151489306,
+        "p95": 0.07108676861389539,
+        "max": 0.14262212501489557
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_022804_308777Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 28.487575833319106,
+      "median_interarrival_rate_hz": 52.91530245590374,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004019832995254546,
+        "p25": 0.0062715109961573035,
+        "median": 0.018898124995757826,
+        "p75": 0.04649877076008124,
+        "p95": 0.10716382324899314,
+        "max": 0.3524380410090089
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 30,
+        "gap_only": 9,
+        "both": 15
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_022926_236636Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 26.369023194109776,
+      "median_interarrival_rate_hz": 37.40482202578858,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0014017090143170208,
+        "p25": 0.010474489739863202,
+        "median": 0.026734521001344547,
+        "p75": 0.05169440650206525,
+        "p95": 0.10339390614681178,
+        "max": 0.2588923330185935
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 46,
+        "gap_only": 5,
+        "both": 2,
+        "density_only": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_022524_889079Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "lie_down",
+      "mean_rate_hz": 42.14128999381841,
+      "median_interarrival_rate_hz": 158.67034260069394,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.001215124997543171,
+        "p25": 0.005551802503759973,
+        "median": 0.00630237499717623,
+        "p75": 0.019709780739503913,
+        "p95": 0.09151378475798996,
+        "max": 0.4995801670011133
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 40,
+        "density_only": 9,
+        "gap_only": 4,
+        "pass_windows": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_022649_565805Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "lie_down",
+      "mean_rate_hz": 30.106450918272063,
+      "median_interarrival_rate_hz": 79.15514856915969,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.003541458019753918,
+        "p25": 0.00602320849429816,
+        "median": 0.012633417005417868,
+        "p75": 0.043428854492958635,
+        "p95": 0.1269303374865557,
+        "max": 0.38559512500069104
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 11,
+        "both": 26,
+        "gap_only": 11,
+        "pass_windows": 6
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_023644_330626Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "lying_still",
+      "mean_rate_hz": 30.861873665771586,
+      "median_interarrival_rate_hz": 46.81967524080754,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004246665979735553,
+        "p25": 0.009164165996480733,
+        "median": 0.0213585419987794,
+        "p75": 0.04897808301029727,
+        "p95": 0.09058916680514811,
+        "max": 0.2725654999958351
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 47,
+        "gap_only": 7
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_023816_361604Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "lying_still",
+      "mean_rate_hz": 48.72485813393668,
+      "median_interarrival_rate_hz": 168.6945008902839,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0022764170134905726,
+        "p25": 0.0053831142649869435,
+        "median": 0.005927875507040881,
+        "p75": 0.014450489499722607,
+        "p95": 0.08950241259008165,
+        "max": 0.5092974590079393
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 1,
+        "density_only": 23,
+        "both": 30
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_022238_713889Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "sit_down",
+      "mean_rate_hz": 49.289263335622046,
+      "median_interarrival_rate_hz": 166.10894230611555,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.001840207987697795,
+        "p25": 0.005441844012239017,
+        "median": 0.006020145490765572,
+        "p75": 0.016406655755417887,
+        "p95": 0.08156227125436999,
+        "max": 0.41491550000500865
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 11,
+        "pass_windows": 16,
+        "both": 27
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_022350_923264Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "sit_down",
+      "mean_rate_hz": 43.652254577981715,
+      "median_interarrival_rate_hz": 160.85034551535242,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002405499981250614,
+        "p25": 0.005524915992282331,
+        "median": 0.006216958980076015,
+        "p75": 0.018823124992195517,
+        "p95": 0.09940118301310573,
+        "max": 0.33798533299705014
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 2,
+        "density_only": 21,
+        "both": 31
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_020524_402398Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "sitting_still",
+      "mean_rate_hz": 44.98072379558113,
+      "median_interarrival_rate_hz": 147.45365223269383,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.001241458987351507,
+        "p25": 0.005868791980901733,
+        "median": 0.006781792006222531,
+        "p75": 0.021865291986614466,
+        "p95": 0.08187023340142327,
+        "max": 0.4369633340102155
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 5,
+        "density_only": 8,
+        "both": 39,
+        "gap_only": 2
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_020720_878600Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "sitting_still",
+      "mean_rate_hz": 41.8577985762108,
+      "median_interarrival_rate_hz": 87.27812271822711,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0019380000012461096,
+        "p25": 0.006369124996126629,
+        "median": 0.01145762499072589,
+        "p75": 0.0336828540021088,
+        "p95": 0.07374636258755343,
+        "max": 0.4261519169958774
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 30,
+        "density_only": 22,
+        "both": 2
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_023117_618940Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "staged_fall",
+      "mean_rate_hz": 29.765090353156484,
+      "median_interarrival_rate_hz": 93.24697919212281,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0014855419867672026,
+        "p25": 0.005793384989374317,
+        "median": 0.010724207997554913,
+        "p75": 0.04196662449976429,
+        "p95": 0.14619255609577503,
+        "max": 0.3242390420055017
+      },
+      "fall_intervals": [
+        [
+          5.790397644042969,
+          11.445146560668945
+        ]
+      ],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 4
+      },
+      "event_window_counts": [
+        0
+      ],
+      "dev_mean_rate_positive_windows": 4
+    },
+    {
+      "recording_id": "20261012_023236_981466Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "staged_fall",
+      "mean_rate_hz": 85.93902002160453,
+      "median_interarrival_rate_hz": 171.02970593828894,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.001948041986906901,
+        "p25": 0.005440458255179692,
+        "median": 0.00584693749260623,
+        "p75": 0.006555218751600478,
+        "p95": 0.04536388138803868,
+        "max": 0.3793196250044275
+      },
+      "fall_intervals": [
+        [
+          5.7983667850494385,
+          9.84497356414795
+        ]
+      ],
+      "positive_windows": 1,
+      "quality": {
+        "pass_windows": 1
+      },
+      "event_window_counts": [
+        1
+      ],
+      "dev_mean_rate_positive_windows": 1
+    },
+    {
+      "recording_id": "20261012_023410_367726Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "staged_fall",
+      "mean_rate_hz": 53.74760840068616,
+      "median_interarrival_rate_hz": 167.31443818556318,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0005365409888327122,
+        "p25": 0.005479677492985502,
+        "median": 0.005976770509732887,
+        "p75": 0.010084593493957072,
+        "p95": 0.06364805800549216,
+        "max": 0.4727201250207145
+      },
+      "fall_intervals": [
+        [
+          6.391861200332642,
+          12.229016065597534
+        ]
+      ],
+      "positive_windows": 1,
+      "quality": {
+        "pass_windows": 1,
+        "gap_only": 1,
+        "both": 2
+      },
+      "event_window_counts": [
+        1
+      ],
+      "dev_mean_rate_positive_windows": 1
+    },
+    {
+      "recording_id": "20261012_023527_582029Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "staged_fall",
+      "mean_rate_hz": 29.719318211022767,
+      "median_interarrival_rate_hz": 60.70923315064156,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0008808329876046628,
+        "p25": 0.0067128544906154275,
+        "median": 0.01647195901023224,
+        "p75": 0.044504249992314726,
+        "p95": 0.1202484161010943,
+        "max": 0.26249508300679736
+      },
+      "fall_intervals": [
+        [
+          6.934882402420044,
+          12.479579448699951
+        ]
+      ],
+      "positive_windows": 4,
+      "quality": {
+        "pass_windows": 4
+      },
+      "event_window_counts": [
+        4
+      ],
+      "dev_mean_rate_positive_windows": 4
+    },
+    {
+      "recording_id": "20261012_021646_061422Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "stand_up",
+      "mean_rate_hz": 51.348856162727664,
+      "median_interarrival_rate_hz": 158.08298485473648,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0009810419869609177,
+        "p25": 0.005739615015045274,
+        "median": 0.006325791488052346,
+        "p75": 0.014301552000688389,
+        "p95": 0.08001953480270457,
+        "max": 0.4263719170121476
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 29,
+        "both": 25
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_021813_644469Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "stand_up",
+      "mean_rate_hz": 49.97877559699174,
+      "median_interarrival_rate_hz": 155.23230631893546,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00044958299258723855,
+        "p25": 0.005740916487411596,
+        "median": 0.006441958015784621,
+        "p75": 0.017921562495757826,
+        "p95": 0.07699505000782662,
+        "max": 0.45913012500386685
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 1,
+        "density_only": 29,
+        "both": 24
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_021945_723018Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "stand_up",
+      "mean_rate_hz": 43.12288886442871,
+      "median_interarrival_rate_hz": 155.1881254056246,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0002727499813772738,
+        "p25": 0.0057321460044477135,
+        "median": 0.006443791993660852,
+        "p75": 0.01725720800459385,
+        "p95": 0.09496207919146397,
+        "max": 0.436458791984478
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 2,
+        "density_only": 8,
+        "both": 41,
+        "gap_only": 3
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_022041_230886Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "stand_up",
+      "mean_rate_hz": 42.73580483245312,
+      "median_interarrival_rate_hz": 154.01794328977599,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0017241250025108457,
+        "p25": 0.005787083995528519,
+        "median": 0.0064927499915938824,
+        "p75": 0.027668875001836568,
+        "p95": 0.079124242218677,
+        "max": 0.4414926250174176
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 23,
+        "density_only": 7,
+        "both": 24
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_020145_319681Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "standing_still",
+      "mean_rate_hz": 55.66881902994873,
+      "median_interarrival_rate_hz": 164.87931972981093,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0007773340039420873,
+        "p25": 0.00554773973999545,
+        "median": 0.006065042005502619,
+        "p75": 0.008452708010736387,
+        "p95": 0.07011133970227075,
+        "max": 0.4683843750099186
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 45,
+        "density_only": 9
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_020338_439913Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "standing_still",
+      "mean_rate_hz": 48.89724954563494,
+      "median_interarrival_rate_hz": 165.66291517342302,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0015603339998051524,
+        "p25": 0.005558801494771615,
+        "median": 0.006036353996023536,
+        "p75": 0.009162083515548147,
+        "p95": 0.08767649584915499,
+        "max": 0.5007668750185985
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 53,
+        "density_only": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_020953_329108Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "walking",
+      "mean_rate_hz": 46.361367802833136,
+      "median_interarrival_rate_hz": 157.56405965230874,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0017414579924661666,
+        "p25": 0.0056221245031338185,
+        "median": 0.006346624999423511,
+        "p75": 0.021393677234300412,
+        "p95": 0.07904398335958829,
+        "max": 0.3967888749903068
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 7,
+        "gap_only": 3,
+        "both": 29,
+        "density_only": 15
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261012_021144_972317Z",
+      "group": "session_01",
+      "split": "val",
+      "activity": "walking",
+      "mean_rate_hz": 58.97107226453636,
+      "median_interarrival_rate_hz": 166.20613704774564,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002214375010225922,
+        "p25": 0.005512395495316014,
+        "median": 0.006016625004122034,
+        "p75": 0.01020756248908583,
+        "p95": 0.06613849570858273,
+        "max": 0.4015893340110779
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 1,
+        "density_only": 18,
+        "both": 35
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_050128_396330Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "empty_room",
+      "mean_rate_hz": 53.68588935845221,
+      "median_interarrival_rate_hz": 90.00798826454549,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004937958961818367,
+        "p25": 0.006532000028528273,
+        "median": 0.011110124993138015,
+        "p75": 0.030023083032574505,
+        "p95": 0.04737046678783372,
+        "max": 0.07826620800187811
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 53,
+        "density_only": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_051201_719851Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "empty_room",
+      "mean_rate_hz": 54.085419432139666,
+      "median_interarrival_rate_hz": 87.31463694687582,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00316191598540172,
+        "p25": 0.006588947508134879,
+        "median": 0.011452833510702476,
+        "p75": 0.028925520266056992,
+        "p95": 0.047365599995828234,
+        "max": 0.08632775000296533
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 53,
+        "density_only": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_055035_426077Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 55.65548666497628,
+      "median_interarrival_rate_hz": 80.6142807291467,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004335083998739719,
+        "p25": 0.00634709325095173,
+        "median": 0.0124047500139568,
+        "p75": 0.027596687257755548,
+        "p95": 0.04469216039869932,
+        "max": 0.07563216600101441
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_055325_713830Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 55.49747060390648,
+      "median_interarrival_rate_hz": 88.16657315362009,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0014121659914962947,
+        "p25": 0.006224187498446554,
+        "median": 0.01134216703940183,
+        "p75": 0.028773291502147913,
+        "p95": 0.04528669217834246,
+        "max": 0.08803029201226309
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_054324_115745Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "lie_down",
+      "mean_rate_hz": 54.89046824037818,
+      "median_interarrival_rate_hz": 82.8666318739926,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0017907500150613487,
+        "p25": 0.006386343753547408,
+        "median": 0.012067583505995572,
+        "p75": 0.02875796874286607,
+        "p95": 0.04528626050159801,
+        "max": 0.0741881660069339
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 53,
+        "density_only": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_054513_371085Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "lie_down",
+      "mean_rate_hz": 54.04189501114812,
+      "median_interarrival_rate_hz": 79.81482959768825,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00478679098887369,
+        "p25": 0.006445437495131046,
+        "median": 0.012528999999631196,
+        "p75": 0.029087333008646965,
+        "p95": 0.045489717024611305,
+        "max": 0.09130954201100394
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_054725_363030Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "lying_still",
+      "mean_rate_hz": 45.52762515470094,
+      "median_interarrival_rate_hz": 53.51635929684426,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0047395420260727406,
+        "p25": 0.00710250050178729,
+        "median": 0.018685874994844198,
+        "p75": 0.03211014551925473,
+        "p95": 0.051812779804458836,
+        "max": 0.11035116604762152
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_054811_865137Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "lying_still",
+      "mean_rate_hz": 54.42317523099078,
+      "median_interarrival_rate_hz": 77.65381707238495,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00472641596570611,
+        "p25": 0.006335208017844707,
+        "median": 0.012877667031716555,
+        "p75": 0.028301791986450553,
+        "p95": 0.04451199949835427,
+        "max": 0.08022999996319413
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_054029_838538Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "sit_down",
+      "mean_rate_hz": 55.220795490220574,
+      "median_interarrival_rate_hz": 87.71352743943567,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0013432499836198986,
+        "p25": 0.006367333990056068,
+        "median": 0.011400750023312867,
+        "p75": 0.028290582995396107,
+        "p95": 0.04658551717875524,
+        "max": 0.08925104100489989
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_054159_127376Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "sit_down",
+      "mean_rate_hz": 55.83468598090536,
+      "median_interarrival_rate_hz": 88.79614614761964,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004816707980353385,
+        "p25": 0.006388583526131697,
+        "median": 0.011261750012636185,
+        "p75": 0.028543854015879333,
+        "p95": 0.044594835216412304,
+        "max": 0.0853913749451749
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 51,
+        "density_only": 3
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_053138_956202Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "sitting_still",
+      "mean_rate_hz": 52.95398681014562,
+      "median_interarrival_rate_hz": 81.24466826149558,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.005074208020232618,
+        "p25": 0.006621042004553601,
+        "median": 0.012308500008657575,
+        "p75": 0.02933602101984434,
+        "p95": 0.048055353615200136,
+        "max": 0.10913833300583065
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_055527_479927Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 55.28239333962105,
+      "median_interarrival_rate_hz": 82.86047987237421,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004861707973759621,
+        "p25": 0.006401500024367124,
+        "median": 0.012068479467416182,
+        "p75": 0.0278637917508604,
+        "p95": 0.04575876002490986,
+        "max": 0.08476162498118356
+      },
+      "fall_intervals": [
+        [
+          11.778621435165405,
+          17.90535545349121
+        ]
+      ],
+      "positive_windows": 5,
+      "quality": {
+        "pass_windows": 5
+      },
+      "event_window_counts": [
+        5
+      ],
+      "dev_mean_rate_positive_windows": 5
+    },
+    {
+      "recording_id": "20261016_055704_474492Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 55.480258613716494,
+      "median_interarrival_rate_hz": 86.64009709009605,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004659875005017966,
+        "p25": 0.006426312495023012,
+        "median": 0.011541999992914498,
+        "p75": 0.028585688007296994,
+        "p95": 0.04576589610660446,
+        "max": 0.07940570800565183
+      },
+      "fall_intervals": [
+        [
+          11.402087688446045,
+          17.44086480140686
+        ]
+      ],
+      "positive_windows": 5,
+      "quality": {
+        "pass_windows": 5
+      },
+      "event_window_counts": [
+        5
+      ],
+      "dev_mean_rate_positive_windows": 5
+    },
+    {
+      "recording_id": "20261016_055816_134100Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 53.16659130275066,
+      "median_interarrival_rate_hz": 79.4452055077681,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004742917022667825,
+        "p25": 0.006615125050302595,
+        "median": 0.012587292003445327,
+        "p75": 0.02897312503773719,
+        "p95": 0.04725025841034947,
+        "max": 0.07565341697772965
+      },
+      "fall_intervals": [
+        [
+          8.85062575340271,
+          17.56947660446167
+        ]
+      ],
+      "positive_windows": 10,
+      "quality": {
+        "pass_windows": 10
+      },
+      "event_window_counts": [
+        10
+      ],
+      "dev_mean_rate_positive_windows": 10
+    },
+    {
+      "recording_id": "20261016_060048_166057Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 55.106897902731994,
+      "median_interarrival_rate_hz": 81.88583066443708,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0011933749774470925,
+        "p25": 0.006411249516531825,
+        "median": 0.012212125002406538,
+        "p75": 0.027499521005665883,
+        "p95": 0.046585478994529694,
+        "max": 0.09101495903450996
+      },
+      "fall_intervals": [
+        [
+          10.45815634727478,
+          16.770352363586426
+        ]
+      ],
+      "positive_windows": 6,
+      "quality": {
+        "pass_windows": 6
+      },
+      "event_window_counts": [
+        6
+      ],
+      "dev_mean_rate_positive_windows": 6
+    },
+    {
+      "recording_id": "20261016_060207_044811Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 53.91534756295029,
+      "median_interarrival_rate_hz": 81.11424351607673,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004620583029463887,
+        "p25": 0.006479833507910371,
+        "median": 0.01232829102082178,
+        "p75": 0.028295375494053587,
+        "p95": 0.04547011268441565,
+        "max": 0.09736129199154675
+      },
+      "fall_intervals": [
+        [
+          9.15658712387085,
+          14.029696941375732
+        ]
+      ],
+      "positive_windows": 3,
+      "quality": {
+        "pass_windows": 3
+      },
+      "event_window_counts": [
+        3
+      ],
+      "dev_mean_rate_positive_windows": 3
+    },
+    {
+      "recording_id": "20261016_060412_925284Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 54.48524337463511,
+      "median_interarrival_rate_hz": 89.73639919535924,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.003342416021041572,
+        "p25": 0.00648934421769809,
+        "median": 0.011143750016344711,
+        "p75": 0.029229124731500633,
+        "p95": 0.046433743892703196,
+        "max": 0.07816074998117983
+      },
+      "fall_intervals": [
+        [
+          9.521000623703003,
+          14.783596515655518
+        ]
+      ],
+      "positive_windows": 4,
+      "quality": {
+        "pass_windows": 4
+      },
+      "event_window_counts": [
+        4
+      ],
+      "dev_mean_rate_positive_windows": 4
+    },
+    {
+      "recording_id": "20261016_060523_141523Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 52.790361108167666,
+      "median_interarrival_rate_hz": 77.20790289393737,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004583165980875492,
+        "p25": 0.006589583499589935,
+        "median": 0.01295204198686406,
+        "p75": 0.029686707974178717,
+        "p95": 0.048383367160568014,
+        "max": 0.07761895802104846
+      },
+      "fall_intervals": [
+        [
+          11.673998832702637,
+          17.505400896072388
+        ]
+      ],
+      "positive_windows": 5,
+      "quality": {
+        "pass_windows": 5
+      },
+      "event_window_counts": [
+        5
+      ],
+      "dev_mean_rate_positive_windows": 5
+    },
+    {
+      "recording_id": "20261016_060625_339974Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 52.82330028763722,
+      "median_interarrival_rate_hz": 78.2281328858389,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004827875003684312,
+        "p25": 0.006597166997380555,
+        "median": 0.012783124984707683,
+        "p75": 0.02901622897479683,
+        "p95": 0.04719362859614191,
+        "max": 0.07085533300414681
+      },
+      "fall_intervals": [
+        [
+          9.955017328262329,
+          15.92580533027649
+        ]
+      ],
+      "positive_windows": 5,
+      "quality": {
+        "pass_windows": 5
+      },
+      "event_window_counts": [
+        5
+      ],
+      "dev_mean_rate_positive_windows": 5
+    },
+    {
+      "recording_id": "20261016_060722_711915Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 56.509776247642364,
+      "median_interarrival_rate_hz": 101.43916813863814,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004475458001252264,
+        "p25": 0.006217000016476959,
+        "median": 0.009858125005848706,
+        "p75": 0.02636687549238559,
+        "p95": 0.048939893519855095,
+        "max": 0.10092650004662573
+      },
+      "fall_intervals": [
+        [
+          10.280379295349121,
+          16.72908329963684
+        ]
+      ],
+      "positive_windows": 5,
+      "quality": {
+        "pass_windows": 5
+      },
+      "event_window_counts": [
+        5
+      ],
+      "dev_mean_rate_positive_windows": 5
+    },
+    {
+      "recording_id": "20261016_061112_587712Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "staged_fall",
+      "mean_rate_hz": 52.29889426169324,
+      "median_interarrival_rate_hz": 79.95056496998983,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004765624995343387,
+        "p25": 0.006356386002153158,
+        "median": 0.012507728999480605,
+        "p75": 0.03021834374521859,
+        "p95": 0.047452016573515714,
+        "max": 0.08232483296887949
+      },
+      "fall_intervals": [
+        [
+          9.050158262252808,
+          12.943755388259888
+        ]
+      ],
+      "positive_windows": 1,
+      "quality": {
+        "pass_windows": 1
+      },
+      "event_window_counts": [
+        1
+      ],
+      "dev_mean_rate_positive_windows": 1
+    },
+    {
+      "recording_id": "20261016_053653_019769Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "stand_up",
+      "mean_rate_hz": 54.09925297664293,
+      "median_interarrival_rate_hz": 79.10975259056136,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004637166974134743,
+        "p25": 0.006494833476608619,
+        "median": 0.012640666507650167,
+        "p75": 0.02886372950160876,
+        "p95": 0.0453466687555192,
+        "max": 0.08377008297247812
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_053803_794374Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "stand_up",
+      "mean_rate_hz": 56.90776624461746,
+      "median_interarrival_rate_hz": 98.10915203688457,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0013220830005593598,
+        "p25": 0.006361802516039461,
+        "median": 0.01019272900884971,
+        "p75": 0.02803165627119597,
+        "p95": 0.04528856271645054,
+        "max": 0.07966104097431526
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_051431_804430Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "standing_still",
+      "mean_rate_hz": 71.03006060043961,
+      "median_interarrival_rate_hz": 153.8964654272317,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0016280830022878945,
+        "p25": 0.005779957980848849,
+        "median": 0.006497875030618161,
+        "p75": 0.01584745798027143,
+        "p95": 0.047142133186571296,
+        "max": 0.09000016597565264
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 51,
+        "density_only": 3
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_053402_371088Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "walking",
+      "mean_rate_hz": 80.02049633859187,
+      "median_interarrival_rate_hz": 174.4268438905629,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002031666983384639,
+        "p25": 0.005383280760725029,
+        "median": 0.0057330625131726265,
+        "p75": 0.006156479270430282,
+        "p95": 0.017830468976171687,
+        "max": 0.2834296670043841
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 48,
+        "both": 6
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261016_053457_055120Z",
+      "group": "session_02",
+      "split": "train",
+      "activity": "walking",
+      "mean_rate_hz": 70.06602862889385,
+      "median_interarrival_rate_hz": 167.0936748279418,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002462624979671091,
+        "p25": 0.0055388647597283125,
+        "median": 0.005984666990116239,
+        "p75": 0.009109958278713748,
+        "p95": 0.0423333352227928,
+        "max": 0.2985897089820355
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 25,
+        "pass_windows": 23,
+        "gap_only": 1,
+        "both": 5
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_203126_416953Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "empty_room",
+      "mean_rate_hz": 27.770400201870242,
+      "median_interarrival_rate_hz": 56.73584389791082,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004925207991618663,
+        "p25": 0.006603374989936128,
+        "median": 0.017625542008318007,
+        "p75": 0.053930229507386684,
+        "p95": 0.11141889551072381,
+        "max": 0.3084836669731885
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 29,
+        "density_only": 9,
+        "gap_only": 6,
+        "both": 10
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_203215_249562Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "empty_room",
+      "mean_rate_hz": 21.66764202437161,
+      "median_interarrival_rate_hz": 43.76926363748573,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00206845800857991,
+        "p25": 0.006561489281011745,
+        "median": 0.02284708301885985,
+        "p75": 0.06529182325175498,
+        "p95": 0.16919466907565947,
+        "max": 0.6296909169759601
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "gap_only": 16,
+        "both": 20,
+        "pass_windows": 6,
+        "density_only": 12
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_203329_912640Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "empty_room",
+      "mean_rate_hz": 35.05225780486595,
+      "median_interarrival_rate_hz": 88.50438623711284,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002407875028438866,
+        "p25": 0.006169375032186508,
+        "median": 0.011298875033389777,
+        "p75": 0.037425167043693364,
+        "p95": 0.09592729979194695,
+        "max": 0.32128016697242856
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 9,
+        "pass_windows": 31,
+        "both": 10,
+        "gap_only": 4
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_203746_546097Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "empty_room",
+      "mean_rate_hz": 30.609574684456554,
+      "median_interarrival_rate_hz": 70.3332764365,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004472166008781642,
+        "p25": 0.006579114487976767,
+        "median": 0.014218020980479196,
+        "p75": 0.04558231229020748,
+        "p95": 0.10470185375015717,
+        "max": 0.2176201249822043
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 32,
+        "pass_windows": 22
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_204414_032528Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "empty_room",
+      "mean_rate_hz": 27.191105729790007,
+      "median_interarrival_rate_hz": 63.39646553968837,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.001701291010249406,
+        "p25": 0.006598750012926757,
+        "median": 0.01577375002671033,
+        "p75": 0.061458958487492055,
+        "p95": 0.10639014206826679,
+        "max": 0.27933104196563363
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 27,
+        "pass_windows": 23,
+        "both": 4
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212818_615503Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 64.00039967726389,
+      "median_interarrival_rate_hz": 166.08076044918403,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0013346670311875641,
+        "p25": 0.005541541497223079,
+        "median": 0.006021167035214603,
+        "p75": 0.010860228998353705,
+        "p95": 0.06888893780414944,
+        "max": 0.2146531249745749
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 40,
+        "density_only": 14
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212903_717337Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 57.49053937644043,
+      "median_interarrival_rate_hz": 170.26288908184725,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0018522500176914036,
+        "p25": 0.005475583777297288,
+        "median": 0.005873270478332415,
+        "p75": 0.006519385031424463,
+        "p95": 0.08458260381885306,
+        "max": 0.5341171659529209
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 1,
+        "density_only": 8,
+        "both": 45
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212948_832897Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 23.83109315540223,
+      "median_interarrival_rate_hz": 74.48997623075266,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004022000008262694,
+        "p25": 0.006217728980118409,
+        "median": 0.013424625038169324,
+        "p75": 0.0628785834996961,
+        "p95": 0.1775711040245369,
+        "max": 0.317255333007779
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 32,
+        "pass_windows": 3,
+        "density_only": 17,
+        "gap_only": 2
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_213033_975969Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "get_up_from_floor",
+      "mean_rate_hz": 23.624682433038082,
+      "median_interarrival_rate_hz": 96.1538458920839,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004333499993663281,
+        "p25": 0.005997146014124155,
+        "median": 0.010400000028312206,
+        "p75": 0.05387852052808739,
+        "p95": 0.18702014202135614,
+        "max": 0.44548512500477955
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 47,
+        "density_only": 7
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212317_244907Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lie_down",
+      "mean_rate_hz": 32.419577108061965,
+      "median_interarrival_rate_hz": 66.99634664541054,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0026907920255325735,
+        "p25": 0.006658635989879258,
+        "median": 0.014926187024684623,
+        "p75": 0.04650544722971972,
+        "p95": 0.09695749115198851,
+        "max": 0.22584295796696097
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 37,
+        "density_only": 17
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212402_406541Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lie_down",
+      "mean_rate_hz": 32.8166166350174,
+      "median_interarrival_rate_hz": 64.42866609566107,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004582791996654123,
+        "p25": 0.006747916733729653,
+        "median": 0.015521041495958343,
+        "p75": 0.04290377045981586,
+        "p95": 0.0931871621083701,
+        "max": 0.19687958399299532
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 17,
+        "pass_windows": 37
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212447_557014Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lie_down",
+      "mean_rate_hz": 37.370276290419206,
+      "median_interarrival_rate_hz": 63.905334276525714,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0044668749906122684,
+        "p25": 0.006997062228037976,
+        "median": 0.015648145985323936,
+        "p75": 0.03614483348792419,
+        "p95": 0.08567004615033509,
+        "max": 0.3283194999676198
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 47,
+        "gap_only": 2,
+        "both": 4,
+        "density_only": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212532_696090Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lie_down",
+      "mean_rate_hz": 33.98607639806896,
+      "median_interarrival_rate_hz": 61.440474320068,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004643333028070629,
+        "p25": 0.006820458016591147,
+        "median": 0.016275916015729308,
+        "p75": 0.03963206251501106,
+        "p95": 0.09304968751384873,
+        "max": 0.21993179101264104
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 35,
+        "density_only": 19
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_210018_116989Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lying_still",
+      "mean_rate_hz": 53.07637739075881,
+      "median_interarrival_rate_hz": 169.87059602429773,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.003483916982077062,
+        "p25": 0.0054746670357417315,
+        "median": 0.005886833998374641,
+        "p75": 0.006526812998345122,
+        "p95": 0.08578900000429712,
+        "max": 0.49276674998691306
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 7,
+        "both": 47
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_210103_293289Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lying_still",
+      "mean_rate_hz": 32.327302562134925,
+      "median_interarrival_rate_hz": 62.631624236966566,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0045038330135867,
+        "p25": 0.006545167008880526,
+        "median": 0.015966375009156764,
+        "p75": 0.04436350002652034,
+        "p95": 0.10153999978210772,
+        "max": 0.2072107499698177
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 33,
+        "density_only": 21
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_210148_459563Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lying_still",
+      "mean_rate_hz": 28.247194623424917,
+      "median_interarrival_rate_hz": 148.39089350801913,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.001843750011175871,
+        "p25": 0.005717583000659943,
+        "median": 0.0067389580071903765,
+        "p75": 0.03463156247744337,
+        "p95": 0.17520274988492013,
+        "max": 0.4135810000007041
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 52,
+        "density_only": 2
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_210233_626194Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "lying_still",
+      "mean_rate_hz": 77.09577427246273,
+      "median_interarrival_rate_hz": 170.6897376832457,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00011670798994600773,
+        "p25": 0.005460833490360528,
+        "median": 0.005858583026565611,
+        "p75": 0.006435854505980387,
+        "p95": 0.055876500002341345,
+        "max": 0.4737809589714743
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 24,
+        "density_only": 9,
+        "both": 21
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212006_500023Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sit_down",
+      "mean_rate_hz": 33.5200209958387,
+      "median_interarrival_rate_hz": 54.93002760929546,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004360958992037922,
+        "p25": 0.006942666484974325,
+        "median": 0.018204979016445577,
+        "p75": 0.042767719001858495,
+        "p95": 0.09108214737498199,
+        "max": 0.2249208749854006
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 11,
+        "pass_windows": 43
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212051_637511Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sit_down",
+      "mean_rate_hz": 30.238100679141983,
+      "median_interarrival_rate_hz": 64.13699874766516,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0018686249968595803,
+        "p25": 0.0066297082375967875,
+        "median": 0.01559162448393181,
+        "p75": 0.04994408326456323,
+        "p95": 0.10102928122796584,
+        "max": 0.22655762499198318
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 27,
+        "density_only": 27
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212136_805049Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sit_down",
+      "mean_rate_hz": 32.74978817702624,
+      "median_interarrival_rate_hz": 101.80578004939662,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0037987499963492155,
+        "p25": 0.006037645507603884,
+        "median": 0.009822624997468665,
+        "p75": 0.03706186426279601,
+        "p95": 0.10803500563488334,
+        "max": 0.3809227909659967
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 19,
+        "both": 30,
+        "gap_only": 1,
+        "density_only": 4
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_212221_940385Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sit_down",
+      "mean_rate_hz": 30.562020373799488,
+      "median_interarrival_rate_hz": 67.25618512680738,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0021091249655000865,
+        "p25": 0.006723666519974358,
+        "median": 0.014868520986055955,
+        "p75": 0.04129782300151419,
+        "p95": 0.10030289548740257,
+        "max": 0.37650950002716854
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 25,
+        "density_only": 4,
+        "both": 25
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_204904_630782Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sitting_still",
+      "mean_rate_hz": 34.395261692591575,
+      "median_interarrival_rate_hz": 119.25702877333049,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002659957972355187,
+        "p25": 0.0059212910127826035,
+        "median": 0.00838524999562651,
+        "p75": 0.03417895847815089,
+        "p95": 0.10563020847621374,
+        "max": 0.5216297080041841
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 11,
+        "density_only": 30,
+        "gap_only": 4,
+        "both": 9
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205325_789787Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sitting_still",
+      "mean_rate_hz": 33.89238390749077,
+      "median_interarrival_rate_hz": 170.95478210587345,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0018258339841850102,
+        "p25": 0.005401791975600645,
+        "median": 0.005849500012118369,
+        "p75": 0.014871562234475277,
+        "p95": 0.17377340242092001,
+        "max": 0.6447916670003906
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 54
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205411_033588Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sitting_still",
+      "mean_rate_hz": 25.421091178226256,
+      "median_interarrival_rate_hz": 59.9104349752836,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0039714580052532256,
+        "p25": 0.006200625008204952,
+        "median": 0.016691583034116775,
+        "p75": 0.05200279148994014,
+        "p95": 0.13438203688710937,
+        "max": 0.4572686669998802
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 21,
+        "density_only": 4,
+        "gap_only": 3,
+        "both": 26
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205456_187846Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sitting_still",
+      "mean_rate_hz": 56.32422988701889,
+      "median_interarrival_rate_hz": 172.97793953654065,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0045635830028913915,
+        "p25": 0.0053973539907019585,
+        "median": 0.00578108400804922,
+        "p75": 0.006312291487120092,
+        "p95": 0.0961190996866207,
+        "max": 0.5100639580050483
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 5,
+        "both": 49
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205541_358575Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "sitting_still",
+      "mean_rate_hz": 56.718106438067714,
+      "median_interarrival_rate_hz": 159.55325106155263,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.003612250031437725,
+        "p25": 0.00563004199648276,
+        "median": 0.006267499993555248,
+        "p75": 0.01843850000295788,
+        "p95": 0.07085828299168495,
+        "max": 0.3042194999870844
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 44,
+        "gap_only": 2,
+        "both": 5,
+        "density_only": 3
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_214140_430498Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "staged_fall",
+      "mean_rate_hz": 39.46654135401999,
+      "median_interarrival_rate_hz": 76.60609266806378,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004495500004850328,
+        "p25": 0.006472125009167939,
+        "median": 0.013053792004939169,
+        "p75": 0.03391012502834201,
+        "p95": 0.0802090410143137,
+        "max": 0.2103796250303276
+      },
+      "fall_intervals": [
+        [
+          15.870651960372925,
+          23.008018970489502
+        ]
+      ],
+      "positive_windows": 7,
+      "quality": {
+        "pass_windows": 7
+      },
+      "event_window_counts": [
+        7
+      ],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_214225_578923Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "staged_fall",
+      "mean_rate_hz": 40.95300760322521,
+      "median_interarrival_rate_hz": 151.547665270471,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004378082987386733,
+        "p25": 0.005800906481454149,
+        "median": 0.006598584004677832,
+        "p75": 0.02521061476727482,
+        "p95": 0.09494462951261082,
+        "max": 0.3771938750287518
+      },
+      "fall_intervals": [
+        [
+          11.214102029800415,
+          18.150058031082153
+        ]
+      ],
+      "positive_windows": 5,
+      "quality": {
+        "density_only": 2,
+        "pass_windows": 5
+      },
+      "event_window_counts": [
+        5
+      ],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_214310_855919Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "staged_fall",
+      "mean_rate_hz": 41.53553728652716,
+      "median_interarrival_rate_hz": 145.77525115345122,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0027743339887820184,
+        "p25": 0.005588208034168929,
+        "median": 0.006859874993097037,
+        "p75": 0.025735250033903867,
+        "p95": 0.09013244197703897,
+        "max": 0.4247145829722285
+      },
+      "fall_intervals": [
+        [
+          10.712717294692993,
+          17.755962133407593
+        ]
+      ],
+      "positive_windows": 4,
+      "quality": {
+        "pass_windows": 4,
+        "density_only": 3
+      },
+      "event_window_counts": [
+        4
+      ],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_214356_001779Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "staged_fall",
+      "mean_rate_hz": 38.61622482180996,
+      "median_interarrival_rate_hz": 105.44120361154339,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00416812498588115,
+        "p25": 0.006036312479409389,
+        "median": 0.009483958507189527,
+        "p75": 0.030617334006819874,
+        "p95": 0.09520820983161678,
+        "max": 0.35329791699768975
+      },
+      "fall_intervals": [
+        [
+          11.367531776428223,
+          18.335189819335938
+        ]
+      ],
+      "positive_windows": 1,
+      "quality": {
+        "pass_windows": 1,
+        "gap_only": 3,
+        "both": 3
+      },
+      "event_window_counts": [
+        1
+      ],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_211504_566127Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "stand_up",
+      "mean_rate_hz": 31.46584780559972,
+      "median_interarrival_rate_hz": 73.35725440237614,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004870833014138043,
+        "p25": 0.006534666987136006,
+        "median": 0.013631916954182088,
+        "p75": 0.04714808298740536,
+        "p95": 0.10058470797957852,
+        "max": 0.30066800001077354
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 17,
+        "density_only": 24,
+        "gap_only": 2,
+        "both": 11
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_211655_556536Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "stand_up",
+      "mean_rate_hz": 28.18938229768649,
+      "median_interarrival_rate_hz": 62.06297200572699,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0022791250376030803,
+        "p25": 0.006616499973461032,
+        "median": 0.01611266698455438,
+        "p75": 0.05900116596603766,
+        "p95": 0.10611484181135893,
+        "max": 0.3138114170287736
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 30,
+        "pass_windows": 19,
+        "both": 2,
+        "gap_only": 3
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_211740_647313Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "stand_up",
+      "mean_rate_hz": 30.329565297982437,
+      "median_interarrival_rate_hz": 66.35397350548317,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002161207958124578,
+        "p25": 0.006628479008213617,
+        "median": 0.015070687513798475,
+        "p75": 0.04566091675951611,
+        "p95": 0.10694315000146161,
+        "max": 0.25699408299988136
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 22,
+        "density_only": 25,
+        "gap_only": 3,
+        "both": 4
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_211825_752524Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "stand_up",
+      "mean_rate_hz": 32.49363031928015,
+      "median_interarrival_rate_hz": 58.38890305213865,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.003783708030823618,
+        "p25": 0.0073452499927952886,
+        "median": 0.017126541992183775,
+        "p75": 0.043603540980257094,
+        "p95": 0.09493706602370365,
+        "max": 0.19259470800170675
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 47,
+        "density_only": 7
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_211910_910973Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "stand_up",
+      "mean_rate_hz": 30.887265770286795,
+      "median_interarrival_rate_hz": 56.92883230565377,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.001370083016809076,
+        "p25": 0.006722958481987007,
+        "median": 0.017565791524248198,
+        "p75": 0.048877969005843624,
+        "p95": 0.09702508321788628,
+        "max": 0.2517349579720758
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 38,
+        "density_only": 9,
+        "both": 5,
+        "gap_only": 2
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_204604_191292Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "standing_still",
+      "mean_rate_hz": 81.99851550753816,
+      "median_interarrival_rate_hz": 176.82099605785498,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002333916025236249,
+        "p25": 0.005289270498906262,
+        "median": 0.0056554369803052396,
+        "p75": 0.006129792265710421,
+        "p95": 0.056339252140605825,
+        "max": 0.2813735830131918
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 28,
+        "pass_windows": 19,
+        "both": 6,
+        "gap_only": 1
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_204705_815621Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "standing_still",
+      "mean_rate_hz": 55.40833840010979,
+      "median_interarrival_rate_hz": 178.77828363444783,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.0019464999786578119,
+        "p25": 0.00526323972735554,
+        "median": 0.005593520530965179,
+        "p75": 0.005984323506709188,
+        "p95": 0.10051068742468482,
+        "max": 0.4328157079871744
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "both": 34,
+        "density_only": 20
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_204805_537245Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "standing_still",
+      "mean_rate_hz": 53.42905327482728,
+      "median_interarrival_rate_hz": 178.28555099589843,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.003620250034146011,
+        "p25": 0.005326718470314518,
+        "median": 0.005608979496173561,
+        "p75": 0.006222541254828684,
+        "p95": 0.09415336423553522,
+        "max": 0.5570330829941668
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "density_only": 17,
+        "both": 37
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205636_548664Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "walking",
+      "mean_rate_hz": 37.12223431027778,
+      "median_interarrival_rate_hz": 64.14402350087649,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.002386125037446618,
+        "p25": 0.00701025000307709,
+        "median": 0.015589916962198913,
+        "p75": 0.03896279202308506,
+        "p95": 0.08271180816227569,
+        "max": 0.18138379201991484
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 48,
+        "density_only": 6
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205721_778609Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "walking",
+      "mean_rate_hz": 33.28620000176386,
+      "median_interarrival_rate_hz": 58.78880259560768,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.00449804199161008,
+        "p25": 0.0068510000128299,
+        "median": 0.01701004197821021,
+        "p75": 0.042451166023965925,
+        "p95": 0.09347483317833385,
+        "max": 0.27081916702445596
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 43,
+        "density_only": 5,
+        "gap_only": 1,
+        "both": 5
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205806_864916Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "walking",
+      "mean_rate_hz": 34.70415507384777,
+      "median_interarrival_rate_hz": 60.47365979466995,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004629375005606562,
+        "p25": 0.006772999739041552,
+        "median": 0.016536125040147454,
+        "p75": 0.039470563002396375,
+        "p95": 0.08773631435760759,
+        "max": 0.2281343749491498
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 48,
+        "density_only": 6
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    },
+    {
+      "recording_id": "20261017_205852_011721Z",
+      "group": "session_03_LAHACKS",
+      "split": "test",
+      "activity": "walking",
+      "mean_rate_hz": 31.743477417100753,
+      "median_interarrival_rate_hz": 63.233274848120466,
+      "packet_gap_quantiles_seconds": {
+        "min": 0.004087125009391457,
+        "p25": 0.006553208993864246,
+        "median": 0.01581445848569274,
+        "p75": 0.04426375002367422,
+        "p95": 0.0999197040684521,
+        "max": 0.2633190840133466
+      },
+      "fall_intervals": [],
+      "positive_windows": 0,
+      "quality": {
+        "pass_windows": 30,
+        "density_only": 17,
+        "both": 7
+      },
+      "event_window_counts": [],
+      "dev_mean_rate_positive_windows": 0
+    }
+  ],
+  "warnings": [],
+  "collection_groups": {
+    "session_01": {
+      "recordings": 24,
+      "metadata_ids": [
+        "session_202610120129"
+      ],
+      "participants": [
+        "p1"
+      ],
+      "first_utc": "2026-10-12T01:41:28.068810+00:00",
+      "last_utc": "2026-10-12T02:38:51.468446+00:00"
+    },
+    "session_02": {
+      "recordings": 30,
+      "metadata_ids": [
+        "session_20261015",
+        "session_202610160510"
+      ],
+      "participants": [
+        "p1",
+        "p2"
+      ],
+      "first_utc": "2026-10-16T05:01:38.411753+00:00",
+      "last_utc": "2026-10-16T06:11:52.618641+00:00"
+    },
+    "session_03_LAHACKS": {
+      "recordings": 42,
+      "metadata_ids": [
+        "session_202610172026"
+      ],
+      "participants": [
+        "p1"
+      ],
+      "first_utc": "2026-10-17T20:31:36.481799+00:00",
+      "last_utc": "2026-10-17T21:44:41.026301+00:00"
+    }
+  },
+  "moment": {
+    "input_shape": [
+      "B",
+      52,
+      512
+    ],
+    "mask_shape": [
+      "B",
+      512
+    ],
+    "patches": 64,
+    "head_input": 53248,
+    "head_output": 2,
+    "trainable_head_parameters": 106498,
+    "native_multichannel": true,
+    "pretrained_forward_run": false,
+    "installed_classify_source_sha256": "cc7b3cea39e5b84c755b6b3daeb11f5fe59ee147b1e19082c2edfcbca4b7407f",
+    "official_source": "https://github.com/moment-timeseries-foundation-model/moment/blob/38f7310ad594100747ca2a8357e9c7ca7d323e0e/momentfm/models/moment.py"
+  },
+  "processed_file_hashes_after": {
+    "preprocessing_config.json": "368496dbb2994305f576994d27ff4c2c9ee054e5fc29e2b5dd752a3bd45d5c07",
+    "test.npz": "53fffd512cf448e73e7ed6e1adbedb10bfb148822310bd2a5acd4077b134612b",
+    "train.npz": "a3ddb450714101c249ab6a1d47312dcc6a93d657c56bb98d511630452ab8ce76",
+    "val.npz": "3dd3a0f711de346141c85fad7161615bd64db83fa165c9b726dade8cb18dcc5f"
+  },
+  "training_review": {
+    "default_batch_size": 1,
+    "original_weighted_mean_cancels_class_weights": true,
+    "fixed_per_example_weighted_mean": true,
+    "training_class_weights": [
+      0.5318181818181819,
+      8.357142857142858
+    ],
+    "validation_or_test_oversampling": false,
+    "checkpoint_selection_reliable": false,
+    "local_tests_passed": 15,
+    "gpu_job_launched": false
+  }
+}

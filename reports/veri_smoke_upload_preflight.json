@@ -1,0 +1,45 @@
+{
+  "file_count": 14,
+  "file_bytes": 432330,
+  "tar_gz_bytes": 402679,
+  "largest_files": [
+    {
+      "path": "data/smoke/val.npz",
+      "bytes": 194198
+    },
+    {
+      "path": "data/smoke/train.npz",
+      "bytes": 192004
+    },
+    {
+      "path": "data/smoke/preprocessing_config.json",
+      "bytes": 10941
+    },
+    {
+      "path": "train.py",
+      "bytes": 9647
+    },
+    {
+      "path": "labeling_v3.py",
+      "bytes": 9321
+    },
+    {
+      "path": "model_utils.py",
+      "bytes": 4361
+    },
+    {
+      "path": "requirements-veri.lock.txt",
+      "bytes": 3419
+    },
+    {
+      "path": "training_data.py",
+      "bytes": 3178
+    }
+  ],
+  "mode": "smoke",
+  "budget_bytes": 104857,
+  "multipart_margin_bytes": 65536,
+  "budget_is_local_policy": true,
+  "server_limit_verified": false,
+  "passed": false
+}

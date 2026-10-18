@@ -1,0 +1,96 @@
+2026-10-18 00:19:10,115 INFO Status: setting_up
+2026-10-18 00:19:10,416 INFO Status: training
+2026-10-18 00:19:10,416 INFO Running custom script (sandbox=True): docker run --rm --runtime=runsc -e NVIDIA_VISIBLE_DEVICES=*** -e NVIDIA_DRIVER_CAPABILITIES=*** -e VERI_DATA_DIR=*** -e VERI_OUTPUT_DIR=*** -e VERI_METRICS_FILE=*** -e VERI_NUM_GPUS=*** -e VERI_NODE_RANK=*** -e VERI_NODE_IPS=*** -e VERI_NUM_NODES=*** -e VERI_CHECKPOINT_DIR=*** -v /tmp/5821d199fa99/code:/workspace/code -v /tmp/5821d199fa99/data:/workspace/data -v /tmp/5821d199fa99/output:/workspace/output -v /tmp/5821d199fa99/checkpoints:/workspace/checkpoints -w /workspace/code veri/base bash -c set -euo pipefail
+uv pip install --system -r /workspace/code/.veri_requirements.txt
+bash scripts/remote_train.sh
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+[URL]
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+Using Python 3.10.12 environment at: /usr
+Resolved 57 packages in 2.89s
+   Updating [URL] (38f7310ad594100747ca2a8357e9c7ca7d323e0e)
+Downloading pygments (1.2MiB)
+Downloading numpy (17.4MiB)
+Downloading hf-xet (4.0MiB)
+Downloading tokenizers (3.0MiB)
+Downloading transformers (10.7MiB)
+ Downloading tokenizers
+ Downloading hf-xet
+ Downloading pygments
+ Downloading numpy
+ Downloading transformers
+    Updated [URL] (38f7310ad594100747ca2a8357e9c7ca7d323e0e)
+   Building momentfm @ git+[URL]
+      Built momentfm @ git+[URL]
+Prepared 28 packages in 8.55s
+Uninstalled 16 packages in 5.15s
+Installed 28 packages in 119ms
+ + annotated-doc==0.0.5
+ - anyio==4.14.2
+ + anyio==4.15.1
+ - charset-normalizer==3.4.9
+ + charset-normalizer==3.5.2
+ + click==8.5.0
+ - filelock==3.32.2
+ + filelock==4.1.0
+ - hf-xet==1.5.2
+ + hf-xet==1.7.0
+ - huggingface-hub==0.35.1
+ + huggingface-hub==0.34.4
+ - idna==3.18
+ + idna==3.20
+ + markdown-it-py==4.2.0
+ - markupsafe==3.0.3
+ + markupsafe==3.0.4
+ + mdurl==0.1.2
+ + momentfm==0.1.5 (from git+[URL]
+ - numpy==2.1.3
+ + numpy==1.26.4
+ - packaging==26.2
+ + packaging==26.3
+ + platformdirs==4.12.4
+ + pygments==2.21.0
+ - regex==2026.7.19
+ + regex==2026.9.29
+ + rich==15.0.0
+ - safetensors==0.6.2
+ + safetensors==0.8.0
+ - setuptools==83.0.0
+ + setuptools==84.0.0
+ + shellingham==1.5.4
+ - tokenizers==0.22.1
+ + tokenizers==0.21.4
+ + tomlkit==0.15.2
+ - tqdm==4.70.0
+ + tqdm==4.70.1
+ - transformers==4.56.2
+ + transformers==4.55.4
+ + typer==0.25.1
+ - urllib3==2.7.0
+ + urllib3==2.8.0
+ + veri-sdk==0.2.44
+Full numerical dataset verified: data/remote
+Training class counts: [786, 49]
+Pretrained model: AutonLab/MOMENT-1-large revision: ca58581bc7bea2ebed4e80dc0a3e4b8b609c6ecc
+/usr/local/lib/python3.10/dist-packages/momentfm/models/moment.py:174: UserWarning: Only reconstruction head is pre-trained. Classification and forecasting heads must be fine-tuned.
+  warnings.warn("Only reconstruction head is pre-trained. Classification and forecasting heads must be fine-tuned.")
+Parameters: {"trainable": 106498, "frozen": 341240320}
+Training class weights: [0.5311704874038696, 8.520408630371094]
+{"epoch": 1, "train": {"loss": 4.600210679310853, "accuracy": 0.9353293413173652, "precision": 0.42857142857142855, "recall_fall": 0.30612244897959184, "f1": 0.35714285714285715, "confusion_matrix": [[766, 20], [34, 15]], "class_distribution": [786, 49], "precision_defined": true, "f1_defined": true, "windows": 835, "optimizer_steps": 835, "first_logits": [[0.07240503281354904, -0.05851633474230766]], "first_probabilities": [[0.5326836705207825, 0.46731632947921753]]}, "validation": {"loss": 0.4879763790356212, "accuracy": 0.9827956989247312, "precision": 0.0, "recall_fall": 0.0, "f1": 0.0, "confusion_matrix": [[457, 0], [8, 0]], "class_distribution": [457, 8], "precision_defined": false, "f1_defined": true, "windows": 465, "optimizer_steps": 0, "first_logits": [[18.149816513061523, -18.136486053466797]], "first_probabilities": [[1.0, 1.7420468698992086e-16]]}, "seconds": 458.9851964690001, "reward_meaning": "validation fall-class F1", "diagnostic": false}
+2026-10-18 00:31:49,722 INFO Status: training
+{"epoch": 2, "train": {"loss": 2.2069300714759534, "accuracy": 0.9556886227544911, "precision": 0.6304347826086957, "recall_fall": 0.5918367346938775, "f1": 0.6105263157894737, "confusion_matrix": [[769, 17], [20, 29]], "class_distribution": [786, 49], "precision_defined": true, "f1_defined": true, "windows": 835, "optimizer_steps": 835, "first_logits": [[22.13011360168457, -22.048336029052734]], "first_probabilities": [[1.0, 6.509419636068771e-20]]}, "validation": {"loss": 0.1632607386985722, "accuracy": 0.9698924731182795, "precision": 0.0, "recall_fall": 0.0, "f1": 0.0, "confusion_matrix": [[451, 6], [8, 0]], "class_distribution": [457, 8], "precision_defined": true, "f1_defined": true, "windows": 465, "optimizer_steps": 0, "first_logits": [[2.159421443939209, -2.1467719078063965]], "first_probabilities": [[0.9866945743560791, 0.013305364176630974]]}, "seconds": 447.7218307259999, "reward_meaning": "validation fall-class F1", "diagnostic": false}
+2026-10-18 00:39:19,984 INFO Status: training
+{"epoch": 3, "train": {"loss": 1.9076030056767583, "accuracy": 0.9592814371257485, "precision": 0.6744186046511628, "recall_fall": 0.5918367346938775, "f1": 0.6304347826086957, "confusion_matrix": [[772, 14], [20, 29]], "class_distribution": [786, 49], "precision_defined": true, "f1_defined": true, "windows": 835, "optimizer_steps": 835, "first_logits": [[11.868386268615723, -11.813996315002441]], "first_probabilities": [[1.0, 5.186470697360335e-11]]}, "validation": {"loss": 0.33205711298487145, "accuracy": 0.9827956989247312, "precision": 0.0, "recall_fall": 0.0, "f1": 0.0, "confusion_matrix": [[457, 0], [8, 0]], "class_distribution": [457, 8], "precision_defined": false, "f1_defined": true, "windows": 465, "optimizer_steps": 0, "first_logits": [[10.194255828857422, -10.18225383758545]], "first_probabilities": [[1.0, 1.4144704296725763e-09]]}, "seconds": 448.4386854470001, "reward_meaning": "validation fall-class F1", "diagnostic": false}
+2026-10-18 00:46:53,248 INFO Status: training

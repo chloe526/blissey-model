@@ -1,0 +1,4 @@
+Allowlisted upload prepared (processed numeric CSI only):
+/var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-8la3s3gb/upload_manifest.json
+veri run-script /var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-8la3s3gb --entrypoint bash\ scripts/remote_smoke.sh --base-image veri/base --gpu-type L4-24GB --gpu-count 1 --requirements /var/folders/fg/rszyw6kx7qvc9w17ddjvp2y40000gn/T/blissey-veri-8la3s3gb/requirements-veri.lock.txt 
+DRY RUN: no files uploaded and no job submitted. Use --execute only when ready to pay.

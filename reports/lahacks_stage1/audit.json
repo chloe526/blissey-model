@@ -1,0 +1,4415 @@
+{
+  "stage": 1,
+  "repository": "chloe526/blissey-data",
+  "revision": "06c97032c93a43ddccda5aa8381a95bced54755c",
+  "audited_utc": "2026-10-18T02:20:15.657099+00:00",
+  "lahacks_groups": [
+    "session_03_LAHACKS",
+    "session_04_LAHACKS"
+  ],
+  "physical_blocks_confirmed_by_user": true,
+  "participant_count": 1,
+  "blocks": {
+    "session_03_LAHACKS": {
+      "recordings": 42,
+      "participants": {
+        "p1": 42
+      },
+      "metadata_sessions": {
+        "session_202610172026": 42
+      },
+      "activity_recordings": {
+        "empty_room": 5,
+        "get_up_from_floor": 4,
+        "lie_down": 4,
+        "lying_still": 4,
+        "sit_down": 4,
+        "sitting_still": 5,
+        "staged_fall": 4,
+        "stand_up": 5,
+        "standing_still": 3,
+        "walking": 4
+      },
+      "fall_recordings": 4,
+      "annotated_action_events": 4,
+      "v2_label_candidate_fall_events": 4,
+      "quality_covered_fall_events": 3,
+      "signal_covered_action_events_any_overlap": 4,
+      "normal_recordings": 38,
+      "normal_contributing_recordings": 36,
+      "dynamic_hard_negative_recordings": 21,
+      "dynamic_hard_negative_contributing_recordings": 21,
+      "ambiguous_recordings": [],
+      "invalid_packets": 0,
+      "fall_interval_durations_seconds": {
+        "min": 6.935956001281738,
+        "p25": 6.959732532501221,
+        "median": 7.005451440811157,
+        "p75": 7.066775381565094,
+        "max": 7.137367010116577
+      },
+      "effective_packet_rate_hz": {
+        "min": 21.66764202437161,
+        "p25": 30.573908951463753,
+        "median": 33.40311049880128,
+        "p75": 40.581391040923904,
+        "max": 81.99851550753816
+      },
+      "monitored_normal_seconds": 829.5,
+      "source_recording_seconds": 1256.7945602103136,
+      "events": [
+        {
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "interval_seconds": [
+            15.870651960372925,
+            23.008018970489502
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 19
+        },
+        {
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "interval_seconds": [
+            11.214102029800415,
+            18.150058031082153
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 20
+        },
+        {
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "interval_seconds": [
+            10.712717294692993,
+            17.755962133407593
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 14
+        },
+        {
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "interval_seconds": [
+            11.367531776428223,
+            18.335189819335938
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 8
+        }
+      ],
+      "activity_windows": {
+        "empty_room": {
+          "normal": 167,
+          "fall": 0
+        },
+        "get_up_from_floor": {
+          "normal": 75,
+          "fall": 0
+        },
+        "lie_down": {
+          "normal": 199,
+          "fall": 0
+        },
+        "lying_still": {
+          "normal": 79,
+          "fall": 0
+        },
+        "sit_down": {
+          "normal": 144,
+          "fall": 0
+        },
+        "sitting_still": {
+          "normal": 106,
+          "fall": 0
+        },
+        "staged_fall": {
+          "normal": 0,
+          "fall": 21
+        },
+        "stand_up": {
+          "normal": 221,
+          "fall": 0
+        },
+        "standing_still": {
+          "normal": 69,
+          "fall": 0
+        },
+        "walking": {
+          "normal": 189,
+          "fall": 0
+        }
+      },
+      "all_candidate_windows": 2268,
+      "normal_windows": 1249,
+      "positive_windows": 21,
+      "ignored_windows": 188,
+      "quality_rejected_windows": 810,
+      "quality_rejection_fraction_of_label_candidates": 0.3894230769230769,
+      "fall_events_lost_to_label_geometry": 0,
+      "fall_events_lost_to_quality": 1,
+      "class_counts_normal_fall": [
+        1249,
+        21
+      ]
+    },
+    "session_04_LAHACKS": {
+      "recordings": 50,
+      "participants": {
+        "p1": 50
+      },
+      "metadata_sessions": {
+        "session_202610172026": 50
+      },
+      "activity_recordings": {
+        "lie_down": 10,
+        "sit_down": 10,
+        "staged_fall": 30
+      },
+      "fall_recordings": 30,
+      "annotated_action_events": 30,
+      "v2_label_candidate_fall_events": 30,
+      "quality_covered_fall_events": 10,
+      "signal_covered_action_events_any_overlap": 18,
+      "normal_recordings": 20,
+      "normal_contributing_recordings": 15,
+      "dynamic_hard_negative_recordings": 20,
+      "dynamic_hard_negative_contributing_recordings": 15,
+      "ambiguous_recordings": [],
+      "invalid_packets": 0,
+      "fall_interval_durations_seconds": {
+        "min": 4.925551891326904,
+        "p25": 6.330116510391235,
+        "median": 6.874145030975342,
+        "p75": 7.3593825697898865,
+        "max": 7.6618499755859375
+      },
+      "effective_packet_rate_hz": {
+        "min": 15.672824933359909,
+        "p25": 35.17730562178284,
+        "median": 41.488337798462936,
+        "p75": 45.63000985468148,
+        "max": 93.22566361672843
+      },
+      "monitored_normal_seconds": 227.5,
+      "source_recording_seconds": 1495.0977022467414,
+      "events": [
+        {
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "interval_seconds": [
+            9.845193147659302,
+            14.770745038986206
+          ],
+          "v2_positive_candidates": 2,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "interval_seconds": [
+            12.558066606521606,
+            19.993890523910522
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        },
+        {
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "interval_seconds": [
+            9.21031665802002,
+            15.162604570388794
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 5,
+          "quality_pass_windows_overlapping_action": 5
+        },
+        {
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "interval_seconds": [
+            12.881016731262207,
+            19.16476082801819
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "interval_seconds": [
+            11.273705959320068,
+            18.2397301197052
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "interval_seconds": [
+            14.069138765335083,
+            21.301857709884644
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        },
+        {
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "interval_seconds": [
+            11.81240177154541,
+            18.60663080215454
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        },
+        {
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "interval_seconds": [
+            12.498139381408691,
+            20.030038356781006
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "interval_seconds": [
+            11.482954025268555,
+            18.841576099395752
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 3
+        },
+        {
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "interval_seconds": [
+            12.180604696273804,
+            19.366352796554565
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "interval_seconds": [
+            11.820090293884277,
+            18.162403345108032
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        },
+        {
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "interval_seconds": [
+            12.095435619354248,
+            19.621766567230225
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "interval_seconds": [
+            12.266164302825928,
+            19.646530389785767
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 13
+        },
+        {
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "interval_seconds": [
+            10.92110824584961,
+            17.57727026939392
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "interval_seconds": [
+            12.318753242492676,
+            18.88216733932495
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "interval_seconds": [
+            10.9651939868927,
+            17.291244983673096
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 5,
+          "quality_pass_windows_overlapping_action": 15
+        },
+        {
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "interval_seconds": [
+            11.942139387130737,
+            17.82155442237854
+          ],
+          "v2_positive_candidates": 4,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 2
+        },
+        {
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "interval_seconds": [
+            15.467304229736328,
+            22.6561062335968
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "interval_seconds": [
+            11.029932975769043,
+            16.81270694732666
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "interval_seconds": [
+            11.97425627708435,
+            19.565503358840942
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        },
+        {
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "interval_seconds": [
+            10.238608598709106,
+            15.84311842918396
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 3
+        },
+        {
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "interval_seconds": [
+            11.63852834701538,
+            18.419933319091797
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 17
+        },
+        {
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "interval_seconds": [
+            11.27821946144104,
+            18.232280492782593
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 5,
+          "quality_pass_windows_overlapping_action": 10
+        },
+        {
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "interval_seconds": [
+            11.048243999481201,
+            17.482635974884033
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 6
+        },
+        {
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "interval_seconds": [
+            11.119801759719849,
+            18.479437828063965
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 2
+        },
+        {
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "interval_seconds": [
+            10.834774494171143,
+            16.981932401657104
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 2,
+          "quality_pass_windows_overlapping_action": 2
+        },
+        {
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "interval_seconds": [
+            11.313910722732544,
+            18.424765825271606
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 3,
+          "quality_pass_windows_overlapping_action": 3
+        },
+        {
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "interval_seconds": [
+            11.151772022247314,
+            18.813621997833252
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 4
+        },
+        {
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "interval_seconds": [
+            10.818113565444946,
+            17.356170415878296
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        },
+        {
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "interval_seconds": [
+            11.093950986862183,
+            18.735594034194946
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "activity_windows": {
+        "lie_down": {
+          "normal": 43,
+          "fall": 0
+        },
+        "sit_down": {
+          "normal": 258,
+          "fall": 0
+        },
+        "staged_fall": {
+          "normal": 0,
+          "fall": 31
+        }
+      },
+      "all_candidate_windows": 2700,
+      "normal_windows": 301,
+      "positive_windows": 31,
+      "ignored_windows": 1427,
+      "quality_rejected_windows": 941,
+      "quality_rejection_fraction_of_label_candidates": 0.7391987431264729,
+      "fall_events_lost_to_label_geometry": 0,
+      "fall_events_lost_to_quality": 20,
+      "class_counts_normal_fall": [
+        301,
+        31
+      ]
+    }
+  },
+  "recordings": [
+    {
+      "recording_id": "20261017_203126_416953Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "empty_room",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 832,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:31:26.417289+00:00",
+      "started_at": "2026-10-17T20:31:36.481799+00:00",
+      "ended_at": "2026-10-17T20:32:06.532376+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 31,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 23,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 10,
+        "excessive_packet_gap": 16,
+        "insufficient_temporal_coverage": 5,
+        "insufficient_effective_rate": 2
+      },
+      "normal_accepted_union_seconds": 24.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.923947583010886,
+      "effective_rate_hz": 27.770400201870242,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.3084836669731885,
+      "gaps_over_250ms": 4
+    },
+    {
+      "recording_id": "20261017_203215_249562Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "empty_room",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 643,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:32:15.249838+00:00",
+      "started_at": "2026-10-17T20:32:25.264277+00:00",
+      "ended_at": "2026-10-17T20:32:55.271083+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 11,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 43,
+      "quality_rejection_reasons": {
+        "insufficient_effective_rate": 21,
+        "insufficient_temporal_coverage": 26,
+        "excessive_packet_gap": 36,
+        "unsupported_window_edge": 21,
+        "insufficient_sample_span": 3
+      },
+      "normal_accepted_union_seconds": 16.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.629435417009518,
+      "effective_rate_hz": 21.66764202437161,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.6296909169759601,
+      "gaps_over_250ms": 10
+    },
+    {
+      "recording_id": "20261017_203329_912640Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "empty_room",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1050,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:33:29.912904+00:00",
+      "started_at": "2026-10-17T20:33:39.979179+00:00",
+      "ended_at": "2026-10-17T20:34:10.015116+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 36,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 18,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 7,
+        "excessive_packet_gap": 14,
+        "insufficient_temporal_coverage": 2
+      },
+      "normal_accepted_union_seconds": 27.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.92674554203404,
+      "effective_rate_hz": 35.05225780486595,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.32128016697242856,
+      "gaps_over_250ms": 3
+    },
+    {
+      "recording_id": "20261017_203746_546097Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "empty_room",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 917,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:37:46.546574+00:00",
+      "started_at": "2026-10-17T20:37:56.612276+00:00",
+      "ended_at": "2026-10-17T20:38:26.615968+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 46,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 8
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.925276958034374,
+      "effective_rate_hz": 30.609574684456554,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2176201249822043,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_204414_032528Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "empty_room",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 816,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:44:14.033077+00:00",
+      "started_at": "2026-10-17T20:44:29.039434+00:00",
+      "ended_at": "2026-10-17T20:44:59.044018+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 43,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 11,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 7,
+        "excessive_packet_gap": 4
+      },
+      "normal_accepted_union_seconds": 27.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.97303633397678,
+      "effective_rate_hz": 27.191105729790007,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.27933104196563363,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_212818_615503Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "get_up_from_floor",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1920,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:28:18.616062+00:00",
+      "started_at": "2026-10-17T21:28:33.625485+00:00",
+      "ended_at": "2026-10-17T21:29:03.628369+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 49,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 5,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 5
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.984187750029378,
+      "effective_rate_hz": 64.00039967726389,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2146531249745749,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_212903_717337Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "get_up_from_floor",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1723,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:29:03.717679+00:00",
+      "started_at": "2026-10-17T21:29:18.723600+00:00",
+      "ended_at": "2026-10-17T21:29:48.745652+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 9,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 45,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 35,
+        "excessive_packet_gap": 45,
+        "unsupported_window_edge": 17,
+        "insufficient_sample_span": 5
+      },
+      "normal_accepted_union_seconds": 9.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.952754291007295,
+      "effective_rate_hz": 57.49053937644043,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5341171659529209,
+      "gaps_over_250ms": 14
+    },
+    {
+      "recording_id": "20261017_212948_832897Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "get_up_from_floor",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 712,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:29:48.834791+00:00",
+      "started_at": "2026-10-17T21:30:03.882138+00:00",
+      "ended_at": "2026-10-17T21:30:33.893929+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 14,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 40,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 18,
+        "excessive_packet_gap": 34,
+        "unsupported_window_edge": 19,
+        "insufficient_sample_span": 2,
+        "insufficient_effective_rate": 9
+      },
+      "normal_accepted_union_seconds": 15.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.834972125012428,
+      "effective_rate_hz": 23.83109315540223,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.317255333007779,
+      "gaps_over_250ms": 12
+    },
+    {
+      "recording_id": "20261017_213033_975969Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "get_up_from_floor",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 704,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:30:33.976336+00:00",
+      "started_at": "2026-10-17T21:30:49.000508+00:00",
+      "ended_at": "2026-10-17T21:31:19.018645+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 3,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 51,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 40,
+        "excessive_packet_gap": 47,
+        "insufficient_effective_rate": 4,
+        "insufficient_sample_span": 3,
+        "unsupported_window_edge": 17
+      },
+      "normal_accepted_union_seconds": 6.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.757013750029728,
+      "effective_rate_hz": 23.624682433038082,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.44548512500477955,
+      "gaps_over_250ms": 17
+    },
+    {
+      "recording_id": "20261017_212317_244907Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 971,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:23:17.245238+00:00",
+      "started_at": "2026-10-17T21:23:32.300284+00:00",
+      "ended_at": "2026-10-17T21:24:02.323493+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 50,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4
+      },
+      "normal_accepted_union_seconds": 29.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.92019287502626,
+      "effective_rate_hz": 32.419577108061965,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.22584295796696097,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_212402_406541Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 981,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:24:02.406789+00:00",
+      "started_at": "2026-10-17T21:24:17.458432+00:00",
+      "ended_at": "2026-10-17T21:24:47.461254+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 50,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.862920084036887,
+      "effective_rate_hz": 32.8166166350174,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.19687958399299532,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_212447_557014Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1121,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:24:47.557394+00:00",
+      "started_at": "2026-10-17T21:25:02.623949+00:00",
+      "ended_at": "2026-10-17T21:25:32.626571+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 47,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 1,
+        "excessive_packet_gap": 6
+      },
+      "normal_accepted_union_seconds": 29.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.970343042048626,
+      "effective_rate_hz": 37.370276290419206,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.3283194999676198,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_212532_696090Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1020,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:25:32.696598+00:00",
+      "started_at": "2026-10-17T21:25:47.702194+00:00",
+      "ended_at": "2026-10-17T21:26:17.727079+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 52,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 2,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 2
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.982866750040557,
+      "effective_rate_hz": 33.98607639806896,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.21993179101264104,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_210018_116989Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lying_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1592,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:00:18.117518+00:00",
+      "started_at": "2026-10-17T21:00:33.141243+00:00",
+      "ended_at": "2026-10-17T21:01:03.210799+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 3,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 51,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 47,
+        "unsupported_window_edge": 30,
+        "insufficient_temporal_coverage": 47,
+        "insufficient_sample_span": 7
+      },
+      "normal_accepted_union_seconds": 4.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.97567050001817,
+      "effective_rate_hz": 53.07637739075881,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.49276674998691306,
+      "gaps_over_250ms": 18
+    },
+    {
+      "recording_id": "20261017_210103_293289Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lying_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 970,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:01:03.293637+00:00",
+      "started_at": "2026-10-17T21:01:18.371463+00:00",
+      "ended_at": "2026-10-17T21:01:48.374060+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 50,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4
+      },
+      "normal_accepted_union_seconds": 29.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.974663000029977,
+      "effective_rate_hz": 32.327302562134925,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2072107499698177,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_210148_459563Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lying_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 848,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:01:48.460035+00:00",
+      "started_at": "2026-10-17T21:02:03.531868+00:00",
+      "ended_at": "2026-10-17T21:02:33.539448+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 54,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 45,
+        "excessive_packet_gap": 52,
+        "unsupported_window_edge": 24,
+        "insufficient_sample_span": 4,
+        "insufficient_effective_rate": 7
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.985278584004845,
+      "effective_rate_hz": 28.247194623424917,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4135810000007041,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261017_210233_626194Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "lying_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 2314,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:02:33.626441+00:00",
+      "started_at": "2026-10-17T21:02:48.631497+00:00",
+      "ended_at": "2026-10-17T21:03:18.727027+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 26,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 28,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 14,
+        "excessive_packet_gap": 21,
+        "insufficient_temporal_coverage": 18,
+        "insufficient_sample_span": 3
+      },
+      "normal_accepted_union_seconds": 17.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.975702583033126,
+      "effective_rate_hz": 77.09577427246273,
+      "duplicate_host_timestamps": 2,
+      "max_gap_seconds": 0.4737809589714743,
+      "gaps_over_250ms": 4
+    },
+    {
+      "recording_id": "20261017_212006_500023Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1006,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:20:06.500478+00:00",
+      "started_at": "2026-10-17T21:20:21.535672+00:00",
+      "ended_at": "2026-10-17T21:20:51.548539+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 50,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.9522485419875,
+      "effective_rate_hz": 33.5200209958387,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.2249208749854006,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_212051_637511Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 907,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:20:51.637896+00:00",
+      "started_at": "2026-10-17T21:21:06.706441+00:00",
+      "ended_at": "2026-10-17T21:21:36.718690+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 45,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 9,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 9
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.962199333007447,
+      "effective_rate_hz": 30.238100679141983,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.22655762499198318,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_212136_805049Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 981,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:21:36.805515+00:00",
+      "started_at": "2026-10-17T21:21:51.820965+00:00",
+      "ended_at": "2026-10-17T21:22:21.852257+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 22,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 32,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 12,
+        "excessive_packet_gap": 31,
+        "insufficient_sample_span": 3,
+        "insufficient_temporal_coverage": 18,
+        "insufficient_effective_rate": 10
+      },
+      "normal_accepted_union_seconds": 16.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.92385766596999,
+      "effective_rate_hz": 32.74978817702624,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.3809227909659967,
+      "gaps_over_250ms": 9
+    },
+    {
+      "recording_id": "20261017_212221_940385Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 918,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:22:21.940880+00:00",
+      "started_at": "2026-10-17T21:22:36.960306+00:00",
+      "ended_at": "2026-10-17T21:23:07.050596+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 27,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 27,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 12,
+        "excessive_packet_gap": 25,
+        "insufficient_temporal_coverage": 11,
+        "insufficient_effective_rate": 1,
+        "insufficient_sample_span": 2
+      },
+      "normal_accepted_union_seconds": 16.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.97184049995849,
+      "effective_rate_hz": 30.562020373799488,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.37650950002716854,
+      "gaps_over_250ms": 8
+    },
+    {
+      "recording_id": "20261017_204904_630782Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sitting_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1032,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:49:04.631283+00:00",
+      "started_at": "2026-10-17T20:49:19.643108+00:00",
+      "ended_at": "2026-10-17T20:49:49.647478+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 35,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 19,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 13,
+        "unsupported_window_edge": 8,
+        "insufficient_sample_span": 3,
+        "insufficient_temporal_coverage": 3
+      },
+      "normal_accepted_union_seconds": 28.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.975059041986242,
+      "effective_rate_hz": 34.395261692591575,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5216297080041841,
+      "gaps_over_250ms": 2
+    },
+    {
+      "recording_id": "20261017_205325_789787Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sitting_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1016,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:53:25.790042+00:00",
+      "started_at": "2026-10-17T20:53:40.893498+00:00",
+      "ended_at": "2026-10-17T20:54:10.948218+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 54,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 54,
+        "insufficient_temporal_coverage": 52,
+        "unsupported_window_edge": 29,
+        "insufficient_effective_rate": 4,
+        "insufficient_sample_span": 9
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.918225958012044,
+      "effective_rate_hz": 33.89238390749077,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.6447916670003906,
+      "gaps_over_250ms": 20
+    },
+    {
+      "recording_id": "20261017_205411_033588Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sitting_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 760,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:54:11.034055+00:00",
+      "started_at": "2026-10-17T20:54:26.052833+00:00",
+      "ended_at": "2026-10-17T20:54:56.100703+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 23,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 31,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 29,
+        "insufficient_temporal_coverage": 21,
+        "insufficient_sample_span": 2,
+        "unsupported_window_edge": 12,
+        "insufficient_effective_rate": 12
+      },
+      "normal_accepted_union_seconds": 16.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.85709758399753,
+      "effective_rate_hz": 25.421091178226256,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4572686669998802,
+      "gaps_over_250ms": 13
+    },
+    {
+      "recording_id": "20261017_205456_187846Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sitting_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1684,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:54:56.188181+00:00",
+      "started_at": "2026-10-17T20:55:11.193186+00:00",
+      "ended_at": "2026-10-17T20:55:41.287603+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 3,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 51,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 43,
+        "unsupported_window_edge": 24,
+        "excessive_packet_gap": 49,
+        "insufficient_sample_span": 4
+      },
+      "normal_accepted_union_seconds": 4.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.88056833401788,
+      "effective_rate_hz": 56.32422988701889,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5100639580050483,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261017_205541_358575Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "sitting_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1694,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:55:41.359080+00:00",
+      "started_at": "2026-10-17T20:55:56.374117+00:00",
+      "ended_at": "2026-10-17T20:56:26.448436+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 45,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 9,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4,
+        "excessive_packet_gap": 7
+      },
+      "normal_accepted_union_seconds": 28.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.84937449998688,
+      "effective_rate_hz": 56.718106438067714,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.3042194999870844,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_214140_430498Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1182,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-17T21:41:40.430818+00:00",
+      "started_at": "2026-10-17T21:41:55.463467+00:00",
+      "ended_at": "2026-10-17T21:42:25.509418+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 7,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 0,
+      "quality_rejection_reasons": {},
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          15.870651960372925,
+          23.008018970489502
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.137367010116577
+      ],
+      "events": [
+        {
+          "event_id": "20261017_214140_430498Z:fall:0",
+          "interval_seconds": [
+            15.870651960372925,
+            23.008018970489502
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 19
+        }
+      ],
+      "duration_seconds": 29.924081499979366,
+      "effective_rate_hz": 39.46654135401999,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2103796250303276,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_214225_578923Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1225,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-17T21:42:25.579173+00:00",
+      "started_at": "2026-10-17T21:42:40.659895+00:00",
+      "ended_at": "2026-10-17T21:43:10.763611+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 7,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 0,
+      "quality_rejection_reasons": {},
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.214102029800415,
+          18.150058031082153
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.935956001281738
+      ],
+      "events": [
+        {
+          "event_id": "20261017_214225_578923Z:fall:0",
+          "interval_seconds": [
+            11.214102029800415,
+            18.150058031082153
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 20
+        }
+      ],
+      "duration_seconds": 29.88791474996833,
+      "effective_rate_hz": 40.95300760322521,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.3771938750287518,
+      "gaps_over_250ms": 9
+    },
+    {
+      "recording_id": "20261017_214310_855919Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1246,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-17T21:43:10.856355+00:00",
+      "started_at": "2026-10-17T21:43:25.903073+00:00",
+      "ended_at": "2026-10-17T21:43:55.915245+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 7,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 0,
+      "quality_rejection_reasons": {},
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          10.712717294692993,
+          17.755962133407593
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.0432448387146
+      ],
+      "events": [
+        {
+          "event_id": "20261017_214310_855919Z:fall:0",
+          "interval_seconds": [
+            10.712717294692993,
+            17.755962133407593
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 14
+        }
+      ],
+      "duration_seconds": 29.97433237498626,
+      "effective_rate_hz": 41.53553728652716,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4247145829722285,
+      "gaps_over_250ms": 6
+    },
+    {
+      "recording_id": "20261017_214356_001779Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1159,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-17T21:43:56.002090+00:00",
+      "started_at": "2026-10-17T21:44:11.023180+00:00",
+      "ended_at": "2026-10-17T21:44:41.026301+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 6,
+        "unsupported_window_edge": 3,
+        "insufficient_effective_rate": 1,
+        "insufficient_sample_span": 2,
+        "excessive_packet_gap": 6
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.367531776428223,
+          18.335189819335938
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.967658042907715
+      ],
+      "events": [
+        {
+          "event_id": "20261017_214356_001779Z:fall:0",
+          "interval_seconds": [
+            11.367531776428223,
+            18.335189819335938
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 8
+        }
+      ],
+      "duration_seconds": 29.987395333009772,
+      "effective_rate_hz": 38.61622482180996,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.35329791699768975,
+      "gaps_over_250ms": 5
+    },
+    {
+      "recording_id": "20261017_211504_566127Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "stand_up",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 942,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:15:04.566781+00:00",
+      "started_at": "2026-10-17T21:15:19.579680+00:00",
+      "ended_at": "2026-10-17T21:15:49.589287+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 39,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 15,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 5,
+        "excessive_packet_gap": 13
+      },
+      "normal_accepted_union_seconds": 25.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.90543924999656,
+      "effective_rate_hz": 31.46584780559972,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.30066800001077354,
+      "gaps_over_250ms": 4
+    },
+    {
+      "recording_id": "20261017_211655_556536Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "stand_up",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 846,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:16:55.556914+00:00",
+      "started_at": "2026-10-17T21:17:10.562476+00:00",
+      "ended_at": "2026-10-17T21:17:40.565335+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 47,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 2,
+        "excessive_packet_gap": 5
+      },
+      "normal_accepted_union_seconds": 27.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.975825332978275,
+      "effective_rate_hz": 28.18938229768649,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.3138114170287736,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_211740_647313Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "stand_up",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 909,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:17:40.647556+00:00",
+      "started_at": "2026-10-17T21:17:55.652625+00:00",
+      "ended_at": "2026-10-17T21:18:25.663439+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 42,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 12,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 6,
+        "excessive_packet_gap": 7
+      },
+      "normal_accepted_union_seconds": 28.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.9377848340082,
+      "effective_rate_hz": 30.329565297982437,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.25699408299988136,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_211825_752524Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "stand_up",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 974,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:18:25.752986+00:00",
+      "started_at": "2026-10-17T21:18:40.766943+00:00",
+      "ended_at": "2026-10-17T21:19:10.819009+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 48,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 6,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 6
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.944330333033577,
+      "effective_rate_hz": 32.49363031928015,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.19259470800170675,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_211910_910973Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "stand_up",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 927,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T21:19:10.911373+00:00",
+      "started_at": "2026-10-17T21:19:25.935830+00:00",
+      "ended_at": "2026-10-17T21:19:55.941472+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 45,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 9,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4,
+        "excessive_packet_gap": 7
+      },
+      "normal_accepted_union_seconds": 28.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.979992625012528,
+      "effective_rate_hz": 30.887265770286795,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2517349579720758,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_204604_191292Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "standing_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 2453,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:46:04.191851+00:00",
+      "started_at": "2026-10-17T20:46:19.198067+00:00",
+      "ended_at": "2026-10-17T20:46:49.200927+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 41,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 13,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 8,
+        "excessive_packet_gap": 7
+      },
+      "normal_accepted_union_seconds": 28.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.902980374987237,
+      "effective_rate_hz": 81.99851550753816,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2813735830131918,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_204705_815621Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "standing_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1659,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:47:05.815975+00:00",
+      "started_at": "2026-10-17T20:47:20.915934+00:00",
+      "ended_at": "2026-10-17T20:47:51.011250+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 15,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 39,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 34,
+        "unsupported_window_edge": 20,
+        "insufficient_temporal_coverage": 28,
+        "insufficient_sample_span": 5
+      },
+      "normal_accepted_union_seconds": 13.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.92329400003655,
+      "effective_rate_hz": 55.40833840010979,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4328157079871744,
+      "gaps_over_250ms": 10
+    },
+    {
+      "recording_id": "20261017_204805_537245Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "standing_still",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1595,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:48:05.537633+00:00",
+      "started_at": "2026-10-17T20:48:20.553068+00:00",
+      "ended_at": "2026-10-17T20:48:50.600431+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 13,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 41,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 19,
+        "excessive_packet_gap": 37,
+        "insufficient_sample_span": 3,
+        "insufficient_temporal_coverage": 17
+      },
+      "normal_accepted_union_seconds": 15.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.83395554102026,
+      "effective_rate_hz": 53.42905327482728,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5570330829941668,
+      "gaps_over_250ms": 8
+    },
+    {
+      "recording_id": "20261017_205636_548664Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "walking",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1114,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:56:36.549072+00:00",
+      "started_at": "2026-10-17T20:56:51.636569+00:00",
+      "ended_at": "2026-10-17T20:57:21.711702+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 54,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 0,
+      "quality_rejection_reasons": {},
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.98203154199291,
+      "effective_rate_hz": 37.12223431027778,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.18138379201991484,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_205721_778609Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "walking",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 998,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:57:21.778840+00:00",
+      "started_at": "2026-10-17T20:57:36.784935+00:00",
+      "ended_at": "2026-10-17T20:58:06.788128+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 45,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 9,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 5,
+        "excessive_packet_gap": 6
+      },
+      "normal_accepted_union_seconds": 26.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.952352625026833,
+      "effective_rate_hz": 33.28620000176386,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.27081916702445596,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261017_205806_864916Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "walking",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1039,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:58:06.865426+00:00",
+      "started_at": "2026-10-17T20:58:21.896209+00:00",
+      "ended_at": "2026-10-17T20:58:51.926082+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 50,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.90996316698147,
+      "effective_rate_hz": 34.70415507384777,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2281343749491498,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261017_205852_011721Z",
+      "group": "session_03_LAHACKS",
+      "participant": "p1",
+      "activity": "walking",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 951,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-17T20:58:52.012193+00:00",
+      "started_at": "2026-10-17T20:59:07.048142+00:00",
+      "ended_at": "2026-10-17T20:59:37.073069+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 40,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 14,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 11,
+        "insufficient_temporal_coverage": 2,
+        "excessive_packet_gap": 7
+      },
+      "normal_accepted_union_seconds": 28.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.927407999988645,
+      "effective_rate_hz": 31.743477417100753,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2633190840133466,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261018_011229_451605Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1347,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:12:29.452234+00:00",
+      "started_at": "2026-10-18T01:12:44.483910+00:00",
+      "ended_at": "2026-10-18T01:13:14.487659+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 4,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 50,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 39,
+        "excessive_packet_gap": 45,
+        "unsupported_window_edge": 23,
+        "insufficient_sample_span": 2
+      },
+      "normal_accepted_union_seconds": 6.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.843169833009597,
+      "effective_rate_hz": 45.06893897418003,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.46787624998250976,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261018_011314_547490Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1237,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:13:14.547788+00:00",
+      "started_at": "2026-10-18T01:13:29.557817+00:00",
+      "ended_at": "2026-10-18T01:13:59.596258+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 54,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 54,
+        "insufficient_temporal_coverage": 45,
+        "insufficient_sample_span": 10,
+        "unsupported_window_edge": 26,
+        "insufficient_effective_rate": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.782295875018463,
+      "effective_rate_hz": 41.501165833113724,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5036154169938527,
+      "gaps_over_250ms": 17
+    },
+    {
+      "recording_id": "20261018_011359_656047Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1255,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:13:59.656299+00:00",
+      "started_at": "2026-10-18T01:14:14.722498+00:00",
+      "ended_at": "2026-10-18T01:14:44.725506+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 2,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 52,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 33,
+        "excessive_packet_gap": 51,
+        "unsupported_window_edge": 25,
+        "insufficient_sample_span": 6
+      },
+      "normal_accepted_union_seconds": 6.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.87444233399583,
+      "effective_rate_hz": 41.97567894256563,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5343804999720305,
+      "gaps_over_250ms": 16
+    },
+    {
+      "recording_id": "20261018_011444_787943Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1217,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:14:44.788234+00:00",
+      "started_at": "2026-10-18T01:14:59.796568+00:00",
+      "ended_at": "2026-10-18T01:15:29.807156+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 54,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 42,
+        "excessive_packet_gap": 51,
+        "unsupported_window_edge": 25,
+        "insufficient_sample_span": 5
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.941240582964383,
+      "effective_rate_hz": 40.612879637721676,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.459536875016056,
+      "gaps_over_250ms": 20
+    },
+    {
+      "recording_id": "20261018_011529_866050Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 796,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:15:29.866297+00:00",
+      "started_at": "2026-10-18T01:15:44.878267+00:00",
+      "ended_at": "2026-10-18T01:16:14.892756+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 12,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 42,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 22,
+        "excessive_packet_gap": 40,
+        "insufficient_temporal_coverage": 34,
+        "insufficient_sample_span": 3
+      },
+      "normal_accepted_union_seconds": 14.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.938711291004438,
+      "effective_rate_hz": 26.554249188370054,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4271554169827141,
+      "gaps_over_250ms": 11
+    },
+    {
+      "recording_id": "20261018_011614_953211Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1764,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:16:14.953457+00:00",
+      "started_at": "2026-10-18T01:16:29.959962+00:00",
+      "ended_at": "2026-10-18T01:16:59.962488+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 23,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 31,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 29,
+        "unsupported_window_edge": 13,
+        "insufficient_temporal_coverage": 10,
+        "insufficient_sample_span": 2
+      },
+      "normal_accepted_union_seconds": 19.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.98482862499077,
+      "effective_rate_hz": 58.79640074149474,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.41346870898269117,
+      "gaps_over_250ms": 6
+    },
+    {
+      "recording_id": "20261018_011700_025961Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1303,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:17:00.026252+00:00",
+      "started_at": "2026-10-18T01:17:15.031880+00:00",
+      "ended_at": "2026-10-18T01:17:45.096108+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 54,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 24,
+        "excessive_packet_gap": 51,
+        "insufficient_temporal_coverage": 37,
+        "insufficient_sample_span": 5
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.910491874965373,
+      "effective_rate_hz": 43.49644283479394,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.4961374580161646,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261018_011745_156278Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1106,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:17:45.156520+00:00",
+      "started_at": "2026-10-18T01:18:00.161943+00:00",
+      "ended_at": "2026-10-18T01:18:30.219541+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 54,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 49,
+        "excessive_packet_gap": 54,
+        "unsupported_window_edge": 28,
+        "insufficient_sample_span": 9,
+        "insufficient_effective_rate": 3
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.838284750003368,
+      "effective_rate_hz": 37.0329598118027,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.6547049170476384,
+      "gaps_over_250ms": 19
+    },
+    {
+      "recording_id": "20261018_011830_281516Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1228,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:18:30.281795+00:00",
+      "started_at": "2026-10-18T01:18:45.288206+00:00",
+      "ended_at": "2026-10-18T01:19:15.370019+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 54,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 50,
+        "unsupported_window_edge": 26,
+        "excessive_packet_gap": 53,
+        "insufficient_sample_span": 4
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.84614145802334,
+      "effective_rate_hz": 41.11084180599009,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4943794999853708,
+      "gaps_over_250ms": 21
+    },
+    {
+      "recording_id": "20261018_011915_436503Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "lie_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1486,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:19:15.436747+00:00",
+      "started_at": "2026-10-18T01:19:30.496428+00:00",
+      "ended_at": "2026-10-18T01:20:00.561364+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 2,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 52,
+      "quality_rejection_reasons": {
+        "insufficient_sample_span": 6,
+        "unsupported_window_edge": 22,
+        "excessive_packet_gap": 48,
+        "insufficient_temporal_coverage": 41
+      },
+      "normal_accepted_union_seconds": 3.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.843689624976832,
+      "effective_rate_hz": 49.759262968516175,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.47835225000744686,
+      "gaps_over_250ms": 19
+    },
+    {
+      "recording_id": "20261018_012550_085283Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 2790,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:25:50.085597+00:00",
+      "started_at": "2026-10-18T01:26:05.101629+00:00",
+      "ended_at": "2026-10-18T01:26:35.105593+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 44,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 10,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 5,
+        "insufficient_sample_span": 1,
+        "excessive_packet_gap": 7
+      },
+      "normal_accepted_union_seconds": 28.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.916654833010398,
+      "effective_rate_hz": 93.22566361672843,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2978345000301488,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261018_012635_166741Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 968,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:26:35.166996+00:00",
+      "started_at": "2026-10-18T01:26:50.172639+00:00",
+      "ended_at": "2026-10-18T01:27:20.187037+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 46,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 8
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.89312266698107,
+      "effective_rate_hz": 32.3485776568975,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.20932374999392778,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261018_012720_246222Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 2141,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:27:20.246473+00:00",
+      "started_at": "2026-10-18T01:27:35.316136+00:00",
+      "ended_at": "2026-10-18T01:28:05.408933+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 19,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 35,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 19,
+        "excessive_packet_gap": 33,
+        "insufficient_temporal_coverage": 24,
+        "insufficient_sample_span": 4
+      },
+      "normal_accepted_union_seconds": 13.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.971505374996923,
+      "effective_rate_hz": 71.40115163468728,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5525313750258647,
+      "gaps_over_250ms": 12
+    },
+    {
+      "recording_id": "20261018_012805_468082Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1386,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:28:05.468343+00:00",
+      "started_at": "2026-10-18T01:28:20.473801+00:00",
+      "ended_at": "2026-10-18T01:28:50.548283+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 9,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 45,
+      "quality_rejection_reasons": {
+        "insufficient_sample_span": 5,
+        "unsupported_window_edge": 24,
+        "excessive_packet_gap": 45,
+        "insufficient_temporal_coverage": 41
+      },
+      "normal_accepted_union_seconds": 7.0,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.94023470801767,
+      "effective_rate_hz": 46.22542252914871,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.45827720797387883,
+      "gaps_over_250ms": 17
+    },
+    {
+      "recording_id": "20261018_012850_608798Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1185,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:28:50.609036+00:00",
+      "started_at": "2026-10-18T01:29:05.633673+00:00",
+      "ended_at": "2026-10-18T01:29:35.681992+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 7,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 47,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 34,
+        "unsupported_window_edge": 18,
+        "excessive_packet_gap": 44,
+        "insufficient_sample_span": 5
+      },
+      "normal_accepted_union_seconds": 6.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.605034500011243,
+      "effective_rate_hz": 39.99319777855859,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4945695839705877,
+      "gaps_over_250ms": 12
+    },
+    {
+      "recording_id": "20261018_012935_754472Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1593,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:29:35.754690+00:00",
+      "started_at": "2026-10-18T01:29:50.791551+00:00",
+      "ended_at": "2026-10-18T01:30:20.794512+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 2,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 52,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 38,
+        "excessive_packet_gap": 52,
+        "insufficient_sample_span": 7,
+        "unsupported_window_edge": 28
+      },
+      "normal_accepted_union_seconds": 3.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.989376624987926,
+      "effective_rate_hz": 53.05211975211041,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.5434542500297539,
+      "gaps_over_250ms": 18
+    },
+    {
+      "recording_id": "20261018_013020_862150Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 838,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:30:20.862399+00:00",
+      "started_at": "2026-10-18T01:30:35.902666+00:00",
+      "ended_at": "2026-10-18T01:31:06.002262+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 41,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 13,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 10,
+        "insufficient_temporal_coverage": 4,
+        "insufficient_sample_span": 2,
+        "insufficient_effective_rate": 3
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.980915958003607,
+      "effective_rate_hz": 27.917759456463745,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.2406513339956291,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261018_013106_076096Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1380,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:31:06.076313+00:00",
+      "started_at": "2026-10-18T01:31:21.102359+00:00",
+      "ended_at": "2026-10-18T01:31:51.117269+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 48,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 6,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 6
+      },
+      "normal_accepted_union_seconds": 29.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.97954337496776,
+      "effective_rate_hz": 45.99803214986369,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.21554404200287536,
+      "gaps_over_250ms": 0
+    },
+    {
+      "recording_id": "20261018_013151_177083Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 1390,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:31:51.177366+00:00",
+      "started_at": "2026-10-18T01:32:06.152402+00:00",
+      "ended_at": "2026-10-18T01:32:36.155228+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 4,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 50,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 19,
+        "excessive_packet_gap": 47,
+        "insufficient_temporal_coverage": 36,
+        "insufficient_sample_span": 1
+      },
+      "normal_accepted_union_seconds": 4.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.981933999981266,
+      "effective_rate_hz": 46.29454524184021,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.38507854199269786,
+      "gaps_over_250ms": 14
+    },
+    {
+      "recording_id": "20261018_013236_201625Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "sit_down",
+      "metadata_session": "session_202610172026",
+      "label_status": "verified_non_fall",
+      "source_count": 1,
+      "valid_packets": 994,
+      "invalid_packets": 0,
+      "issues": [],
+      "created_at": "2026-10-18T01:32:36.201897+00:00",
+      "started_at": "2026-10-18T01:32:51.221047+00:00",
+      "ended_at": "2026-10-18T01:33:21.264120+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 38,
+      "positive_windows": 0,
+      "ignored_windows": 0,
+      "quality_rejected_windows": 16,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 6,
+        "insufficient_temporal_coverage": 3,
+        "excessive_packet_gap": 10,
+        "insufficient_effective_rate": 1
+      },
+      "normal_accepted_union_seconds": 26.5,
+      "fall_intervals": [],
+      "fall_interval_durations_seconds": [],
+      "events": [],
+      "duration_seconds": 29.95269854197977,
+      "effective_rate_hz": 33.15227169292527,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.31505104195093736,
+      "gaps_over_250ms": 2
+    },
+    {
+      "recording_id": "20261018_003839_872397Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 793,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:38:39.873234+00:00",
+      "started_at": "2026-10-18T00:38:54.886756+00:00",
+      "ended_at": "2026-10-18T00:39:24.951913+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 52,
+      "quality_rejected_windows": 2,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 2,
+        "unsupported_window_edge": 1,
+        "excessive_packet_gap": 2,
+        "insufficient_effective_rate": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          9.845193147659302,
+          14.770745038986206
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        4.925551891326904
+      ],
+      "events": [
+        {
+          "event_id": "20261018_003839_872397Z:fall:0",
+          "interval_seconds": [
+            9.845193147659302,
+            14.770745038986206
+          ],
+          "v2_positive_candidates": 2,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.965974999999162,
+      "effective_rate_hz": 26.363233634147466,
+      "duplicate_host_timestamps": 2,
+      "max_gap_seconds": 0.5199811659986153,
+      "gaps_over_250ms": 14
+    },
+    {
+      "recording_id": "20261018_003925_035409Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1186,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:39:25.035771+00:00",
+      "started_at": "2026-10-18T00:39:40.089734+00:00",
+      "ended_at": "2026-10-18T00:40:10.104598+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 2,
+        "excessive_packet_gap": 8,
+        "unsupported_window_edge": 4
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          12.558066606521606,
+          19.993890523910522
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.435823917388916
+      ],
+      "events": [
+        {
+          "event_id": "20261018_003925_035409Z:fall:0",
+          "interval_seconds": [
+            12.558066606521606,
+            19.993890523910522
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        }
+      ],
+      "duration_seconds": 29.827939541020896,
+      "effective_rate_hz": 39.694327473465044,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.4744192500365898,
+      "gaps_over_250ms": 11
+    },
+    {
+      "recording_id": "20261018_004010_188550Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1335,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:40:10.188933+00:00",
+      "started_at": "2026-10-18T00:40:25.244370+00:00",
+      "ended_at": "2026-10-18T00:40:55.253551+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 5,
+      "ignored_windows": 49,
+      "quality_rejected_windows": 0,
+      "quality_rejection_reasons": {},
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          9.21031665802002,
+          15.162604570388794
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        5.952287912368774
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004010_188550Z:fall:0",
+          "interval_seconds": [
+            9.21031665802002,
+            15.162604570388794
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 5,
+          "quality_pass_windows_overlapping_action": 5
+        }
+      ],
+      "duration_seconds": 29.977173625025898,
+      "effective_rate_hz": 44.400450044057486,
+      "duplicate_host_timestamps": 3,
+      "max_gap_seconds": 0.4136976249865256,
+      "gaps_over_250ms": 14
+    },
+    {
+      "recording_id": "20261018_004055_315884Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1400,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:40:55.316178+00:00",
+      "started_at": "2026-10-18T00:41:10.322985+00:00",
+      "ended_at": "2026-10-18T00:41:40.405808+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 49,
+      "quality_rejected_windows": 5,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 5,
+        "unsupported_window_edge": 4,
+        "excessive_packet_gap": 5
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          12.881016731262207,
+          19.16476082801819
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.2837440967559814
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004055_315884Z:fall:0",
+          "interval_seconds": [
+            12.881016731262207,
+            19.16476082801819
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.967825291969348,
+      "effective_rate_hz": 46.61666258359969,
+      "duplicate_host_timestamps": 2,
+      "max_gap_seconds": 0.6339188750134781,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261018_004140_480887Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1175,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:41:40.481395+00:00",
+      "started_at": "2026-10-18T00:41:55.571496+00:00",
+      "ended_at": "2026-10-18T00:42:25.677823+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 7,
+        "excessive_packet_gap": 7,
+        "unsupported_window_edge": 4
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.273705959320068,
+          18.2397301197052
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.966024160385132
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004140_480887Z:fall:0",
+          "interval_seconds": [
+            11.273705959320068,
+            18.2397301197052
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.69516795797972,
+      "effective_rate_hz": 39.53505168454591,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.46436408400768414,
+      "gaps_over_250ms": 21
+    },
+    {
+      "recording_id": "20261018_004254_688183Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1356,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:42:54.688428+00:00",
+      "started_at": "2026-10-18T00:43:09.792340+00:00",
+      "ended_at": "2026-10-18T00:43:39.798024+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 7,
+        "unsupported_window_edge": 3,
+        "insufficient_temporal_coverage": 3
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          14.069138765335083,
+          21.301857709884644
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.2327189445495605
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004254_688183Z:fall:0",
+          "interval_seconds": [
+            14.069138765335083,
+            21.301857709884644
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        }
+      ],
+      "duration_seconds": 29.82824875001097,
+      "effective_rate_hz": 45.39321135973502,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.43775304197333753,
+      "gaps_over_250ms": 14
+    },
+    {
+      "recording_id": "20261018_004339_859364Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1264,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:43:39.859647+00:00",
+      "started_at": "2026-10-18T00:43:54.886482+00:00",
+      "ended_at": "2026-10-18T00:44:24.922674+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 48,
+      "quality_rejected_windows": 6,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 2,
+        "excessive_packet_gap": 6,
+        "unsupported_window_edge": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.81240177154541,
+          18.60663080215454
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.794229030609131
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004339_859364Z:fall:0",
+          "interval_seconds": [
+            11.81240177154541,
+            18.60663080215454
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        }
+      ],
+      "duration_seconds": 29.916121124988422,
+      "effective_rate_hz": 42.21804005683871,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4743933330173604,
+      "gaps_over_250ms": 18
+    },
+    {
+      "recording_id": "20261018_004424_995088Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1200,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:44:24.995506+00:00",
+      "started_at": "2026-10-18T00:44:40.032303+00:00",
+      "ended_at": "2026-10-18T00:45:10.035104+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 8,
+        "insufficient_temporal_coverage": 7,
+        "unsupported_window_edge": 5,
+        "insufficient_sample_span": 2
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          12.498139381408691,
+          20.030038356781006
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.5318989753723145
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004424_995088Z:fall:0",
+          "interval_seconds": [
+            12.498139381408691,
+            20.030038356781006
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.762029083038215,
+      "effective_rate_hz": 40.28623171675235,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5171948340139352,
+      "gaps_over_250ms": 17
+    },
+    {
+      "recording_id": "20261018_004510_096411Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1197,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:45:10.096665+00:00",
+      "started_at": "2026-10-18T00:45:25.108531+00:00",
+      "ended_at": "2026-10-18T00:45:55.111816+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 1,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 4,
+        "insufficient_sample_span": 1,
+        "excessive_packet_gap": 6,
+        "insufficient_temporal_coverage": 4
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.482954025268555,
+          18.841576099395752
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.358622074127197
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004510_096411Z:fall:0",
+          "interval_seconds": [
+            11.482954025268555,
+            18.841576099395752
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 3
+        }
+      ],
+      "duration_seconds": 29.987148082989734,
+      "effective_rate_hz": 39.883752756015944,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.48904258297989145,
+      "gaps_over_250ms": 17
+    },
+    {
+      "recording_id": "20261018_004555_171236Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1275,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:45:55.171489+00:00",
+      "started_at": "2026-10-18T00:46:10.207594+00:00",
+      "ended_at": "2026-10-18T00:46:40.210757+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 8,
+        "insufficient_temporal_coverage": 7,
+        "unsupported_window_edge": 4,
+        "insufficient_sample_span": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          12.180604696273804,
+          19.366352796554565
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.185748100280762
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004555_171236Z:fall:0",
+          "interval_seconds": [
+            12.180604696273804,
+            19.366352796554565
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.98329745803494,
+      "effective_rate_hz": 42.49032321355278,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4552665409864858,
+      "gaps_over_250ms": 28
+    },
+    {
+      "recording_id": "20261018_004807_610959Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1057,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:48:07.611346+00:00",
+      "started_at": "2026-10-18T00:48:22.632118+00:00",
+      "ended_at": "2026-10-18T00:48:52.739015+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 49,
+      "quality_rejected_windows": 5,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 5,
+        "excessive_packet_gap": 5,
+        "unsupported_window_edge": 3
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.820090293884277,
+          18.162403345108032
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.342313051223755
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004807_610959Z:fall:0",
+          "interval_seconds": [
+            11.820090293884277,
+            18.162403345108032
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        }
+      ],
+      "duration_seconds": 29.883761667006183,
+      "effective_rate_hz": 35.336916810104924,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5578427920117974,
+      "gaps_over_250ms": 13
+    },
+    {
+      "recording_id": "20261018_004852_798687Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1278,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:48:52.798927+00:00",
+      "started_at": "2026-10-18T00:49:07.810596+00:00",
+      "ended_at": "2026-10-18T00:49:37.831024+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 7,
+        "unsupported_window_edge": 5,
+        "excessive_packet_gap": 8,
+        "insufficient_sample_span": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          12.095435619354248,
+          19.621766567230225
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.526330947875977
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004852_798687Z:fall:0",
+          "interval_seconds": [
+            12.095435619354248,
+            19.621766567230225
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.988400832982734,
+      "effective_rate_hz": 42.58313096160472,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4851452910224907,
+      "gaps_over_250ms": 21
+    },
+    {
+      "recording_id": "20261018_004937_891590Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 876,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:49:37.891837+00:00",
+      "started_at": "2026-10-18T00:49:52.973121+00:00",
+      "ended_at": "2026-10-18T00:50:22.997265+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 1,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 6,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 6
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          12.266164302825928,
+          19.646530389785767
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.380366086959839
+      ],
+      "events": [
+        {
+          "event_id": "20261018_004937_891590Z:fall:0",
+          "interval_seconds": [
+            12.266164302825928,
+            19.646530389785767
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 13
+        }
+      ],
+      "duration_seconds": 29.918934750021435,
+      "effective_rate_hz": 29.245693648881435,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.31340508395805955,
+      "gaps_over_250ms": 1
+    },
+    {
+      "recording_id": "20261018_005023_078275Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 471,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:50:23.078525+00:00",
+      "started_at": "2026-10-18T00:50:38.141422+00:00",
+      "ended_at": "2026-10-18T00:51:08.144244+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 48,
+      "quality_rejected_windows": 6,
+      "quality_rejection_reasons": {
+        "insufficient_effective_rate": 6,
+        "insufficient_temporal_coverage": 6,
+        "insufficient_sample_span": 4,
+        "unsupported_window_edge": 5,
+        "excessive_packet_gap": 6
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          10.92110824584961,
+          17.57727026939392
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.6561620235443115
+      ],
+      "events": [
+        {
+          "event_id": "20261018_005023_078275Z:fall:0",
+          "interval_seconds": [
+            10.92110824584961,
+            17.57727026939392
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.988212207972538,
+      "effective_rate_hz": 15.672824933359909,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 1.389472291979473,
+      "gaps_over_250ms": 28
+    },
+    {
+      "recording_id": "20261018_005108_217002Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 867,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:51:08.217299+00:00",
+      "started_at": "2026-10-18T00:51:23.223278+00:00",
+      "ended_at": "2026-10-18T00:51:53.226188+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 48,
+      "quality_rejected_windows": 6,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 5,
+        "unsupported_window_edge": 2,
+        "excessive_packet_gap": 6,
+        "insufficient_sample_span": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          12.318753242492676,
+          18.88216733932495
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.563414096832275
+      ],
+      "events": [
+        {
+          "event_id": "20261018_005108_217002Z:fall:0",
+          "interval_seconds": [
+            12.318753242492676,
+            18.88216733932495
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.813517041970044,
+      "effective_rate_hz": 29.04722709437087,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 2.1006708750501275,
+      "gaps_over_250ms": 23
+    },
+    {
+      "recording_id": "20261018_005153_297629Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 910,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:51:53.297883+00:00",
+      "started_at": "2026-10-18T00:52:08.303519+00:00",
+      "ended_at": "2026-10-18T00:52:38.329887+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 5,
+      "ignored_windows": 48,
+      "quality_rejected_windows": 1,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          10.9651939868927,
+          17.291244983673096
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.3260509967803955
+      ],
+      "events": [
+        {
+          "event_id": "20261018_005153_297629Z:fall:0",
+          "interval_seconds": [
+            10.9651939868927,
+            17.291244983673096
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 5,
+          "quality_pass_windows_overlapping_action": 15
+        }
+      ],
+      "duration_seconds": 29.978110749972984,
+      "effective_rate_hz": 30.322124285327725,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5119745419942774,
+      "gaps_over_250ms": 6
+    },
+    {
+      "recording_id": "20261018_005238_401797Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1455,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:52:38.402018+00:00",
+      "started_at": "2026-10-18T00:52:53.507017+00:00",
+      "ended_at": "2026-10-18T00:53:23.544042+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 50,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 2,
+        "excessive_packet_gap": 4,
+        "insufficient_sample_span": 1,
+        "unsupported_window_edge": 2
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.942139387130737,
+          17.82155442237854
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        5.879415035247803
+      ],
+      "events": [
+        {
+          "event_id": "20261018_005238_401797Z:fall:0",
+          "interval_seconds": [
+            11.942139387130737,
+            17.82155442237854
+          ],
+          "v2_positive_candidates": 4,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 2
+        }
+      ],
+      "duration_seconds": 29.62809745798586,
+      "effective_rate_hz": 49.04128596378581,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.537971249956172,
+      "gaps_over_250ms": 12
+    },
+    {
+      "recording_id": "20261018_005323_602966Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 574,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:53:23.603213+00:00",
+      "started_at": "2026-10-18T00:53:38.669648+00:00",
+      "ended_at": "2026-10-18T00:54:08.672908+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 5,
+        "unsupported_window_edge": 3,
+        "insufficient_effective_rate": 2
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          15.467304229736328,
+          22.6561062335968
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.188802003860474
+      ],
+      "events": [
+        {
+          "event_id": "20261018_005323_602966Z:fall:0",
+          "interval_seconds": [
+            15.467304229736328,
+            22.6561062335968
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.98683945799712,
+      "effective_rate_hz": 19.075034593132308,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.4075724169961177,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261018_005408_732574Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1378,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:54:08.732855+00:00",
+      "started_at": "2026-10-18T00:54:23.746909+00:00",
+      "ended_at": "2026-10-18T00:54:53.750661+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 49,
+      "quality_rejected_windows": 5,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 5,
+        "excessive_packet_gap": 5,
+        "unsupported_window_edge": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.029932975769043,
+          16.81270694732666
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        5.782773971557617
+      ],
+      "events": [
+        {
+          "event_id": "20261018_005408_732574Z:fall:0",
+          "interval_seconds": [
+            11.029932975769043,
+            16.81270694732666
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.98863395798253,
+      "effective_rate_hz": 45.91739663531633,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.43466991698369384,
+      "gaps_over_250ms": 16
+    },
+    {
+      "recording_id": "20261018_005453_810441Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1562,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T00:54:53.810712+00:00",
+      "started_at": "2026-10-18T00:55:08.871001+00:00",
+      "ended_at": "2026-10-18T00:55:38.874191+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 8,
+        "unsupported_window_edge": 6,
+        "excessive_packet_gap": 8,
+        "insufficient_sample_span": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.97425627708435,
+          19.565503358840942
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.591247081756592
+      ],
+      "events": [
+        {
+          "event_id": "20261018_005453_810441Z:fall:0",
+          "interval_seconds": [
+            11.97425627708435,
+            19.565503358840942
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.985047707974445,
+      "effective_rate_hz": 52.059280185332376,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4284798330045305,
+      "gaps_over_250ms": 21
+    },
+    {
+      "recording_id": "20261018_010439_867650Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1254,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:04:39.868129+00:00",
+      "started_at": "2026-10-18T01:04:54.964188+00:00",
+      "ended_at": "2026-10-18T01:05:25.026323+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 1,
+      "ignored_windows": 49,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 4,
+        "unsupported_window_edge": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          10.238608598709106,
+          15.84311842918396
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        5.6045098304748535
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010439_867650Z:fall:0",
+          "interval_seconds": [
+            10.238608598709106,
+            15.84311842918396
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 3
+        }
+      ],
+      "duration_seconds": 29.907400583964773,
+      "effective_rate_hz": 41.89598479086182,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.36282316700089723,
+      "gaps_over_250ms": 11
+    },
+    {
+      "recording_id": "20261018_010525_086803Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1366,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:05:25.087073+00:00",
+      "started_at": "2026-10-18T01:05:40.117232+00:00",
+      "ended_at": "2026-10-18T01:06:10.151501+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 7,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 0,
+      "quality_rejection_reasons": {},
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.63852834701538,
+          18.419933319091797
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.781404972076416
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010525_086803Z:fall:0",
+          "interval_seconds": [
+            11.63852834701538,
+            18.419933319091797
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 7,
+          "quality_pass_windows_overlapping_action": 17
+        }
+      ],
+      "duration_seconds": 29.86286533396924,
+      "effective_rate_hz": 45.7089426863303,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5028862920007668,
+      "gaps_over_250ms": 6
+    },
+    {
+      "recording_id": "20261018_010610_213058Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1265,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:06:10.214617+00:00",
+      "started_at": "2026-10-18T01:06:25.220319+00:00",
+      "ended_at": "2026-10-18T01:06:55.256474+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 5,
+      "ignored_windows": 48,
+      "quality_rejected_windows": 1,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.27821946144104,
+          18.232280492782593
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.954061031341553
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010610_213058Z:fall:0",
+          "interval_seconds": [
+            11.27821946144104,
+            18.232280492782593
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 5,
+          "quality_pass_windows_overlapping_action": 10
+        }
+      ],
+      "duration_seconds": 29.972591250028927,
+      "effective_rate_hz": 42.17186260126175,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.44740966602694243,
+      "gaps_over_250ms": 11
+    },
+    {
+      "recording_id": "20261018_010655_318479Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1096,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:06:55.318742+00:00",
+      "started_at": "2026-10-18T01:07:10.332493+00:00",
+      "ended_at": "2026-10-18T01:07:40.393192+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 48,
+      "quality_rejected_windows": 6,
+      "quality_rejection_reasons": {
+        "unsupported_window_edge": 3,
+        "excessive_packet_gap": 6,
+        "insufficient_temporal_coverage": 4,
+        "insufficient_sample_span": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.048243999481201,
+          17.482635974884033
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.434391975402832
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010655_318479Z:fall:0",
+          "interval_seconds": [
+            11.048243999481201,
+            17.482635974884033
+          ],
+          "v2_positive_candidates": 6,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 6
+        }
+      ],
+      "duration_seconds": 29.965671834012028,
+      "effective_rate_hz": 36.54181378163325,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5097715000156313,
+      "gaps_over_250ms": 10
+    },
+    {
+      "recording_id": "20261018_010740_455411Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1245,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:07:40.455668+00:00",
+      "started_at": "2026-10-18T01:07:55.462459+00:00",
+      "ended_at": "2026-10-18T01:08:25.465799+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 8,
+        "insufficient_temporal_coverage": 7,
+        "insufficient_sample_span": 2,
+        "unsupported_window_edge": 2
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.119801759719849,
+          18.479437828063965
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.359636068344116
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010740_455411Z:fall:0",
+          "interval_seconds": [
+            11.119801759719849,
+            18.479437828063965
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 2
+        }
+      ],
+      "duration_seconds": 29.993603624985553,
+      "effective_rate_hz": 41.475509763812155,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.5823420420056209,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261018_010825_528301Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1051,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:08:25.528540+00:00",
+      "started_at": "2026-10-18T01:08:40.597142+00:00",
+      "ended_at": "2026-10-18T01:09:10.655990+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 2,
+      "ignored_windows": 49,
+      "quality_rejected_windows": 3,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 3,
+        "unsupported_window_edge": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          10.834774494171143,
+          16.981932401657104
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.147157907485962
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010825_528301Z:fall:0",
+          "interval_seconds": [
+            10.834774494171143,
+            16.981932401657104
+          ],
+          "v2_positive_candidates": 5,
+          "v2_positive_windows": 2,
+          "quality_pass_windows_overlapping_action": 2
+        }
+      ],
+      "duration_seconds": 29.894002790970262,
+      "effective_rate_hz": 35.124101892342146,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.4243306249845773,
+      "gaps_over_250ms": 13
+    },
+    {
+      "recording_id": "20261018_010910_713252Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1358,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:09:10.713502+00:00",
+      "started_at": "2026-10-18T01:09:25.739124+00:00",
+      "ended_at": "2026-10-18T01:09:55.772082+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 3,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 4,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 1,
+        "unsupported_window_edge": 3,
+        "excessive_packet_gap": 2
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.313910722732544,
+          18.424765825271606
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.1108551025390625
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010910_713252Z:fall:0",
+          "interval_seconds": [
+            11.313910722732544,
+            18.424765825271606
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 3,
+          "quality_pass_windows_overlapping_action": 3
+        }
+      ],
+      "duration_seconds": 29.941433334024623,
+      "effective_rate_hz": 45.321811580006845,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.3564645419828594,
+      "gaps_over_250ms": 14
+    },
+    {
+      "recording_id": "20261018_010955_839033Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 725,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:09:55.839340+00:00",
+      "started_at": "2026-10-18T01:10:10.912569+00:00",
+      "ended_at": "2026-10-18T01:10:40.929169+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 1,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "insufficient_effective_rate": 1,
+        "insufficient_temporal_coverage": 2,
+        "insufficient_sample_span": 2,
+        "unsupported_window_edge": 4,
+        "excessive_packet_gap": 7
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.151772022247314,
+          18.813621997833252
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.6618499755859375
+      ],
+      "events": [
+        {
+          "event_id": "20261018_010955_839033Z:fall:0",
+          "interval_seconds": [
+            11.151772022247314,
+            18.813621997833252
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 1,
+          "quality_pass_windows_overlapping_action": 4
+        }
+      ],
+      "duration_seconds": 29.800195916031953,
+      "effective_rate_hz": 24.295142288326414,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.6040603749570437,
+      "gaps_over_250ms": 14
+    },
+    {
+      "recording_id": "20261018_011040_991891Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 707,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:10:40.992179+00:00",
+      "started_at": "2026-10-18T01:10:56.015731+00:00",
+      "ended_at": "2026-10-18T01:11:26.020493+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 47,
+      "quality_rejected_windows": 7,
+      "quality_rejection_reasons": {
+        "excessive_packet_gap": 7,
+        "insufficient_temporal_coverage": 6,
+        "unsupported_window_edge": 4,
+        "insufficient_effective_rate": 2
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          10.818113565444946,
+          17.356170415878296
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        6.53805685043335
+      ],
+      "events": [
+        {
+          "event_id": "20261018_011040_991891Z:fall:0",
+          "interval_seconds": [
+            10.818113565444946,
+            17.356170415878296
+          ],
+          "v2_positive_candidates": 7,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 1
+        }
+      ],
+      "duration_seconds": 29.907414249959402,
+      "effective_rate_hz": 23.60618654957636,
+      "duplicate_host_timestamps": 0,
+      "max_gap_seconds": 0.45680054096737877,
+      "gaps_over_250ms": 15
+    },
+    {
+      "recording_id": "20261018_011126_080785Z",
+      "group": "session_04_LAHACKS",
+      "participant": "p1",
+      "activity": "staged_fall",
+      "metadata_session": "session_202610172026",
+      "label_status": "annotated_fall",
+      "source_count": 1,
+      "valid_packets": 1182,
+      "invalid_packets": 0,
+      "issues": [
+        "Operator action intervals are approximate staged-fall labels, not impact times"
+      ],
+      "created_at": "2026-10-18T01:11:26.081032+00:00",
+      "started_at": "2026-10-18T01:11:41.112966+00:00",
+      "ended_at": "2026-10-18T01:12:11.128539+00:00",
+      "all_candidate_windows": 54,
+      "normal_windows": 0,
+      "positive_windows": 0,
+      "ignored_windows": 46,
+      "quality_rejected_windows": 8,
+      "quality_rejection_reasons": {
+        "insufficient_temporal_coverage": 8,
+        "excessive_packet_gap": 8,
+        "unsupported_window_edge": 3,
+        "insufficient_sample_span": 1
+      },
+      "normal_accepted_union_seconds": 0.0,
+      "fall_intervals": [
+        [
+          11.093950986862183,
+          18.735594034194946
+        ]
+      ],
+      "fall_interval_durations_seconds": [
+        7.641643047332764
+      ],
+      "events": [
+        {
+          "event_id": "20261018_011126_080785Z:fall:0",
+          "interval_seconds": [
+            11.093950986862183,
+            18.735594034194946
+          ],
+          "v2_positive_candidates": 8,
+          "v2_positive_windows": 0,
+          "quality_pass_windows_overlapping_action": 0
+        }
+      ],
+      "duration_seconds": 29.767724749981426,
+      "effective_rate_hz": 39.640248286048006,
+      "duplicate_host_timestamps": 1,
+      "max_gap_seconds": 0.4059326659771614,
+      "gaps_over_250ms": 15
+    }
+  ],
+  "definitions": {
+    "quality_covered_fall_event": "At least one positive window under unchanged quality-v2 labels and gates; an operator action event is not a verified impact.",
+    "dynamic_hard_negative": "Verified normal walking/stand_up/sit_down/lie_down/get_up_from_floor recordings; static negatives counted separately within all normals.",
+    "quality_rejected": "Disjoint count after v2 labeling; ignored windows are never negatives. No threshold changed."
+  },
+  "audit_transform": {
+    "window_seconds": 3.0,
+    "stride_seconds": 0.5,
+    "sequence_length": 512,
+    "channel_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "packet_quality": {
+      "version": 2,
+      "min_effective_rate_hz": 20.0,
+      "coverage_bin_seconds": 0.1,
+      "min_occupied_bin_fraction": 0.8,
+      "min_sample_span_fraction": 0.9,
+      "max_edge_distance_seconds": 0.1,
+      "max_gap_seconds": 0.25,
+      "timestamp_source": "collector elapsed_seconds; no clock retiming or annotation shifts",
+      "threshold_basis": "Frozen using firmware/collector source and label-blind session_01/session_02 acquisition characterization only. Observed development trial rates 26.37-85.94 Hz. Floor 20 Hz is below the slowest observed development mean but rejects sparse streams. Require real samples in >=24/30 100ms bins, >=90% sample span and <=100ms unsupported endpoint distance. Preserve 250ms maximum interpolation gap; never extrapolate. Neither test labels nor test performance selected thresholds.",
+      "development_evidence": "reports/development_acquisition_characterization.json",
+      "development_evidence_sha256": "23a62f89792428c305b26d596f0df0a0b43be7a0f864f943e6c60e658c4367e3"
+    },
+    "max_gap_seconds": 0.25
+  },
+  "normalization_fitted": false,
+  "calpoly_recordings_read": false,
+  "training_performed": false,
+  "preserved_original_v2_config_sha256": "8f83dbdd4e2d1987c12b701f75d655938710ce4797291b1a43bc44dc666c5983"
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "epochs": 20,
+  "batch_size": 1,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "patience": 4,
+  "class_weighting": true,
+  "gradient_clip": 1.0,
+  "model_id": "AutonLab/MOMENT-1-large",
+  "model_revision": "ca58581bc7bea2ebed4e80dc0a3e4b8b609c6ecc",
+  "reduction": "concat",
+  "unfreeze_last_blocks": 0
+}

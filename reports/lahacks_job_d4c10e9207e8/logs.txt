@@ -1,0 +1,386 @@
+2026-10-18 03:30:55,874 INFO Status: setting_up
+2026-10-18 03:30:56,197 INFO Status: training
+2026-10-18 03:30:56,197 INFO Running custom script (sandbox=True): docker run --rm --runtime=runsc -e NVIDIA_VISIBLE_DEVICES=*** -e NVIDIA_DRIVER_CAPABILITIES=*** -e VERI_DATA_DIR=*** -e VERI_OUTPUT_DIR=*** -e VERI_METRICS_FILE=*** -e VERI_NUM_GPUS=*** -e VERI_NODE_RANK=*** -e VERI_NODE_IPS=*** -e VERI_NUM_NODES=*** -e VERI_CHECKPOINT_DIR=*** -v /tmp/d4c10e9207e8/code:/workspace/code -v /tmp/d4c10e9207e8/data:/workspace/data -v /tmp/d4c10e9207e8/output:/workspace/output -v /tmp/d4c10e9207e8/checkpoints:/workspace/checkpoints -w /workspace/code veri/base bash -c set -euo pipefail
+uv pip install --system -r /workspace/code/.veri_requirements.txt
+bash lahacks_cv/remote.sh
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.8.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+Using Python 3.10.12 environment at: /usr
+Resolved 30 packages in 1.41s
+Downloading setuptools (1.1MiB)
+Downloading numpy (17.4MiB)
+Downloading scikit-learn (12.7MiB)
+Downloading scipy (36.8MiB)
+ Downloading setuptools
+ Downloading numpy
+ Downloading scikit-learn
+ Downloading scipy
+Prepared 8 packages in 1.25s
+Uninstalled 4 packages in 1.42s
+Installed 8 packages in 98ms
+ - filelock==3.32.2
+ + filelock==3.19.1
+ + joblib==1.4.2
+ - numpy==2.1.3
+ + numpy==1.26.4
+ + scikit-learn==1.5.2
+ + scipy==1.13.1
+ - setuptools==83.0.0
+ + setuptools==80.9.0
+ + threadpoolctl==3.6.0
+ - typing-extensions==4.16.0
+ + typing-extensions==4.15.0
+[source] Hard whole-verification deadline: 120s
+[source] Verifying 254 pinned files; offline=False; socket timeout=10s; file deadline=45s
+[source] Downloading session_03_LAHACKS/empty_room/20261017_203215_249562Z/measurements.jsonl[source] Downloading session_03_LAHACKS/empty_room/20261017_203215_249562Z/metadata.json[source] Downloading session_03_LAHACKS/empty_room/20261017_203126_416953Z/metadata.json
+
+
+[source] Downloading session_03_LAHACKS/empty_room/20261017_203126_416953Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/empty_room/20261017_203329_912640Z/metadata.json
+[source] Downloading session_03_LAHACKS/empty_room/20261017_203329_912640Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/empty_room/20261017_203746_546097Z/metadata.json
+[source] Downloading session_03_LAHACKS/empty_room/20261017_203746_546097Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/empty_room/20261017_204414_032528Z/metadata.json
+[source] Downloading session_03_LAHACKS/empty_room/20261017_204414_032528Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212818_615503Z/metadata.json
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212818_615503Z/events.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212818_615503Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212903_717337Z/metadata.json
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212903_717337Z/events.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212903_717337Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212948_832897Z/metadata.json
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212948_832897Z/events.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_212948_832897Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_213033_975969Z/metadata.json
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_213033_975969Z/events.jsonl
+[source] Downloading session_03_LAHACKS/get_up_from_floor/20261017_213033_975969Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212317_244907Z/metadata.json
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212317_244907Z/events.jsonl
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212317_244907Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212402_406541Z/metadata.json
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212402_406541Z/events.jsonl
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212402_406541Z/measurements.jsonl
+[source] 25/254 verified; local=0, downloaded=25
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212447_557014Z/metadata.json
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212447_557014Z/events.jsonl
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212447_557014Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212532_696090Z/metadata.json
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212532_696090Z/events.jsonl
+[source] Downloading session_03_LAHACKS/lie_down/20261017_212532_696090Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210018_116989Z/metadata.json
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210018_116989Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210103_293289Z/metadata.json
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210103_293289Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210148_459563Z/metadata.json
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210148_459563Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210233_626194Z/metadata.json
+[source] Downloading session_03_LAHACKS/lying_still/20261017_210233_626194Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212006_500023Z/metadata.json
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212006_500023Z/events.jsonl
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212006_500023Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212051_637511Z/metadata.json
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212051_637511Z/events.jsonl
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212051_637511Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212136_805049Z/metadata.json
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212136_805049Z/events.jsonl
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212136_805049Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212221_940385Z/metadata.json
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212221_940385Z/events.jsonl
+[source] 50/254 verified; local=0, downloaded=50
+[source] Downloading session_03_LAHACKS/sit_down/20261017_212221_940385Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_204904_630782Z/metadata.json
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_204904_630782Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205325_789787Z/metadata.json
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205325_789787Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205411_033588Z/metadata.json
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205411_033588Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205456_187846Z/metadata.json
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205456_187846Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205541_358575Z/metadata.json
+[source] Downloading session_03_LAHACKS/sitting_still/20261017_205541_358575Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214140_430498Z/metadata.json
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214140_430498Z/events.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214140_430498Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214225_578923Z/metadata.json
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214225_578923Z/events.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214225_578923Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214310_855919Z/metadata.json
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214310_855919Z/events.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214310_855919Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214356_001779Z/metadata.json
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214356_001779Z/events.jsonl
+[source] Downloading session_03_LAHACKS/staged_fall/20261017_214356_001779Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211504_566127Z/metadata.json
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211504_566127Z/events.jsonl
+[source] 75/254 verified; local=0, downloaded=75
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211504_566127Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211655_556536Z/metadata.json
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211655_556536Z/events.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211655_556536Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211740_647313Z/metadata.json
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211740_647313Z/events.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211740_647313Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211825_752524Z/metadata.json
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211825_752524Z/events.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211825_752524Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211910_910973Z/metadata.json
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211910_910973Z/events.jsonl
+[source] Downloading session_03_LAHACKS/stand_up/20261017_211910_910973Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/standing_still/20261017_204604_191292Z/metadata.json
+[source] Downloading session_03_LAHACKS/standing_still/20261017_204604_191292Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/standing_still/20261017_204705_815621Z/metadata.json
+[source] Downloading session_03_LAHACKS/standing_still/20261017_204705_815621Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/standing_still/20261017_204805_537245Z/metadata.json
+[source] Downloading session_03_LAHACKS/standing_still/20261017_204805_537245Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/walking/20261017_205636_548664Z/metadata.json
+[source] Downloading session_03_LAHACKS/walking/20261017_205636_548664Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/walking/20261017_205721_778609Z/metadata.json
+[source] Downloading session_03_LAHACKS/walking/20261017_205721_778609Z/measurements.jsonl
+[source] Downloading session_03_LAHACKS/walking/20261017_205806_864916Z/metadata.json
+[source] Downloading session_03_LAHACKS/walking/20261017_205806_864916Z/measurements.jsonl
+[source] 100/254 verified; local=0, downloaded=100
+[source] Downloading session_03_LAHACKS/walking/20261017_205852_011721Z/metadata.json
+[source] Downloading session_03_LAHACKS/walking/20261017_205852_011721Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011229_451605Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011229_451605Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011314_547490Z/metadata.json[source] Downloading session_04_LAHACKS/lie_down/20261018_011229_451605Z/measurements.jsonl
+
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011314_547490Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011314_547490Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011359_656047Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011359_656047Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011359_656047Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011444_787943Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011444_787943Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011444_787943Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011529_866050Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011529_866050Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011529_866050Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011614_953211Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011614_953211Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011614_953211Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011700_025961Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011700_025961Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011700_025961Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011745_156278Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011745_156278Z/events.jsonl
+[source] 125/254 verified; local=0, downloaded=125
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011745_156278Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011830_281516Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011830_281516Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011830_281516Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011915_436503Z/metadata.json
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011915_436503Z/events.jsonl
+[source] Downloading session_04_LAHACKS/lie_down/20261018_011915_436503Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012550_085283Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012550_085283Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012550_085283Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012635_166741Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012635_166741Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012635_166741Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012720_246222Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012720_246222Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012720_246222Z/measurements.jsonl[source] Downloading session_04_LAHACKS/sit_down/20261018_012805_468082Z/metadata.json
+
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012805_468082Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012805_468082Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012850_608798Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012850_608798Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012935_754472Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012935_754472Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_012935_754472Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013020_862150Z/metadata.json
+[source] 150/254 verified; local=0, downloaded=150
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013020_862150Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013020_862150Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013106_076096Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013106_076096Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013106_076096Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013151_177083Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013151_177083Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013151_177083Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013236_201625Z/metadata.json
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013236_201625Z/events.jsonl
+[source] Downloading session_04_LAHACKS/sit_down/20261018_013236_201625Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_003839_872397Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_003839_872397Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_003839_872397Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_003925_035409Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_003925_035409Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_003925_035409Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004010_188550Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004010_188550Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004010_188550Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004055_315884Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004055_315884Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004055_315884Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004140_480887Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004140_480887Z/events.jsonl
+[source] 175/254 verified; local=0, downloaded=175
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004140_480887Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004254_688183Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004254_688183Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004254_688183Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004339_859364Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004339_859364Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004339_859364Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004424_995088Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004424_995088Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004424_995088Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004510_096411Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004510_096411Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004510_096411Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004555_171236Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004555_171236Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004555_171236Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004807_610959Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004807_610959Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004807_610959Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004852_798687Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004852_798687Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004852_798687Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004937_891590Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004937_891590Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_004937_891590Z/measurements.jsonl
+[source] 200/254 verified; local=0, downloaded=200
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005023_078275Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005023_078275Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005023_078275Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005108_217002Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005108_217002Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005108_217002Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005153_297629Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005153_297629Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005153_297629Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005238_401797Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005238_401797Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005238_401797Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005323_602966Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005323_602966Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005323_602966Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005408_732574Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005408_732574Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005408_732574Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005453_810441Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005453_810441Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_005453_810441Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010439_867650Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010439_867650Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010439_867650Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010525_086803Z/metadata.json
+[source] 225/254 verified; local=0, downloaded=225
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010525_086803Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010525_086803Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010610_213058Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010610_213058Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010610_213058Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010655_318479Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010655_318479Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010655_318479Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010740_455411Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010740_455411Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010740_455411Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010825_528301Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010825_528301Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010825_528301Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010910_713252Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010910_713252Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010910_713252Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010955_839033Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010955_839033Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_010955_839033Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_011040_991891Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_011040_991891Z/events.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_011040_991891Z/measurements.jsonl
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_011126_080785Z/metadata.json
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_011126_080785Z/events.jsonl
+[source] 250/254 verified; local=0, downloaded=250
+[source] Downloading session_04_LAHACKS/staged_fall/20261018_011126_080785Z/measurements.jsonl
+[source] 254/254 verified; local=0, downloaded=254
+[source] Complete: reused 0; downloaded 254 (166,285,005 bytes)
+{"dataset": "/tmp/blissey-lahacks-cv-MEUZ04/dataset", "counts": {"session_03_LAHACKS": {"candidates": 2268, "ignored": 188, "rejected": 810, "normal": 1249, "fall": 21}, "session_04_LAHACKS": {"candidates": 2700, "ignored": 1427, "rejected": 941, "normal": 301, "fall": 31}}, "covered_events": 13, "annotated_events": 34, "bytes": 132157904}
+{"stage": "inner_cnn", "epoch": 1, "weighted_training_loss": 0.2494500069910248, "inner_validation_loss": 0.12582745421103445}
+{"stage": "inner_cnn", "epoch": 2, "weighted_training_loss": 0.17906533072373096, "inner_validation_loss": 0.11241320205548787}
+{"stage": "inner_cnn", "epoch": 3, "weighted_training_loss": 0.151342206013997, "inner_validation_loss": 0.10103261672649615}
+{"stage": "inner_cnn", "epoch": 4, "weighted_training_loss": 0.10778116429097814, "inner_validation_loss": 0.10586692700531777}
+{"stage": "inner_cnn", "epoch": 5, "weighted_training_loss": 0.09374226989762095, "inner_validation_loss": 0.0862639011150546}
+{"stage": "inner_cnn", "epoch": 6, "weighted_training_loss": 0.05390983117094276, "inner_validation_loss": 0.11753126142324986}
+{"stage": "inner_cnn", "epoch": 7, "weighted_training_loss": 0.023205890482754114, "inner_validation_loss": 0.14494291834414236}
+{"stage": "inner_cnn", "epoch": 8, "weighted_training_loss": 0.01648948404470089, "inner_validation_loss": 0.16633545470142957}
+{"stage": "inner_cnn", "epoch": 9, "weighted_training_loss": 0.06737395859844018, "inner_validation_loss": 0.16616788792263898}
+{"stage": "inner_cnn", "epoch": 10, "weighted_training_loss": 0.0286853918098074, "inner_validation_loss": 0.1881280993521706}
+{"stage": "outer_cnn_fit", "epoch": 1, "weighted_training_loss": 0.2586104636117229}
+{"stage": "outer_cnn_fit", "epoch": 2, "weighted_training_loss": 0.19776306828175944}
+{"stage": "outer_cnn_fit", "epoch": 3, "weighted_training_loss": 0.16247454184716142}
+{"stage": "outer_cnn_fit", "epoch": 4, "weighted_training_loss": 0.11276160178222056}
+{"stage": "outer_cnn_fit", "epoch": 5, "weighted_training_loss": 0.09887343917892674}
+{"stage": "inner_cnn", "epoch": 1, "weighted_training_loss": 0.7017526160115781, "inner_validation_loss": 0.36494209494771834}
+{"stage": "inner_cnn", "epoch": 2, "weighted_training_loss": 0.5503700359065542, "inner_validation_loss": 0.34453006333942654}
+{"stage": "inner_cnn", "epoch": 3, "weighted_training_loss": 0.4774307724044257, "inner_validation_loss": 0.320105107524727}
+{"stage": "inner_cnn", "epoch": 4, "weighted_training_loss": 0.4512785739107094, "inner_validation_loss": 0.3194913547250289}
+{"stage": "inner_cnn", "epoch": 5, "weighted_training_loss": 0.385625534201328, "inner_validation_loss": 0.30341466318202925}
+{"stage": "inner_cnn", "epoch": 6, "weighted_training_loss": 0.36163825238410663, "inner_validation_loss": 0.31829010082196585}
+{"stage": "inner_cnn", "epoch": 7, "weighted_training_loss": 0.3387266550610659, "inner_validation_loss": 0.2684270581112632}
+{"stage": "inner_cnn", "epoch": 8, "weighted_training_loss": 0.29277058835086145, "inner_validation_loss": 0.31189570698557023}
+{"stage": "inner_cnn", "epoch": 9, "weighted_training_loss": 0.23635373173259464, "inner_validation_loss": 0.2282200817820392}
+{"stage": "inner_cnn", "epoch": 10, "weighted_training_loss": 0.21681956210626444, "inner_validation_loss": 0.27014324710338933}
+{"stage": "inner_cnn", "epoch": 11, "weighted_training_loss": 0.1553094586129245, "inner_validation_loss": 0.28649714702292334}
+{"stage": "inner_cnn", "epoch": 12, "weighted_training_loss": 0.12944777239217117, "inner_validation_loss": 0.2100144187106362}
+{"stage": "inner_cnn", "epoch": 13, "weighted_training_loss": 0.14572138218540448, "inner_validation_loss": 0.3650388870435425}
+{"stage": "inner_cnn", "epoch": 14, "weighted_training_loss": 0.14476255283289746, "inner_validation_loss": 0.24225635166409648}
+{"stage": "inner_cnn", "epoch": 15, "weighted_training_loss": 0.10165282651016364, "inner_validation_loss": 0.3119276111261754}
+{"stage": "inner_cnn", "epoch": 16, "weighted_training_loss": 0.07217287551979773, "inner_validation_loss": 0.12738373988791357}
+{"stage": "inner_cnn", "epoch": 17, "weighted_training_loss": 0.05276695297287387, "inner_validation_loss": 0.2767817281846759}
+{"stage": "inner_cnn", "epoch": 18, "weighted_training_loss": 0.04100209984030177, "inner_validation_loss": 0.29645503359504893}
+{"stage": "inner_cnn", "epoch": 19, "weighted_training_loss": 0.024792940786528023, "inner_validation_loss": 0.3043447327387484}
+{"stage": "inner_cnn", "epoch": 20, "weighted_training_loss": 0.016611945992078, "inner_validation_loss": 0.29040758556957486}
+{"stage": "inner_cnn", "epoch": 21, "weighted_training_loss": 0.01674485119729645, "inner_validation_loss": 0.28399780345491216}
+{"stage": "outer_cnn_fit", "epoch": 1, "weighted_training_loss": 0.6664756744740957}
+{"stage": "outer_cnn_fit", "epoch": 2, "weighted_training_loss": 0.5728158864630274}
+{"stage": "outer_cnn_fit", "epoch": 3, "weighted_training_loss": 0.5126569213637386}
+{"stage": "outer_cnn_fit", "epoch": 4, "weighted_training_loss": 0.4702408500464566}
+{"stage": "outer_cnn_fit", "epoch": 5, "weighted_training_loss": 0.4492307779300644}
+{"stage": "outer_cnn_fit", "epoch": 6, "weighted_training_loss": 0.3961112987564271}
+{"stage": "outer_cnn_fit", "epoch": 7, "weighted_training_loss": 0.4355751498635993}
+{"stage": "outer_cnn_fit", "epoch": 8, "weighted_training_loss": 0.37359594401106777}
+{"stage": "outer_cnn_fit", "epoch": 9, "weighted_training_loss": 0.3315981906580638}
+{"stage": "outer_cnn_fit", "epoch": 10, "weighted_training_loss": 0.2539490233343768}
+{"stage": "outer_cnn_fit", "epoch": 11, "weighted_training_loss": 0.21119926241507014}
+{"stage": "outer_cnn_fit", "epoch": 12, "weighted_training_loss": 0.19897393191076188}
+{"stage": "outer_cnn_fit", "epoch": 13, "weighted_training_loss": 0.1379151518445417}
+{"stage": "outer_cnn_fit", "epoch": 14, "weighted_training_loss": 0.1453641139599214}
+{"stage": "outer_cnn_fit", "epoch": 15, "weighted_training_loss": 0.12280165431011154}
+{"stage": "outer_cnn_fit", "epoch": 16, "weighted_training_loss": 0.10506291660558746}
+{"status": "development cross-validation only; no independent final test", "proposed_ranking": ["cnn", "rf"], "results": "/workspace/output/lahacks_cv_v1/benchmark.json", "review_required_before_refit": true}
+2026-10-18 03:35:56,192 INFO Uploaded checkpoint file: lahacks_cv_v1/dataset.json
+2026-10-18 03:35:56,307 INFO Uploaded checkpoint file: lahacks_cv_v1/run_config.json
+2026-10-18 03:35:56,405 INFO Uploaded checkpoint file: lahacks_cv_v1/artifacts.json
+2026-10-18 03:35:56,496 INFO Uploaded checkpoint file: lahacks_cv_v1/benchmark.json
+2026-10-18 03:35:56,604 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_A/cnn.pt
+2026-10-18 03:35:56,707 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_A/predictions.npz
+2026-10-18 03:35:56,820 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_A/inner_cnn_best.pt
+2026-10-18 03:35:56,939 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_A/metrics.json
+2026-10-18 03:35:57,040 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_A/preprocessing.json
+2026-10-18 03:35:57,158 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_A/inner_selection.json
+2026-10-18 03:35:57,256 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_A/rf.joblib
+2026-10-18 03:35:57,358 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_B/cnn.pt
+2026-10-18 03:35:57,453 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_B/predictions.npz
+2026-10-18 03:35:57,561 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_B/inner_cnn_best.pt
+2026-10-18 03:35:57,668 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_B/metrics.json
+2026-10-18 03:35:57,764 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_B/preprocessing.json
+2026-10-18 03:35:57,841 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_B/inner_selection.json
+2026-10-18 03:35:57,966 INFO Uploaded checkpoint file: lahacks_cv_v1/fold_B/rf.joblib
+2026-10-18 03:35:58,163 INFO Status: completed

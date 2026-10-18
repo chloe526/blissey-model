@@ -1,0 +1,156 @@
+{
+  "model_type": "blissey_cnn_1d_v1",
+  "initialization": "random; no pretrained weights",
+  "config": {
+    "seed": 42,
+    "epochs": 30,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "patience": 6,
+    "min_delta": 0.0001,
+    "gradient_clip": 5.0,
+    "dropout": 0.2,
+    "channels": [
+      16,
+      32,
+      64
+    ],
+    "kernels": [
+      9,
+      7,
+      5
+    ],
+    "selection_metric": "unweighted_validation_loss",
+    "decision_threshold": 0.5,
+    "threads": 2
+  },
+  "device": "cpu",
+  "parameter_count": 21666,
+  "class_weights": [
+    0.5311704874038696,
+    8.520408630371094
+  ],
+  "training_class_distribution": [
+    786,
+    49
+  ],
+  "preprocessing_config_sha256": "8f83dbdd4e2d1987c12b701f75d655938710ce4797291b1a43bc44dc666c5983",
+  "artifact_sha256": {
+    "train": "03aaa608201a645e7eb76ee83a55414f8f3c2dad22d9f51e1ae63b725bf2d690",
+    "val": "8c221423e4fcfc3eccd8bfa027d32757b727b4d3c1069d99e7f3603d648b331b",
+    "test": "9ee6b912f86e78adc41270e615b5bd718fac26cd658e998fefdeb16659fd6b90"
+  },
+  "training_inputs_opened": [
+    "train.npz",
+    "val.npz"
+  ],
+  "versions": {
+    "torch": "2.8.0",
+    "numpy": "1.26.4"
+  },
+  "python": "3.11.17",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "processor": "arm",
+  "best_epoch": 1,
+  "epochs_completed": 7,
+  "stopped_early": true,
+  "early_stopping_metric": "unweighted validation cross entropy; test never opened",
+  "training_duration_seconds": 2.9174455829997896,
+  "data_loading_seconds": 0.36436412500188453,
+  "total_command_seconds": 4.088094416998501,
+  "checkpoint_bytes": 126031,
+  "checkpoint_sha256": "b54d924771e2ee8c0f63a5728773f4ed5f6c81a6fae70cefab365aca0496e544",
+  "selected_model_train": {
+    "loss": 0.5094114718144526,
+    "windows": 835,
+    "accuracy": 0.7748502994011977,
+    "precision": 0.20675105485232068,
+    "fall_recall": 1.0,
+    "f1": 0.34265734265734266,
+    "precision_defined": true,
+    "confusion_matrix": [
+      [
+        598,
+        188
+      ],
+      [
+        0,
+        49
+      ]
+    ],
+    "class_distribution": [
+      786,
+      49
+    ]
+  },
+  "selected_model_validation": {
+    "loss": 1.0467700309650871,
+    "windows": 465,
+    "accuracy": 0.4666666666666667,
+    "precision": 0.03125,
+    "fall_recall": 1.0,
+    "f1": 0.06060606060606061,
+    "precision_defined": true,
+    "confusion_matrix": [
+      [
+        209,
+        248
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "class_distribution": [
+      457,
+      8
+    ]
+  },
+  "validation_events": {
+    "covered_event_detection_rate": 1.0,
+    "detected_events": 4,
+    "covered_events": 4,
+    "uncovered_events": 0,
+    "annotated_events": 4,
+    "all_annotated_event_detection_fraction": 1.0,
+    "per_event": [
+      {
+        "recording_id": "20261012_023117_618940Z",
+        "event_index": 0,
+        "eligible_windows": 2,
+        "detected": true
+      },
+      {
+        "recording_id": "20261012_023236_981466Z",
+        "event_index": 0,
+        "eligible_windows": 1,
+        "detected": true
+      },
+      {
+        "recording_id": "20261012_023410_367726Z",
+        "event_index": 0,
+        "eligible_windows": 1,
+        "detected": true
+      },
+      {
+        "recording_id": "20261012_023527_582029Z",
+        "event_index": 0,
+        "eligible_windows": 4,
+        "detected": true
+      }
+    ],
+    "false_alert_episodes": 46,
+    "normal_monitored_seconds": 361.5,
+    "false_alerts_per_hour": 458.09128630705396,
+    "alert_policy": "One episode per contiguous run of positive decisions; merge gaps <=1.5 strides; decision at window end.",
+    "exposure_policy": "Union of evaluated windows on verified normal trials; exclude unobserved gaps.",
+    "impact_detection_latency_seconds": null,
+    "limitation": "Approximate staged-action annotations; uncovered events are reported explicitly, not scored as measured model misses."
+  },
+  "checkpoint_reload_verified": true,
+  "limitations": [
+    "Validation has only eight correlated positive windows from four events in one session.",
+    "Single fixed baseline run; threshold 0.5 and hyperparameters set before test evaluation."
+  ]
+}

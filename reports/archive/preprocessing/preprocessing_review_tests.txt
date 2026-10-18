@@ -1,0 +1,20 @@
+test_actual_session_separation_and_classes (test_artifacts.ArtifactTests.test_actual_session_separation_and_classes) ... ok
+test_declared_split_group_mismatch_rejected (test_artifacts.ArtifactTests.test_declared_split_group_mismatch_rejected) ... ok
+test_exposure_uses_union_not_window_sum (test_artifacts.ArtifactTests.test_exposure_uses_union_not_window_sum) ... ok
+test_nonfinite_artifact_rejected (test_artifacts.ArtifactTests.test_nonfinite_artifact_rejected) ... ok
+test_unseen_raw_window_matches_saved_transform (test_artifacts.ArtifactTests.test_unseen_raw_window_matches_saved_transform) ... ok
+test_complex_amplitude_and_invalid_bytes_excluded (test_preprocessing.PreprocessingTests.test_complex_amplitude_and_invalid_bytes_excluded) ... ok
+test_duplicate_and_sort (test_preprocessing.PreprocessingTests.test_duplicate_and_sort) ... ok
+test_gap_and_nonfinite_rejected (test_preprocessing.PreprocessingTests.test_gap_and_nonfinite_rejected) ... ok
+test_host_aligned_event_not_ui_clock (test_preprocessing.PreprocessingTests.test_host_aligned_event_not_ui_clock) ... ok
+test_metrics (test_preprocessing.PreprocessingTests.test_metrics) ... ok
+test_no_events_does_not_mean_negative (test_preprocessing.PreprocessingTests.test_no_events_does_not_mean_negative) ... ok
+test_partial_and_unverified_labels_rejected (test_preprocessing.PreprocessingTests.test_partial_and_unverified_labels_rejected) ... ok
+test_timestamp_interpolation_and_saved_scaler (test_preprocessing.PreprocessingTests.test_timestamp_interpolation_and_saved_scaler) ... ok
+test_single_example_class_weight_scales_loss_and_gradient (test_training_loss.TrainingLossTests.test_single_example_class_weight_scales_loss_and_gradient) ... ok
+test_unweighted_matches_cross_entropy_and_batch_grouping (test_training_loss.TrainingLossTests.test_unweighted_matches_cross_entropy_and_batch_grouping) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.973s
+
+OK

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "strategy": "verified_descent_onset_on_streaming_grid",
+  "window_seconds": 3.0,
+  "stride_seconds": 0.5,
+  "min_seconds_after_latest_onset": 0.5,
+  "max_seconds_after_earliest_onset": 1.5,
+  "min_guaranteed_motion_overlap_seconds": 0.25,
+  "max_seconds_after_earliest_motion_end": 0.5,
+  "max_boundary_uncertainty_seconds": 0.5,
+  "threshold_basis": "Prospective supervision/context contract, not fitted to any model scores or held-out labels: 0.5-1.5 seconds of observed post-onset context on the existing 0.5s streaming grid, at least 0.25s of guaranteed reviewed descent, at most 0.5s past the earliest possible motion end. Annotation uncertainty must be stated honestly; never infer onset or impact from an operator action interval. These defaults need prospective collection validation and are not empirically optimized thresholds."
+}

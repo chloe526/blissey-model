@@ -1,0 +1,236 @@
+{
+ "E1_motion_gain": {
+  "A": [
+   {
+    "val_normal_quantile": 0.9,
+    "detected": 7,
+    "alertable": 7,
+    "fa_per_hour": 89.2
+   },
+   {
+    "val_normal_quantile": 0.95,
+    "detected": 6,
+    "alertable": 7,
+    "fa_per_hour": 66.9
+   },
+   {
+    "val_normal_quantile": 0.98,
+    "detected": 4,
+    "alertable": 7,
+    "fa_per_hour": 22.3
+   },
+   {
+    "val_normal_quantile": 0.99,
+    "detected": 3,
+    "alertable": 7,
+    "fa_per_hour": 11.1
+   },
+   {
+    "val_normal_quantile": 0.995,
+    "detected": 1,
+    "alertable": 7,
+    "fa_per_hour": 11.1
+   },
+   {
+    "val_normal_quantile": 0.999,
+    "detected": 1,
+    "alertable": 7,
+    "fa_per_hour": 11.1
+   }
+  ],
+  "B": [
+   {
+    "val_normal_quantile": 0.9,
+    "detected": 3,
+    "alertable": 4,
+    "fa_per_hour": 86.4
+   },
+   {
+    "val_normal_quantile": 0.95,
+    "detected": 2,
+    "alertable": 4,
+    "fa_per_hour": 49.4
+   },
+   {
+    "val_normal_quantile": 0.98,
+    "detected": 1,
+    "alertable": 4,
+    "fa_per_hour": 20.6
+   },
+   {
+    "val_normal_quantile": 0.99,
+    "detected": 1,
+    "alertable": 4,
+    "fa_per_hour": 8.2
+   },
+   {
+    "val_normal_quantile": 0.995,
+    "detected": 1,
+    "alertable": 4,
+    "fa_per_hour": 4.1
+   },
+   {
+    "val_normal_quantile": 0.999,
+    "detected": 0,
+    "alertable": 4,
+    "fa_per_hour": 4.1
+   }
+  ]
+ },
+ "E2_rf_gain": {
+  "A": [
+   {
+    "val_normal_quantile": 0.9,
+    "detected": 7,
+    "alertable": 7,
+    "fa_per_hour": 111.5
+   },
+   {
+    "val_normal_quantile": 0.95,
+    "detected": 4,
+    "alertable": 7,
+    "fa_per_hour": 44.6
+   },
+   {
+    "val_normal_quantile": 0.98,
+    "detected": 4,
+    "alertable": 7,
+    "fa_per_hour": 22.3
+   },
+   {
+    "val_normal_quantile": 0.99,
+    "detected": 1,
+    "alertable": 7,
+    "fa_per_hour": 11.1
+   },
+   {
+    "val_normal_quantile": 0.995,
+    "detected": 1,
+    "alertable": 7,
+    "fa_per_hour": 11.1
+   },
+   {
+    "val_normal_quantile": 0.999,
+    "detected": 0,
+    "alertable": 7,
+    "fa_per_hour": 11.1
+   }
+  ],
+  "B": [
+   {
+    "val_normal_quantile": 0.9,
+    "detected": 3,
+    "alertable": 4,
+    "fa_per_hour": 94.7
+   },
+   {
+    "val_normal_quantile": 0.95,
+    "detected": 2,
+    "alertable": 4,
+    "fa_per_hour": 61.7
+   },
+   {
+    "val_normal_quantile": 0.98,
+    "detected": 2,
+    "alertable": 4,
+    "fa_per_hour": 24.7
+   },
+   {
+    "val_normal_quantile": 0.99,
+    "detected": 1,
+    "alertable": 4,
+    "fa_per_hour": 8.2
+   },
+   {
+    "val_normal_quantile": 0.995,
+    "detected": 0,
+    "alertable": 4,
+    "fa_per_hour": 0.0
+   },
+   {
+    "val_normal_quantile": 0.999,
+    "detected": 0,
+    "alertable": 4,
+    "fa_per_hour": 0.0
+   }
+  ]
+ },
+ "E2_rf_raw": {
+  "A": [
+   {
+    "val_normal_quantile": 0.9,
+    "detected": 5,
+    "alertable": 7,
+    "fa_per_hour": 100.3
+   },
+   {
+    "val_normal_quantile": 0.95,
+    "detected": 3,
+    "alertable": 7,
+    "fa_per_hour": 78.0
+   },
+   {
+    "val_normal_quantile": 0.98,
+    "detected": 1,
+    "alertable": 7,
+    "fa_per_hour": 44.6
+   },
+   {
+    "val_normal_quantile": 0.99,
+    "detected": 1,
+    "alertable": 7,
+    "fa_per_hour": 44.6
+   },
+   {
+    "val_normal_quantile": 0.995,
+    "detected": 1,
+    "alertable": 7,
+    "fa_per_hour": 33.4
+   },
+   {
+    "val_normal_quantile": 0.999,
+    "detected": 0,
+    "alertable": 7,
+    "fa_per_hour": 33.4
+   }
+  ],
+  "B": [
+   {
+    "val_normal_quantile": 0.9,
+    "detected": 2,
+    "alertable": 4,
+    "fa_per_hour": 107.0
+   },
+   {
+    "val_normal_quantile": 0.95,
+    "detected": 1,
+    "alertable": 4,
+    "fa_per_hour": 61.7
+   },
+   {
+    "val_normal_quantile": 0.98,
+    "detected": 1,
+    "alertable": 4,
+    "fa_per_hour": 16.5
+   },
+   {
+    "val_normal_quantile": 0.99,
+    "detected": 1,
+    "alertable": 4,
+    "fa_per_hour": 8.2
+   },
+   {
+    "val_normal_quantile": 0.995,
+    "detected": 0,
+    "alertable": 4,
+    "fa_per_hour": 4.1
+   },
+   {
+    "val_normal_quantile": 0.999,
+    "detected": 0,
+    "alertable": 4,
+    "fa_per_hour": 0.0
+   }
+  ]
+ }
+}

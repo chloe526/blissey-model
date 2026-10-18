@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "sdk_version": "0.2.44",
+  "archive_files": [
+    "configs/training.json",
+    "csi.py",
+    "data/processed/preprocessing_config.json",
+    "data/processed/test.npz",
+    "data/processed/train.npz",
+    "data/processed/val.npz",
+    "evaluate.py",
+    "infer.py",
+    "inspect_dataset.py",
+    "metrics.py",
+    "model_utils.py",
+    "preprocess.py",
+    "requirements-veri.lock.txt",
+    "requirements-veri.txt",
+    "scripts/remote_smoke.sh",
+    "smoke_test_moment.py",
+    "train.py",
+    "training_data.py",
+    "upload_manifest.json"
+  ],
+  "processed_bytes": 192262418,
+  "network_upload": false,
+  "job_submitted": false
+}

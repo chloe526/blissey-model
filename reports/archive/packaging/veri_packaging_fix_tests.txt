@@ -1,0 +1,38 @@
+test_actual_session_separation_and_classes (test_artifacts.ArtifactTests.test_actual_session_separation_and_classes) ... ok
+test_declared_split_group_mismatch_rejected (test_artifacts.ArtifactTests.test_declared_split_group_mismatch_rejected) ... ok
+test_exposure_uses_union_not_window_sum (test_artifacts.ArtifactTests.test_exposure_uses_union_not_window_sum) ... ok
+test_nonfinite_artifact_rejected (test_artifacts.ArtifactTests.test_nonfinite_artifact_rejected) ... ok
+test_unseen_raw_window_matches_saved_transform (test_artifacts.ArtifactTests.test_unseen_raw_window_matches_saved_transform) ... ok
+test_bursty_cadence_does_not_inflate_expected_rate (test_csi_quality.AcquisitionQualityTests.test_bursty_cadence_does_not_inflate_expected_rate) ... ok
+test_corruption_and_missing_endpoint_rejected (test_csi_quality.AcquisitionQualityTests.test_corruption_and_missing_endpoint_rejected) ... ok
+test_duplicate_timestamps_cannot_inflate_density (test_csi_quality.AcquisitionQualityTests.test_duplicate_timestamps_cannot_inflate_density) ... ok
+test_edges_cannot_be_supported_only_by_distant_external_packets (test_csi_quality.AcquisitionQualityTests.test_edges_cannot_be_supported_only_by_distant_external_packets) ... ok
+test_long_gap_rejected_despite_high_total_packet_count (test_csi_quality.AcquisitionQualityTests.test_long_gap_rejected_despite_high_total_packet_count) ... ok
+test_many_samples_in_few_bursts_do_not_fake_temporal_coverage (test_csi_quality.AcquisitionQualityTests.test_many_samples_in_few_bursts_do_not_fake_temporal_coverage) ... ok
+test_policy_is_not_refit_from_inference_window (test_csi_quality.AcquisitionQualityTests.test_policy_is_not_refit_from_inference_window) ... ok
+test_regular_sampling_and_moment_shape (test_csi_quality.AcquisitionQualityTests.test_regular_sampling_and_moment_shape) ... ok
+test_sparse_uniform_stream_rejected (test_csi_quality.AcquisitionQualityTests.test_sparse_uniform_stream_rejected) ... ok
+test_complex_amplitude_and_invalid_bytes_excluded (test_preprocessing.PreprocessingTests.test_complex_amplitude_and_invalid_bytes_excluded) ... ok
+test_duplicate_and_sort (test_preprocessing.PreprocessingTests.test_duplicate_and_sort) ... ok
+test_gap_and_nonfinite_rejected (test_preprocessing.PreprocessingTests.test_gap_and_nonfinite_rejected) ... ok
+test_host_aligned_event_not_ui_clock (test_preprocessing.PreprocessingTests.test_host_aligned_event_not_ui_clock) ... ok
+test_metrics (test_preprocessing.PreprocessingTests.test_metrics) ... ok
+test_no_events_does_not_mean_negative (test_preprocessing.PreprocessingTests.test_no_events_does_not_mean_negative) ... ok
+test_partial_and_unverified_labels_rejected (test_preprocessing.PreprocessingTests.test_partial_and_unverified_labels_rejected) ... ok
+test_timestamp_interpolation_and_saved_scaler (test_preprocessing.PreprocessingTests.test_timestamp_interpolation_and_saved_scaler) ... ok
+test_single_example_class_weight_scales_loss_and_gradient (test_training_loss.TrainingLossTests.test_single_example_class_weight_scales_loss_and_gradient) ... ok
+test_unweighted_matches_cross_entropy_and_batch_grouping (test_training_loss.TrainingLossTests.test_unweighted_matches_cross_entropy_and_batch_grouping) ... ok
+test_github_lfs_pointer_fetches_pinned_media_bytes (test_veri_packaging.DatasetTransportTests.test_github_lfs_pointer_fetches_pinned_media_bytes) ... ok
+test_requires_immutable_revision_and_safe_paths (test_veri_packaging.DatasetTransportTests.test_requires_immutable_revision_and_safe_paths) ... ok
+test_stream_hash_verification_and_mismatch (test_veri_packaging.DatasetTransportTests.test_stream_hash_verification_and_mismatch) ... ok
+test_archive_contains_only_allowlisted_files_and_is_small (test_veri_packaging.PackagingTests.test_archive_contains_only_allowlisted_files_and_is_small) ... ok
+test_code_only_full_package_has_no_arrays (test_veri_packaging.PackagingTests.test_code_only_full_package_has_no_arrays) ... ok
+test_fixture_is_four_actual_unchanged_windows_and_original_scaler (test_veri_packaging.PackagingTests.test_fixture_is_four_actual_unchanged_windows_and_original_scaler) ... ok
+test_low_size_budget_fails (test_veri_packaging.PackagingTests.test_low_size_budget_fails) ... ok
+test_shell_stops_before_submission_when_over_budget (test_veri_packaging.PackagingTests.test_shell_stops_before_submission_when_over_budget) ... ok
+test_tampered_or_unexpected_file_rejected (test_veri_packaging.PackagingTests.test_tampered_or_unexpected_file_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 4.127s
+
+OK

@@ -1,0 +1,1280 @@
+{
+  "revision": "06c97032c93a43ddccda5aa8381a95bced54755c",
+  "files": [
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203126_416953Z/metadata.json",
+      "bytes": 1000,
+      "sha256": "ed94172abff0bd0bcb5bbcf13bae90e517e780d07d294c2f0a18d484415b1bec"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203126_416953Z/measurements.jsonl",
+      "bytes": 1256543,
+      "sha256": "490fbeced28aa5099b08743c8e2323015f260421ba4fd030d152766e44bd809e"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203215_249562Z/metadata.json",
+      "bytes": 1001,
+      "sha256": "2bb55c797c424c38e16370889b74f8a77a7e8bf6073f6286c347b5f1cb56d9d0"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203215_249562Z/measurements.jsonl",
+      "bytes": 973250,
+      "sha256": "72e543e11e426f5a89b4e39e4006ee69b4b8f1cc3a1eec20b7ca5ed3c016ffd0"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203329_912640Z/metadata.json",
+      "bytes": 1003,
+      "sha256": "061504285ea71ce7c9d81c031394c846179a35e41ddab9ebd9fa134be0cd9f12"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203329_912640Z/measurements.jsonl",
+      "bytes": 1586683,
+      "sha256": "4739cb785218000ccf9c8d01460f89d9898b621dca40440f60ea800676e04198"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203746_546097Z/metadata.json",
+      "bytes": 1002,
+      "sha256": "73264dd7d27fe8d196802e37c80afb8bb58b83cb3155a6ff6ddd671a390b59ad"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_203746_546097Z/measurements.jsonl",
+      "bytes": 1378932,
+      "sha256": "034a2f8a5552b813cbc00eb31ff05a916cd176a300ff4b4f3c46dcf726f4553e"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_204414_032528Z/metadata.json",
+      "bytes": 1000,
+      "sha256": "cd64e90d6ed6c1fc503eca3844ff7f22c206f07ddcdbecd6e3fcca62bac91773"
+    },
+    {
+      "path": "session_03_LAHACKS/empty_room/20261017_204414_032528Z/measurements.jsonl",
+      "bytes": 1225030,
+      "sha256": "0ba0d024be8ab637741f0558c45f9480118f50c5cd910cc517a9607daa4b6f1e"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212818_615503Z/metadata.json",
+      "bytes": 1053,
+      "sha256": "11858b094bb6be3694279bf50b482cdc40920a87f5f79d8a6ebd4b2e9395c883"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212818_615503Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "20affc1f1f58e7a4873dd4b664cb7851df2162ff8cdbc5121964d5e0cdb68aeb"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212818_615503Z/measurements.jsonl",
+      "bytes": 2923529,
+      "sha256": "793f273143e7e862823d2a77630a68dbefac8a16f9628bc7d1e6bf4871922665"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212903_717337Z/metadata.json",
+      "bytes": 1052,
+      "sha256": "0e3cd582c52196b843b40a6926300c7f7af8ea4745e68a88f463990fd662fb60"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212903_717337Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "5b29093e8e3c1e287605d92197f0b4d0e4be5375002fdfa4011a44f8e08a6975"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212903_717337Z/measurements.jsonl",
+      "bytes": 2617023,
+      "sha256": "fc58f9b7dffb329ef60e6ce9e6ee100d9a2936ec3f8f9581f1bc7fd554dbe640"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212948_832897Z/metadata.json",
+      "bytes": 1050,
+      "sha256": "0a6d7569f0498b7f3a6994ae76e5da9a971f521e2ef46d8efaf437217cf4ba3f"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212948_832897Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "94aa640ddf35d5d0a481dc07d05dbcf657131414ad684685aa999afa4426b046"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_212948_832897Z/measurements.jsonl",
+      "bytes": 1080752,
+      "sha256": "4fd6841dfd2775a5dfc2b566bdfbe3f1b17f77b5c51009fe1d6232e5c0e79218"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_213033_975969Z/metadata.json",
+      "bytes": 1050,
+      "sha256": "c67c51845c26debb73ec5e86f5de59679fc1888143454429ec1d421a751b131a"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_213033_975969Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "d5effe99c7041ed425ecccb8cca0e12a1bc67566ad333f8fdde621e10f453652"
+    },
+    {
+      "path": "session_03_LAHACKS/get_up_from_floor/20261017_213033_975969Z/measurements.jsonl",
+      "bytes": 1068747,
+      "sha256": "0a64275cc7ec06d587c58502d6276fea9cab86d23fbd5b30f6d6e26d6097c363"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212317_244907Z/metadata.json",
+      "bytes": 1041,
+      "sha256": "41c56f0805568d8b71a16d15c48b031cd0d92290340ba5f7370d48888b5b2d2c"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212317_244907Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "6cc0b2c059745bc81b24bd2d852d194d80f696215193164fdf3449b4eeb791f2"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212317_244907Z/measurements.jsonl",
+      "bytes": 1470461,
+      "sha256": "28a4be539b5663115ebce9b44203bb0a9b872612c9512a546e3aa01e85d87147"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212402_406541Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "f344963f47b6f099d1f1efa61a43c0ccbe1406692196d8a42f91b675cdd73b39"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212402_406541Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "ce5dcec1a10b6a2d5bb7604f0a6b96eab8c0096f7fa826bb77dc6fb422ca1e4b"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212402_406541Z/measurements.jsonl",
+      "bytes": 1484392,
+      "sha256": "986b84df7d3943506cff06a0d045e91989e679f5529e23fdff665d3235fd6de5"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212447_557014Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "6fd61419e4d806166f36c5e121099a93194609130267b30c7d91d56481dbb93c"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212447_557014Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "47d7978ee17a9349db8a9866c23e694b2be99752f3dca0b2f9f09d83c03d5bab"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212447_557014Z/measurements.jsonl",
+      "bytes": 1696850,
+      "sha256": "50184e2fa724e3f935cad8e11834833822e3bf9e2d00aaa70ca8a21227424a25"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212532_696090Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "3b731ab99a9119d3cec93e1c763520e8761115f9e319eb57f95623034b090cbe"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212532_696090Z/events.jsonl",
+      "bytes": 395,
+      "sha256": "9b7fb4eff46f33867741cc405d6d14d2472ed494345e8b63ba0ea2cd9ec4fca4"
+    },
+    {
+      "path": "session_03_LAHACKS/lie_down/20261017_212532_696090Z/measurements.jsonl",
+      "bytes": 1544181,
+      "sha256": "eddfc94d1ca685a5cbf3891468764c9bf4d00aa2c226b6ff6d7d24a77fb474f3"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210018_116989Z/metadata.json",
+      "bytes": 1004,
+      "sha256": "be18841f9c62311d05221c5b17df289cf28ee056dc7feec44da0295c4e7e85a1"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210018_116989Z/measurements.jsonl",
+      "bytes": 2413091,
+      "sha256": "43c0209c8da40b4af1f960a1a6207a2e8464ef8dc93e3180320d185e9edda77a"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210103_293289Z/metadata.json",
+      "bytes": 1002,
+      "sha256": "1c5183597e880db6b10c945d574c3eeb9b400ddf22469b810f604483e4402a75"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210103_293289Z/measurements.jsonl",
+      "bytes": 1464392,
+      "sha256": "03f71ad30ced1ed38dff91afc6bff241bac440d102b9ed47a34dce4a31be7a3d"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210148_459563Z/metadata.json",
+      "bytes": 1002,
+      "sha256": "b652b63f80a5bcd7e33698e7fd9aefca40b80c3a356e3192587ebac8ebbb6294"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210148_459563Z/measurements.jsonl",
+      "bytes": 1275179,
+      "sha256": "47f1e4fb7e3698287395f30ce23cba9a3ae8028874bf69d648c31e8b09b58441"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210233_626194Z/metadata.json",
+      "bytes": 1004,
+      "sha256": "b7c74926ee505635e987433d6dfeb9aa508cc48d6dce6d17c2aca94723c816bf"
+    },
+    {
+      "path": "session_03_LAHACKS/lying_still/20261017_210233_626194Z/measurements.jsonl",
+      "bytes": 3515551,
+      "sha256": "92a7bfdd14625be8371de0e67b1fd6c65765e0bdd1ab8bad005046750d0b4469"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212006_500023Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "6082a25af862d47a148e9fd914828531c9370ff84c10c8b4ff29fb9d4c3297ae"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212006_500023Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "b910628d519b3904c6b14cf90bf4b2b935bc037e4ab31946f3983d3d91a9a60a"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212006_500023Z/measurements.jsonl",
+      "bytes": 1524700,
+      "sha256": "93760c84c182d03a9265ce5c02f885cc17e9894e6cfaddab1baae7d323f10557"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212051_637511Z/metadata.json",
+      "bytes": 1040,
+      "sha256": "47cdc1bd897c3e9f6a0860f229fd1ff082783fc6be57f9c4407176341883da0c"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212051_637511Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "a6cee128b7809411669c9a8537af0c0ecb033f899e0783fbf8cfafd8d09abb06"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212051_637511Z/measurements.jsonl",
+      "bytes": 1371974,
+      "sha256": "019754d86c4cbffaa9103d4218648c0997522102ae8b4f9533ba37a3c6146cf5"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212136_805049Z/metadata.json",
+      "bytes": 1041,
+      "sha256": "6a794bcdfe107b548998c9ffbdf29876c46a96408f9f0abfde631a0a95b8ecc3"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212136_805049Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "c5315d35f759b72afb735248d4c2ced8f3bd2feed12cd7911af58315e688f1a3"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212136_805049Z/measurements.jsonl",
+      "bytes": 1477606,
+      "sha256": "5fb01f57bec8fbeaffd0959c66005f3a8fafc5740614a980695856a0f518c33a"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212221_940385Z/metadata.json",
+      "bytes": 1040,
+      "sha256": "37f5fa689f67c346652c9d1e64f3f77554f71c9f9c1afef8a80bc4c722d93cb3"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212221_940385Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "5ca2a6b15f0cf87aee52876a17e1937560b37157178ad8313deb7c3b99c3e0e4"
+    },
+    {
+      "path": "session_03_LAHACKS/sit_down/20261017_212221_940385Z/measurements.jsonl",
+      "bytes": 1387041,
+      "sha256": "8c2702f183e608cae0d0bb7f86ddbabada524e1f2e0380019abb3d4c89ab2ba1"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_204904_630782Z/metadata.json",
+      "bytes": 1005,
+      "sha256": "dcfd871e763d92e5f1e523df29318e306914f5822e2706cfd03d374402420b63"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_204904_630782Z/measurements.jsonl",
+      "bytes": 1557605,
+      "sha256": "45603947010361ecc91769a78d1e1e50dbf4b064b9a7e577656ef68e02fb8e10"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205325_789787Z/metadata.json",
+      "bytes": 1006,
+      "sha256": "fd83745f02a3eba242cadfdd08bf09f31e88a0e07db23ff54c8498800faa14a1"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205325_789787Z/measurements.jsonl",
+      "bytes": 1510249,
+      "sha256": "2bfa7f9696c3d0bb0c5dc6fddd36f64e80b49f8e61191a636599361e14836b69"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205411_033588Z/metadata.json",
+      "bytes": 1005,
+      "sha256": "96573777dcd0a032ac96761b7e410c9ebafa0843f7f346ea12290d576e66312d"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205411_033588Z/measurements.jsonl",
+      "bytes": 1129538,
+      "sha256": "77c9c120fea6dab01255e067ff30b3d5f9c2fb4666b5bbe930f7d8a6098c0ced"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205456_187846Z/metadata.json",
+      "bytes": 1007,
+      "sha256": "449395097cc4ad4d7477317418713539e1e138c896058f3483963a288c41fc3b"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205456_187846Z/measurements.jsonl",
+      "bytes": 2544465,
+      "sha256": "5f51da6db52177e16948cf25345a81f2b376360ce9ef44ed5597fb52902783f5"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205541_358575Z/metadata.json",
+      "bytes": 1006,
+      "sha256": "9d796434d001069c9108c703ca8ef186ef2b1fa934b95682927fd110c7c061b1"
+    },
+    {
+      "path": "session_03_LAHACKS/sitting_still/20261017_205541_358575Z/measurements.jsonl",
+      "bytes": 2572892,
+      "sha256": "bd0f630ef3a6e30e4363430eb1dee9073a965a22c338920c2f6f6537482c75b9"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214140_430498Z/metadata.json",
+      "bytes": 1047,
+      "sha256": "82e70fca7fb014257edebd8a01ccea129b67c8a1029f5dfe619cb5998ae35d92"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214140_430498Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "507671f331b3770ae2168810e8caac62e8997d41f3f989c84d58fe0018d3c4ea"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214140_430498Z/measurements.jsonl",
+      "bytes": 1796998,
+      "sha256": "93b99bf92e3bd827fabe448ebf6bf8f14641bda5d08642e3864bfcaa75b49755"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214225_578923Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "a72668661f30946e9d0c1f7a08a1269eb2bea31c6ff6eb0583b108cb052220e8"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214225_578923Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "3d62152493c9d7bdd0727abb9c8b7abda4462b14dc3738aa1c6846e69fe76c9c"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214225_578923Z/measurements.jsonl",
+      "bytes": 1858783,
+      "sha256": "e4b6f356daff9c8b078a7913a4a2df2c2f0ba9b109d4a449ff729470eff443c7"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214310_855919Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "ec7c3d25d310bc6f5e8ea73e1208454b76ec482e5712594a6bd247a62e1281b9"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214310_855919Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "797ff8112ca0c00b4cf626e6802049d991d5d772ab9cbf3ea98e86ab0de997bc"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214310_855919Z/measurements.jsonl",
+      "bytes": 1863634,
+      "sha256": "53612c8255c05957bbeb12165b271c10fc9e6e7d40f978d95aa64136af67e76e"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214356_001779Z/metadata.json",
+      "bytes": 1048,
+      "sha256": "8c858d952d66f0d930c0a6abc26a61ccc7ad6ede59e36df89e9a6085b8906229"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214356_001779Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "28a88921d0845a2c46d58c5ebe140af1dbf9df621685c35470a13375a86b9beb"
+    },
+    {
+      "path": "session_03_LAHACKS/staged_fall/20261017_214356_001779Z/measurements.jsonl",
+      "bytes": 1739804,
+      "sha256": "853ef1dd2304f1349994e401af66242d1c33b5c6bc8e1def12e5db77224e1aba"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211504_566127Z/metadata.json",
+      "bytes": 1000,
+      "sha256": "caa8bc422cce06be87a015de24ca4df009dcef20ca0a2ae7c9a899ee1a1d0708"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211504_566127Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "8d042bb28e1102e32535dbbc6d4d86d14b9a689544eeb0f4ae47de11b1f7d4a7"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211504_566127Z/measurements.jsonl",
+      "bytes": 1418039,
+      "sha256": "93fb47a3709516d0fd550f299bd6ac4e13422ca948bdd238a751948892203e4b"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211655_556536Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "e01965e3c2b559e9388380baca4139a2b68d7adc41227ea324422bc1c418fbeb"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211655_556536Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "46a3653c373cc8eb9faf568f4d843732cab5e67989be45bbe9fac3bc147e57cc"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211655_556536Z/measurements.jsonl",
+      "bytes": 1280008,
+      "sha256": "78a0f43c6346ce536805b09638ccad0e4eed0feac8d4fdd7ca4f1a4f9d7dd028"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211740_647313Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "a95cd572631fa3fe26fca1b9de4275a2f87545f783925a8609a5c46bf7136875"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211740_647313Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "edfde1c433ca7fc3469739afe60c8ad413c99088a4b487a8384fd8567d4836bf"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211740_647313Z/measurements.jsonl",
+      "bytes": 1374908,
+      "sha256": "15e4d097ca5f849f036b1906d5377d6302127181eccf3ecf543de50f339246d4"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211825_752524Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "77909446b623f840dc5f86d8d60717ea6008010ee9bff9dc632cb4ed5ff61d52"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211825_752524Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "e63679e6b023473cb895b149338c991b84cd6ca48504943047828bdb31b5fc0d"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211825_752524Z/measurements.jsonl",
+      "bytes": 1472920,
+      "sha256": "9a86e53808cc62fbd9ae63205ef1c5ce900be6bc2fbadde0060b2df50c1accde"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211910_910973Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "3faed0d390f27b1c7bfcd8cfe92bcbc392c3f21c687542f728dacf1668a31f36"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211910_910973Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "3265d8b5d4e4751544ef5b9748afca11b78a3e17c0f46a2ddb3108b7c0bb4d43"
+    },
+    {
+      "path": "session_03_LAHACKS/stand_up/20261017_211910_910973Z/measurements.jsonl",
+      "bytes": 1401942,
+      "sha256": "a075978e20ee611f0696aaa174fceb3124aaa867055044b46aa3764f49bae661"
+    },
+    {
+      "path": "session_03_LAHACKS/standing_still/20261017_204604_191292Z/metadata.json",
+      "bytes": 1009,
+      "sha256": "13b9c9dbe1c74991dbd9d94007e7b65ccd0cd662c9cb3fded70237a831bf633d"
+    },
+    {
+      "path": "session_03_LAHACKS/standing_still/20261017_204604_191292Z/measurements.jsonl",
+      "bytes": 3651877,
+      "sha256": "490e51a8858e78837d98865649c5923607c3b666a70780835237bf5dcce189d3"
+    },
+    {
+      "path": "session_03_LAHACKS/standing_still/20261017_204705_815621Z/metadata.json",
+      "bytes": 1008,
+      "sha256": "80f395447527710ae5c413700232dd063f7d81e4a2d9c0a25671097c8bb0e077"
+    },
+    {
+      "path": "session_03_LAHACKS/standing_still/20261017_204705_815621Z/measurements.jsonl",
+      "bytes": 2454313,
+      "sha256": "0e2a22f40d562d404c36ca5a11084ed5e20da84d49177c2e88875fe7d673fdc0"
+    },
+    {
+      "path": "session_03_LAHACKS/standing_still/20261017_204805_537245Z/metadata.json",
+      "bytes": 1007,
+      "sha256": "db817343220a1585814b607b0c7d500bfa39eaeda6c1273058fa5480b7eb191f"
+    },
+    {
+      "path": "session_03_LAHACKS/standing_still/20261017_204805_537245Z/measurements.jsonl",
+      "bytes": 2356866,
+      "sha256": "34e762b5b0c5ff6ee47e02d09693aad75531ae7c6f3651f682b86f98daa07e77"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205636_548664Z/metadata.json",
+      "bytes": 1001,
+      "sha256": "01e7dd1435752ae69a95cdfa2fe6dfc64ba68a970df293f7360fd2c7f9593c42"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205636_548664Z/measurements.jsonl",
+      "bytes": 1685472,
+      "sha256": "ff4c13e916e629ecb8777da4c12a84823a88c7e9752bb0bc91c9bc9ba762b976"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205721_778609Z/metadata.json",
+      "bytes": 999,
+      "sha256": "eb39f758de1973ba243aab37aca821372872af796061c48e177b94724f73c7e9"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205721_778609Z/measurements.jsonl",
+      "bytes": 1504281,
+      "sha256": "cfb020382bbe3cdd70a74929e0eea96ecef61c226492a60e804fcbeff749f163"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205806_864916Z/metadata.json",
+      "bytes": 1000,
+      "sha256": "c3cb862d93a174db9c7a03876b566af1118a3ad14cb411f4d4c19e48f6c094f8"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205806_864916Z/measurements.jsonl",
+      "bytes": 1570336,
+      "sha256": "8c47b33ea1ed415964be11f23cefd3b3039d9e6b2b369ccec9ec21f1cc160116"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205852_011721Z/metadata.json",
+      "bytes": 998,
+      "sha256": "ac4cd71f3e5b5e88c2ab8a825e3e3d634a4cd76a772859d8690985b8026f0f53"
+    },
+    {
+      "path": "session_03_LAHACKS/walking/20261017_205852_011721Z/measurements.jsonl",
+      "bytes": 1431268,
+      "sha256": "9c52140324ebd35dc21bb59c950ad5b78bc90c54690f11133cbe691a8d6c3a1b"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011229_451605Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "cfa299960504924cb367a489040fd5074f57dc379af076d152eecbd5efca5520"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011229_451605Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "6179ad9f87e923a8c5ad1d57447fefc8470f2091014cbb4963a02948db49a41c"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011229_451605Z/measurements.jsonl",
+      "bytes": 2060807,
+      "sha256": "1512f7efa21ca6a81a235c150543b42287ee164558bdfc5e3fc9587cc2949a2c"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011314_547490Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "164a8cb50e4ad2b20a1152b3d2a3421303f988783208ef6250cf51565f9766df"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011314_547490Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "1525c2b2b73b0a333cbdb901db6466004a17cdd9dcd5dfd3350148a91e5246af"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011314_547490Z/measurements.jsonl",
+      "bytes": 1904887,
+      "sha256": "654ccc621e0b8731d51ae1986b0a805152dff5e56e8262562675fc49a7c510cd"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011359_656047Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "ee8eeb69b139eb57d553f3898e2b8d3a335966f7ccbe643d8ef054372617bde0"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011359_656047Z/events.jsonl",
+      "bytes": 396,
+      "sha256": "53e5611451dd4932f0b83bb98bcc114541f48b2df9a61b58226c35af0c12528e"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011359_656047Z/measurements.jsonl",
+      "bytes": 1914716,
+      "sha256": "798964eba2d6677885ce994fca2e05bb36f1de297ec6e1891dd247be86a3e2fe"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011444_787943Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "fc8b2d71d85460ecb9935cfdacae628a4c94d6eeedc5ff4730c22f21ffaab5d8"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011444_787943Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "15c915f36cdf2b6506271f3822edc7a82a899ca530d622e3d9dd9a1314aeebf1"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011444_787943Z/measurements.jsonl",
+      "bytes": 1851858,
+      "sha256": "9c041ed1b18c8863ff7d5e67cd78c3e86d25f3b311d0847059bc328ef433fa93"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011529_866050Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "f4fd105b02caa35d481b329d6eab5267595462c9eda54da1b142738c75bb69c0"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011529_866050Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "e80682690ff5669149c4522e62b189b10bbe06af100ae3e96c03a9efc9ce1aa2"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011529_866050Z/measurements.jsonl",
+      "bytes": 1211394,
+      "sha256": "cf32e3869ed728f08d6af5ae3f3a1cb1b3e950e0985d76bd690ece9eb17de0f2"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011614_953211Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "e62fb97bf1365f96b95d25344341363d2ebe8218a1f1bcfd0a9b6524be25f348"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011614_953211Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "826e0a590f163bb8e179a9e9f5eee77fce9fb67426b87a9cd1bbf9ce91b55be5"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011614_953211Z/measurements.jsonl",
+      "bytes": 2678279,
+      "sha256": "863174d74642c5bee1a42d3c7d8c22d3fbb4fdd70955ca9ea2101d4ebee5ad9e"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011700_025961Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "81721a8a44156d99458f4afd1c27c54e70785787cf6b4e166802fd4b4c0f0b4b"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011700_025961Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "4ce34248ad819a6d1e1e6c8de27f9754d98605992ca3b7e7390945ea479381e8"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011700_025961Z/measurements.jsonl",
+      "bytes": 1977675,
+      "sha256": "1343317f150e2dd24c4cf36ae2c2e4f50e35c05595b7e2d616e81d536ff4d997"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011745_156278Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "05fd8c6300fca560951bca7e514987303afb54e4b799c8b22cbf270365278c0e"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011745_156278Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "9ed7abbab1667f9b11c3d4abe035b80b6eb5565b4e3896a02757bb50157dca8d"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011745_156278Z/measurements.jsonl",
+      "bytes": 1691044,
+      "sha256": "96f50ec6ee39cea73e566af84498392140ae85ee7795e1231c8aa201ce0e01ed"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011830_281516Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "abdd5d877cc67e1327db99e27477d2bee018b3eb7ccac519a7976fb342bd2cc3"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011830_281516Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "fe30d4d4ed9f8a2f14e011edf40d77657d9b42d9563b82c58a8dc1d1c090bb2e"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011830_281516Z/measurements.jsonl",
+      "bytes": 1873128,
+      "sha256": "b4cde471acab11a917d624df6064110e40905c61206d8eebbd67531be6a64b8c"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011915_436503Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "d4078d23577c4125b7759535fe42c8a7dc9960b03824fc867b1712f915e8d928"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011915_436503Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "d12b4596916edc56563758239d9843af7209127a53612dc0ee47d2aec23bcd0b"
+    },
+    {
+      "path": "session_04_LAHACKS/lie_down/20261018_011915_436503Z/measurements.jsonl",
+      "bytes": 2267595,
+      "sha256": "380adfd7ecc029151c8ed1916cca92222124e5582aaa783bd723d0fd2a78a8ff"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012550_085283Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "fd3aa63c2609c2e21eea2478672171708803d03e294120844f3443cf9e403bb1"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012550_085283Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "fe4cd56a022ed32a84fb8d827fe1d2f470473abbdc09a89ffa8fdbde2846e49a"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012550_085283Z/measurements.jsonl",
+      "bytes": 4268361,
+      "sha256": "4ffe41153be546d67ff550085759350aa1490dac33874b7b1656414a1a56a871"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012635_166741Z/metadata.json",
+      "bytes": 1041,
+      "sha256": "d94c1d28e87d505ee6c9f2c26cd6f3806269d749ab67ac009522bbf918a0a3d5"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012635_166741Z/events.jsonl",
+      "bytes": 395,
+      "sha256": "42f00a6fea4e123b216ccc0c8026d411ffe6068db123998a5a94d1289a89957e"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012635_166741Z/measurements.jsonl",
+      "bytes": 1484950,
+      "sha256": "f0913037859a7ecae4b8a8ec05200953ccb28e35a07e4292ea27b832fc02eefb"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012720_246222Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "25ba94d24ed80fdf64e4ec3c44e211f211db7e5315b32d9a41b1b2fdbfa319f0"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012720_246222Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "f253998c74845062a07c47d3e3a01822a7b71e610e303feea1bb749bd4053646"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012720_246222Z/measurements.jsonl",
+      "bytes": 3268469,
+      "sha256": "8c446d4733aebff5c8368b14a8658fdf2c4016d0b71f43244bd38e7f7fd5f41c"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012805_468082Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "80af1f1d835dc496a187237d2704301e4c246eb39a08f97806db8abbf9ec1752"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012805_468082Z/events.jsonl",
+      "bytes": 396,
+      "sha256": "6f1358ff30f178c8c402107f182d1adfaae50fc2cf75735b052ad0664b1b9aeb"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012805_468082Z/measurements.jsonl",
+      "bytes": 2119875,
+      "sha256": "a41bb2d03b5d48f8e483c334d695649d7ae4b160ac7ca5d54b0e0f4986b4a50d"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012850_608798Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "21943e44a0fc46933240fce0818fb1475e6886446e79e79fafb8bfeed0b640d0"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012850_608798Z/measurements.jsonl",
+      "bytes": 1820113,
+      "sha256": "796cc7131cce468b1b700e79008308d398f8c25ce9a36b4c2e944dce689eda1a"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012935_754472Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "bb71f63f2128c6a7f4699d80237daa5f5ae2390265d65a22e9b32e84b2cb5455"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012935_754472Z/events.jsonl",
+      "bytes": 395,
+      "sha256": "1b6f21c90c1ad0d6e9f5cd04440bd7b3efef6b327607c038dd797e2cbdd2e1b6"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_012935_754472Z/measurements.jsonl",
+      "bytes": 2439631,
+      "sha256": "e579b09e7aa0d4b16c40cd5f3d5b998d8e89f1364da1f67f0c40f182118e314f"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013020_862150Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "a5e1dc2107466cf7198a4ec7794d4f981d5b53bab2c1766f4d57dfabaa80d2bc"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013020_862150Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "a6b6152f255da5d0186cccf961ec4ee53983367518c27cf257f7e57c2e7d796a"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013020_862150Z/measurements.jsonl",
+      "bytes": 1286312,
+      "sha256": "d5f338e29a5b8255131c07c18ee2c6c0869766086eaf4e11a6eac1b061ba517e"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013106_076096Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "17ae06b62571bcf7427c985d9d366342b539ced019121e8053b6f266759ffa4e"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013106_076096Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "3c05dc487597f2410a3a8e2d59d2d8dfedc445f02a2bb6d59a25980bc6543464"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013106_076096Z/measurements.jsonl",
+      "bytes": 2115541,
+      "sha256": "c474c0c81768e54f2ed823844bb3673a67c1a2b8c9287fdd4d36bab642b89ff3"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013151_177083Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "bc86bb452d2347afde5af0a6b95ee63e6a588ccc2fd158e266a5d9cd0753927c"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013151_177083Z/events.jsonl",
+      "bytes": 396,
+      "sha256": "525353cb95c29c3c8f6bce1be1bf8c64b67dd2695861ef778a0ed4bf3e7ba33a"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013151_177083Z/measurements.jsonl",
+      "bytes": 2118571,
+      "sha256": "114e856c311cf176fe17a75e44461efbbcf14c6683621e413e3e5ec3bde9927b"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013236_201625Z/metadata.json",
+      "bytes": 1039,
+      "sha256": "6e02d93d7757f1061e0b88d32a4ec5ddddc25999e3e83fe4663dbef868823798"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013236_201625Z/events.jsonl",
+      "bytes": 396,
+      "sha256": "8b50e46b8092e1087a07e5ce6d50dc05f15726eb0ae2d916f0c748eabe14880e"
+    },
+    {
+      "path": "session_04_LAHACKS/sit_down/20261018_013236_201625Z/measurements.jsonl",
+      "bytes": 1514654,
+      "sha256": "cea2735c39863c2a9b69abb57f25be0c3851701c993aab8db52263e552cd7348"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_003839_872397Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "7793856a78aa1250fd6d6b98848260f66703e4ccd54a10d5bee0b0661e4cd37e"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_003839_872397Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "887ef01d1d8e8073538dcac1494665e37a56c88607f20c7338d3b7f83766f117"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_003839_872397Z/measurements.jsonl",
+      "bytes": 1199155,
+      "sha256": "da1f69bceb8afdb2d0a2831c0c47eca8e1a5596eb529113bd4c34633e9e459a1"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_003925_035409Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "04b1e96ec553dabaca2b71fddfdfdad49a7a6192eeb2885609044747cdf56761"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_003925_035409Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "92f569697454928b12aa652d2d0863579ee07faffc692b2f650b9c13391e1061"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_003925_035409Z/measurements.jsonl",
+      "bytes": 1780365,
+      "sha256": "ce8efac5656895b18b0a6f03014314f8b68a204d55a5ab4342664fc19ea0d6bd"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004010_188550Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "3bb0f9c82aa7062828368ab91d07993b5dcda1039bdc253130b6b61248df9276"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004010_188550Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "39163bdccd2d25291fb9c0bd0b72422fbba7c8ec46ae9ad215e773ea49bbab18"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004010_188550Z/measurements.jsonl",
+      "bytes": 2006761,
+      "sha256": "67ca2bcf845c20c8e736536877455ea929a6f535adea17c1ce4178e5cc86777b"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004055_315884Z/metadata.json",
+      "bytes": 1047,
+      "sha256": "8a379b017e2e80a30000af960c05fd4ec0243670e3c7f4d6432d58cf46f3738f"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004055_315884Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "2d04939a31c5ae04a656eba1bb384087c555d2438f95c06f609dd72b33e26a72"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004055_315884Z/measurements.jsonl",
+      "bytes": 2109714,
+      "sha256": "9f135afef9eeef1b181cdcb6f81019f9b0ba095d220672bf6c5171bf5d16b9ff"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004140_480887Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "1c29e952b15676346ac502fc8e8cdd830b066e6957145a3e7b702d6f8d747864"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004140_480887Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "604179f9e6baeb58ca6b322fdd2011efb2f1e98d4886d53224927083debf9718"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004140_480887Z/measurements.jsonl",
+      "bytes": 1784965,
+      "sha256": "aab82f0b5b9c4f4835aece9bfe9f3f9ec11eba5967e260146afb62917ac33f80"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004254_688183Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "dfc4c2bc8aa278a261859f0096e2bddf576585597bd114d65950946273b82e38"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004254_688183Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "bbfdb4403bad91d6fa9b1ad47045329dbe99b066987e674c1ab1a8d53e1bcbc0"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004254_688183Z/measurements.jsonl",
+      "bytes": 2061586,
+      "sha256": "382aca56f28556e9ce081264f6001f02e535768518ca1cc8a4328ca52215833c"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004339_859364Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "d5dab62d9b32e5ed959dd1dd39d3e3891dded841098fd6c15b33bfc0d7367258"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004339_859364Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "f461eb5b43c82ad894e1e4c4780eded0e4fe2822164c223ae4b51ca2de16c1cc"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004339_859364Z/measurements.jsonl",
+      "bytes": 1929360,
+      "sha256": "968cf7ad004fac094a069b66e4e27d6e7554ba9fadaa1f024c3286ded748bda8"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004424_995088Z/metadata.json",
+      "bytes": 1048,
+      "sha256": "596fcbb14f7800a237e02808b3b2d88d9d961537b393090812bf8f5c59f749dd"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004424_995088Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "c373629a196dd20ea7ae11b5ef280ff0e2c243afeafef586963a29c1db553c28"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004424_995088Z/measurements.jsonl",
+      "bytes": 1812947,
+      "sha256": "2de0bad7282248721cf68f7b586a5f20e66b8b96d1b851192f5badd536b14f91"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004510_096411Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "701df5e8772ee27d54145fb2a0bf03c2740a8f1df99b836e1d15796e7b67b863"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004510_096411Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "01cfd2489058eccfd4ccee98735379e947b40e4840041bee7e8ab7c4a88d12fe"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004510_096411Z/measurements.jsonl",
+      "bytes": 1814475,
+      "sha256": "9ab24ca709200753f1ffcac8fbd2ceb6466fdfb33391bf3515d9cbf401e8a9ba"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004555_171236Z/metadata.json",
+      "bytes": 1047,
+      "sha256": "216e6d63e0bea6b3473ed6bc21a3c195d0db0e61010f9ea3247f386c679e052f"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004555_171236Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "d57951021c38d5fadc0fb9fa926a59bc3394ec1ee2bbc87acff503e370b81e6a"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004555_171236Z/measurements.jsonl",
+      "bytes": 1925804,
+      "sha256": "24ac34605806fd4b0d99cce42833c91d458e76d67cf7c18adcb5c9ddf2b9cc48"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004807_610959Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "c73f2f38c591411b873325b09d4cb40ed3a494fc7e08ec0de18747304a6bc0f4"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004807_610959Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "961faa8bf84d2af2b1e1043746da8cf4b3f8e76157e701af8d765520de94045d"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004807_610959Z/measurements.jsonl",
+      "bytes": 1597750,
+      "sha256": "8f347f3ccdf1299b05827ff60780db529743acee68bbfea7cf32f8fb87d37726"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004852_798687Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "73b81a73057f45c2e035635257681a837db1956eec2e6f370606c6b250a7f73d"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004852_798687Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "3e976cc498e7ee54a88782bbee14a152ca8ede6578c0c9ce69e6fe32fe15fe7e"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004852_798687Z/measurements.jsonl",
+      "bytes": 1944166,
+      "sha256": "2aeaabf0d5480b91beee34816e4bd07b2fb5ed652e8e89c2bb66da92f57115d7"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004937_891590Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "bbf5770feaabdcb03c8589bb28d30fd4bee2f6343a55249c45bc306f4fb9fee1"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004937_891590Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "04c9b1d88bf3d4e4e1c4c1a572762d7cfc2d057628047c63bdecec7b18e1cd17"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_004937_891590Z/measurements.jsonl",
+      "bytes": 1333470,
+      "sha256": "8219c46b73f964f10e53ece02c6b06afc4a5b18874d855268911066fa141cbac"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005023_078275Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "5818d2391f01b71eb4c3ba1512067dfc363f2eea36ee80ad300f2c9d5476ef6b"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005023_078275Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "9d2b9be815c37866626c006ef97fb9a429b606001a8862ebec40eea313dd99f1"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005023_078275Z/measurements.jsonl",
+      "bytes": 715015,
+      "sha256": "e58186672f7aecbc8c706e855974c2ec3009a181b6882f8fd9cfda5495a9f33c"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005108_217002Z/metadata.json",
+      "bytes": 1042,
+      "sha256": "20af0b2ddf89a7d12f62a3d516095d61b08f02d5025a877da2e6893b816bf160"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005108_217002Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "8ffe036f1d205043c141701e6c0346fd723213cf78fae51373603abc1fca643f"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005108_217002Z/measurements.jsonl",
+      "bytes": 1322475,
+      "sha256": "fa7ff855ebfbc2477b24a68b5a41c9c27519510013cf8b401262f5110af9c10f"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005153_297629Z/metadata.json",
+      "bytes": 1043,
+      "sha256": "3d6b1b4b69c62835a5b80ddea7658a4c2bda39279b840e091f1610b1eec51e09"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005153_297629Z/events.jsonl",
+      "bytes": 396,
+      "sha256": "27f0788fa000c03169eecc90d29ee90780f34c53944b33e829411a57549c3643"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005153_297629Z/measurements.jsonl",
+      "bytes": 1388505,
+      "sha256": "d5851f2b8457aa5fd22c94a74974987dd1f7d6fb655ae984d630a4be892e2652"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005238_401797Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "5f8910050f72137cb3b32ca995bb727208fbce539ae9a9160a873474e0a6554e"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005238_401797Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "a943ff13747ab136c8b0903b01e2025fb79dd27cbcf98eb1dd76a431ef996d4f"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005238_401797Z/measurements.jsonl",
+      "bytes": 2228870,
+      "sha256": "351e27137f450135efcb0f4125b7e011265469bbc0ee58b6fe10734304101703"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005323_602966Z/metadata.json",
+      "bytes": 1047,
+      "sha256": "7fa0a3ac0b7e7eb0d1df12f2408719b4b4faa969c0339ee2b9d7e633a2e4d164"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005323_602966Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "d8898b946bdc9a30487c767348c2d077ca3d978a22c87c261e348018bae579f6"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005323_602966Z/measurements.jsonl",
+      "bytes": 869984,
+      "sha256": "4640182b98f1717711317cada77a3ecc9fd0a2f930255212b6ab2b604ab9cf87"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005408_732574Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "e033f21305ba18936bef496f129f4aa8401a011607af09d7b98aee186f374819"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005408_732574Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "6ae157a98642806e97bb393399b9303c92098a181ec0f4a06358eb099980a3f4"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005408_732574Z/measurements.jsonl",
+      "bytes": 2065859,
+      "sha256": "8a370cfa4f259f6b8fde7b54f6035501b69dcb5f7a2d46cebfa970c94723c2dd"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005453_810441Z/metadata.json",
+      "bytes": 1049,
+      "sha256": "8528a52475782aa94c9aed541cc150409f390a8721a841d1de5205e23142ecc4"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005453_810441Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "21bd2beb5acefc247975416bc24ed0f08f6e72c07398592a691e4bae0e27fd18"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_005453_810441Z/measurements.jsonl",
+      "bytes": 2360576,
+      "sha256": "26f13af9d84f90074245ab38e1dcabfe810307f700cc0aca44398fb1b1fee914"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010439_867650Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "eea57b0120f120a4cc93b4da6057f54e4f6764590ac1cb7c512405b9c0b1aa2e"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010439_867650Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "01c03b612f4c4ab814fd3aab342fca23f54772c875839f77e4bc4f37f91fa53d"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010439_867650Z/measurements.jsonl",
+      "bytes": 1899808,
+      "sha256": "304242269c89aab7a911bf0e5a59fa9e8738d73872e02b94e2df5d0dbdae7bd7"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010525_086803Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "ba1476b9835e83342bbbea5e8040f08f4c07a04330ffa163294b515772460bf3"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010525_086803Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "368626f5790af3a89cc8da5c9dee6ffb58a1286f9781acadd7127b935e3b91ce"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010525_086803Z/measurements.jsonl",
+      "bytes": 2072246,
+      "sha256": "b0e09610c95bda9070fd745c6adc5f808d261b6159a79e38d160b5ebce5d0e52"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010610_213058Z/metadata.json",
+      "bytes": 1047,
+      "sha256": "c1004ab8cf61396bb83ada62358a66b44ae989322c5930fe4a6f05538e7d8960"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010610_213058Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "c8a84005bd902131a5490ea9686e9964128942ef4cf1a67499daccbee30816be"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010610_213058Z/measurements.jsonl",
+      "bytes": 1921896,
+      "sha256": "3d51df8111e610b5b8e15f458ced73f96ea005535de78dc4e04379513e0fc6fa"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010655_318479Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "4f43f9d3ccf009d712dcc21d6a26791785f46d21253780f2fc436c43c77537ea"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010655_318479Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "0040ab4bc67b76401b2ad5576a68688772a8427896da52826179bd67ee9fb3b6"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010655_318479Z/measurements.jsonl",
+      "bytes": 1663170,
+      "sha256": "a68f085e40383092d0b9020de67e296878bcfebe5d73a41f4c57d753ef0baa6f"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010740_455411Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "aebad94dd00d4543824284452dd44b6be23140fb3bf34c62c540ed0c347d530a"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010740_455411Z/events.jsonl",
+      "bytes": 396,
+      "sha256": "5a32ed096d09f651c677d72d740aba7b4c71a452b4fef039f4f7fed0b9c8a4bf"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010740_455411Z/measurements.jsonl",
+      "bytes": 1897981,
+      "sha256": "f74563fa8760d74e9d5d71db5c37c1c950046c588ec2ee23a1f7d3042d8c05e7"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010825_528301Z/metadata.json",
+      "bytes": 1047,
+      "sha256": "12161b0db00d9c29b6954fb8ed1a6237f9e0b977e9baf6d2364c0826aa8af6d0"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010825_528301Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "29f30499b9d2db2d54e4740dfeea2c38a28d2dcb4c7a4ea9452f9631a7b5f2dc"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010825_528301Z/measurements.jsonl",
+      "bytes": 1607687,
+      "sha256": "e9942014e4a0d9635e6c904c3698fd1e3b57eb441bedc15f96b77b1028cdd2e9"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010910_713252Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "9370455e759896c47fb7be2e810836bcd173e864cfb5b55e0d29ce4db200d2f9"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010910_713252Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "2487d9f8f5c0ab0bb2f993aceeee7e230ec250c5be302490ba247c2e15361c86"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010910_713252Z/measurements.jsonl",
+      "bytes": 2073082,
+      "sha256": "11e0dfaf4321cf1aa2efd6ac61591b3048a4fea9bb8648e3ddd4949d603a508e"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010955_839033Z/metadata.json",
+      "bytes": 1045,
+      "sha256": "da0345c749ef6d50f750fcb1fcf7e055ace718d74c31fd3cd57fcf1240445acc"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010955_839033Z/events.jsonl",
+      "bytes": 398,
+      "sha256": "a1e4ce339cf99f76cf5eef6f1c1a2c470c26ff56ce5bdbdd49e2298753666b94"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_010955_839033Z/measurements.jsonl",
+      "bytes": 1105218,
+      "sha256": "b4952aae0fdb500f9482f143b6246064d5191ff75d01a3b46e54d1a4a51cecb8"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_011040_991891Z/metadata.json",
+      "bytes": 1044,
+      "sha256": "334c61220ace02fe050556c72085ba28ec4fa920cc6edd93020e4801a7b78b93"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_011040_991891Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "36b59ddda37bd56f62c53a1be20ea057bab4e215cefd741472ccf23ac3bbca7b"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_011040_991891Z/measurements.jsonl",
+      "bytes": 1077268,
+      "sha256": "16f79b2775e0eb306f67886f3efc5bdbb62d73bd3904479c0a5e5bde5502f18f"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_011126_080785Z/metadata.json",
+      "bytes": 1046,
+      "sha256": "c23c871c67677e2aaf046178704fa16766345afd3201620a7509ff4708ed3d3b"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_011126_080785Z/events.jsonl",
+      "bytes": 397,
+      "sha256": "2681bee41f198ac2a77fc60f9e3add291831f018a575b67673a52559bbff0741"
+    },
+    {
+      "path": "session_04_LAHACKS/staged_fall/20261018_011126_080785Z/measurements.jsonl",
+      "bytes": 1811890,
+      "sha256": "a21cef73a26570ebf3f654c4e4af54dc0b533d0e262238067fa7edbd15754e5b"
+    }
+  ],
+  "source_file_count": 254,
+  "bytes": 166285005,
+  "reused_local_block": "session_03_LAHACKS",
+  "downloaded_temporary_block": "session_04_LAHACKS",
+  "raw_serial_downloaded": false
+}

@@ -1,0 +1,840 @@
+{
+  "method": "CPU inference of the already-saved CNN checkpoint only. Train/validation score ranking is descriptive; thresholds remain 0.5. Test errors use previously saved predictions. No new fitted model or parameter update.",
+  "cnn_checkpoint_sha256": "b54d924771e2ee8c0f63a5728773f4ed5f6c81a6fae70cefab365aca0496e544",
+  "cnn": {
+    "train": {
+      "accuracy": 0.7748502994011977,
+      "precision": 0.20675105485232068,
+      "fall_recall": 1.0,
+      "f1": 0.34265734265734266,
+      "precision_defined": true,
+      "confusion_matrix": [
+        [
+          598,
+          188
+        ],
+        [
+          0,
+          49
+        ]
+      ],
+      "class_distribution": [
+        786,
+        49
+      ],
+      "positive_score_quantiles": {
+        "min": 0.5441837906837463,
+        "p25": 0.8435312509536743,
+        "median": 0.8687856793403625,
+        "p75": 0.8882381319999695,
+        "max": 0.9181644320487976
+      },
+      "normal_score_quantiles": {
+        "min": 0.06751277297735214,
+        "p25": 0.08427201397716999,
+        "median": 0.13187424838542938,
+        "p75": 0.45942753553390503,
+        "max": 0.9108648300170898
+      },
+      "roc_auc": 0.9236900867217116,
+      "average_precision": 0.40623985152928027,
+      "positive_prevalence": 0.058682634730538925,
+      "by_activity": {
+        "empty_room": {
+          "windows": 108,
+          "predicted_fall": 0,
+          "class_counts": [
+            108,
+            0
+          ],
+          "score": {
+            "min": 0.07110393047332764,
+            "p25": 0.07249284349381924,
+            "median": 0.07310547307133675,
+            "p75": 0.07394356280565262,
+            "max": 0.07569894939661026
+          }
+        },
+        "get_up_from_floor": {
+          "windows": 108,
+          "predicted_fall": 1,
+          "class_counts": [
+            108,
+            0
+          ],
+          "score": {
+            "min": 0.08174881339073181,
+            "p25": 0.09580928273499012,
+            "median": 0.19399866461753845,
+            "p75": 0.3261370062828064,
+            "max": 0.5045474767684937
+          }
+        },
+        "lie_down": {
+          "windows": 108,
+          "predicted_fall": 68,
+          "class_counts": [
+            108,
+            0
+          ],
+          "score": {
+            "min": 0.07532546669244766,
+            "p25": 0.11246147379279137,
+            "median": 0.7555486261844635,
+            "p75": 0.8224482834339142,
+            "max": 0.8768438100814819
+          }
+        },
+        "lying_still": {
+          "windows": 108,
+          "predicted_fall": 0,
+          "class_counts": [
+            108,
+            0
+          ],
+          "score": {
+            "min": 0.07805921882390976,
+            "p25": 0.08982635475695133,
+            "median": 0.10435871407389641,
+            "p75": 0.12081291154026985,
+            "max": 0.25181084871292114
+          }
+        },
+        "sit_down": {
+          "windows": 108,
+          "predicted_fall": 63,
+          "class_counts": [
+            108,
+            0
+          ],
+          "score": {
+            "min": 0.10333262383937836,
+            "p25": 0.17504266276955605,
+            "median": 0.6004172563552856,
+            "p75": 0.8674117475748062,
+            "max": 0.8954521417617798
+          }
+        },
+        "sitting_still": {
+          "windows": 54,
+          "predicted_fall": 0,
+          "class_counts": [
+            54,
+            0
+          ],
+          "score": {
+            "min": 0.07096691429615021,
+            "p25": 0.07477045617997646,
+            "median": 0.07817502319812775,
+            "p75": 0.10014203935861588,
+            "max": 0.12786449491977692
+          }
+        },
+        "staged_fall": {
+          "windows": 49,
+          "predicted_fall": 49,
+          "class_counts": [
+            0,
+            49
+          ],
+          "score": {
+            "min": 0.5441837906837463,
+            "p25": 0.8435312509536743,
+            "median": 0.8687856793403625,
+            "p75": 0.8882381319999695,
+            "max": 0.9181644320487976
+          }
+        },
+        "stand_up": {
+          "windows": 108,
+          "predicted_fall": 56,
+          "class_counts": [
+            108,
+            0
+          ],
+          "score": {
+            "min": 0.11771241575479507,
+            "p25": 0.1955082193017006,
+            "median": 0.6121086180210114,
+            "p75": 0.8481132835149765,
+            "max": 0.9108648300170898
+          }
+        },
+        "standing_still": {
+          "windows": 54,
+          "predicted_fall": 0,
+          "class_counts": [
+            54,
+            0
+          ],
+          "score": {
+            "min": 0.06751277297735214,
+            "p25": 0.06830758228898048,
+            "median": 0.07924213260412216,
+            "p75": 0.08709065057337284,
+            "max": 0.13304607570171356
+          }
+        },
+        "walking": {
+          "windows": 30,
+          "predicted_fall": 0,
+          "class_counts": [
+            30,
+            0
+          ],
+          "score": {
+            "min": 0.1270923763513565,
+            "p25": 0.142954483628273,
+            "median": 0.16784051805734634,
+            "p75": 0.2276349849998951,
+            "max": 0.42979681491851807
+          }
+        }
+      },
+      "events": {
+        "covered_event_detection_rate": 1.0,
+        "detected_events": 10,
+        "covered_events": 10,
+        "uncovered_events": 0,
+        "annotated_events": 10,
+        "all_annotated_event_detection_fraction": 1.0,
+        "per_event": [
+          {
+            "recording_id": "20261016_055527_479927Z",
+            "event_index": 0,
+            "eligible_windows": 5,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_055704_474492Z",
+            "event_index": 0,
+            "eligible_windows": 5,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_055816_134100Z",
+            "event_index": 0,
+            "eligible_windows": 10,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_060048_166057Z",
+            "event_index": 0,
+            "eligible_windows": 6,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_060207_044811Z",
+            "event_index": 0,
+            "eligible_windows": 3,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_060412_925284Z",
+            "event_index": 0,
+            "eligible_windows": 4,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_060523_141523Z",
+            "event_index": 0,
+            "eligible_windows": 5,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_060625_339974Z",
+            "event_index": 0,
+            "eligible_windows": 5,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_060722_711915Z",
+            "event_index": 0,
+            "eligible_windows": 5,
+            "detected": true
+          },
+          {
+            "recording_id": "20261016_061112_587712Z",
+            "event_index": 0,
+            "eligible_windows": 1,
+            "detected": true
+          }
+        ],
+        "false_alert_episodes": 11,
+        "normal_monitored_seconds": 438.0,
+        "false_alerts_per_hour": 90.41095890410958,
+        "alert_policy": "One episode per contiguous run of positive decisions; merge gaps <=1.5 strides; decision at window end.",
+        "exposure_policy": "Union of evaluated windows on verified normal trials; exclude unobserved gaps.",
+        "impact_detection_latency_seconds": null,
+        "limitation": "Approximate staged-action annotations; uncovered events are reported explicitly, not scored as measured model misses."
+      }
+    },
+    "val": {
+      "accuracy": 0.4666666666666667,
+      "precision": 0.03125,
+      "fall_recall": 1.0,
+      "f1": 0.06060606060606061,
+      "precision_defined": true,
+      "confusion_matrix": [
+        [
+          209,
+          248
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "class_distribution": [
+        457,
+        8
+      ],
+      "positive_score_quantiles": {
+        "min": 0.6688161492347717,
+        "p25": 0.7492980808019638,
+        "median": 0.7860451936721802,
+        "p75": 0.8173033446073532,
+        "max": 0.8673941493034363
+      },
+      "normal_score_quantiles": {
+        "min": 0.0734320878982544,
+        "p25": 0.21585895121097565,
+        "median": 0.6062192320823669,
+        "p75": 0.849860429763794,
+        "max": 0.907399594783783
+      },
+      "roc_auc": 0.6362144420131292,
+      "average_precision": 0.024533160125757937,
+      "positive_prevalence": 0.017204301075268817,
+      "by_activity": {
+        "empty_room": {
+          "windows": 76,
+          "predicted_fall": 76,
+          "class_counts": [
+            76,
+            0
+          ],
+          "score": {
+            "min": 0.7885991334915161,
+            "p25": 0.8416241258382797,
+            "median": 0.8742769956588745,
+            "p75": 0.8868440687656403,
+            "max": 0.907399594783783
+          }
+        },
+        "get_up_from_floor": {
+          "windows": 68,
+          "predicted_fall": 19,
+          "class_counts": [
+            68,
+            0
+          ],
+          "score": {
+            "min": 0.08867555111646652,
+            "p25": 0.13179166987538338,
+            "median": 0.32732634246349335,
+            "p75": 0.5394696891307831,
+            "max": 0.8697893023490906
+          }
+        },
+        "lie_down": {
+          "windows": 19,
+          "predicted_fall": 13,
+          "class_counts": [
+            19,
+            0
+          ],
+          "score": {
+            "min": 0.15144602954387665,
+            "p25": 0.3598467707633972,
+            "median": 0.5684753060340881,
+            "p75": 0.6190382838249207,
+            "max": 0.6963682770729065
+          }
+        },
+        "lying_still": {
+          "windows": 61,
+          "predicted_fall": 61,
+          "class_counts": [
+            61,
+            0
+          ],
+          "score": {
+            "min": 0.800472617149353,
+            "p25": 0.8544701933860779,
+            "median": 0.8659222722053528,
+            "p75": 0.8738217949867249,
+            "max": 0.9019339680671692
+          }
+        },
+        "sit_down": {
+          "windows": 42,
+          "predicted_fall": 16,
+          "class_counts": [
+            42,
+            0
+          ],
+          "score": {
+            "min": 0.10749256610870361,
+            "p25": 0.1349911317229271,
+            "median": 0.2023932784795761,
+            "p75": 0.7611056715250015,
+            "max": 0.861822783946991
+          }
+        },
+        "sitting_still": {
+          "windows": 63,
+          "predicted_fall": 0,
+          "class_counts": [
+            63,
+            0
+          ],
+          "score": {
+            "min": 0.1557055562734604,
+            "p25": 0.1947866976261139,
+            "median": 0.21333792805671692,
+            "p75": 0.23209984600543976,
+            "max": 0.2889387607574463
+          }
+        },
+        "staged_fall": {
+          "windows": 8,
+          "predicted_fall": 8,
+          "class_counts": [
+            0,
+            8
+          ],
+          "score": {
+            "min": 0.6688161492347717,
+            "p25": 0.7492980808019638,
+            "median": 0.7860451936721802,
+            "p75": 0.8173033446073532,
+            "max": 0.8673941493034363
+          }
+        },
+        "stand_up": {
+          "windows": 89,
+          "predicted_fall": 26,
+          "class_counts": [
+            89,
+            0
+          ],
+          "score": {
+            "min": 0.0734320878982544,
+            "p25": 0.15939049422740936,
+            "median": 0.3163239061832428,
+            "p75": 0.7308713793754578,
+            "max": 0.8855406641960144
+          }
+        },
+        "standing_still": {
+          "windows": 7,
+          "predicted_fall": 6,
+          "class_counts": [
+            7,
+            0
+          ],
+          "score": {
+            "min": 0.4729151427745819,
+            "p25": 0.585385650396347,
+            "median": 0.6187279224395752,
+            "p75": 0.6287425458431244,
+            "max": 0.6453527808189392
+          }
+        },
+        "walking": {
+          "windows": 32,
+          "predicted_fall": 31,
+          "class_counts": [
+            32,
+            0
+          ],
+          "score": {
+            "min": 0.4841839373111725,
+            "p25": 0.6197133362293243,
+            "median": 0.6845717132091522,
+            "p75": 0.7342375665903091,
+            "max": 0.7958978414535522
+          }
+        }
+      },
+      "events": {
+        "covered_event_detection_rate": 1.0,
+        "detected_events": 4,
+        "covered_events": 4,
+        "uncovered_events": 0,
+        "annotated_events": 4,
+        "all_annotated_event_detection_fraction": 1.0,
+        "per_event": [
+          {
+            "recording_id": "20261012_023117_618940Z",
+            "event_index": 0,
+            "eligible_windows": 2,
+            "detected": true
+          },
+          {
+            "recording_id": "20261012_023236_981466Z",
+            "event_index": 0,
+            "eligible_windows": 1,
+            "detected": true
+          },
+          {
+            "recording_id": "20261012_023410_367726Z",
+            "event_index": 0,
+            "eligible_windows": 1,
+            "detected": true
+          },
+          {
+            "recording_id": "20261012_023527_582029Z",
+            "event_index": 0,
+            "eligible_windows": 4,
+            "detected": true
+          }
+        ],
+        "false_alert_episodes": 46,
+        "normal_monitored_seconds": 361.5,
+        "false_alerts_per_hour": 458.09128630705396,
+        "alert_policy": "One episode per contiguous run of positive decisions; merge gaps <=1.5 strides; decision at window end.",
+        "exposure_policy": "Union of evaluated windows on verified normal trials; exclude unobserved gaps.",
+        "impact_detection_latency_seconds": null,
+        "limitation": "Approximate staged-action annotations; uncovered events are reported explicitly, not scored as measured model misses."
+      }
+    },
+    "previously_evaluated_test_activity_errors": {
+      "empty_room": {
+        "windows": 167,
+        "predicted_fall": 43
+      },
+      "get_up_from_floor": {
+        "windows": 75,
+        "predicted_fall": 75
+      },
+      "lie_down": {
+        "windows": 199,
+        "predicted_fall": 199
+      },
+      "lying_still": {
+        "windows": 79,
+        "predicted_fall": 79
+      },
+      "sit_down": {
+        "windows": 144,
+        "predicted_fall": 132
+      },
+      "sitting_still": {
+        "windows": 106,
+        "predicted_fall": 84
+      },
+      "staged_fall": {
+        "windows": 21,
+        "predicted_fall": 21
+      },
+      "stand_up": {
+        "windows": 221,
+        "predicted_fall": 200
+      },
+      "standing_still": {
+        "windows": 69,
+        "predicted_fall": 10
+      },
+      "walking": {
+        "windows": 189,
+        "predicted_fall": 185
+      }
+    }
+  },
+  "weighting_checks": [
+    {
+      "target": 0,
+      "class_weight": 0.5311704874038696,
+      "standard_weighted_mean_loss": 0.6931471824645996,
+      "per_example_mean_loss": 0.3681793212890625
+    },
+    {
+      "target": 1,
+      "class_weight": 8.520408630371094,
+      "standard_weighted_mean_loss": 0.6931471824645996,
+      "per_example_mean_loss": 5.90589714050293
+    }
+  ],
+  "clipping_demo": {
+    "note": "Synthetic two-logit gradient example, not a model run. Limit 0.1 ensures all example gradients are clipped; the same scale-cancellation applies with configured limit 1 whenever both weighted norms exceed 1. Actual MOMENT clip frequency is not logged.",
+    "examples": [
+      {
+        "weight": 1.0,
+        "loss": 0.6931471824645996,
+        "gradient_norm_before": 0.7071067690849304,
+        "gradient_after_clipping": [
+          [
+            0.07071057707071304,
+            -0.07071057707071304
+          ]
+        ]
+      },
+      {
+        "weight": 0.5311704874038696,
+        "loss": 0.3681793212890625,
+        "gradient_norm_before": 0.37559425830841064,
+        "gradient_after_clipping": [
+          [
+            0.07071048766374588,
+            -0.07071048766374588
+          ]
+        ]
+      },
+      {
+        "weight": 8.520408630371094,
+        "loss": 5.90589714050293,
+        "gradient_norm_before": 6.024838924407959,
+        "gradient_after_clipping": [
+          [
+            0.0707106664776802,
+            -0.0707106664776802
+          ]
+        ]
+      }
+    ]
+  },
+  "moment_epochs": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 4.600210679310853,
+        "accuracy": 0.9353293413173652,
+        "precision": 0.42857142857142855,
+        "recall_fall": 0.30612244897959184,
+        "f1": 0.35714285714285715,
+        "confusion_matrix": [
+          [
+            766,
+            20
+          ],
+          [
+            34,
+            15
+          ]
+        ],
+        "class_distribution": [
+          786,
+          49
+        ],
+        "precision_defined": true,
+        "f1_defined": true,
+        "windows": 835,
+        "optimizer_steps": 835,
+        "first_logits": [
+          [
+            0.07240503281354904,
+            -0.05851633474230766
+          ]
+        ],
+        "first_probabilities": [
+          [
+            0.5326836705207825,
+            0.46731632947921753
+          ]
+        ]
+      },
+      "validation": {
+        "loss": 0.4879763790356212,
+        "accuracy": 0.9827956989247312,
+        "precision": 0.0,
+        "recall_fall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            457,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "class_distribution": [
+          457,
+          8
+        ],
+        "precision_defined": false,
+        "f1_defined": true,
+        "windows": 465,
+        "optimizer_steps": 0,
+        "first_logits": [
+          [
+            18.149816513061523,
+            -18.136486053466797
+          ]
+        ],
+        "first_probabilities": [
+          [
+            1.0,
+            1.7420468698992086e-16
+          ]
+        ]
+      },
+      "seconds": 458.9851964690001,
+      "reward_meaning": "validation fall-class F1",
+      "diagnostic": false
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 2.2069300714759534,
+        "accuracy": 0.9556886227544911,
+        "precision": 0.6304347826086957,
+        "recall_fall": 0.5918367346938775,
+        "f1": 0.6105263157894737,
+        "confusion_matrix": [
+          [
+            769,
+            17
+          ],
+          [
+            20,
+            29
+          ]
+        ],
+        "class_distribution": [
+          786,
+          49
+        ],
+        "precision_defined": true,
+        "f1_defined": true,
+        "windows": 835,
+        "optimizer_steps": 835,
+        "first_logits": [
+          [
+            22.13011360168457,
+            -22.048336029052734
+          ]
+        ],
+        "first_probabilities": [
+          [
+            1.0,
+            6.509419636068771e-20
+          ]
+        ]
+      },
+      "validation": {
+        "loss": 0.1632607386985722,
+        "accuracy": 0.9698924731182795,
+        "precision": 0.0,
+        "recall_fall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            451,
+            6
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "class_distribution": [
+          457,
+          8
+        ],
+        "precision_defined": true,
+        "f1_defined": true,
+        "windows": 465,
+        "optimizer_steps": 0,
+        "first_logits": [
+          [
+            2.159421443939209,
+            -2.1467719078063965
+          ]
+        ],
+        "first_probabilities": [
+          [
+            0.9866945743560791,
+            0.013305364176630974
+          ]
+        ]
+      },
+      "seconds": 447.7218307259999,
+      "reward_meaning": "validation fall-class F1",
+      "diagnostic": false
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 1.9076030056767583,
+        "accuracy": 0.9592814371257485,
+        "precision": 0.6744186046511628,
+        "recall_fall": 0.5918367346938775,
+        "f1": 0.6304347826086957,
+        "confusion_matrix": [
+          [
+            772,
+            14
+          ],
+          [
+            20,
+            29
+          ]
+        ],
+        "class_distribution": [
+          786,
+          49
+        ],
+        "precision_defined": true,
+        "f1_defined": true,
+        "windows": 835,
+        "optimizer_steps": 835,
+        "first_logits": [
+          [
+            11.868386268615723,
+            -11.813996315002441
+          ]
+        ],
+        "first_probabilities": [
+          [
+            1.0,
+            5.186470697360335e-11
+          ]
+        ]
+      },
+      "validation": {
+        "loss": 0.33205711298487145,
+        "accuracy": 0.9827956989247312,
+        "precision": 0.0,
+        "recall_fall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+          [
+            457,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "class_distribution": [
+          457,
+          8
+        ],
+        "precision_defined": false,
+        "f1_defined": true,
+        "windows": 465,
+        "optimizer_steps": 0,
+        "first_logits": [
+          [
+            10.194255828857422,
+            -10.18225383758545
+          ]
+        ],
+        "first_probabilities": [
+          [
+            1.0,
+            1.4144704296725763e-09
+          ]
+        ]
+      },
+      "seconds": 448.4386854470001,
+      "reward_meaning": "validation fall-class F1",
+      "diagnostic": false
+    }
+  ]
+}

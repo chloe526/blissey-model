@@ -1,0 +1,6 @@
+CNN baseline (test), checkpoint epoch 1, threshold 0.5
+Fall recall 1.0000; precision 0.0204; F1 0.0400
+Confusion matrix [true rows, predicted columns]: [[242, 1007], [0, 21]]
+Events: 3/3 covered; 1 uncovered of 4 annotated
+Parameters 21666; checkpoint 126031 bytes; training 2.92s
+cpu B=1 latency median 0.190ms, p95 0.200ms (2 threads)

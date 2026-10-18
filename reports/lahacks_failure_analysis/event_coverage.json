@@ -1,0 +1,604 @@
+{
+  "annotated_events": 34,
+  "by_session": {
+    "session_03_LAHACKS": {
+      "events": 4,
+      "unusable": 1,
+      "usable": 3
+    },
+    "session_04_LAHACKS": {
+      "events": 30,
+      "unusable": 20,
+      "usable": 10
+    }
+  },
+  "events": [
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": true,
+      "event_id": "20261017_214140_430498Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 19,
+      "quality_passing_positive_windows": 7,
+      "rejected": {
+        "coverage": 0,
+        "edge": 0,
+        "gap": 0,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_03_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": true,
+      "event_id": "20261017_214225_578923Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 20,
+      "quality_passing_positive_windows": 7,
+      "rejected": {
+        "coverage": 0,
+        "edge": 0,
+        "gap": 0,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_03_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": true,
+      "event_id": "20261017_214310_855919Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 14,
+      "quality_passing_positive_windows": 7,
+      "rejected": {
+        "coverage": 0,
+        "edge": 0,
+        "gap": 0,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_03_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": false,
+      "event_id": "20261017_214356_001779Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 8,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 6,
+        "edge": 3,
+        "gap": 6,
+        "rate": 1,
+        "span": 2
+      },
+      "session": "session_03_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 2,
+      "covered": false,
+      "event_id": "20261018_003839_872397Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 2,
+        "edge": 1,
+        "gap": 2,
+        "rate": 1,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": false,
+      "event_id": "20261018_003925_035409Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 1,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 2,
+        "edge": 4,
+        "gap": 8,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 5,
+      "covered": true,
+      "event_id": "20261018_004010_188550Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 5,
+      "quality_passing_positive_windows": 5,
+      "rejected": {
+        "coverage": 0,
+        "edge": 0,
+        "gap": 0,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 5,
+      "covered": false,
+      "event_id": "20261018_004055_315884Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 5,
+        "edge": 4,
+        "gap": 5,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": false,
+      "event_id": "20261018_004140_480887Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 7,
+        "edge": 4,
+        "gap": 7,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": false,
+      "event_id": "20261018_004254_688183Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 1,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 3,
+        "edge": 3,
+        "gap": 7,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 6,
+      "covered": false,
+      "event_id": "20261018_004339_859364Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 1,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 2,
+        "edge": 1,
+        "gap": 6,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": false,
+      "event_id": "20261018_004424_995088Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 7,
+        "edge": 5,
+        "gap": 8,
+        "rate": 0,
+        "span": 2
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": true,
+      "event_id": "20261018_004510_096411Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 3,
+      "quality_passing_positive_windows": 1,
+      "rejected": {
+        "coverage": 4,
+        "edge": 4,
+        "gap": 6,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": false,
+      "event_id": "20261018_004555_171236Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 7,
+        "edge": 4,
+        "gap": 8,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 5,
+      "covered": false,
+      "event_id": "20261018_004807_610959Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 1,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 5,
+        "edge": 3,
+        "gap": 5,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": false,
+      "event_id": "20261018_004852_798687Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 7,
+        "edge": 5,
+        "gap": 8,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": true,
+      "event_id": "20261018_004937_891590Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 13,
+      "quality_passing_positive_windows": 1,
+      "rejected": {
+        "coverage": 0,
+        "edge": 0,
+        "gap": 6,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 6,
+      "covered": false,
+      "event_id": "20261018_005023_078275Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 6,
+        "edge": 5,
+        "gap": 6,
+        "rate": 6,
+        "span": 4
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 6,
+      "covered": false,
+      "event_id": "20261018_005108_217002Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 5,
+        "edge": 2,
+        "gap": 6,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 6,
+      "covered": true,
+      "event_id": "20261018_005153_297629Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 15,
+      "quality_passing_positive_windows": 5,
+      "rejected": {
+        "coverage": 0,
+        "edge": 1,
+        "gap": 0,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 4,
+      "covered": false,
+      "event_id": "20261018_005238_401797Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 2,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 2,
+        "edge": 2,
+        "gap": 4,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": false,
+      "event_id": "20261018_005323_602966Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 0,
+        "edge": 3,
+        "gap": 5,
+        "rate": 2,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 5,
+      "covered": false,
+      "event_id": "20261018_005408_732574Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 5,
+        "edge": 1,
+        "gap": 5,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": false,
+      "event_id": "20261018_005453_810441Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 8,
+        "edge": 6,
+        "gap": 8,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 5,
+      "covered": true,
+      "event_id": "20261018_010439_867650Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 3,
+      "quality_passing_positive_windows": 1,
+      "rejected": {
+        "coverage": 0,
+        "edge": 1,
+        "gap": 4,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": true,
+      "event_id": "20261018_010525_086803Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 17,
+      "quality_passing_positive_windows": 7,
+      "rejected": {
+        "coverage": 0,
+        "edge": 0,
+        "gap": 0,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 6,
+      "covered": true,
+      "event_id": "20261018_010610_213058Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 10,
+      "quality_passing_positive_windows": 5,
+      "rejected": {
+        "coverage": 0,
+        "edge": 1,
+        "gap": 0,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 6,
+      "covered": false,
+      "event_id": "20261018_010655_318479Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 6,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 4,
+        "edge": 3,
+        "gap": 6,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": false,
+      "event_id": "20261018_010740_455411Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 2,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 7,
+        "edge": 2,
+        "gap": 8,
+        "rate": 0,
+        "span": 2
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 5,
+      "covered": true,
+      "event_id": "20261018_010825_528301Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 2,
+      "quality_passing_positive_windows": 2,
+      "rejected": {
+        "coverage": 0,
+        "edge": 1,
+        "gap": 3,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": true,
+      "event_id": "20261018_010910_713252Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 3,
+      "quality_passing_positive_windows": 3,
+      "rejected": {
+        "coverage": 1,
+        "edge": 3,
+        "gap": 2,
+        "rate": 0,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": true,
+      "event_id": "20261018_010955_839033Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 4,
+      "quality_passing_positive_windows": 1,
+      "rejected": {
+        "coverage": 2,
+        "edge": 4,
+        "gap": 7,
+        "rate": 1,
+        "span": 2
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 7,
+      "covered": false,
+      "event_id": "20261018_011040_991891Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 1,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 6,
+        "edge": 4,
+        "gap": 7,
+        "rate": 2,
+        "span": 0
+      },
+      "session": "session_04_LAHACKS"
+    },
+    {
+      "activity": "staged_fall",
+      "candidate_positive_windows": 8,
+      "covered": false,
+      "event_id": "20261018_011126_080785Z:fall:0",
+      "label_excluded": 0,
+      "quality_pass_windows_overlapping_action": 0,
+      "quality_passing_positive_windows": 0,
+      "rejected": {
+        "coverage": 8,
+        "edge": 3,
+        "gap": 8,
+        "rate": 0,
+        "span": 1
+      },
+      "session": "session_04_LAHACKS"
+    }
+  ],
+  "loss_reason_candidate_window_counts": {
+    "coverage": 111,
+    "edge": 83,
+    "gap": 161,
+    "rate": 13,
+    "span": 20
+  },
+  "unusable": 21,
+  "usable": 13
+}

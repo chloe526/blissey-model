@@ -1,0 +1,23 @@
+{
+  "selected_on": "2026-10-17",
+  "policy_sha256": "de1952ab2d6b1d05c130b6f8fba77448a547a88b9947a035285b542595c826ed",
+  "policy": {
+    "version": 2,
+    "min_effective_rate_hz": 20.0,
+    "coverage_bin_seconds": 0.1,
+    "min_occupied_bin_fraction": 0.8,
+    "min_sample_span_fraction": 0.9,
+    "max_edge_distance_seconds": 0.1,
+    "max_gap_seconds": 0.25,
+    "timestamp_source": "collector elapsed_seconds; no clock retiming or annotation shifts",
+    "threshold_basis": "Frozen using firmware/collector source and label-blind session_01/session_02 acquisition characterization only. Observed development trial rates 26.37-85.94 Hz. Floor 20 Hz is below the slowest observed development mean but rejects sparse streams. Require real samples in >=24/30 100ms bins, >=90% sample span and <=100ms unsupported endpoint distance. Preserve 250ms maximum interpolation gap; never extrapolate. Neither test labels nor test performance selected thresholds.",
+    "development_evidence": "reports/development_acquisition_characterization.json",
+    "development_evidence_sha256": "23a62f89792428c305b26d596f0df0a0b43be7a0f864f943e6c60e658c4367e3"
+  },
+  "selection_inputs": [
+    "firmware/collector source",
+    "session_01 unlabelled timing",
+    "session_02 unlabelled timing"
+  ],
+  "test_used_for_selection": false
+}
